@@ -680,7 +680,7 @@ function pdpPage(model) {
               : ""
           }
         </div>
-        <div class="spec-list">${model.keySpecs.map(specHtml).join("")}</div>
+        <div class="metrics">${model.keySpecs.map(metricHtml).join("")}</div>
         <div class="btn-row">
           <button class="btn btn--primary" type="button" data-quote-open data-model="${esc(model.product)} ${esc(model.name)}">Falar com vendedor</button>
           <a class="btn btn--whatsapp" href="${WA}?text=${encodeURIComponent(`Olá, quero a ${model.product} ${model.name}.`)}" target="_blank" rel="noopener">WhatsApp</a>

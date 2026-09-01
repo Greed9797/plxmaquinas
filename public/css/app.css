@@ -635,6 +635,7 @@ h3 {
 .hero h1 {
   color: #ffffff;
   max-width: 16em;
+  line-height: 1.22;
 }
 
 .hero .lede {
@@ -687,21 +688,24 @@ h3 {
    CARDS + SPECS + CAROUSEL
 ----------------------------------------------------------------------------- */
 .family-row {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 40px;
   margin-bottom: 56px;
-  border-top: 1px solid var(--plx-line);
+  padding: 8px 0 8px;
+  border: 0;
 }
 
 .family-link {
   display: grid;
   gap: 8px;
-  padding: 22px 20px 22px 0;
-  margin-right: 20px;
+  flex: 1 1 200px;
+  max-width: 260px;
+  padding: 0;
+  margin: 0;
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid var(--plx-line);
+  border: 0;
 }
 
 .family-link:hover {
@@ -824,8 +828,8 @@ h3 {
   display: grid;
   place-items: center;
   aspect-ratio: 5 / 4;
-  padding: 20px 12px 8px;
-  background: var(--plx-surface);
+  padding: 28px 20px 12px;
+  background: transparent;
   border: 0;
 }
 
@@ -1165,13 +1169,13 @@ table a:hover {
 }
 
 .pdp-hero__visual {
-  background: var(--plx-surface);
+  background: transparent;
   border: 0;
   min-height: 420px;
   aspect-ratio: 5 / 4;
   display: grid;
   place-items: center;
-  padding: 32px 24px;
+  padding: 12px 8px 12px 0;
 }
 
 .pdp-hero__visual img {
@@ -1784,8 +1788,9 @@ body.has-pdp-bar .wa-float {
   }
 
   .hero h1 {
-    font-size: clamp(1.7rem, 8vw, 2.2rem);
+    font-size: clamp(1.65rem, 7.4vw, 2.05rem);
     max-width: none;
+    line-height: 1.28;
   }
 
   .pdp-hero__visual {
@@ -1835,9 +1840,14 @@ body.has-pdp-bar .wa-float {
     gap: 8px;
   }
 
+  .family-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
   .family-link {
-    margin-right: 0;
-    padding-right: 0;
+    max-width: none;
   }
 
   .wa-float {
@@ -1866,10 +1876,10 @@ body.has-pdp-bar .wa-float {
   }
 
   body.has-pdp-bar .wa-mobile {
-    bottom: 76px;
+    bottom: 72px;
   }
 
   body.has-pdp-bar {
-    padding-bottom: 140px;
+    padding-bottom: 92px;
   }
 }
