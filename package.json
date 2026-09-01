@@ -9,10 +9,10 @@
     "render": "node scripts/render-pages.mjs",
     "css": "node scripts/bundle-css.mjs",
     "predev": "npm run data && npm run css && npm run render",
-    "dev": "vite --host 127.0.0.1 --port 43147",
+    "dev": "vite --host 0.0.0.0 --port 43147",
     "prebuild": "npm run data && npm run css && npm run render",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1 --port 43147"
+    "preview": "vite preview --host 0.0.0.0 --port 43147"
   },
   "devDependencies": {
     "vite": "^7.3.6"

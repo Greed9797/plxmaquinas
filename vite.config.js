@@ -19,12 +19,13 @@ function collectHtml(dir, acc = {}) {
 export default defineConfig({
   appType: "mpa",
   server: {
-    host: "127.0.0.1",
+    host: "0.0.0.0",
     port: 43147,
     strictPort: true,
+    allowedHosts: true,
   },
   preview: {
-    host: "127.0.0.1",
+    host: "0.0.0.0",
     port: 43147,
     strictPort: true,
   },
