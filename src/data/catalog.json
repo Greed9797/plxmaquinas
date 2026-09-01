@@ -1,0 +1,1557 @@
+{
+  "generatedAt": "2026-09-01",
+  "whatsapp": "5548988728340",
+  "phoneDisplay": "(48) 98872-8340",
+  "phoneTel": "+5548988728340",
+  "email": "contato@plxbrasil.com.br",
+  "address": "R. Mário Mendonça, nº 20. São João Margem Direita — CEP 88702-802 — Tubarão/SC",
+  "categories": [
+    {
+      "slug": "mini-escavadeira",
+      "name": "Mini escavadeira",
+      "product": "Mini Escavadeira",
+      "range": "1 a 6 toneladas",
+      "blurb": "De 1.650 mm a 4.159 mm de profundidade. Preço na tela. Ficha na mesa."
+    },
+    {
+      "slug": "mini-carregadeira",
+      "name": "Mini carregadeira",
+      "product": "Mini Carregadeira",
+      "range": "até 790 kg de carga",
+      "blurb": "Movimentação de material em pátio, obra e propriedade rural."
+    },
+    {
+      "slug": "mini-dumper",
+      "name": "Mini dumper",
+      "product": "Mini Dumper",
+      "range": "590 kg",
+      "blurb": "Transporte de terra, entulho e insumo em acesso estreito."
+    },
+    {
+      "slug": "mini-rolo-compactador",
+      "name": "Mini rolo compactador",
+      "product": "Mini Rolo Compactador",
+      "range": "1.200 kg",
+      "blurb": "Compactação de base, reparo e pavimentação leve."
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "product": "Mini Carregadeira",
+      "name": "XC750",
+      "slug": "mini-carregadeira-xc750",
+      "href": "/mini-carregadeira-xc750/",
+      "categorySlug": "mini-carregadeira",
+      "price": 59999,
+      "pricePublished": false,
+      "badge": "",
+      "description": "A Mini Carregadeira XC750 foi desenvolvida para operações que exigem força, estabilidade e agilidade na movimentação de materiais. Com capacidade de carga de 790 kg, caçamba de 0,4 m³ e peso operacional de 3000 kg, é uma opção indicada para obras, pátios, propriedades rurais, manutenção urbana e serviços que precisam de produtividade em espaços reduzidos.",
+      "metaTitle": "Mini Carregadeira XC750 | Capacidade 700 kg | PLX Brasil",
+      "metaDesc": "Conheça a Mini Carregadeira XC750 da PLX Brasil: capacidade de carga de 790 kg, caçamba de 0,4 m³, peso operacional de 3000 kg e motor XINCHAI.",
+      "image": "/images/models/xc750.webp",
+      "imagePng": "/images/models/xc750.png",
+      "highlights": [],
+      "specs": [
+        {
+          "name": "Capacidade de carga",
+          "value": "790 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Capacidade da Caçamba",
+          "value": "0,4 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "3000 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Largura da caçamba",
+          "value": "1740 mm",
+          "category": "capacidades"
+        },
+        {
+          "name": "Caçamba",
+          "value": "3420 mm",
+          "category": "dimensoes"
+        },
+        {
+          "name": "Altura máxima",
+          "value": "3980 mm",
+          "category": "dimensoes"
+        },
+        {
+          "name": "Altura máxima caçamba plana",
+          "value": "2643 mm",
+          "category": "dimensoes"
+        },
+        {
+          "name": "Distância entre eixos",
+          "value": "991 mm",
+          "category": "dimensoes"
+        },
+        {
+          "name": "Velocidade",
+          "value": "12 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Potência nominal (kW/RPM)",
+          "value": "36,7/2650",
+          "category": "motor"
+        },
+        {
+          "name": "Motor/Marca",
+          "value": "XINCHAI A498BPG",
+          "category": "motor"
+        },
+        {
+          "name": "Cilindrada do Motor",
+          "value": "2,27 L",
+          "category": "motor"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Capacidade de carga",
+          "value": "790 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Capacidade da Caçamba",
+          "value": "0,4 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "3000 kg",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "product": "Mini Carregadeira",
+      "name": "XD500",
+      "slug": "mini-carregadeira-xd500",
+      "href": "/mini-carregadeira-xd500/",
+      "categorySlug": "mini-carregadeira",
+      "price": 59999,
+      "pricePublished": false,
+      "badge": "",
+      "description": "A Mini Carregadeira XD500 combina porte compacto, boa capacidade de carga e operação simples para movimentação de materiais em áreas menores. Com capacidade máxima de 590 kg, volume de caçamba de 0,22 m³ e acionamento hidráulico, é indicada para apoio em obras, jardinagem, propriedades rurais e serviços que exigem agilidade sem abrir mão da força.",
+      "metaTitle": "Mini Carregadeira XD500 | Capacidade 590 kg | PLX Brasil",
+      "metaDesc": "Conheça a Mini Carregadeira XD500 da PLX Brasil: capacidade máxima de 590 kg, caçamba de 0,22 m³, acionamento hidráulico e operação compacta.",
+      "image": "/images/models/xd500.webp",
+      "imagePng": "/images/models/xd500.png",
+      "highlights": [],
+      "specs": [
+        {
+          "name": "Capacidade de carga máxima",
+          "value": "590 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Volume da caçamba",
+          "value": "0,22 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "423 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Capacidade de carga (subida)",
+          "value": "375 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Capacidade da pá auxiliar",
+          "value": "50 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Tipo de acionamento da caçamba",
+          "value": "Hidráulico",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Capacidade de inclinação",
+          "value": "30%",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade máxima",
+          "value": "Avanço - 8 km/h | Ré - 6 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Transmissão - Alta",
+          "value": "3 Marchas de Avanço + 1 Marcha de Ré",
+          "category": "transmissao"
+        },
+        {
+          "name": "Transmissão - Baixa",
+          "value": "3 Marchas de Avanço + 1 Marcha de Ré",
+          "category": "transmissao"
+        },
+        {
+          "name": "Potência",
+          "value": "9.0 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Motor",
+          "value": "Loncin",
+          "category": "motor"
+        },
+        {
+          "name": "Cilindradas",
+          "value": "270 cc",
+          "category": "motor"
+        },
+        {
+          "name": "Nível de potência sonora",
+          "value": "103±3 dB(A)",
+          "category": "ruido"
+        },
+        {
+          "name": "Nível de pressão sonora",
+          "value": "92±3 dB(A)",
+          "category": "ruido"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Capacidade de carga máxima",
+          "value": "590 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Volume da caçamba",
+          "value": "0,22 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "423 kg",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "product": "Mini Dumper",
+      "name": "XD500",
+      "slug": "mini-dumper-xd500",
+      "href": "/mini-dumper-xd500/",
+      "categorySlug": "mini-dumper",
+      "price": 59999,
+      "pricePublished": false,
+      "badge": "",
+      "description": "O Mini Dumper XD500 é indicado para transporte de terra, areia, entulho, insumos agrícolas e outros materiais em locais com acesso limitado. Com capacidade máxima de 590 kg, caçamba de 0,22 m³ e acionamento hidráulico, entrega praticidade para obras, reformas, paisagismo, propriedades rurais e operações que precisam movimentar carga com mais rapidez.",
+      "metaTitle": "Mini Dumper XD500 | Capacidade 590 kg | PLX Brasil",
+      "metaDesc": "Conheça o Mini Dumper XD500 da PLX Brasil: capacidade máxima de 590 kg, caçamba de 0,22 m³, tração eficiente e operação compacta.",
+      "image": "/images/models/xd500.webp",
+      "imagePng": "/images/models/xd500.png",
+      "highlights": [],
+      "specs": [
+        {
+          "name": "Capacidade de carga máxima",
+          "value": "590 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Volume da caçamba",
+          "value": "0,22 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "423 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Capacidade de carga (subida)",
+          "value": "375 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Capacidade da pá auxiliar",
+          "value": "50 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Tipo de acionamento da caçamba",
+          "value": "Hidráulico",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Capacidade de inclinação",
+          "value": "30%",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade máxima",
+          "value": "Avanço - 8 km/h | Ré - 6 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Transmissão - Alta",
+          "value": "3 Marchas de Avanço + 1 Marcha de Ré",
+          "category": "transmissao"
+        },
+        {
+          "name": "Transmissão - Baixa",
+          "value": "3 Marchas de Avanço + 1 Marcha de Ré",
+          "category": "transmissao"
+        },
+        {
+          "name": "Potência",
+          "value": "9.0 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Motor",
+          "value": "Loncin",
+          "category": "motor"
+        },
+        {
+          "name": "Cilindradas",
+          "value": "270 cc",
+          "category": "motor"
+        },
+        {
+          "name": "Nível de potência sonora",
+          "value": "103±3 dB(A)",
+          "category": "ruido"
+        },
+        {
+          "name": "Nível de pressão sonora",
+          "value": "92±3 dB(A)",
+          "category": "ruido"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Capacidade de carga máxima",
+          "value": "590 kg",
+          "category": "capacidades"
+        },
+        {
+          "name": "Volume da caçamba",
+          "value": "0,22 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "423 kg",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "product": "Mini Escavadeira",
+      "name": "X65 Pro",
+      "slug": "mini-escavadeira-x65-pro",
+      "href": "/mini-escavadeira-x65-pro/",
+      "categorySlug": "mini-escavadeira",
+      "price": 304900,
+      "pricePublished": true,
+      "badge": "",
+      "description": "A Mini Escavadeira X65 Pro é o modelo de maior porte da linha, indicada para operações que exigem alta força de escavação, profundidade e estabilidade. Com peso operacional de 5950 kg, profundidade de escavação de 4159 mm, motor Yanmar e força máxima de concha de 48 kN, atende obras, infraestrutura, drenagem, terraplanagem e serviços de maior demanda.",
+      "metaTitle": "Mini Escavadeira X65 Pro | Ficha Técnica | PLX Brasil",
+      "metaDesc": "Conheça a Mini Escavadeira X65 Pro da PLX Brasil: 5950 kg, profundidade de escavação de 4159 mm, motor Yanmar e força de concha de 48 kN.",
+      "image": "/images/models/x65pro.webp",
+      "imagePng": "/images/models/x65pro.png",
+      "highlights": [],
+      "specs": [
+        {
+          "name": "Prof. escavação",
+          "value": "4159 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Prof. máxima de perfuração",
+          "value": "5800 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação da concha",
+          "value": "48 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação do braço",
+          "value": "35 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Caçamba",
+          "value": "0,210 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Largura da caçamba",
+          "value": "725 mm",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "5950 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo de esteira STD (opcional)",
+          "value": "Aço (borracha)",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de deslocamento (H/L)",
+          "value": "4,3/2,4 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Inclinação máxima de subida",
+          "value": "35%",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "LONKIN",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de rotação",
+          "value": "11 r/min",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo hidráulico",
+          "value": "Bomba de pistão axial",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Vazão máxima",
+          "value": "132 L/min",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Potência",
+          "value": "48,5 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Marca (modelo)",
+          "value": "YANMAR (4TNV94L)",
+          "category": "motor"
+        },
+        {
+          "name": "Número de cilindros",
+          "value": "4",
+          "category": "motor"
+        },
+        {
+          "name": "Combustível",
+          "value": "Diesel",
+          "category": "motor"
+        },
+        {
+          "name": "Refrigeração",
+          "value": "Água",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de combustível",
+          "value": "115 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo lubrificante",
+          "value": "10,2 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo hidráulico",
+          "value": "88 L",
+          "category": "hidraulico"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Prof. escavação",
+          "value": "4159 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "5950 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "LONKIN",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "product": "Mini Escavadeira",
+      "name": "X35 Pro",
+      "slug": "mini-escavadeira-x35-pro",
+      "href": "/mini-escavadeira-x35-pro/",
+      "categorySlug": "mini-escavadeira",
+      "price": 224900,
+      "pricePublished": true,
+      "badge": "",
+      "description": "A Mini Escavadeira X35 Pro oferece equilíbrio entre porte, força e produtividade para obras e operações que precisam de uma máquina compacta com boa capacidade de escavação. Com peso operacional de 3800 kg, profundidade de escavação de 3208 mm, motor Kubota e força máxima de concha de 30,4 kN, é indicada para valas, fundações, drenagem, paisagismo e serviços urbanos.",
+      "metaTitle": "Mini Escavadeira X35 Pro | Ficha Técnica | PLX Brasil",
+      "metaDesc": "Conheça a Mini Escavadeira X35 Pro da PLX Brasil: 3800 kg, profundidade de escavação de 3208 mm, motor Kubota e força de concha de 30,4 kN.",
+      "image": "/images/models/x35pro.webp",
+      "imagePng": "/images/models/x35pro.png",
+      "highlights": [],
+      "specs": [
+        {
+          "name": "Prof. escavação",
+          "value": "3208 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Prof. máxima de perfuração",
+          "value": "5000 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação da concha",
+          "value": "30,4 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação do braço",
+          "value": "18,2 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Caçamba",
+          "value": "0,120 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Largura da caçamba",
+          "value": "565 mm",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "3800 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo de esteira STD (opcional)",
+          "value": "Aço (borracha)",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de deslocamento (H/L)",
+          "value": "4,4/2,4 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Inclinação máxima de subida",
+          "value": "35%",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "EDDIE",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de rotação",
+          "value": "0-11 r/min",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo hidráulico",
+          "value": "Bomba de pistão axial",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Vazão máxima",
+          "value": "88 L/min",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Potência",
+          "value": "24,8 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Marca (modelo)",
+          "value": "KUBOTA (D1703)",
+          "category": "motor"
+        },
+        {
+          "name": "Número de cilindros",
+          "value": "3",
+          "category": "motor"
+        },
+        {
+          "name": "Combustível",
+          "value": "Diesel",
+          "category": "motor"
+        },
+        {
+          "name": "Refrigeração",
+          "value": "Água",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de combustível",
+          "value": "42 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo lubrificante",
+          "value": "7 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo hidráulico",
+          "value": "48,5 L",
+          "category": "hidraulico"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Prof. escavação",
+          "value": "3208 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "3800 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "EDDIE",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "product": "Mini Escavadeira",
+      "name": "X30 Pro",
+      "slug": "mini-escavadeira-x30-pro",
+      "href": "/mini-escavadeira-x30-pro/",
+      "categorySlug": "mini-escavadeira",
+      "price": 189900,
+      "pricePublished": true,
+      "badge": "",
+      "description": "A Mini Escavadeira X30 Pro é indicada para quem busca uma máquina compacta, eficiente e preparada para escavação em obras, manutenção, drenagem e serviços de apoio. Com peso operacional de 2770 kg, profundidade de escavação de 2830 mm, motor Kubota e força máxima de concha de 23,5 kN, entrega boa produtividade em ambientes que exigem mobilidade e precisão.",
+      "metaTitle": "Mini Escavadeira X30 Pro | Ficha Técnica | PLX Brasil",
+      "metaDesc": "Conheça a Mini Escavadeira X30 Pro da PLX Brasil: 2770 kg, profundidade de escavação de 2830 mm, motor Kubota e força de concha de 23,5 kN.",
+      "image": "/images/models/x30pro.webp",
+      "imagePng": "/images/models/x30pro.png",
+      "highlights": [],
+      "specs": [
+        {
+          "name": "Prof. escavação",
+          "value": "2830 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Prof. máxima de perfuração",
+          "value": "4500 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação da concha",
+          "value": "23,5 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação do braço",
+          "value": "14 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Caçamba",
+          "value": "0,100 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Largura da caçamba",
+          "value": "485 mm",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "2770 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo de esteira STD",
+          "value": "Aço com sapatas de borracha",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de deslocamento",
+          "value": "3,4/3,0 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Inclinação máxima de subida",
+          "value": "35%",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "LKC",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de rotação",
+          "value": "1-10 r/min",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo hidráulico",
+          "value": "Bomba de pistão axial",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Vazão máxima",
+          "value": "62 L/min",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Potência",
+          "value": "24,8 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Marca (modelo)",
+          "value": "Kubota D1105",
+          "category": "motor"
+        },
+        {
+          "name": "Número de cilindros",
+          "value": "3",
+          "category": "motor"
+        },
+        {
+          "name": "Combustível",
+          "value": "Diesel",
+          "category": "motor"
+        },
+        {
+          "name": "Refrigeração",
+          "value": "Água",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de combustível",
+          "value": "23 L",
+          "category": "motor"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Prof. escavação",
+          "value": "2830 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "2770 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "LKC",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "product": "Mini Escavadeira",
+      "name": "X20 Pro",
+      "slug": "mini-escavadeira-x20-pro",
+      "href": "/mini-escavadeira-x20-pro/",
+      "categorySlug": "mini-escavadeira",
+      "price": 149000,
+      "pricePublished": true,
+      "badge": "",
+      "description": "A Mini Escavadeira X20 Pro é uma opção versátil para operações que exigem compactação, força e facilidade de acesso. Com peso operacional de 1950 kg, profundidade de escavação de 2400 mm, motor Kubota e compatibilidade com implementos, é indicada para obras urbanas, reformas, jardinagem, manutenção de redes, propriedades rurais e serviços em locais com espaço reduzido.",
+      "metaTitle": "Mini Escavadeira X20 Pro | Ficha Técnica | PLX Brasil",
+      "metaDesc": "Conheça a Mini Escavadeira X20 Pro da PLX Brasil: 1950 kg, profundidade de escavação de 2400 mm, motor Kubota e engate rápido hidráulico.",
+      "image": "/images/models/x20pro.webp",
+      "imagePng": "/images/models/x20pro.png",
+      "highlights": [
+        "Engate rápido hidráulico de série",
+        "Giro zero",
+        "Altura livre do solo: 310mm",
+        "Sistema elétrico completo"
+      ],
+      "specs": [
+        {
+          "name": "Prof. escavação",
+          "value": "2400 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Prof. máxima de perfuração",
+          "value": "3700 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força de escavação da concha",
+          "value": "18 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força de escavação do braço",
+          "value": "11 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Caçamba",
+          "value": "0,070 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Largura da caçamba",
+          "value": "425 mm",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1950 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de deslocamento (Alta/Baixa)",
+          "value": "3,2 - 2,8 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo de esteira STD",
+          "value": "Borracha ou aço (muda o preço)",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "Eaton",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de rotação",
+          "value": "Até 9 r/min",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo hidráulico",
+          "value": "Bomba dupla de alta eficiência",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Componentes hidráulicos",
+          "value": "Eaton",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Potência",
+          "value": "24,8 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Marca (modelo)",
+          "value": "Kubota D1105",
+          "category": "motor"
+        },
+        {
+          "name": "Número de cilindros",
+          "value": "3",
+          "category": "motor"
+        },
+        {
+          "name": "Tipo de combustível",
+          "value": "Diesel",
+          "category": "motor"
+        },
+        {
+          "name": "Tipo de arrefecimento",
+          "value": "Refrigeração à água",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de combustível",
+          "value": "17 L",
+          "category": "motor"
+        },
+        {
+          "name": "Compatível com diversos implementos",
+          "value": "Rompedor hidráulico, perfurador, garra, caçamba trapezoidal",
+          "category": "implementos"
+        },
+        {
+          "name": "Capacidade de óleo lubrificante",
+          "value": "5 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo hidráulico",
+          "value": "18 L",
+          "category": "hidraulico"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Prof. escavação",
+          "value": "2400 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1950 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "Eaton",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "product": "Mini Escavadeira",
+      "name": "X15 Pro",
+      "slug": "mini-escavadeira-x15-pro",
+      "href": "/mini-escavadeira-x15-pro/",
+      "categorySlug": "mini-escavadeira",
+      "price": 108000,
+      "pricePublished": true,
+      "badge": "Lançamento",
+      "description": "A Mini Escavadeira X15 Pro é o novo modelo da linha PLX Brasil, desenvolvida para quem busca uma máquina compacta, moderna e eficiente para obras, propriedades rurais, manutenção, paisagismo e serviços em espaços reduzidos. Com peso operacional de 1.480 kg, motor Kubota D722, profundidade máxima de escavação de 1.850 mm, giro zero, lança articulada, esteira expansível e engate rápido hidráulico, a X15 Pro combina mobilidade, praticidade e recursos importantes para aumentar a produtividade no dia a dia.",
+      "metaTitle": "Mini Escavadeira X15 Pro | Motor Kubota e Giro Zero | PLX Brasil",
+      "metaDesc": "Conheça a Mini Escavadeira X15 Pro da PLX Brasil: 1.480 kg, motor Kubota D722, giro zero, esteira expansível e engate rápido hidráulico.",
+      "image": "/images/models/x15pro.webp",
+      "imagePng": "/images/models/x15pro.png",
+      "highlights": [
+        "Lançamento PLX",
+        "Motor Kubota D722",
+        "Giro zero",
+        "Lança articulada",
+        "Engate rápido hidráulico",
+        "Controle de velocidade",
+        "Painel digital",
+        "Esteira retrátil de 990 a 1250 mm",
+        "Motores de tração com sistema Final Drive"
+      ],
+      "specs": [
+        {
+          "name": "Profundidade máxima de escavação",
+          "value": "1850 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força de escavação da caçamba",
+          "value": "9 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1480 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Força de escavação do braço",
+          "value": "5,5 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Capacidade da caçamba",
+          "value": "0,020 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Capacidade de rampa",
+          "value": "30°",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo de cabine",
+          "value": "Aberta (ROPS)",
+          "category": "operacao"
+        },
+        {
+          "name": "Lança articulada",
+          "value": "Sim",
+          "category": "implementos"
+        },
+        {
+          "name": "Engate rápido hidráulico",
+          "value": "Sim",
+          "category": "implementos"
+        },
+        {
+          "name": "Esteira expansível",
+          "value": "990-1250 mm",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo hidráulico",
+          "value": "Dupla de engrenagem",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Pressão do sistema hidráulico",
+          "value": "20 MPa",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Raio de giro",
+          "value": "Zero",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de giro",
+          "value": "11-13 rpm",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor/Marca",
+          "value": "Kubota D722",
+          "category": "motor"
+        },
+        {
+          "name": "Potência nominal",
+          "value": "10,2 kW / 2500 rpm",
+          "category": "motor"
+        },
+        {
+          "name": "Altura máxima de escavação",
+          "value": "2670 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Altura máxima de descarga",
+          "value": "1750 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Profundidade máxima vertical",
+          "value": "1610 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Elevação máxima da lâmina",
+          "value": "236 mm",
+          "category": "operacao"
+        },
+        {
+          "name": "Profundidade máxima da lâmina",
+          "value": "229 mm",
+          "category": "operacao"
+        },
+        {
+          "name": "Capacidade do tanque de combustível",
+          "value": "14,5 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade do tanque hidráulico",
+          "value": "14,5 L",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Capacidade de óleo do motor",
+          "value": "3,2 L",
+          "category": "motor"
+        },
+        {
+          "name": "Engate rápido",
+          "value": "Troca de implemento em 4 passos",
+          "category": "implementos"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Profundidade máxima de escavação",
+          "value": "1850 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1480 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor/Marca",
+          "value": "Kubota D722",
+          "category": "motor"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "product": "Mini Escavadeira",
+      "name": "X10 Pro",
+      "slug": "mini-escavadeira-x10-pro",
+      "href": "/mini-escavadeira-x10-pro/",
+      "categorySlug": "mini-escavadeira",
+      "price": 86900,
+      "pricePublished": true,
+      "badge": "",
+      "description": "A Mini Escavadeira X10 Pro foi pensada para operações em espaços estreitos, serviços leves de escavação e aplicações que pedem mobilidade. Com peso operacional de 1010 kg, profundidade de escavação de 1650 mm, motor KOOP diesel, joystick lateral e lança angulável, é indicada para jardinagem, pequenas obras, manutenção, valas rasas e trabalhos em áreas de difícil acesso.",
+      "metaTitle": "Mini Escavadeira X10 Pro | Ficha Técnica | PLX Brasil",
+      "metaDesc": "Conheça a Mini Escavadeira X10 Pro da PLX Brasil: 1010 kg, profundidade de escavação de 1650 mm, motor KOOP diesel e lança angulável.",
+      "image": "/images/models/x10pro.webp",
+      "imagePng": "/images/models/x10pro.png",
+      "highlights": [
+        "Joystick lateral",
+        "Contrapeso",
+        "Mangueiras por dentro do braço",
+        "Cilindro principal protegido pela lança",
+        "Fácil acesso ao motor",
+        "Banco ergonômico",
+        "Bomba elétrica",
+        "Motor conceituado",
+        "Lança angulável para acesso a espaços difíceis"
+      ],
+      "specs": [
+        {
+          "name": "Prof. escavação",
+          "value": "1650 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Prof. máxima de perfuração",
+          "value": "3500 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação da concha",
+          "value": "15,3 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação do braço",
+          "value": "7,5 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Caçamba",
+          "value": "0,020 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Largura da caçamba",
+          "value": "375 mm",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1010 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo de esteira STD (opcional)",
+          "value": "Borracha",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de deslocamento (H/L)",
+          "value": "1,3 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Inclinação máx. de subida",
+          "value": "30%",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "EATON",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de rotação",
+          "value": "11 r/min",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo hidráulico",
+          "value": "Engrenagem",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Vazão máxima",
+          "value": "19,5 L/min",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Potência",
+          "value": "11,53 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Marca (modelo)",
+          "value": "KOOP (192F)",
+          "category": "motor"
+        },
+        {
+          "name": "Número de cilindros",
+          "value": "1",
+          "category": "motor"
+        },
+        {
+          "name": "Combustível",
+          "value": "Diesel",
+          "category": "motor"
+        },
+        {
+          "name": "Refrigeração",
+          "value": "Ar",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de combustível",
+          "value": "11 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo lubrificante",
+          "value": "1,67 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo hidráulico",
+          "value": "16 L",
+          "category": "hidraulico"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Prof. escavação",
+          "value": "1650 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1010 kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "EATON",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "product": "Mini Escavadeira",
+      "name": "X10 PLUS",
+      "slug": "mini-escavadeira-x10-plus",
+      "href": "/mini-escavadeira-x10-plus/",
+      "categorySlug": "mini-escavadeira",
+      "price": 44900,
+      "pricePublished": true,
+      "badge": "",
+      "description": "A Mini Escavadeira X10 PLUS reúne porte compacto, operação prática e recursos que facilitam o uso diário. Com peso operacional de 1000 kg, profundidade máxima de escavação de 1650 mm, motor KOOP diesel, painel digital, capota escamoteável e trava de segurança, é indicada para pequenas obras, manutenção, paisagismo, propriedades rurais e serviços em áreas com acesso restrito.",
+      "metaTitle": "Mini Escavadeira X10 PLUS | Ficha Técnica | PLX Brasil",
+      "metaDesc": "Conheça a Mini Escavadeira X10 PLUS da PLX Brasil: 1000 kg, profundidade de escavação de 1650 mm, painel digital e capota escamoteável.",
+      "image": "/images/models/x10plus.webp",
+      "imagePng": "/images/models/x10plus.png",
+      "highlights": [
+        "Acionamento PTO por pedal",
+        "Capota escamoteável",
+        "3 roletes na esteira",
+        "Joystick lateral",
+        "Painel digital",
+        "Porta de fácil acesso na traseira",
+        "Motor hidráulico tração - Danfoss",
+        "Trava de segurança",
+        "Farol direcional iluminando a concha",
+        "Válvula hidráulica PTO"
+      ],
+      "specs": [
+        {
+          "name": "Profundidade máxima de escavação",
+          "value": "1650 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Profundidade máxima de perfuração",
+          "value": "3500 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação da concha",
+          "value": "15,3 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Força máx. de escavação do braço",
+          "value": "7,5 kN",
+          "category": "escavacao"
+        },
+        {
+          "name": "Caçamba",
+          "value": "0,020 m3",
+          "category": "capacidades"
+        },
+        {
+          "name": "Largura da caçamba",
+          "value": "375 mm",
+          "category": "capacidades"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1000 Kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo de esteira STD (opcional)",
+          "value": "Borracha",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de deslocamento (H/L)",
+          "value": "1,3 km/h",
+          "category": "operacao"
+        },
+        {
+          "name": "Inclinação máx. de subida",
+          "value": "30%",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "Eaton",
+          "category": "operacao"
+        },
+        {
+          "name": "Velocidade de rotação",
+          "value": "11 r/min",
+          "category": "operacao"
+        },
+        {
+          "name": "Tipo hidráulico",
+          "value": "Engrenagem",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Vazão máxima",
+          "value": "19,5 L/min",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Potência",
+          "value": "11,53 HP",
+          "category": "motor"
+        },
+        {
+          "name": "Motor/Marca",
+          "value": "KOOP 192F",
+          "category": "motor"
+        },
+        {
+          "name": "Número de cilindros",
+          "value": "1",
+          "category": "motor"
+        },
+        {
+          "name": "Combustível",
+          "value": "Diesel",
+          "category": "motor"
+        },
+        {
+          "name": "Refrigeração",
+          "value": "Ar",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de combustível",
+          "value": "5,5 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo lubrificante",
+          "value": "1,67 L",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de óleo hidráulico",
+          "value": "16 L",
+          "category": "hidraulico"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Profundidade máxima de escavação",
+          "value": "1650 mm",
+          "category": "escavacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1000 Kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Motor de giro",
+          "value": "Eaton",
+          "category": "operacao"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "product": "Mini Rolo Compactador",
+      "name": "XR12",
+      "slug": "mini-rolo-compactador-xr12",
+      "href": "/mini-rolo-compactador-xr12/",
+      "categorySlug": "mini-rolo-compactador",
+      "price": 59999,
+      "pricePublished": false,
+      "badge": "",
+      "description": "O Mini Rolo Compactador XR12 é indicado para compactação em obras, reparos, pavimentação leve, preparação de base e manutenção de áreas compactadas. Com peso operacional de 1200 kg, largura de rolo de 800 mm, motor Honda GX390 e força centrífuga dianteira de 30 kN, entrega eficiência para operações que precisam de acabamento, estabilidade e produtividade.",
+      "metaTitle": "Mini Rolo Compactador XR12 | Ficha Técnica | PLX Brasil",
+      "metaDesc": "Conheça o Mini Rolo Compactador XR12 da PLX Brasil: 1200 kg, largura de rolo de 800 mm, motor Honda GX390 e força centrífuga de 30 kN.",
+      "image": "/images/models/xr12.webp",
+      "imagePng": "/images/models/xr12.png",
+      "highlights": [],
+      "specs": [
+        {
+          "name": "Carga Estática",
+          "value": "69,5/68 n/cm",
+          "category": "compactacao"
+        },
+        {
+          "name": "Força centrífuga dianteira",
+          "value": "30 kN",
+          "category": "compactacao"
+        },
+        {
+          "name": "Frequência de vibração",
+          "value": "65 Hz",
+          "category": "vibracao"
+        },
+        {
+          "name": "Amplitude de vibração",
+          "value": "0.5 mm",
+          "category": "vibracao"
+        },
+        {
+          "name": "Tambor vibratório",
+          "value": "Frente",
+          "category": "compactacao"
+        },
+        {
+          "name": "Largura do rolo",
+          "value": "800 mm",
+          "category": "compactacao"
+        },
+        {
+          "name": "Diâmetro do rolo",
+          "value": "555 mm",
+          "category": "compactacao"
+        },
+        {
+          "name": "Peso Operacional",
+          "value": "1200 Kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Bomba principal",
+          "value": "Hydro-Gear",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Pressão do sistema hidráulico",
+          "value": "20 MPa",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Tipo",
+          "value": "Pistão",
+          "category": "hidraulico"
+        },
+        {
+          "name": "Modelo/Marca do motor",
+          "value": "GX 390/HONDA",
+          "category": "motor"
+        },
+        {
+          "name": "Potência/Velocidade nominal",
+          "value": "8,8(12)/2400 kw(cv)/rpm",
+          "category": "motor"
+        },
+        {
+          "name": "Torque/Velocidade máxima",
+          "value": "3.1/1800 N.m",
+          "category": "motor"
+        },
+        {
+          "name": "Combustível",
+          "value": "Gasolina",
+          "category": "motor"
+        },
+        {
+          "name": "Consumo médio",
+          "value": "2.5 L/h",
+          "category": "motor"
+        },
+        {
+          "name": "Resfriamento",
+          "value": "Ar",
+          "category": "motor"
+        },
+        {
+          "name": "N° de cilindros",
+          "value": "1",
+          "category": "motor"
+        },
+        {
+          "name": "Capacidade de combustível",
+          "value": "5,5 L",
+          "category": "motor"
+        },
+        {
+          "name": "CxLxA (com capota)",
+          "value": "1890 mm x 940 mm x 2250 mm",
+          "category": "dimensoes"
+        }
+      ],
+      "keySpecs": [
+        {
+          "name": "Peso Operacional",
+          "value": "1200 Kg",
+          "category": "operacao"
+        },
+        {
+          "name": "Largura do rolo",
+          "value": "800 mm",
+          "category": "compactacao"
+        },
+        {
+          "name": "Modelo/Marca do motor",
+          "value": "GX 390/HONDA",
+          "category": "motor"
+        }
+      ]
+    }
+  ]
+}
