@@ -1,0 +1,299 @@
+/* =========================
+   ABOUT CUSTOMERS
+========================= */
+.about-customers {
+  position: relative;
+  padding: 0 0 clamp(76px, 9vw, 116px);
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.about-customers__shell {
+  position: relative;
+  display: grid;
+  gap: clamp(28px, 4vw, 40px);
+}
+
+.about-customers__top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.about-customers__intro {
+  display: grid;
+  gap: 16px;
+  max-width: 840px;
+}
+
+.about-customers__eyebrow {
+  width: fit-content;
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(224, 31, 38, 0.18);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.about-customers__title {
+  color: #ffffff;
+  line-height: 1.05;
+}
+
+.about-customers__text {
+  max-width: 62ch;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.about-customers__controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.about-customers__nav {
+  width: 54px;
+  height: 54px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.03),
+    0 14px 28px rgba(0, 0, 0, 0.18);
+  transition:
+    transform var(--transition-fast),
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast),
+    opacity var(--transition-fast);
+}
+
+.about-customers__nav .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.about-customers__nav:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.02),
+    0 10px 18px rgba(0, 0, 0, 0.12);
+}
+
+.about-customers__carousel {
+  position: relative;
+}
+
+.about-customers__viewport {
+  position: relative;
+  overflow: hidden;
+  padding: 4px 2px 10px;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+  mask-image: linear-gradient(to right, transparent 0%, #000 4%, #000 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 4%, #000 96%, transparent 100%);
+}
+
+.about-customers__viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.about-customers__track {
+  display: flex;
+  gap: 22px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+.about-customers__track::-webkit-scrollbar {
+  display: none;
+}
+
+.about-customers__slide {
+  flex: 0 0 calc(33.333% - 15px);
+  min-width: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.about-customers__card {
+  position: relative;
+  margin: 0;
+  min-height: 500px;
+  border-radius: 28px;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.03),
+    0 18px 36px rgba(0, 0, 0, 0.22);
+  transition:
+    transform var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.about-customers__card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary) 0%, rgba(255, 255, 255, 0.24) 100%);
+  z-index: 2;
+  opacity: 0.95;
+}
+
+.about-customers__card::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 120px;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.18) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.about-customers__card img {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-slow);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .about-customers__nav:hover:not(:disabled) {
+    transform: translateY(-2px);
+    background: rgba(224, 31, 38, 0.16);
+    border-color: rgba(224, 31, 38, 0.26);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.04),
+      0 18px 32px rgba(0, 0, 0, 0.24);
+  }
+
+  .about-customers__card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(224, 31, 38, 0.22);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.04),
+      0 24px 44px rgba(0, 0, 0, 0.3);
+  }
+
+  .about-customers__card:hover img {
+    transform: scale(1.03);
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .about-customers__viewport {
+    cursor: auto;
+    touch-action: auto;
+  }
+
+  .about-customers__viewport.is-dragging {
+    cursor: auto;
+  }
+
+  .about-customers__card,
+  .about-customers__card img {
+    transition: none;
+  }
+
+  .about-customers__card:hover,
+  .about-customers__card:hover img {
+    transform: none;
+  }
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 1180px) {
+  .about-customers__slide {
+    flex: 0 0 calc(50% - 11px);
+  }
+
+  .about-customers__card,
+  .about-customers__card img {
+    min-height: 460px;
+  }
+}
+
+@media (max-width: 980px) {
+  .about-customers {
+    padding: 0 0 clamp(60px, 10vw, 86px);
+  }
+
+  .about-customers__top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .about-customers__controls {
+    align-self: flex-start;
+  }
+
+  .about-customers__slide {
+    flex: 0 0 68%;
+  }
+
+  .about-customers__card,
+  .about-customers__card img {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-customers__intro {
+    gap: 14px;
+  }
+
+  .about-customers__text {
+    font-size: 0.98rem;
+    line-height: 1.75;
+  }
+
+  .about-customers__controls {
+    gap: 10px;
+  }
+
+  .about-customers__nav {
+    width: 46px;
+    height: 46px;
+  }
+
+  .about-customers__track {
+    gap: 16px;
+  }
+
+  .about-customers__slide {
+    flex: 0 0 84%;
+  }
+
+  .about-customers__card,
+  .about-customers__card img {
+    min-height: 360px;
+    border-radius: 22px;
+  }
+
+  .about-customers__viewport {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+}

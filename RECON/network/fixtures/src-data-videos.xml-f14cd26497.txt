@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videos>
+    <video>
+        <titulo>PLX Brasil | Toda operação precisa da máquina certa! Escolha sempre a PLX.</titulo>
+        <thumb_titulo>Toda operação precisa da máquina certa! Escolha sempre a PLX.</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=eNNBFilJYUY</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | As melhores mini escavadeiras do Brasil estão aqui na PLX!</titulo>
+        <thumb_titulo>As melhores mini escavadeiras do Brasil estão aqui na PLX!</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=3G0iIE2m5Sk</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Escavadeira X10: mais rendimento, menos esforço</titulo>
+        <thumb_titulo>Escavadeira X10: mais rendimento, menos esforço</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=Pj-zG8uXqk4</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Linha Pro com engate rápido hidráulico</titulo>
+        <thumb_titulo>Linha Pro com engate rápido hidráulico</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=IsYHmmCuUSI</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Mini escavadeira X35 Pro 3800 kg Giro Zero</titulo>
+        <thumb_titulo>Mini escavadeira X35 Pro 3800 kg Giro Zero</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=rVtgn3qgzCg</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Mini escavadeira X35 Pro: detalhes e estrutura</titulo>
+        <thumb_titulo>Mini escavadeira X35 Pro: detalhes e estrutura</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=0S-kAzlzVL8</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Mini escavadeira X65</titulo>
+        <thumb_titulo>Mini escavadeira X65</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=sCa_toovW5c</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Mini escavadeira X65 Pro</titulo>
+        <thumb_titulo>Mini escavadeira X65 Pro</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=d_taJyvV7VM</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Mini escavadeiras: potência compacta e eficiência</titulo>
+        <thumb_titulo>Mini escavadeiras: potência compacta e eficiência</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=sjEDwlYuIDQ</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Transformamos cada desafio em uma conquista</titulo>
+        <thumb_titulo>Transformamos cada desafio em uma conquista</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=LYiFB-DBpIM</link>
+    </video>
+    <video>
+        <titulo>PLX Brasil | Apresentação institucional</titulo>
+        <thumb_titulo>Apresentação institucional</thumb_titulo>
+        <link>https://www.youtube.com/watch?v=LxoVyLavBLs</link>
+    </video>
+</videos>

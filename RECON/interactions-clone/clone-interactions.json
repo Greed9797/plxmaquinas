@@ -1,0 +1,2583 @@
+{
+  "label": "clone",
+  "url": "http://localhost:8123/",
+  "capturedAt": "2026-08-26T11:51:42.163Z",
+  "initial": {
+    "url": "http://localhost:8123/",
+    "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+    "activeElement": "body",
+    "scrollY": 0,
+    "bodyTextChars": 6373,
+    "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+    "counts": {
+      "dialogs": 1,
+      "popovers": 0,
+      "canvases": 0,
+      "videos": 0,
+      "buttons": 43,
+      "forms": 2
+    },
+    "htmlHash": "-1237311753",
+    "htmlLength": 85296
+  },
+  "discovered": {
+    "interactive": [
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.instagram.com/plx_brasil",
+        "text": "Instagram",
+        "ariaLabel": "Instagram",
+        "safeClick": false,
+        "rect": {
+          "x": 1222,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.facebook.com/profile.php?id=100092296935303&locale=pt_BR",
+        "text": "Facebook",
+        "ariaLabel": "Facebook",
+        "safeClick": false,
+        "rect": {
+          "x": 1264,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.youtube.com/@PLXBRASIL-LTDA",
+        "text": "YouTube",
+        "ariaLabel": "YouTube",
+        "safeClick": false,
+        "rect": {
+          "x": 1306,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#top",
+        "text": "PLX Brasil",
+        "ariaLabel": "PLX Brasil",
+        "safeClick": true,
+        "rect": {
+          "x": 100,
+          "y": 52,
+          "width": 161,
+          "height": 60
+        }
+      },
+      {
+        "selector": "#search-input",
+        "tag": "input",
+        "type": "search",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 406,
+          "y": 57,
+          "width": 620,
+          "height": 50
+        }
+      },
+      {
+        "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "href": "",
+        "text": "Pesquisar",
+        "ariaLabel": "Pesquisar",
+        "safeClick": true,
+        "rect": {
+          "x": 982,
+          "y": 63,
+          "width": 38,
+          "height": 38
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1172,
+          "y": 58,
+          "width": 168,
+          "height": 48
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#top",
+        "text": "Início",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 278,
+          "y": 126,
+          "width": 58,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Escavadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 340,
+          "y": 126,
+          "width": 126,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Carregadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 469,
+          "y": 126,
+          "width": 131,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Dumper",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 604,
+          "y": 126,
+          "width": 101,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Rolo Compactador",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 709,
+          "y": 126,
+          "width": 163,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(6)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#videos",
+        "text": "Blog",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 875,
+          "y": 126,
+          "width": 52,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(7)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#about",
+        "text": "Empresa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 931,
+          "y": 126,
+          "width": 77,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(8)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Contato",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1013,
+          "y": 126,
+          "width": 73,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(9)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#support",
+        "text": "Suporte",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1089,
+          "y": 126,
+          "width": 73,
+          "height": 40
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://wa.me/5548988728340",
+        "text": "◉ Falar no WhatsApp",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 508,
+          "y": 535,
+          "width": 202,
+          "height": 52
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "↗ Solicitar Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 724,
+          "y": 535,
+          "width": 208,
+          "height": 52
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 1434,
+          "width": 278,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Conferir página completa ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 1487,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Modelos abaixo ↓",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 151,
+          "y": 1539,
+          "width": 143,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 1439,
+          "width": 278,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Conferir página completa ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 1492,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Ver modelos ↓",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 492,
+          "y": 1539,
+          "width": 124,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 747,
+          "y": 1439,
+          "width": 278,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(3) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Conferir página completa ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 747,
+          "y": 1492,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Ver modelos ↓",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 824,
+          "y": 1539,
+          "width": 124,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1079,
+          "y": 1439,
+          "width": 278,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Conferir página completa ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1079,
+          "y": 1492,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Ver modelos ↓",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1155,
+          "y": 1539,
+          "width": 124,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2110,
+          "width": 278,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conferir modelo ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2162,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2110,
+          "width": 278,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conferir modelo ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2162,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 747,
+          "y": 2110,
+          "width": 278,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conferir modelo ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 747,
+          "y": 2162,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1079,
+          "y": 2110,
+          "width": 278,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conferir modelo ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1079,
+          "y": 2162,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2642,
+          "width": 278,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conferir modelo ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2694,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2642,
+          "width": 278,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conferir modelo ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2694,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 747,
+          "y": 2642,
+          "width": 278,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conferir modelo ↗",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 747,
+          "y": 2694,
+          "width": 278,
+          "height": 18
+        }
+      },
+      {
+        "selector": "#video-prev",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "‹",
+        "ariaLabel": "Vídeos anteriores",
+        "safeClick": true,
+        "rect": {
+          "x": 1253,
+          "y": 3034,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "selector": "#video-next",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "›",
+        "ariaLabel": "Próximos vídeos",
+        "safeClick": true,
+        "rect": {
+          "x": 1291,
+          "y": 3034,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Apresentação institucional",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3083,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Transformamos cada desafio em uma conquista",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3196,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(3)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Mini escavadeiras: potência compacta e eficiência",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3309,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(4)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Mini escavadeira X65 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3422,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(5)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Mini escavadeira X65",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3535,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(6)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Mini escavadeira X35 Pro: detalhes e estrutura",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3648,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(7)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Mini escavadeira X35 Pro 3800 kg Giro Zero",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3761,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(8)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Linha Pro com engate rápido hidráulico",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3874,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(9)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Escavadeira X10: mais rendimento, menos esforço",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 3987,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(10)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ As melhores mini escavadeiras do Brasil estão aqui na PLX!",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 4100,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(11)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "▶ Toda operação precisa da máquina certa! Escolha sempre a PLX.",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 840,
+          "y": 4213,
+          "width": 479,
+          "height": 104
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Conheça",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 746,
+          "y": 4039,
+          "width": 164,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "As máquinas PLX possuem garantia? ⌄",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4393,
+          "width": 978,
+          "height": 70
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Vocês entregam para outras cidades/estados? ⌄",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4562,
+          "width": 978,
+          "height": 70
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Como escolher entre mini carregadeira e mini escavadeira? ⌄",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4646,
+          "width": 978,
+          "height": 70
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(4) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "A PLX oferece peças e assistência técnica? ⌄",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4730,
+          "width": 978,
+          "height": 70
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(5) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Como funciona o orçamento e o atendimento pelo WhatsApp? ⌄",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4814,
+          "width": 978,
+          "height": 70
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(6) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Posso usar as máquinas PLX em áreas menores ou com acesso reduzido? ⌄",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4898,
+          "width": 978,
+          "height": 70
+        }
+      },
+      {
+        "selector": "main:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://wa.me/5548988728340",
+        "text": "aqui",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 859,
+          "y": 4993,
+          "width": 30,
+          "height": 17
+        }
+      },
+      {
+        "selector": "section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.google.com/search?q=PLX+Brasil",
+        "text": "Ler mais",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 136,
+          "y": 5501,
+          "width": 46,
+          "height": 14
+        }
+      },
+      {
+        "selector": "section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.google.com/search?q=PLX+Brasil",
+        "text": "Ler mais",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 439,
+          "y": 5501,
+          "width": 46,
+          "height": 14
+        }
+      },
+      {
+        "selector": "section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.google.com/search?q=PLX+Brasil",
+        "text": "Ler mais",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 741,
+          "y": 5501,
+          "width": 46,
+          "height": 14
+        }
+      },
+      {
+        "selector": "section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.google.com/search?q=PLX+Brasil",
+        "text": "Ler mais",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 1044,
+          "y": 5501,
+          "width": 46,
+          "height": 14
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 523,
+          "y": 5997,
+          "width": 180,
+          "height": 52
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://wa.me/5548988728340",
+        "text": "Falar no WhatsApp",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 717,
+          "y": 5997,
+          "width": 200,
+          "height": 52
+        }
+      },
+      {
+        "selector": "footer:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#top",
+        "text": "Ir para o início",
+        "ariaLabel": "Ir para o início",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6239,
+          "width": 142,
+          "height": 80
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Escavadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6401,
+          "width": 325,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "X65 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6430,
+          "width": 45,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "X35 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6455,
+          "width": 45,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "X30 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6480,
+          "width": 46,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "X20 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6505,
+          "width": 46,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "X15 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6530,
+          "width": 43,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "X10 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6555,
+          "width": 43,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(7) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "X10 PLUS",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 129,
+          "y": 6580,
+          "width": 55,
+          "height": 15
+        }
+      }
+    ],
+    "canvases": []
+  },
+  "actions": [
+    {
+      "type": "scroll",
+      "target": "middle",
+      "ratio": 0.5,
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 3039,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/01-scroll-middle-b04a45f075.png"
+    },
+    {
+      "type": "scroll",
+      "target": "bottom",
+      "ratio": 1,
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 6078,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/02-scroll-bottom-7297e0cbea.png"
+    },
+    {
+      "type": "hover",
+      "target": "Instagram",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.instagram.com/plx_brasil",
+        "text": "Instagram",
+        "ariaLabel": "Instagram",
+        "safeClick": false,
+        "rect": {
+          "x": 1222,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/03-hover-Instagram-7312dce843.png"
+    },
+    {
+      "type": "hover",
+      "target": "Facebook",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.facebook.com/profile.php?id=100092296935303&locale=pt_BR",
+        "text": "Facebook",
+        "ariaLabel": "Facebook",
+        "safeClick": false,
+        "rect": {
+          "x": 1264,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/04-hover-Facebook-ed8ebb9e48.png"
+    },
+    {
+      "type": "hover",
+      "target": "YouTube",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.youtube.com/@PLXBRASIL-LTDA",
+        "text": "YouTube",
+        "ariaLabel": "YouTube",
+        "safeClick": false,
+        "rect": {
+          "x": 1306,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/05-hover-YouTube-d8c1fc5d08.png"
+    },
+    {
+      "type": "hover",
+      "target": "PLX Brasil",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#top",
+        "text": "PLX Brasil",
+        "ariaLabel": "PLX Brasil",
+        "safeClick": true,
+        "rect": {
+          "x": 100,
+          "y": 52,
+          "width": 161,
+          "height": 60
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/06-hover-PLX-Brasil-1091f00ebe.png"
+    },
+    {
+      "type": "hover",
+      "target": "#search-input",
+      "selector": "#search-input",
+      "meta": {
+        "selector": "#search-input",
+        "tag": "input",
+        "type": "search",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 406,
+          "y": 57,
+          "width": 620,
+          "height": 50
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/07-hover--search-input-328ed993ee.png"
+    },
+    {
+      "type": "hover",
+      "target": "Pesquisar",
+      "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "href": "",
+        "text": "Pesquisar",
+        "ariaLabel": "Pesquisar",
+        "safeClick": true,
+        "rect": {
+          "x": 982,
+          "y": 63,
+          "width": 38,
+          "height": 38
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/08-hover-Pesquisar-dc63e0d3a0.png"
+    },
+    {
+      "type": "hover",
+      "target": "Solicitar Orçamento",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1172,
+          "y": 58,
+          "width": 168,
+          "height": 48
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/09-hover-Solicitar-Or-amento-f4a8f30075.png"
+    },
+    {
+      "type": "hover",
+      "target": "Início",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#top",
+        "text": "Início",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 278,
+          "y": 126,
+          "width": 58,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": false,
+      "screenshot": "screenshots/10-hover-In-cio-42bb7da13b.png"
+    },
+    {
+      "type": "click",
+      "target": "PLX Brasil",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#top",
+        "text": "PLX Brasil",
+        "ariaLabel": "PLX Brasil",
+        "safeClick": true,
+        "rect": {
+          "x": 100,
+          "y": 52,
+          "width": 161,
+          "height": 60
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#top",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 168,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/11-click-PLX-Brasil-6306c8a73b.png"
+    },
+    {
+      "type": "click",
+      "target": "Pesquisar",
+      "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "href": "",
+        "text": "Pesquisar",
+        "ariaLabel": "Pesquisar",
+        "safeClick": true,
+        "rect": {
+          "x": 982,
+          "y": 63,
+          "width": 38,
+          "height": 38
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "button",
+        "scrollY": 878,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/12-click-Pesquisar-d21a3e0e93.png"
+    },
+    {
+      "type": "click",
+      "target": "Solicitar Orçamento",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1172,
+          "y": 58,
+          "width": 168,
+          "height": 48
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "input",
+        "scrollY": 0,
+        "bodyTextChars": 6632,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 2,
+          "popovers": 1,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-48469515",
+        "htmlLength": 85305
+      },
+      "changed": true,
+      "screenshot": "screenshots/13-click-Solicitar-Or-amento-d45f6de5f5.png"
+    },
+    {
+      "type": "click",
+      "target": "Início",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#top",
+        "text": "Início",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 278,
+          "y": 126,
+          "width": 58,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#top",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 168,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/14-click-In-cio-c3e4f8a446.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Escavadeira",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Escavadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 340,
+          "y": 126,
+          "width": 126,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#products-home",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 901,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/15-click-Mini-Escavadeira-b384cfb961.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Carregadeira",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Carregadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 469,
+          "y": 126,
+          "width": 131,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#products-home",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 897,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/16-click-Mini-Carregadeira-c62cdc0b48.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Dumper",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Dumper",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 604,
+          "y": 126,
+          "width": 101,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#products-home",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 897,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/17-click-Mini-Dumper-d8f7eeb551.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Rolo Compactador",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#products-home",
+        "text": "Mini Rolo Compactador",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 709,
+          "y": 126,
+          "width": 163,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#products-home",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 897,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/18-click-Mini-Rolo-Compactador-a5ed884751.png"
+    },
+    {
+      "type": "click",
+      "target": "Blog",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(6)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(6)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#videos",
+        "text": "Blog",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 875,
+          "y": 126,
+          "width": 52,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#videos",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 2418,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/19-click-Blog-98e4c918da.png"
+    },
+    {
+      "type": "click",
+      "target": "Empresa",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(7)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(7)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#about",
+        "text": "Empresa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 931,
+          "y": 126,
+          "width": 77,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#about",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 2912,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/20-click-Empresa-ada59aff61.png"
+    },
+    {
+      "type": "click",
+      "target": "Contato",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(8)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(8)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#contact",
+        "text": "Contato",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1013,
+          "y": 126,
+          "width": 73,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#contact",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 3985,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/21-click-Contato-621d2b4256.png"
+    },
+    {
+      "type": "click",
+      "target": "Suporte",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(9)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(9)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://localhost:8123/#support",
+        "text": "Suporte",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1089,
+          "y": 126,
+          "width": 73,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "http://localhost:8123/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "after": {
+        "url": "http://localhost:8123/#support",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 3232,
+        "bodyTextChars": 6373,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX ◉ Falar no WhatsApp ↗ Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendime",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 43,
+          "forms": 2
+        },
+        "htmlHash": "-1237311753",
+        "htmlLength": 85296
+      },
+      "changed": true,
+      "screenshot": "screenshots/22-click-Suporte-9c62665597.png"
+    }
+  ],
+  "network": [],
+  "consoleErrors": [],
+  "findings": [
+    "80 visible interactive candidates discovered",
+    "0 visible canvas targets discovered",
+    "14/22 actions changed DOM, URL, scroll, or visible overlay counts"
+  ]
+}

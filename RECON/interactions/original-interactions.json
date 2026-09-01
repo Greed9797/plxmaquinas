@@ -1,0 +1,3891 @@
+{
+  "label": "original",
+  "url": "https://plxbrasil.com.br/",
+  "capturedAt": "2026-08-26T11:38:17.482Z",
+  "initial": {
+    "url": "https://plxbrasil.com.br/",
+    "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+    "activeElement": "body",
+    "scrollY": 0,
+    "bodyTextChars": 5728,
+    "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+    "counts": {
+      "dialogs": 1,
+      "popovers": 0,
+      "canvases": 0,
+      "videos": 0,
+      "buttons": 50,
+      "forms": 3
+    },
+    "htmlHash": "-191574618",
+    "htmlLength": 102681
+  },
+  "discovered": {
+    "interactive": [
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.instagram.com/plx_brasil",
+        "text": "",
+        "ariaLabel": "Instagram",
+        "safeClick": false,
+        "rect": {
+          "x": 1192,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.facebook.com/profile.php?id=100092296935303&locale=pt_BR",
+        "text": "",
+        "ariaLabel": "Facebook",
+        "safeClick": false,
+        "rect": {
+          "x": 1234,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.youtube.com/@PLXBRASIL-LTDA",
+        "text": "",
+        "ariaLabel": "YouTube",
+        "safeClick": false,
+        "rect": {
+          "x": 1276,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/",
+        "text": "",
+        "ariaLabel": "PLX Brasil",
+        "safeClick": true,
+        "rect": {
+          "x": 130,
+          "y": 52,
+          "width": 161,
+          "height": 60
+        }
+      },
+      {
+        "selector": "#header-search-input",
+        "tag": "input",
+        "type": "search",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 536,
+          "y": 57,
+          "width": 310,
+          "height": 50
+        }
+      },
+      {
+        "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "Pesquisar",
+        "safeClick": true,
+        "rect": {
+          "x": 805,
+          "y": 65,
+          "width": 35,
+          "height": 35
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1090,
+          "y": 56,
+          "width": 220,
+          "height": 52
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/",
+        "text": "Início",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 215,
+          "y": 125,
+          "width": 59,
+          "height": 40
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira/",
+        "text": "Mini Escavadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 292,
+          "y": 138,
+          "width": 124,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-carregadeira/",
+        "text": "Mini Carregadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 444,
+          "y": 138,
+          "width": 130,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-dumper/",
+        "text": "Mini Dumper",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 601,
+          "y": 138,
+          "width": 93,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-rolo-compactador/",
+        "text": "Mini Rolo Compactador",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 722,
+          "y": 138,
+          "width": 169,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/blog/",
+        "text": "Blog",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 910,
+          "y": 125,
+          "width": 52,
+          "height": 40
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(7) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/sobre/",
+        "text": "Empresa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 970,
+          "y": 125,
+          "width": 84,
+          "height": 40
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(8) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/contato/",
+        "text": "Contato",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1061,
+          "y": 125,
+          "width": 78,
+          "height": 40
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(9) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/suporte/",
+        "text": "Suporte",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1147,
+          "y": 125,
+          "width": 78,
+          "height": 40
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://wa.me/5548988728340",
+        "text": "Falar no WhatsApp",
+        "ariaLabel": "Falar no WhatsApp",
+        "safeClick": false,
+        "rect": {
+          "x": 502,
+          "y": 555,
+          "width": 209,
+          "height": 52
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar Orçamento",
+        "ariaLabel": "Solicitar Orçamento",
+        "safeClick": true,
+        "rect": {
+          "x": 723,
+          "y": 555,
+          "width": 215,
+          "height": 52
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira/",
+        "text": "",
+        "ariaLabel": "Ver Mini Escavadeiras",
+        "safeClick": true,
+        "rect": {
+          "x": 66,
+          "y": 1127,
+          "width": 311,
+          "height": 245
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 86,
+          "y": 1433,
+          "width": 271,
+          "height": 48
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira/",
+        "text": "Conferir página completa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 86,
+          "y": 1491,
+          "width": 195,
+          "height": 17
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Modelos abaixo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 65,
+          "y": 1544,
+          "width": 313,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-carregadeira/",
+        "text": "",
+        "ariaLabel": "Ver Mini Carregadeiras",
+        "safeClick": true,
+        "rect": {
+          "x": 399,
+          "y": 1133,
+          "width": 311,
+          "height": 245
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 419,
+          "y": 1439,
+          "width": 271,
+          "height": 48
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-carregadeira/",
+        "text": "Conferir página completa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 419,
+          "y": 1497,
+          "width": 195,
+          "height": 17
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Ver modelos",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 398,
+          "y": 1544,
+          "width": 313,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > article:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-dumper/",
+        "text": "",
+        "ariaLabel": "Ver Mini Dumper",
+        "safeClick": true,
+        "rect": {
+          "x": 731,
+          "y": 1133,
+          "width": 311,
+          "height": 245
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 751,
+          "y": 1439,
+          "width": 271,
+          "height": 48
+        }
+      },
+      {
+        "selector": "div:nth-of-type(3) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-dumper/",
+        "text": "Conferir página completa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 751,
+          "y": 1497,
+          "width": 195,
+          "height": 17
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Ver modelos",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 730,
+          "y": 1544,
+          "width": 313,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-rolo-compactador/",
+        "text": "",
+        "ariaLabel": "Ver Mini Rolo Compactador",
+        "safeClick": true,
+        "rect": {
+          "x": 1064,
+          "y": 1133,
+          "width": 311,
+          "height": 245
+        }
+      },
+      {
+        "selector": "div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1084,
+          "y": 1439,
+          "width": 271,
+          "height": 48
+        }
+      },
+      {
+        "selector": "div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-rolo-compactador/",
+        "text": "Conferir página completa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1084,
+          "y": 1497,
+          "width": 195,
+          "height": 17
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Ver modelos",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1063,
+          "y": 1544,
+          "width": 313,
+          "height": 36
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2114,
+          "width": 276,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x65-pro/",
+        "text": "Conferir modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2168,
+          "width": 138,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2114,
+          "width": 276,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x35-pro/",
+        "text": "Conferir modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2168,
+          "width": 138,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 748,
+          "y": 2114,
+          "width": 276,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x30-pro/",
+        "text": "Conferir modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 748,
+          "y": 2168,
+          "width": 138,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1080,
+          "y": 2114,
+          "width": 276,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x20-pro/",
+        "text": "Conferir modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1080,
+          "y": 2168,
+          "width": 138,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2702,
+          "width": 276,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x15-pro/",
+        "text": "Conferir modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 84,
+          "y": 2756,
+          "width": 138,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2702,
+          "width": 276,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x10-pro/",
+        "text": "Conferir modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 416,
+          "y": 2756,
+          "width": 138,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Quero este modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 748,
+          "y": 2702,
+          "width": 276,
+          "height": 44
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x10-plus/",
+        "text": "Conferir modelo",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 748,
+          "y": 2756,
+          "width": 138,
+          "height": 17
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "Vídeos anteriores",
+        "safeClick": true,
+        "rect": {
+          "x": 1199,
+          "y": 3136,
+          "width": 42,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "Próximos vídeos",
+        "safeClick": true,
+        "rect": {
+          "x": 1249,
+          "y": 3136,
+          "width": 42,
+          "height": 42
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Apresentação institucional",
+        "ariaLabel": "Reproduzir vídeo Apresentação institucional",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3212,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Transformamos cada desafio em uma conquista",
+        "ariaLabel": "Reproduzir vídeo Transformamos cada desafio em uma conquista",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3316,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(3)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Mini escavadeiras: potência compacta e eficiência",
+        "ariaLabel": "Reproduzir vídeo Mini escavadeiras: potência compacta e eficiência",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3420,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(4)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Mini escavadeira X65 Pro",
+        "ariaLabel": "Reproduzir vídeo Mini escavadeira X65 Pro",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3524,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(5)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Mini escavadeira X65",
+        "ariaLabel": "Reproduzir vídeo Mini escavadeira X65",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3627,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(6)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Mini escavadeira X35 Pro: detalhes e estrutura",
+        "ariaLabel": "Reproduzir vídeo Mini escavadeira X35 Pro: detalhes e estrutura",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3731,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(7)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Mini escavadeira X35 Pro 3800 kg Giro Zero",
+        "ariaLabel": "Reproduzir vídeo Mini escavadeira X35 Pro 3800 kg Giro Zero",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3835,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(8)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Linha Pro com engate rápido hidráulico",
+        "ariaLabel": "Reproduzir vídeo Linha Pro com engate rápido hidráulico",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 3939,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(9)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Escavadeira X10: mais rendimento, menos esforço",
+        "ariaLabel": "Reproduzir vídeo Escavadeira X10: mais rendimento, menos esforço",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 4042,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(10)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "As melhores mini escavadeiras do Brasil estão aqui na PLX!",
+        "ariaLabel": "Reproduzir vídeo As melhores mini escavadeiras do Brasil estão aqui na PLX!",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 4146,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(11)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Toda operação precisa da máquina certa! Escolha sempre a PLX.",
+        "ariaLabel": "Reproduzir vídeo Toda operação precisa da máquina certa! Escolha sempre a PLX.",
+        "safeClick": true,
+        "rect": {
+          "x": 839,
+          "y": 4250,
+          "width": 446,
+          "height": 92
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/sobre/",
+        "text": "Conheça",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 763,
+          "y": 4092,
+          "width": 170,
+          "height": 54
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "As máquinas PLX possuem garantia?",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4405,
+          "width": 978,
+          "height": 76
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Vocês entregam para outras cidades/estados?",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4497,
+          "width": 978,
+          "height": 76
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Como escolher entre mini carregadeira e mini escavadeira?",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4589,
+          "width": 978,
+          "height": 76
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(4) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "A PLX oferece peças e assistência técnica?",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4681,
+          "width": 978,
+          "height": 76
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(5) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Como funciona o orçamento e o atendimento pelo WhatsApp?",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4773,
+          "width": 978,
+          "height": 76
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(6) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Posso usar as máquinas PLX em áreas menores ou com acesso reduzido?",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 231,
+          "y": 4865,
+          "width": 978,
+          "height": 76
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://wa.me/5548988728340",
+        "text": "aqui",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 879,
+          "y": 4974,
+          "width": 34,
+          "height": 20
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 493,
+          "y": 5979,
+          "width": 220,
+          "height": 54
+        }
+      },
+      {
+        "selector": "section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://wa.me/5548988728340",
+        "text": "Falar no WhatsApp",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 727,
+          "y": 5979,
+          "width": 220,
+          "height": 54
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira/",
+        "text": "Mini Escavadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6388,
+          "width": 129,
+          "height": 22
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x65-pro/",
+        "text": "X65 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6422,
+          "width": 54,
+          "height": 21
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x35-pro/",
+        "text": "X35 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6452,
+          "width": 54,
+          "height": 21
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x30-pro/",
+        "text": "X30 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6482,
+          "width": 55,
+          "height": 21
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x20-pro/",
+        "text": "X20 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6512,
+          "width": 55,
+          "height": 21
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x15-pro/",
+        "text": "X15 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6542,
+          "width": 51,
+          "height": 21
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x10-pro/",
+        "text": "X10 Pro",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6572,
+          "width": 52,
+          "height": 21
+        }
+      },
+      {
+        "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(7) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira-x10-plus/",
+        "text": "X10 Plus",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 159,
+          "y": 6602,
+          "width": 58,
+          "height": 21
+        }
+      },
+      {
+        "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-carregadeira/",
+        "text": "Mini Carregadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 491,
+          "y": 6388,
+          "width": 136,
+          "height": 22
+        }
+      }
+    ],
+    "canvases": []
+  },
+  "actions": [
+    {
+      "type": "scroll",
+      "target": "middle",
+      "ratio": 0.5,
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "65885172",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 3091,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1344987078",
+        "htmlLength": 102693
+      },
+      "changed": true,
+      "screenshot": "screenshots/01-scroll-middle-b04a45f075.png"
+    },
+    {
+      "type": "scroll",
+      "target": "bottom",
+      "ratio": 1,
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1309754136",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 6181,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "276856149",
+        "htmlLength": 102997
+      },
+      "changed": true,
+      "screenshot": "screenshots/02-scroll-bottom-7297e0cbea.png"
+    },
+    {
+      "type": "hover",
+      "target": "Instagram",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.instagram.com/plx_brasil",
+        "text": "",
+        "ariaLabel": "Instagram",
+        "safeClick": false,
+        "rect": {
+          "x": 1192,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "368866019",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "1413539279",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/03-hover-Instagram-52be1f7f3d.png"
+    },
+    {
+      "type": "hover",
+      "target": "Facebook",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.facebook.com/profile.php?id=100092296935303&locale=pt_BR",
+        "text": "",
+        "ariaLabel": "Facebook",
+        "safeClick": false,
+        "rect": {
+          "x": 1234,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "813236841",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "2031953699",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/04-hover-Facebook-a1a5ae81da.png"
+    },
+    {
+      "type": "hover",
+      "target": "YouTube",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://www.youtube.com/@PLXBRASIL-LTDA",
+        "text": "",
+        "ariaLabel": "YouTube",
+        "safeClick": false,
+        "rect": {
+          "x": 1276,
+          "y": 3,
+          "width": 34,
+          "height": 34
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-501057821",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "99244617",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/05-hover-YouTube-ca45ea1144.png"
+    },
+    {
+      "type": "hover",
+      "target": "PLX Brasil",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/",
+        "text": "",
+        "ariaLabel": "PLX Brasil",
+        "safeClick": true,
+        "rect": {
+          "x": 130,
+          "y": 52,
+          "width": 161,
+          "height": 60
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1563843063",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "99244617",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/06-hover-PLX-Brasil-3425f981cb.png"
+    },
+    {
+      "type": "hover",
+      "target": "#header-search-input",
+      "selector": "#header-search-input",
+      "meta": {
+        "selector": "#header-search-input",
+        "tag": "input",
+        "type": "search",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 536,
+          "y": 57,
+          "width": 310,
+          "height": 50
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-887011650",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-963538836",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/07-hover--header-search-input-e19eb75be0.png"
+    },
+    {
+      "type": "hover",
+      "target": "Pesquisar",
+      "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "Pesquisar",
+        "safeClick": true,
+        "rect": {
+          "x": 805,
+          "y": 65,
+          "width": 35,
+          "height": 35
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1505426070",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1258202138",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/08-hover-Pesquisar-e79fbc4275.png"
+    },
+    {
+      "type": "hover",
+      "target": "Solicitar Orçamento",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1090,
+          "y": 56,
+          "width": 220,
+          "height": 52
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1803110300",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-850170777",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/09-hover-Solicitar-Or-amento-ebe6364669.png"
+    },
+    {
+      "type": "hover",
+      "target": "Início",
+      "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/",
+        "text": "Início",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 215,
+          "y": 125,
+          "width": 59,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "566097438",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-790342146",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/10-hover-In-cio-149c9256b1.png"
+    },
+    {
+      "type": "click",
+      "target": "PLX Brasil",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/",
+        "text": "",
+        "ariaLabel": "PLX Brasil",
+        "safeClick": true,
+        "rect": {
+          "x": 130,
+          "y": 52,
+          "width": 161,
+          "height": 60
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "1564837456",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1254029580",
+        "htmlLength": 102680
+      },
+      "changed": true,
+      "screenshot": "screenshots/11-click-PLX-Brasil-7d4e93c6df.png"
+    },
+    {
+      "type": "click",
+      "target": "Pesquisar",
+      "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "href": "",
+        "text": "",
+        "ariaLabel": "Pesquisar",
+        "safeClick": true,
+        "rect": {
+          "x": 805,
+          "y": 65,
+          "width": 35,
+          "height": 35
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "1597676557",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "button",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "1476435256",
+        "htmlLength": 102985
+      },
+      "changed": true,
+      "screenshot": "screenshots/12-click-Pesquisar-f8dd2b7b8d.png"
+    },
+    {
+      "type": "click",
+      "target": "Solicitar Orçamento",
+      "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "type": "button",
+        "role": "",
+        "href": "",
+        "text": "Solicitar Orçamento",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1090,
+          "y": 56,
+          "width": 220,
+          "height": 52
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-1196386077",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "input",
+        "scrollY": 0,
+        "bodyTextChars": 5884,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 2,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-324746060",
+        "htmlLength": 105802
+      },
+      "changed": true,
+      "screenshot": "screenshots/13-click-Solicitar-Or-amento-c0a6270197.png"
+    },
+    {
+      "type": "click",
+      "target": "Início",
+      "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/",
+        "text": "Início",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 215,
+          "y": 125,
+          "width": 59,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-179441211",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "1106925375",
+        "htmlLength": 102681
+      },
+      "changed": true,
+      "screenshot": "screenshots/14-click-In-cio-3950f334de.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Escavadeira",
+      "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-escavadeira/",
+        "text": "Mini Escavadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 292,
+          "y": 138,
+          "width": 124,
+          "height": 15
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "1431651261",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/mini-escavadeira/",
+        "title": "Mini Escavadeira: Modelos e Venda | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 7423,
+        "bodyTextStart": "Mini Escavadeira: Venda e Modelos Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Home / Nossos Serviços / Mini Escavadeira Solicite um orçamento Você quer comprar ou alugar? Compra Locação Enviar solicitação ATENDIMENTO COMERCIAL Quer falar direto com um especialista? Nosso time te ajuda a comparar os modelos e entender qual faz mais sentido pro teu uso. Falar com especialista Mini Escavade",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 67,
+          "forms": 4
+        },
+        "htmlHash": "1041431016",
+        "htmlLength": 138048
+      },
+      "changed": true,
+      "screenshot": "screenshots/15-click-Mini-Escavadeira-02f032abda.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Carregadeira",
+      "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-carregadeira/",
+        "text": "Mini Carregadeira",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 444,
+          "y": 138,
+          "width": 130,
+          "height": 15
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "552341268",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/mini-carregadeira/",
+        "title": "Mini Carregadeira: Modelos e Venda | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5890,
+        "bodyTextStart": "Mini Carregadeira: Venda e Modelos Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Home / Nossos Serviços / Mini Carregadeira Solicite um orçamento Você quer comprar ou alugar? Compra Locação Enviar solicitação ATENDIMENTO COMERCIAL Quer falar direto com um especialista? Nosso time te ajuda a comparar os modelos e entender qual faz mais sentido pro teu uso. Falar com especialista Mini Carreg",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 62,
+          "forms": 4
+        },
+        "htmlHash": "960434260",
+        "htmlLength": 126484
+      },
+      "changed": true,
+      "screenshot": "screenshots/16-click-Mini-Carregadeira-47a9312a1f.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Dumper",
+      "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-dumper/",
+        "text": "Mini Dumper",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 601,
+          "y": 138,
+          "width": 93,
+          "height": 15
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "779918308",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/mini-dumper/",
+        "title": "Mini Dumper: Modelo e Venda | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5697,
+        "bodyTextStart": "Mini Dumper: Venda Direta Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Home / Nossos Serviços / Mini Dumper Solicite um orçamento Você quer comprar ou alugar? Compra Locação Enviar solicitação ATENDIMENTO COMERCIAL Quer falar direto com um especialista? Nosso time te ajuda a comparar os modelos e entender qual faz mais sentido pro teu uso. Falar com especialista Mini Dumper: Venda e Espec",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 61,
+          "forms": 4
+        },
+        "htmlHash": "1860178449",
+        "htmlLength": 124791
+      },
+      "changed": true,
+      "screenshot": "screenshots/17-click-Mini-Dumper-c8f99a65bd.png"
+    },
+    {
+      "type": "click",
+      "target": "Mini Rolo Compactador",
+      "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/mini-rolo-compactador/",
+        "text": "Mini Rolo Compactador",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 722,
+          "y": 138,
+          "width": 169,
+          "height": 15
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-191574618",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/mini-rolo-compactador/",
+        "title": "Mini Rolo Compactador: Modelo e Venda | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5730,
+        "bodyTextStart": "Mini Rolo Compactador: Venda Direta Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Home / Nossos Serviços / Mini Rolo Compactador Solicite um orçamento Você quer comprar ou alugar? Compra Locação Enviar solicitação ATENDIMENTO COMERCIAL Quer falar direto com um especialista? Nosso time te ajuda a comparar os modelos e entender qual faz mais sentido pro teu uso. Falar com especialista Mini R",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 61,
+          "forms": 4
+        },
+        "htmlHash": "1395161034",
+        "htmlLength": 124618
+      },
+      "changed": true,
+      "screenshot": "screenshots/18-click-Mini-Rolo-Compactador-a72fd36628.png"
+    },
+    {
+      "type": "click",
+      "target": "Blog",
+      "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/blog/",
+        "text": "Blog",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 910,
+          "y": 125,
+          "width": 52,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-2084031755",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/blog/",
+        "title": "Conteúdos sobre máquinas e equipamentos | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 2638,
+        "bodyTextStart": "Conteúdos sobre máquinas e equipamentos Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Home / Blog Conteúdos sobre máquinas e equipamentos PLX Brasil Artigos sobre máquinas compactas, aplicações, operação, manutenção e suporte. Falar no WhatsApp Solicitar Orçamento NAVEGUE PELAS PÁGINAS Blog 23/04/2026 Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos A mini esca",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 15,
+          "forms": 3
+        },
+        "htmlHash": "93012811",
+        "htmlLength": 58906
+      },
+      "changed": true,
+      "screenshot": "screenshots/19-click-Blog-d9f71f707e.png"
+    },
+    {
+      "type": "click",
+      "target": "Empresa",
+      "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(7) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(7) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/sobre/",
+        "text": "Empresa",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 970,
+          "y": 125,
+          "width": 84,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "-554659798",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/sobre/",
+        "title": "Sobre a PLX Brasil | Máquinas Compactas, Peças e Suporte",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 4635,
+        "bodyTextStart": "Sobre a PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Home / Sobre Somos a PLX Brasil Trabalhamos para entregar máquinas compactas, peças genuínas e suporte especializado para empresas e profissionais que precisam de produtividade, segurança e confiança. Falar no WhatsApp Solicitar Orçamento Missão, visão e valores que orientam a PLX Brasil Mais do que comercializar equipamentos",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 23,
+          "forms": 3
+        },
+        "htmlHash": "1944497268",
+        "htmlLength": 75384
+      },
+      "changed": true,
+      "screenshot": "screenshots/20-click-Empresa-9ff4d345e0.png"
+    },
+    {
+      "type": "click",
+      "target": "Contato",
+      "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(8) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(8) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/contato/",
+        "text": "Contato",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1061,
+          "y": 125,
+          "width": 78,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "47692619",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/contato/",
+        "title": "Contato, Telefone e WhatsApp | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 2272,
+        "bodyTextStart": "Solicite Orçamento Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Home / Contato Entre em Contato com a PLX Converse com nossa equipe para tirar dúvidas, solicitar orçamento ou receber orientação sobre o equipamento ideal para sua operação. Falar no WhatsApp Solicitar Orçamento Entre em contato Fale com nossa equipe de vendas. Nos mande um email Retornaremos o mais breve possível. Atendimen",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 15,
+          "forms": 4
+        },
+        "htmlHash": "1740995471",
+        "htmlLength": 56737
+      },
+      "changed": true,
+      "screenshot": "screenshots/21-click-Contato-3351ae22fb.png"
+    },
+    {
+      "type": "click",
+      "target": "Suporte",
+      "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(9) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "div:nth-of-type(3) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(9) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://plxbrasil.com.br/suporte/",
+        "text": "Suporte",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 1147,
+          "y": 125,
+          "width": 78,
+          "height": 40
+        }
+      },
+      "before": {
+        "url": "https://plxbrasil.com.br/",
+        "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 5728,
+        "bodyTextStart": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Venda de Máquinas PLX Falar no WhatsApp Solicitar Orçamento Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações. Equipamentos de alta performance Peças e suporte técnico especializado Atendimento ",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 50,
+          "forms": 3
+        },
+        "htmlHash": "791608505",
+        "htmlLength": 102681
+      },
+      "after": {
+        "url": "https://plxbrasil.com.br/suporte/",
+        "title": "Suporte PLX | Pós-venda, Peças e Assistência Técnica",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 2930,
+        "bodyTextStart": "Suporte PLX Pesquisar máquinas e modelos Solicitar Orçamento Início Mini Escavadeira Mini Carregadeira Mini Dumper Mini Rolo Compactador Blog Empresa Contato Suporte Suporte PLX Brasil Na hora de escolher uma máquina, o que realmente faz diferença no dia a dia não é só a força ou a tecnologia. É ter com quem contar depois da compra. O suporte da PLX foi criado para ajudar cada máquina a seguir produzindo, trabalhando e entregando resultado todos os dias. A PLX conta com estrutura de pós-venda, p",
+        "counts": {
+          "dialogs": 1,
+          "popovers": 0,
+          "canvases": 0,
+          "videos": 0,
+          "buttons": 15,
+          "forms": 3
+        },
+        "htmlHash": "-326708766",
+        "htmlLength": 54591
+      },
+      "changed": true,
+      "screenshot": "screenshots/22-click-Suporte-531c2b5a16.png"
+    }
+  ],
+  "network": [
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744176242",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744176132&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=2083172301.1787744177&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787744176&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=715",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744180920",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744180808&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=2131025859.1787744181&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787744181&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=681",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744186224",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744186135&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=2028166065.1787744187&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=13&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787744186&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1143",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744192083",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744191994&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1645101294.1787744193&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787744192&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1093",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744197652",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744197538&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1081235701.1787744198&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385423~120763598&sid=1787744198&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=915",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744203876",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744203750&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=599510902.1787744204&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=7&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787744204&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1316",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744209946",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744209822&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1928102343.1787744210&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=11&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787744210&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1057",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744215577",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744215541&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1765412895.1787744216&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120385422~120476659&sid=1787744215&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=723",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744221004",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68p0h2v9182060572za200zd9182060572&_p=1787744220882&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=622122780.1787744221&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=13&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787744221&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=721",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744226302",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744226192&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1113999791.1787744227&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=18&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787744226&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=719",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744231664",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744231541&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1792078127.1787744232&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787744231&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=730",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744236892",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1h1v9182060572za200zd9182060572&_p=1787744236779&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1273631441.1787744237&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119259606~119367802~119367810~120385423&sid=1787744237&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=719",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744240116",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744242213",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68p0h2v9182060572za200zd9182060572&_p=1787744242097&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=558514350.1787744242&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=0&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787744242&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=642",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744247511",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744247419&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=981261088.1787744248&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787744247&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=633",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fplxbrasil.com.br%2F&w=8ad684f7-b73b-4be9-9085-8c985f2922d4",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.49.5/1af888c9af624d9799fd30e2a93bc4b9cdf17d9c/widget/languages/en.json",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-logos-google-logo-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/sources?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://service-reviews-ultimate.elfsight.com/data/reviews?uris%5B%5D=ChIJc-SPZZFDIZURUnHCce27xK0&filter_content=with_content&min_rating=5&page_length=100&order=date",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor.svg",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744253041",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744252953&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=2131095644.1787744253&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=11&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787744253&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=615",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744256177",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744258104",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744258071&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1178156745.1787744258&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=14&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787744258&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=623",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/blog.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744261245",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744263305",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68p0h2v9182060572za200zd9182060572&_p=1787744263217&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=630045221.1787744264&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=16&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120385423~120476659&sid=1787744263&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=621",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744266565",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/blog.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744268394",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744268307&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1623760068.1787744269&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=16&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119259605~119367802~119367810~119793974~120385423~120476658&sid=1787744268&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=679",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744271594",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/blog.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744273589",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744273507&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=173855439.1787744274&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119259606~119367802~119367810~120385422&sid=1787744273&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=652",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744276696",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/blog.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744278668",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744278562&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1071528914.1787744279&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787744278&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=648",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744283104",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744283020&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=873931871.1787744283&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=18&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422~120476658&sid=1787744283&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=623",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/blog.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744288370",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744288202&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=858523767.1787744289&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787744288&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=882",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744292932",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744292833&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=2124005921.1787744293&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787744293&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=774",
+      "status": 204,
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "method": "POST",
+      "resourceType": "xhr"
+    }
+  ],
+  "consoleErrors": [
+    "Permissions policy violation: compute-pressure is not allowed in this document.",
+    "Permissions policy violation: compute-pressure is not allowed in this document.",
+    "Permissions policy violation: compute-pressure is not allowed in this document.",
+    "Failed to load resource: the server responded with a status of 403 ()"
+  ],
+  "findings": [
+    "80 visible interactive candidates discovered",
+    "0 visible canvas targets discovered",
+    "22/22 actions changed DOM, URL, scroll, or visible overlay counts"
+  ]
+}

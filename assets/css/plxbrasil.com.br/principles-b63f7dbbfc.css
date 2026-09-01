@@ -1,0 +1,302 @@
+/* =========================
+   HOME DARK BAND
+========================= */
+.home-dark-band {
+  position: relative;
+  background:
+    radial-gradient(circle at top right, rgba(224, 31, 38, 0.16), transparent 24%),
+    radial-gradient(circle at bottom left, rgba(224, 31, 38, 0.12), transparent 22%),
+    linear-gradient(180deg, #121419 0%, #0a0c10 100%);
+  overflow: hidden;
+}
+
+/* =========================
+   ABOUT PRINCIPLES
+========================= */
+.about-principles {
+  position: relative;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.about-principles::before,
+.about-principles::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.about-principles::before {
+  width: clamp(220px, 24vw, 360px);
+  height: clamp(220px, 24vw, 360px);
+  top: -100px;
+  right: -100px;
+  background: rgba(224, 31, 38, 0.12);
+  filter: blur(36px);
+}
+
+.about-principles::after {
+  width: clamp(180px, 20vw, 260px);
+  height: clamp(180px, 20vw, 260px);
+  bottom: -80px;
+  left: -80px;
+  background: rgba(255, 255, 255, 0.04);
+  filter: blur(40px);
+}
+
+.about-principles__shell {
+  position: relative;
+  display: grid;
+  gap: clamp(30px, 4vw, 42px);
+  padding: clamp(28px, 4vw, 42px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: clamp(24px, 3vw, 34px);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.02));
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(14px);
+  overflow: hidden;
+}
+
+.about-principles__shell::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 1px;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(224, 31, 38, 0.4) 18%,
+    rgba(255, 255, 255, 0.08) 52%,
+    transparent 100%
+  );
+  opacity: 0.9;
+}
+
+.about-principles__intro {
+  display: grid;
+  gap: 16px;
+  max-width: 860px;
+}
+
+.about-principles__eyebrow {
+  width: fit-content;
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(224, 31, 38, 0.18);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.about-principles__title {
+  max-width: 18ch;
+  color: #ffffff;
+  line-height: 1.05;
+}
+
+.about-principles__text {
+  max-width: 70ch;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.about-principles__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(18px, 2vw, 24px);
+}
+
+.about-principles__card {
+  position: relative;
+  display: grid;
+  gap: 22px;
+  min-height: 100%;
+  padding: clamp(22px, 2.6vw, 28px);
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.035));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.03),
+    0 16px 34px rgba(0, 0, 0, 0.22);
+  transition:
+    transform var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    background var(--transition-base);
+  overflow: hidden;
+}
+
+.about-principles__card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary) 0%, rgba(255, 255, 255, 0.35) 100%);
+  opacity: 0.95;
+}
+
+.about-principles__card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(224, 31, 38, 0.22);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 24px 44px rgba(0, 0, 0, 0.28);
+}
+
+.about-principles__card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.about-principles__number {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  line-height: 0.9;
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  color: rgba(255, 255, 255, 0.14);
+  flex-shrink: 0;
+}
+
+.about-principles__card-heading {
+  display: grid;
+  gap: 8px;
+  text-align: right;
+}
+
+.about-principles__label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.46);
+}
+
+.about-principles__card-title {
+  color: #ffffff;
+  font-size: clamp(1.2rem, 1.6vw, 1.5rem);
+  line-height: 1.08;
+}
+
+.about-principles__card-text {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about-principles__card--values {
+  align-content: start;
+}
+
+.about-principles__values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.about-principles__values li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  color: #ffffff;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.about-principles__values li:hover {
+  transform: translateY(-2px);
+  border-color: rgba(224, 31, 38, 0.24);
+  background: rgba(224, 31, 38, 0.12);
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 980px) {
+  .about-principles {
+    padding: 20px 0px;
+  }
+
+  .about-principles__shell {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .about-principles__title {
+    max-width: 20ch;
+  }
+
+  .about-principles__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-principles__card-head {
+    align-items: center;
+  }
+
+  .about-principles__card-heading {
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-principles__shell {
+    gap: 26px;
+    padding: 20px;
+    border-radius: 22px;
+  }
+
+  .about-principles__intro {
+    gap: 14px;
+  }
+
+  .about-principles__title {
+    max-width: 100%;
+  }
+
+  .about-principles__text {
+    font-size: 0.98rem;
+    line-height: 1.75;
+  }
+
+  .about-principles__card {
+    gap: 18px;
+    padding: 20px 18px;
+    border-radius: 20px;
+  }
+
+  .about-principles__card-head {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-principles__number {
+    font-size: 2.3rem;
+  }
+
+  .about-principles__card-title {
+    font-size: 1.18rem;
+  }
+
+  .about-principles__values {
+    gap: 10px;
+  }
+
+  .about-principles__values li {
+    min-height: 38px;
+    padding: 8px 13px;
+    font-size: 0.84rem;
+  }
+}

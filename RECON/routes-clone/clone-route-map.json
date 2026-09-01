@@ -1,0 +1,123 @@
+{
+  "label": "clone",
+  "url": "http://localhost:8123",
+  "capturedAt": "2026-08-26T11:50:29.369Z",
+  "maxPages": 25,
+  "maxDepth": 2,
+  "allowSubdomains": false,
+  "routes": [
+    {
+      "url": "http://localhost:8123",
+      "from": "",
+      "depth": 0,
+      "status": 200,
+      "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+      "lang": "pt-BR",
+      "metaDescription": "Venda de máquinas compactas PLX: mini carregadeiras, mini escavadeiras, mini dumpers e mini rolo compactador.",
+      "h1": [
+        "Venda de Máquinas PLX"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Venda de Máquinas PLX"
+        },
+        {
+          "tag": "h2",
+          "text": "Confira nossos produtos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Escavadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Carregadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Dumper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Rolo Compactador"
+        },
+        {
+          "tag": "h3",
+          "text": "X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 PLUS"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "Sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Catálogo"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        }
+      ],
+      "counts": {
+        "links": 56,
+        "images": 65,
+        "canvas": 0,
+        "forms": 2,
+        "buttons": 43
+      },
+      "linkCount": 56,
+      "screenshot": "screenshots/localhost-1ceec214.png",
+      "consoleErrors": []
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,2295 @@
+{
+  "label": "original",
+  "url": "https://plxbrasil.com.br",
+  "capturedAt": "2026-08-26T11:37:30.198Z",
+  "maxPages": 25,
+  "maxDepth": 2,
+  "allowSubdomains": false,
+  "routes": [
+    {
+      "url": "https://plxbrasil.com.br",
+      "from": "",
+      "depth": 0,
+      "status": 200,
+      "title": "Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Venda de máquinas compactas PLX: mini carregadeiras, mini escavadeiras, mini dumpers e mini rolo compactador. Equipamentos robustos, suporte e peças genuínas.",
+      "h1": [
+        "Venda de Máquinas PLX"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Venda de Máquinas PLX"
+        },
+        {
+          "tag": "h2",
+          "text": "Confira nossos produtos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Escavadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Carregadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Dumper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Rolo Compactador"
+        },
+        {
+          "tag": "h3",
+          "text": "X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 PLUS"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "Sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 68,
+        "images": 64,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 50
+      },
+      "linkCount": 68,
+      "screenshot": "screenshots/plxbrasil.com.br-51610211.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira: Modelos e Venda | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Mini escavadeira compacta para obras e agricultura: conheça os modelos da\n                        PLX Brasil, do X10 PLUS ao X65 Pro, com peças genuínas e suporte técnico.",
+      "h1": [
+        "Mini Escavadeira: Venda, Modelos e Especificações"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h3",
+          "text": "Quer falar direto com um especialista?"
+        },
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira: Venda, Modelos e Especificações"
+        },
+        {
+          "tag": "h2",
+          "text": "O que uma mini escavadeira faz"
+        },
+        {
+          "tag": "h2",
+          "text": "Qual modelo de mini escavadeira escolher"
+        },
+        {
+          "tag": "h2",
+          "text": "Comprar ou alugar uma mini escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Quem usa uma mini escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "O diferencial da PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Fale com a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Modelos disponíveis"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 PLUS"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X65 Pro"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "Confira nossos produtos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Escavadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Carregadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Dumper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Rolo Compactador"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 PLUS"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XC750"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XR12"
+        },
+        {
+          "tag": "h2",
+          "text": "Dicas, novidades e conteúdos sobre a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        }
+      ],
+      "counts": {
+        "links": 83,
+        "images": 78,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 67
+      },
+      "linkCount": 83,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-1a4bb59a.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-x65-pro",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira X65 Pro | Ficha Técnica | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Escavadeira X65 Pro da PLX Brasil: 5950 kg, profundidade de escavação\n      de 4159 mm, motor Yanmar e força de concha de 48 kN.",
+      "h1": [
+        "Mini Escavadeira X65 Pro"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Escavadeira X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 45
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-x65-pro-0c428157.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-x35-pro",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira X35 Pro | Ficha Técnica | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Escavadeira X35 Pro da PLX Brasil: 3800 kg, profundidade de escavação\n      de 3208 mm, motor Kubota e força de concha de 30,4 kN.",
+      "h1": [
+        "Mini Escavadeira X35 Pro"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Escavadeira X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 55,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 45
+      },
+      "linkCount": 55,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-x35-pro-f93ebb1a.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-x30-pro",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira X30 Pro | Ficha Técnica | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Escavadeira X30 Pro da PLX Brasil: 2770 kg, profundidade de escavação\n      de 2830 mm, motor Kubota e força de concha de 23,5 kN.",
+      "h1": [
+        "Mini Escavadeira X30 Pro"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Escavadeira X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 45
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-x30-pro-942fe43b.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-x20-pro",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira X20 Pro | Ficha Técnica | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Escavadeira X20 Pro da PLX Brasil: 1950 kg, profundidade de escavação\n      de 2400 mm, motor Kubota e engate rápido hidráulico.",
+      "h1": [
+        "Mini Escavadeira X20 Pro"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Escavadeira X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 47
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-x20-pro-0e298ce6.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-x15-pro",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira X15 Pro | Motor Kubota e Giro Zero | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Escavadeira X15 Pro da PLX Brasil: 1.480 kg, motor Kubota D722, giro zero, esteira expansível e engate rápido hidráulico.",
+      "h1": [
+        "Mini Escavadeira X15 Pro"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Escavadeira X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 47
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-x15-pro-8fde70bf.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-x10-pro",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira X10 Pro | Ficha Técnica | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Escavadeira X10 Pro da PLX Brasil: 1010 kg, profundidade de escavação\n      de 1650 mm, motor KOOP diesel e lança angulável.",
+      "h1": [
+        "Mini Escavadeira X10 Pro"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Escavadeira X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 46
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-x10-pro-7b3691a1.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-x10-plus",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Escavadeira X10 PLUS | Ficha Técnica | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Escavadeira X10 PLUS da PLX Brasil: 1000 kg, profundidade de escavação\n      de 1650 mm, painel digital e capota escamoteável.",
+      "h1": [
+        "Mini Escavadeira X10 PLUS"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Escavadeira X10 PLUS"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Escavadeira X10 PLUS"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 46
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-x10-plus-771ce7ac.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-carregadeira",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Carregadeira: Modelos e Venda | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Mini carregadeira compacta para carga e movimentação de materiais:\n                        conheça o XD500 e o XC750 da PLX Brasil, com peças genuínas e suporte\n                        técnico.",
+      "h1": [
+        "Mini Carregadeira: Venda, Modelos e Especificações"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h3",
+          "text": "Quer falar direto com um especialista?"
+        },
+        {
+          "tag": "h1",
+          "text": "Mini Carregadeira: Venda, Modelos e Especificações"
+        },
+        {
+          "tag": "h2",
+          "text": "O que uma mini carregadeira faz"
+        },
+        {
+          "tag": "h2",
+          "text": "Qual modelo de mini carregadeira escolher"
+        },
+        {
+          "tag": "h2",
+          "text": "Comprar ou alugar uma mini carregadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Quem usa uma mini carregadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "O diferencial da PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Fale com a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Modelos disponíveis"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XC750"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Carregadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "Confira nossos produtos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Escavadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Carregadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Dumper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Rolo Compactador"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 PLUS"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XC750"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XR12"
+        },
+        {
+          "tag": "h2",
+          "text": "Dicas, novidades e conteúdos sobre a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 78,
+        "images": 73,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 62
+      },
+      "linkCount": 78,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-carregadeira-57ed0674.png",
+      "consoleErrors": [
+        "Permissions policy violation: compute-pressure is not allowed in this document."
+      ]
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-carregadeira-xc750",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Carregadeira XC750 | Capacidade 700 kg | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Carregadeira XC750 da PLX Brasil: capacidade de carga de 790 kg,\n      caçamba de 0,4 m³, peso operacional de 3000 kg e motor XINCHAI.",
+      "h1": [
+        "Mini Carregadeira XC750"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Carregadeira XC750"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Carregadeira XC750"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Carregadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 44
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-carregadeira-xc750-c0786edf.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-carregadeira-xd500",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Carregadeira XD500 | Capacidade 590 kg | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Mini Carregadeira XD500 da PLX Brasil: capacidade máxima de 590 kg, caçamba\n      de 0,22 m³, acionamento hidráulico e operação compacta.",
+      "h1": [
+        "Mini Carregadeira XD500"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Carregadeira XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Carregadeira XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Carregadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 46
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-carregadeira-xd500-be1ec5a1.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-dumper",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Dumper: Modelo e Venda | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Mini dumper compacto para transporte e basculamento de material em obra:\n                        conheça o XD500 da PLX Brasil, com peças genuínas e suporte técnico.",
+      "h1": [
+        "Mini Dumper: Venda e Especificações"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h3",
+          "text": "Quer falar direto com um especialista?"
+        },
+        {
+          "tag": "h1",
+          "text": "Mini Dumper: Venda e Especificações"
+        },
+        {
+          "tag": "h2",
+          "text": "O que um mini dumper faz"
+        },
+        {
+          "tag": "h2",
+          "text": "Especificações do XD500"
+        },
+        {
+          "tag": "h2",
+          "text": "Comprar ou alugar um mini dumper"
+        },
+        {
+          "tag": "h2",
+          "text": "Quem usa um mini dumper"
+        },
+        {
+          "tag": "h2",
+          "text": "O diferencial da PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Fale com a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Modelos disponíveis"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Dumper"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "Confira nossos produtos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Escavadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Carregadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Dumper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Rolo Compactador"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 PLUS"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XC750"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XR12"
+        },
+        {
+          "tag": "h2",
+          "text": "Dicas, novidades e conteúdos sobre a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 77,
+        "images": 72,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 61
+      },
+      "linkCount": 77,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-dumper-9f454f0c.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-dumper-xd500",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Dumper XD500 | Capacidade 590 kg | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça o Mini Dumper XD500 da PLX Brasil: capacidade máxima de 590 kg, caçamba de\n      0,22 m³, tração eficiente e operação compacta.",
+      "h1": [
+        "Mini Dumper XD500"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Dumper XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Dumper XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Dumper"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 46
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-dumper-xd500-122017bc.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-rolo-compactador",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Rolo Compactador: Modelo e Venda | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Mini rolo compactador para compactação de solo, base e asfalto: conheça o\n                        XR12 da PLX Brasil, com peças genuínas e suporte técnico.",
+      "h1": [
+        "Mini Rolo Compactador: Venda e Especificações"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h3",
+          "text": "Quer falar direto com um especialista?"
+        },
+        {
+          "tag": "h1",
+          "text": "Mini Rolo Compactador: Venda e Especificações"
+        },
+        {
+          "tag": "h2",
+          "text": "O que um mini rolo compactador faz"
+        },
+        {
+          "tag": "h2",
+          "text": "Especificações do XR12"
+        },
+        {
+          "tag": "h2",
+          "text": "Comprar ou alugar um mini rolo compactador"
+        },
+        {
+          "tag": "h2",
+          "text": "Quem usa um mini rolo compactador"
+        },
+        {
+          "tag": "h2",
+          "text": "O diferencial da PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Fale com a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Modelos disponíveis"
+        },
+        {
+          "tag": "h3",
+          "text": "XR12"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Rolo Compactador"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "Confira nossos produtos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Escavadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Carregadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Dumper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Rolo Compactador"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 PLUS"
+        },
+        {
+          "tag": "h3",
+          "text": "X10 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X15 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X20 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X30 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X35 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "X65 Pro"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XC750"
+        },
+        {
+          "tag": "h3",
+          "text": "XD500"
+        },
+        {
+          "tag": "h3",
+          "text": "XR12"
+        },
+        {
+          "tag": "h2",
+          "text": "Dicas, novidades e conteúdos sobre a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 77,
+        "images": 72,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 61
+      },
+      "linkCount": 77,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-rolo-compactador-46d74f92.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-rolo-compactador-xr12",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Mini Rolo Compactador XR12 | Ficha Técnica | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça o Mini Rolo Compactador XR12 da PLX Brasil: 1200 kg, largura de rolo de 800\n      mm, motor Honda GX390 e força centrífuga de 30 kN.",
+      "h1": [
+        "Mini Rolo Compactador XR12"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Rolo Compactador XR12"
+        },
+        {
+          "tag": "h3",
+          "text": "Especificações da Mini Rolo Compactador XR12"
+        },
+        {
+          "tag": "h3",
+          "text": "*CONDIÇÕES GERAIS DA OFERTA"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes sobre Mini Rolo Compactador"
+        },
+        {
+          "tag": "h2",
+          "text": "Veja a PLX em ação"
+        },
+        {
+          "tag": "h3",
+          "text": "PLX Brasil | Apresentação institucional"
+        },
+        {
+          "tag": "h2",
+          "text": "O que dizem sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 54,
+        "images": 54,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 46
+      },
+      "linkCount": 54,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-rolo-compactador-xr12-4af4eeb1.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/blog",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Conteúdos sobre máquinas e equipamentos | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Acesse o blog da PLX Brasil com conteúdos sobre máquinas compactas, aplicações, operação, manutenção, peças e suporte.",
+      "h1": [
+        "Conteúdos sobre máquinas e equipamentos PLX Brasil"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Conteúdos sobre máquinas e equipamentos PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        },
+        {
+          "tag": "h3",
+          "text": "Máquinas compactas: por que elas estão ganhando espaço nas obras e no campo"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 57,
+        "images": 45,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 15
+      },
+      "linkCount": 57,
+      "screenshot": "screenshots/plxbrasil.com.br-blog-1291d688.png",
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ]
+    },
+    {
+      "url": "https://plxbrasil.com.br/sobre",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Sobre a PLX Brasil | Máquinas Compactas, Peças e Suporte",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a PLX Brasil, empresa voltada à venda de máquinas compactas, peças genuínas e suporte para operações no campo, na obra e em diferentes aplicações profissionais.",
+      "h1": [
+        "Somos a PLX Brasil"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Somos a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Missão, visão e valores que orientam a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Missão"
+        },
+        {
+          "tag": "h3",
+          "text": "Visão"
+        },
+        {
+          "tag": "h3",
+          "text": "Valores"
+        },
+        {
+          "tag": "h2",
+          "text": "Estrutura, suporte e especialização para sustentar cada entrega da PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Engenharia"
+        },
+        {
+          "tag": "h3",
+          "text": "Pós-venda"
+        },
+        {
+          "tag": "h3",
+          "text": "Assistência Técnica"
+        },
+        {
+          "tag": "h2",
+          "text": "Nossos Clientes"
+        },
+        {
+          "tag": "h2",
+          "text": "Sobre a PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes"
+        },
+        {
+          "tag": "h2",
+          "text": "Dicas, novidades e conteúdos sobre a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 59,
+        "images": 52,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 23
+      },
+      "linkCount": 59,
+      "screenshot": "screenshots/plxbrasil.com.br-sobre-972e1691.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/contato",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Contato, Telefone e WhatsApp | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Fale com a PLX Brasil pelo WhatsApp, telefone ou formulário. Solicite orçamento de máquinas compactas, peças, suporte e atendimento comercial.",
+      "h1": [
+        "Entre em Contato com a PLX"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Entre em Contato com a PLX"
+        },
+        {
+          "tag": "h2",
+          "text": "Entre em contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos mande um email"
+        },
+        {
+          "tag": "h2",
+          "text": "Atendimento"
+        },
+        {
+          "tag": "h2",
+          "text": "Localização"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos envie uma mensagem"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 52,
+        "images": 41,
+        "canvas": 0,
+        "forms": 4,
+        "buttons": 15
+      },
+      "linkCount": 52,
+      "screenshot": "screenshots/plxbrasil.com.br-contato-494e3d5a.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/suporte",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Suporte PLX | Pós-venda, Peças e Assistência Técnica",
+      "lang": "pt-br",
+      "metaDescription": "Conte com o suporte da PLX Brasil para peças, assistência técnica, pós-venda e atendimento para manter sua máquina produzindo.",
+      "h1": [
+        "Suporte PLX Brasil"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Suporte PLX Brasil"
+        },
+        {
+          "tag": "h2",
+          "text": "Nosso Suporte"
+        },
+        {
+          "tag": "h3",
+          "text": "Atendimento Técnico"
+        },
+        {
+          "tag": "h3",
+          "text": "Peças e Reposição"
+        },
+        {
+          "tag": "h3",
+          "text": "Manutenção Preventiva"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 51,
+        "images": 42,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 15
+      },
+      "linkCount": 51,
+      "screenshot": "screenshots/plxbrasil.com.br-suporte-d41fa3aa.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/politica-de-cookies",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Política de Cookies | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Política de Cookies da PLX Brasil e entenda como usamos cookies para melhorar a navegação, medir desempenho e personalizar conteúdos.",
+      "h1": [
+        "Política de Cookies"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Política de Cookies"
+        },
+        {
+          "tag": "h2",
+          "text": "1. O que são cookies"
+        },
+        {
+          "tag": "h2",
+          "text": "2. Tipos de cookies que podemos usar"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookies essenciais"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookies de desempenho e análise"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookies de marketing"
+        },
+        {
+          "tag": "h2",
+          "text": "3. Ferramentas de terceiros"
+        },
+        {
+          "tag": "h2",
+          "text": "4. Gerenciamento de cookies"
+        },
+        {
+          "tag": "h2",
+          "text": "5. Impacto da recusa"
+        },
+        {
+          "tag": "h2",
+          "text": "6. Relação com a Política de Privacidade"
+        },
+        {
+          "tag": "h2",
+          "text": "7. Atualizações desta política"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 51,
+        "images": 41,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 15
+      },
+      "linkCount": 51,
+      "screenshot": "screenshots/plxbrasil.com.br-politica-de-cookies-e5bbb6a9.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/politica-de-privacidade",
+      "from": "https://plxbrasil.com.br",
+      "depth": 1,
+      "status": 200,
+      "title": "Política de Privacidade | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Conheça a Política de Privacidade da PLX Brasil e entenda como tratamos dados pessoais, informações de contato e dados de navegação.",
+      "h1": [
+        "Política de Privacidade"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Política de Privacidade"
+        },
+        {
+          "tag": "h2",
+          "text": "1. Informações que podemos coletar"
+        },
+        {
+          "tag": "h2",
+          "text": "2. Como usamos os dados"
+        },
+        {
+          "tag": "h2",
+          "text": "3. Compartilhamento de informações"
+        },
+        {
+          "tag": "h2",
+          "text": "4. Armazenamento e segurança"
+        },
+        {
+          "tag": "h2",
+          "text": "5. Cookies e tecnologias semelhantes"
+        },
+        {
+          "tag": "h2",
+          "text": "6. Direitos do titular"
+        },
+        {
+          "tag": "h2",
+          "text": "7. Como entrar em contato"
+        },
+        {
+          "tag": "h2",
+          "text": "8. Atualizações desta política"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 52,
+        "images": 41,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 15
+      },
+      "linkCount": 52,
+      "screenshot": "screenshots/plxbrasil.com.br-politica-de-privacidade-3348801e.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/nossos-servicos",
+      "from": "https://plxbrasil.com.br/mini-escavadeira",
+      "depth": 2,
+      "status": 200,
+      "title": "Produtos e Máquinas Compactas | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "Veja os produtos da PLX Brasil: mini escavadeiras, mini carregadeiras, mini dumpers, mini rolo compactador, peças e suporte.",
+      "h1": [
+        "Produtos da PLX Brasil"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Produtos da PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Escavadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Carregadeiras"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Dumper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Rolo Compactador"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 57,
+        "images": 45,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 15
+      },
+      "linkCount": 57,
+      "screenshot": "screenshots/plxbrasil.com.br-nossos-servicos-250890e2.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-escavadeira-forca-precisao-e-mobilidade-para-obras-e-servicos-tecnicos",
+      "from": "https://plxbrasil.com.br/mini-escavadeira",
+      "depth": 2,
+      "status": 200,
+      "title": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "A mini escavadeira é uma máquina compacta projetada para executar tarefas de escavação, abertura de valas, movimentação de terra, fundações, drenagem, paisagismo e diversas ativida...",
+      "h1": [
+        "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h2",
+          "text": "Por que a mini escavadeira é tão versátil?"
+        },
+        {
+          "tag": "h2",
+          "text": "Aplicações comuns da mini escavadeira"
+        },
+        {
+          "tag": "h2",
+          "text": "Comprar uma mini escavadeira pode ser estratégico?"
+        },
+        {
+          "tag": "h2",
+          "text": "O que considerar antes de escolher o modelo"
+        },
+        {
+          "tag": "h2",
+          "text": "Dicas, novidades e conteúdos sobre a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 58,
+        "images": 45,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 15
+      },
+      "linkCount": 58,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-escavadeira-forca-precisao-e-mobilidade-para-obras-e-servicos-tecnic-f24767f4.png",
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ]
+    },
+    {
+      "url": "https://plxbrasil.com.br/mini-dumper-o-equipamento-compacto-que-facilita-o-transporte-de-materiais",
+      "from": "https://plxbrasil.com.br/mini-escavadeira",
+      "depth": 2,
+      "status": 200,
+      "title": "Mini dumper: o equipamento compacto que facilita o transporte de materiais | PLX Brasil",
+      "lang": "pt-br",
+      "metaDescription": "O mini dumper é um equipamento compacto desenvolvido para facilitar o transporte de materiais em obras, propriedades rurais, jardins, áreas de manutenção e terrenos de difícil aces...",
+      "h1": [
+        "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h2",
+          "text": "Onde o mini dumper se destaca?"
+        },
+        {
+          "tag": "h2",
+          "text": "Menos esforço manual e mais eficiência"
+        },
+        {
+          "tag": "h2",
+          "text": "Quando vale a pena investir em um mini dumper?"
+        },
+        {
+          "tag": "h2",
+          "text": "Dicas, novidades e conteúdos sobre a PLX Brasil"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini escavadeira: força, precisão e mobilidade para obras e serviços técnicos"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini dumper: o equipamento compacto que facilita o transporte de materiais"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini carregadeira: versatilidade para movimentar, carregar e otimizar sua operação"
+        },
+        {
+          "tag": "h2",
+          "text": "Encontre a máquina ideal para sua operação com atendimento rápido e direto"
+        },
+        {
+          "tag": "h3",
+          "text": "Contato"
+        },
+        {
+          "tag": "h2",
+          "text": "Solicite um orçamento"
+        },
+        {
+          "tag": "h2",
+          "text": "Usamos cookies para melhorar sua experiência"
+        }
+      ],
+      "counts": {
+        "links": 58,
+        "images": 45,
+        "canvas": 0,
+        "forms": 3,
+        "buttons": 15
+      },
+      "linkCount": 58,
+      "screenshot": "screenshots/plxbrasil.com.br-mini-dumper-o-equipamento-compacto-que-facilita-o-transporte-de-materiais-10a5fa2c.png",
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ]
+    }
+  ],
+  "skipped": []
+}

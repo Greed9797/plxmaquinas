@@ -1,0 +1,220 @@
+/* =========================
+   CTA Home
+========================= */
+
+.cta-home {
+  position: relative;
+  background: transparent;
+  overflow: visible;
+  padding-top: 30px;
+}
+
+.cta-home .container {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-home__card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(30px, 4.5vw, 52px);
+  border-radius: 30px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.085) 0%, rgba(255, 255, 255, 0.035) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.cta-home__card::before {
+  content: "";
+  position: absolute;
+  top: -46px;
+  right: -46px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: rgba(224, 31, 38, 0.14);
+  filter: blur(46px);
+  pointer-events: none;
+}
+
+.cta-home__card::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.14);
+  pointer-events: none;
+}
+
+.cta-home__content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 18px;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.cta-home__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 30px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ff5c63;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.cta-home__title {
+  color: #ffffff;
+  font-size: clamp(2rem, 3.6vw, 3.3rem);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+  max-width: 30ch;
+}
+
+.cta-home__text {
+  max-width: 700px;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.cta-home__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 8px;
+}
+
+.cta-home__btn {
+  min-width: 220px;
+}
+
+.cta-home__btn--ghost {
+  --btn-bg: transparent;
+  --btn-color: #ffffff;
+  --btn-border: transparent;
+
+  background: rgba(13, 16, 22, 0.62);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow:
+    0 10px 24px rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.22);
+}
+
+.cta-home__btn--ghost:hover {
+  background: rgba(13, 16, 22, 0.76);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+@media (max-width: 980px) {
+  .cta-home__card {
+    border-radius: 24px;
+  }
+
+  .cta-home__title {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .cta-home__card {
+    padding: 22px 18px;
+    border-radius: 22px;
+  }
+
+  .cta-home__btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .cta-home__text {
+    font-size: 0.96rem;
+    line-height: 1.75;
+  }
+}
+
+@media (max-width: 560px) {
+  .cta-home__title {
+    font-size: clamp(1.7rem, 8vw, 2.35rem);
+  }
+}
+
+/* =========================
+   Fundo compartilhado 
+========================= */
+
+.home-dark-end {
+  position: relative;
+  background:
+    radial-gradient(circle at top center, rgba(224, 31, 38, 0.14) 0%, rgba(224, 31, 38, 0) 26%),
+    linear-gradient(180deg, #101318 0%, #090c10 100%);
+  overflow: hidden;
+}
+
+.home-dark-end::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -100px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(224, 31, 38, 0.14);
+  filter: blur(72px);
+  pointer-events: none;
+}
+
+.home-dark-end::after {
+  content: "";
+  position: absolute;
+  bottom: -140px;
+  left: -120px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+  filter: blur(68px);
+  pointer-events: none;
+}
+
+.home-dark-end .cta-home,
+.home-dark-end .site-footer {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+.home-dark-end .cta-home::before,
+.home-dark-end .cta-home::after,
+.home-dark-end .site-footer::before,
+.home-dark-end .site-footer::after {
+  display: none;
+}
+
+.home-dark-end .cta-home {
+  padding-bottom: 24px;
+}
+
+.home-dark-end .site-footer {
+  padding-top: 4px;
+}

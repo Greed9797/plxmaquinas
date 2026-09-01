@@ -1,0 +1,1177 @@
+<servicos>
+        <servico>
+                <nome>Mini Escavadeira</nome>
+                <slug>mini-escavadeira</slug>
+                <produto_base>Mini Escavadeira</produto_base>
+                <hidden>false</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Escavadeira: Venda, Modelos e Especificações</h1-title>
+                <subtitle>Conheça a linha de mini escavadeiras da {{empresa}}, do X10 PLUS ao X65
+                        Pro, com profundidade de escavação de 1.650 a 4.159 mm, peças genuínas e
+                        suporte técnico.</subtitle>
+                <descricao>
+<![CDATA[ <p>A mini escavadeira é um equipamento compacto sobre esteiras usado para escavar valas, abrir fundações, fazer demolição leve e movimentar terra em espaços onde uma máquina de grande porte não entra. Na <strong>{{empresa}}</strong>, a linha vai do X10 PLUS, com 1.650 mm de profundidade de escavação, até o X65 Pro, que chega a 4.159 mm, atendendo desde reforma residencial até obra de infraestrutura.</p> <h2>O que uma mini escavadeira faz</h2> <p>Na prática, ela substitui horas de trabalho manual em tarefas como:</p> <ul> <li>abertura de valas para tubulação de água e esgoto;</li> <li>escavação de fundações e sapatas;</li> <li>nivelamento e preparo de terreno;</li> <li>remoção de entulho e demolição leve;</li> <li>perfuração e quebra de concreto com os implementos certos (rompedor, perfuratriz, garra).</li> </ul> <p>O ganho real é acesso e precisão: ela trabalha em corredores estreitos, dentro de obras já em andamento e em terrenos irregulares, sem o custo e a logística de um equipamento de grande porte.</p> <h2>Qual modelo de mini escavadeira escolher</h2> <p>A escolha depende de duas coisas: a profundidade que você precisa atingir e a força exigida pelo solo. Esta é a linha da <strong>{{empresa}}</strong>:</p> <table> <thead> <tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th><th>Indicação típica</th></tr> </thead> <tbody> <tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Reforma, paisagismo, valas rasas</td></tr> <tr><td>X10 Pro</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Serviços leves urbanos</td></tr> <tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td><td>Construção civil de pequeno porte</td></tr> <tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td><td>Obras médias e redes enterradas</td></tr> <tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td><td>Fundações e drenagem profunda</td></tr> <tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td><td>Infraestrutura e solo pesado</td></tr> </tbody> </table> <p>Regra prática: valas rasas e jardim pedem o X10; redes de água e esgoto e obra urbana, o X20 ou X30; fundação profunda e solo duro, o X35 ou X65. O X10 PLUS costuma ser a porta de entrada de quem está saindo da locação.</p> <h2>Comprar ou alugar uma mini escavadeira</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação, garante a máquina disponível quando a obra exige e dá controle sobre manutenção e cronograma. A locação ainda faz sentido para uso pontual e de curtíssima duração. A <strong>{{empresa}}</strong> trabalha com a venda do equipamento, então a conta que vale a pena fazer é quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa uma mini escavadeira</h2> <ul> <li>construtoras e empreiteiras de pequeno e médio porte;</li> <li>prestadores de serviço e profissionais autônomos;</li> <li>produtores rurais e empresas agrícolas;</li> <li>empresas de paisagismo e jardinagem;</li> <li>prefeituras e empresas de saneamento e infraestrutura.</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico. Isso significa menos tempo de máquina parada, manutenção feita com componentes de fábrica e uma equipe que ajuda a escolher o modelo certo para o seu tipo de obra e solo.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de obra e o solo da sua operação que a gente indica o modelo certo e monta o orçamento. Atendimento direto por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-escavadeira.jpg</imagem>
+                <meta-title>Mini Escavadeira: Modelos e Venda | {{empresa}}</meta-title>
+                <meta-desc>Mini escavadeira compacta para obras e agricultura: conheça os modelos da
+                        {{empresa}}, do X10 PLUS ao X65 Pro, com peças genuínas e suporte técnico.</meta-desc>
+                <heading>Mini Escavadeira: Venda e Modelos</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> é especialista na venda de máquinas compactas, com destaque para a mini escavadeira, usada em construção civil, agricultura e infraestrutura. O foco é a venda de equipamentos próprios, que dão autonomia, controle e disponibilidade contínua para a operação.</p> <p>Diferente da locação, a {{empresa}} atua na venda direta, com peças genuínas, assistência técnica especializada e suporte que acompanha toda a vida útil da máquina.</p> <p>São modelos do X10 PLUS ao X65 Pro, com profundidade de escavação de 1.650 a 4.159 mm, para atender desde reforma até obra de infraestrutura.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Escavadeira em {{local}}</h1-local>
+                <subtitle-local>Mini escavadeiras da {{empresa}} para obras e operações em
+                        {{local}}, do X10 PLUS ao X65 Pro, com peças genuínas, entrega e suporte
+                        técnico na região.</subtitle-local>
+                <meta-title-local>Mini Escavadeira em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini escavadeira em {{local}}: conheça os modelos da {{empresa}},
+                        do X10 PLUS ao X65 Pro, com peças genuínas e suporte técnico. Solicite um
+                        orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura uma <strong>mini escavadeira em {{local}}</strong> normalmente precisa de um equipamento que escave valas, abra fundações e movimente terra em espaços apertados, sem depender da disponibilidade de uma locadora. Na <strong>{{empresa}}</strong>, a linha vai do X10 PLUS, com 1.650 mm de profundidade de escavação, até o X65 Pro, que chega a 4.159 mm, então dá para atender desde reforma até obra de infraestrutura em {{local}}.</p> <h2>Mini escavadeira em {{local}}: onde ela é usada</h2> <p>Em {{local}}, a mini escavadeira atende tanto obra urbana quanto trabalho rural: abertura de valas para água e esgoto, fundações, nivelamento de terreno, paisagismo, drenagem e manutenção de redes. O porte compacto é o que permite trabalhar dentro de obras em andamento e em terrenos de difícil acesso, mantendo a capacidade de escavação.</p> <h2>Qual modelo escolher</h2> <p>A escolha depende da profundidade que você precisa atingir e da força exigida pelo solo:</p> <table> <thead> <tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th><th>Indicação típica</th></tr> </thead> <tbody> <tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Reforma, paisagismo, valas rasas</td></tr> <tr><td>X10 Pro</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Serviços leves urbanos</td></tr> <tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td><td>Construção civil de pequeno porte</td></tr> <tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td><td>Obras médias e redes enterradas</td></tr> <tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td><td>Fundações e drenagem profunda</td></tr> <tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td><td>Infraestrutura e solo pesado</td></tr> </tbody> </table> <p>Regra prática: valas rasas e jardim pedem o X10; redes de água e esgoto e obra urbana, o X20 ou X30; fundação profunda e solo duro, o X35 ou X65.</p> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende clientes de {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico. O time ajuda a cruzar o tipo de obra e o solo da sua operação em {{local}} com o modelo certo, sem empurrar máquina grande demais ou pequena demais para o trabalho.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para quem tem uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante a máquina disponível quando a obra exige. Para uso pontual, a locação pode ser suficiente. A conta que vale a pena fazer é quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de obra e o solo da sua operação em {{local}} que a gente indica o modelo certo e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Escavadeira para {{setor}}</h1-setor>
+                <subtitle-setor>Mini escavadeiras da {{empresa}} para {{setor}}: o modelo certo para
+                        o tipo de trabalho do setor, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Escavadeira para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini escavadeira para {{setor}}: qual modelo da {{empresa}} se
+                        encaixa no trabalho do setor, com peças genuínas e suporte técnico. Solicite
+                        um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Empresas que atuam em <strong>{{setor}}</strong> usam a mini escavadeira para ganhar autonomia: em vez de depender de locação, têm o equipamento disponível para escavar, abrir valas e movimentar material sempre que a operação exige. Na <strong>{{empresa}}</strong>, a linha vai do X10 PLUS (1.650 mm de profundidade) ao X65 Pro (4.159 mm), o que permite escolher a máquina certa para o porte de trabalho do setor.</p> <h2>Mini escavadeira para {{setor}}: o que ela resolve</h2> <p>No dia a dia de {{setor}}, a mini escavadeira é usada em escavação, abertura de valas, nivelamento, movimentação de material e demolição leve. O tamanho compacto permite operar em espaços restritos e terrenos irregulares sem abrir mão de força, e a troca de implementos (concha, rompedor, perfuratriz) adapta a máquina às tarefas específicas da operação.</p> <h2>Qual modelo escolher</h2> <p>A escolha depende da profundidade e da força exigida pelo trabalho em {{setor}}:</p> <table> <thead> <tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th><th>Indicação típica</th></tr> </thead> <tbody> <tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Reforma, paisagismo, valas rasas</td></tr> <tr><td>X10 Pro</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Serviços leves urbanos</td></tr> <tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td><td>Construção civil de pequeno porte</td></tr> <tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td><td>Obras médias e redes enterradas</td></tr> <tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td><td>Fundações e drenagem profunda</td></tr> <tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td><td>Infraestrutura e solo pesado</td></tr> </tbody> </table> <p>Regra prática: tarefas leves e espaços pequenos pedem o X10; trabalho urbano e redes, o X20 ou X30; escavação profunda e solo pesado, o X35 ou X65.</p> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo contínuo da locação, garante disponibilidade e dá controle sobre manutenção e cronograma. Para uso esporádico e de baixo volume, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a escolher o modelo certo para a realidade de {{setor}}. O objetivo é que o equipamento se pague em produtividade, com o mínimo de máquina parada.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Escavadeira para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini escavadeiras da {{empresa}} para {{aplicacao}}: o modelo
+                        certo para o serviço, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Escavadeira para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini escavadeira para {{aplicacao}}: qual modelo da {{empresa}}
+                        se encaixa no serviço, com especificações, peças genuínas e suporte. Peça um
+                        orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Quem precisa de uma <strong>mini escavadeira para {{aplicacao}}</strong> busca a máquina certa para executar o serviço com precisão e no menor tempo. Na <strong>{{empresa}}</strong>, a linha vai do X10 PLUS (1.650 mm) ao X65 Pro (4.159 mm), o que permite escolher o porte adequado para {{aplicacao}}.</p> <h2>Mini escavadeira para {{aplicacao}}: o que considerar</h2> <p>Para {{aplicacao}}, o que define a máquina é a profundidade necessária, a força exigida pelo solo e o espaço de trabalho. O porte compacto permite executar o serviço em áreas restritas e terrenos irregulares sem abrir mão de capacidade.</p> <h2>Qual modelo escolher</h2> <p>Depende da profundidade e da força exigidas por {{aplicacao}}:</p> <table> <thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th><th>Indicação típica</th></tr></thead> <tbody> <tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Reforma, paisagismo, valas rasas</td></tr> <tr><td>X10 Pro</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td><td>Serviços leves urbanos</td></tr> <tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td><td>Construção civil de pequeno porte</td></tr> <tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td><td>Obras médias e redes enterradas</td></tr> <tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td><td>Fundações e drenagem profunda</td></tr> <tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td><td>Infraestrutura e solo pesado</td></tr> </tbody> </table> <p>Regra prática: serviços leves e rasos pedem o X10; trabalho urbano e redes, o X20 ou X30; profundidade maior e solo pesado, o X35 ou X65.</p> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a escolher o modelo certo para {{aplicacao}}.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é uma mini escavadeira e para que serve? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É um equipamento compacto sobre esteiras usado para escavar valas, abrir fundações, fazer demolição leve e movimentar terra em espaços reduzidos, onde máquinas de grande porte não chegam. Atende construção civil, paisagismo, agricultura e infraestrutura. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual a profundidade de escavação das mini escavadeiras da {{empresa}}? ]]>
+</q2>
+                        <a2>
+<![CDATA[ Varia conforme o modelo, de 1.650 mm no X10 PLUS até 4.159 mm no X65 Pro. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual modelo escolher para rede de água e esgoto? ]]>
+</q3>
+                        <a3>
+<![CDATA[ O X20 Pro ou o X30 Pro atendem a maioria das redes domiciliares. Para coletores mais profundos, o X35 Pro é o indicado. ]]>
+</a3>
+                        <q4>
+<![CDATA[ Qual a diferença entre os modelos X10, X20, X30, X35 e X65? ]]>
+</q4>
+                        <a4>
+<![CDATA[ A diferença principal está na profundidade de escavação e na força na concha. O X10 é para serviços leves e valas rasas; o X20 e o X30 para obra urbana e redes; o X35 e o X65 para fundações profundas e solo pesado. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Mini escavadeira: comprar ou alugar? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato que alugar no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Quais implementos posso usar na mini escavadeira? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Além da concha padrão, a máquina aceita implementos como rompedor hidráulico, perfuratriz e garra, o que amplia o uso para quebra de concreto, perfuração e manuseio de materiais. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças de reposição? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para manter o desempenho original da máquina e reduzir o tempo de inatividade. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Como escolher a mini escavadeira ideal para o meu trabalho? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Considere a profundidade de escavação necessária, o tipo de solo e o volume de trabalho. A equipe da {{empresa}} ajuda a cruzar esses pontos com o modelo certo. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa o tipo de obra e a operação, a equipe da {{empresa}} indica o modelo mais adequado e apresenta as condições de pagamento. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Carregadeira</nome>
+                <slug>mini-carregadeira</slug>
+                <produto_base>Mini Carregadeira</produto_base>
+                <hidden>false</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Carregadeira: Venda, Modelos e Especificações</h1-title>
+                <subtitle>Conheça as mini carregadeiras da {{empresa}}, o XD500 e o XC750, para
+                        carga e movimentação de materiais, com peças genuínas e suporte técnico.</subtitle>
+                <descricao>
+<![CDATA[ <p>A mini carregadeira é um equipamento compacto com pá frontal, usado para carregar e movimentar materiais soltos como terra, brita, areia e entulho, abastecer caçambas e caminhões e manter o canteiro limpo. Na <strong>{{empresa}}</strong>, a linha tem o XD500, mais compacto, e o XC750, com maior capacidade de carga.</p> <h2>O que uma mini carregadeira faz</h2> <p>Ela é o braço de carga da operação. As tarefas mais comuns são:</p> <ul> <li>carga e transporte curto de terra, brita, areia e agregados;</li> <li>abastecimento de caçambas, caminhões e betoneiras;</li> <li>limpeza e organização do canteiro de obra;</li> <li>movimentação de paletes e fardos com o garfo paleteiro;</li> <li>movimentação de ração, grãos e esterco em propriedades rurais.</li> </ul> <p>O porte compacto permite operar dentro de galpões, currais e canteiros apertados, onde uma pá carregadeira grande não entra.</p> <h2>Qual modelo de mini carregadeira escolher</h2> <p>A escolha depende do volume que você precisa mover e do espaço disponível:</p> <table> <thead> <tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th><th>Indicação típica</th></tr> </thead> <tbody> <tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td><td>Espaços apertados, carga leve, uso rural</td></tr> <tr><td>XC750</td><td>700 kg</td><td>0,40 m³</td><td>3.000 kg</td><td>Volume maior, obra e pátio</td></tr> </tbody> </table> <p>Regra prática: para espaços apertados e carga leve, o XD500; para volume maior e uso em pátio e obra, o XC750.</p> <h2>Comprar ou alugar uma mini carregadeira</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação, garante o equipamento disponível quando a operação exige e dá controle sobre manutenção. A locação ainda faz sentido para uso pontual. A <strong>{{empresa}}</strong> trabalha com a venda, então vale fazer a conta de quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa uma mini carregadeira</h2> <ul> <li>construtoras e empreiteiras;</li> <li>produtores rurais e empresas agrícolas;</li> <li>empresas de paisagismo e jardinagem;</li> <li>operações de logística, pátios e armazéns;</li> <li>prefeituras e serviços de limpeza urbana.</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a escolher entre o XD500 e o XC750 conforme o volume e o espaço da sua operação.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de material e o volume que você movimenta que a gente indica o modelo certo e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-carregadeira.jpg</imagem>
+                <meta-title>Mini Carregadeira: Modelos e Venda | {{empresa}}</meta-title>
+                <meta-desc>Mini carregadeira compacta para carga e movimentação de materiais:
+                        conheça o XD500 e o XC750 da {{empresa}}, com peças genuínas e suporte
+                        técnico.</meta-desc>
+                <heading>Mini Carregadeira: Venda e Modelos</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> é especialista na venda de máquinas compactas, com destaque para a mini carregadeira, usada para carga e movimentação de materiais na construção, na agricultura e na logística. O foco é a venda de equipamentos próprios, que dão autonomia e disponibilidade contínua.</p> <p>Diferente da locação, a {{empresa}} atua na venda direta, com peças genuínas, assistência técnica especializada e suporte que acompanha toda a vida útil da máquina.</p> <p>São dois modelos, o XD500 e o XC750, para atender desde espaços apertados e carga leve até maior volume em pátio e canteiro.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Carregadeira em {{local}}</h1-local>
+                <subtitle-local>Mini carregadeiras da {{empresa}} para carga e movimentação em
+                        {{local}}, o XD500 e o XC750, com peças genuínas, entrega e suporte na
+                        região.</subtitle-local>
+                <meta-title-local>Mini Carregadeira em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini carregadeira em {{local}}: conheça o XD500 e o XC750 da
+                        {{empresa}} para carga e movimentação, com peças genuínas e suporte.
+                        Solicite um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem busca uma <strong>mini carregadeira em {{local}}</strong> precisa mover material com agilidade dentro da obra ou da propriedade, sem depender de locação. Na <strong>{{empresa}}</strong>, o XD500 e o XC750 atendem desde espaços apertados até pátios e canteiros com volume maior em {{local}}.</p> <h2>Mini carregadeira em {{local}}: onde ela é usada</h2> <p>Em {{local}}, a mini carregadeira carrega e transporta terra, brita e areia, abastece caçambas e caminhões, limpa o canteiro e movimenta paletes e insumos. O porte compacto permite trabalhar em galpões, currais e obras urbanas onde uma pá carregadeira grande não entra.</p> <h2>Qual modelo escolher</h2> <p>A escolha depende do volume de material e do espaço disponível:</p> <table> <thead> <tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th><th>Indicação típica</th></tr> </thead> <tbody> <tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td><td>Espaços apertados, carga leve, uso rural</td></tr> <tr><td>XC750</td><td>700 kg</td><td>0,40 m³</td><td>3.000 kg</td><td>Volume maior, obra e pátio</td></tr> </tbody> </table> <p>Regra prática: para espaços apertados e carga leve, o XD500; para volume maior, o XC750.</p> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante o equipamento disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o material e o volume que você movimenta em {{local}} que a gente indica entre o XD500 e o XC750 e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Carregadeira para {{setor}}</h1-setor>
+                <subtitle-setor>Mini carregadeiras da {{empresa}} para {{setor}}: o modelo certo
+                        para carga e movimentação no setor, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Carregadeira para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini carregadeira para {{setor}}: qual modelo da {{empresa}} se
+                        encaixa na movimentação de materiais do setor, com peças genuínas e suporte.
+                        Peça um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Empresas de <strong>{{setor}}</strong> usam a mini carregadeira para movimentar material com rapidez e menos mão de obra. Na <strong>{{empresa}}</strong>, o XD500 e o XC750 cobrem desde carga leve em espaço apertado até volume maior em pátio e canteiro do setor.</p> <h2>Mini carregadeira para {{setor}}: o que ela resolve</h2> <p>No dia a dia de {{setor}}, a mini carregadeira carrega e transporta materiais soltos, abastece caçambas e caminhões, organiza o pátio e movimenta paletes e insumos. O tamanho compacto permite operar em espaços restritos sem perder capacidade de carga.</p> <h2>Qual modelo escolher</h2> <p>Depende do volume movimentado e do espaço de trabalho em {{setor}}:</p> <table> <thead> <tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th><th>Indicação típica</th></tr> </thead> <tbody> <tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td><td>Espaços apertados, carga leve, uso rural</td></tr> <tr><td>XC750</td><td>700 kg</td><td>0,40 m³</td><td>3.000 kg</td><td>Volume maior, obra e pátio</td></tr> </tbody> </table> <p>Regra prática: carga leve e espaço apertado pedem o XD500; volume maior, o XC750.</p> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação e garante disponibilidade. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a escolher o modelo certo para a realidade de {{setor}}.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Carregadeira para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini carregadeiras da {{empresa}} para {{aplicacao}}: o modelo
+                        certo para o serviço, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Carregadeira para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini carregadeira para {{aplicacao}}: qual modelo da
+                        {{empresa}} se encaixa no serviço, com especificações, peças genuínas e
+                        suporte. Peça um orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Quem precisa de uma <strong>mini carregadeira para {{aplicacao}}</strong> busca mover material com agilidade no serviço. Na <strong>{{empresa}}</strong>, o XD500 e o XC750 atendem desde carga leve em espaço apertado até volume maior, conforme {{aplicacao}} exige.</p> <h2>Mini carregadeira para {{aplicacao}}: o que considerar</h2> <p>Para {{aplicacao}}, o que define a máquina é o volume de material movimentado e o espaço de trabalho. O porte compacto permite operar em áreas restritas sem perder capacidade de carga.</p> <h2>Qual modelo escolher</h2> <p>Depende do volume e do espaço em {{aplicacao}}:</p> <table> <thead><tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th></tr></thead> <tbody> <tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td></tr> <tr><td>XC750</td><td>700 kg</td><td>0,40 m³</td><td>3.000 kg</td></tr> </tbody> </table> <p>Regra prática: carga leve e espaço apertado pedem o XD500; volume maior, o XC750.</p> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a escolher entre o XD500 e o XC750 para {{aplicacao}}.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é uma mini carregadeira e para que serve? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É um equipamento compacto com pá frontal usado para carregar e movimentar materiais soltos como terra, brita, areia e entulho, abastecer caçambas e caminhões e manter o canteiro organizado. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual a capacidade de carga das mini carregadeiras da {{empresa}}? ]]>
+</q2>
+                        <a2>
+<![CDATA[ O XD500 carrega até 590 kg e o XC750 até 700 kg. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual a diferença entre o XD500 e o XC750? ]]>
+</q3>
+                        <a3>
+<![CDATA[ O XD500 é mais compacto, com caçamba de 0,22 m³ e 423 kg de peso operacional, ideal para espaços apertados. O XC750 tem caçamba de 0,40 m³ e maior capacidade, para volume maior. ]]>
+</a3>
+                        <q4>
+<![CDATA[ A mini carregadeira serve para uso agrícola? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Sim. É muito usada para movimentar ração, grãos, esterco e insumos em propriedades rurais, além da carga de materiais em obra. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Quais implementos posso usar na mini carregadeira? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Além da caçamba, ela aceita garfo paleteiro para movimentação de paletes e fardos, o que amplia o uso em obra, pátio e armazém. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Mini carregadeira: comprar ou alugar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças de reposição? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para manter o desempenho da máquina e reduzir o tempo de inatividade. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Como escolher a mini carregadeira ideal para o meu trabalho? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Considere o volume de material, o tipo de operação e o espaço disponível. A equipe da {{empresa}} ajuda a decidir entre o XD500 e o XC750. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua operação, a {{empresa}} indica o modelo mais adequado e apresenta as condições de pagamento. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Dumper</nome>
+                <slug>mini-dumper</slug>
+                <produto_base>Mini Dumper</produto_base>
+                <hidden>false</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Dumper: Venda e Especificações</h1-title>
+                <subtitle>Conheça o mini dumper XD500 da {{empresa}}, para transporte e basculamento
+                        de material em terrenos difíceis, com peças genuínas e suporte técnico.</subtitle>
+                <descricao>
+<![CDATA[ <p>O mini dumper é um equipamento compacto usado para transportar e descarregar material dentro da obra, principalmente em terrenos irregulares e acessos estreitos, onde um caminhão não entra e o carrinho de mão não dá conta. Na <strong>{{empresa}}</strong>, o modelo é o XD500.</p> <h2>O que um mini dumper faz</h2> <p>A função principal é o transporte interno de material com descarga por basculamento. As tarefas mais comuns são:</p> <ul> <li>transporte de terra, brita, areia e agregados dentro da obra;</li> <li>movimentação de concreto e argamassa até o ponto de aplicação;</li> <li>remoção de entulho e material de demolição;</li> <li>abastecimento de frentes de trabalho em terreno irregular ou em aclive;</li> <li>apoio em obras de paisagismo e em propriedades rurais.</li> </ul> <p>O ganho está no acesso: o porte compacto e a tração permitem circular em vielas, rampas e terrenos acidentados, levando carga onde outros equipamentos não chegam.</p> <h2>Especificações do XD500</h2> <p>O mini dumper da <strong>{{empresa}}</strong> é o XD500:</p> <table> <thead> <tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th></tr> </thead> <tbody> <tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td></tr> </tbody> </table> <p>A capacidade de 590 kg e a caçamba de 0,22 m³ atendem o transporte interno da maioria das obras de pequeno e médio porte, com peso operacional de 423 kg que facilita a circulação em espaços apertados.</p> <h2>Comprar ou alugar um mini dumper</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação e garante o equipamento disponível quando a obra exige. A locação ainda faz sentido para uso pontual. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa um mini dumper</h2> <ul> <li>construtoras e empreiteiras;</li> <li>obras em terreno irregular, encosta ou com acesso restrito;</li> <li>empresas de paisagismo e jardinagem;</li> <li>produtores rurais;</li> <li>prefeituras e serviços de manutenção.</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, garantindo que o equipamento se mantenha disponível com o mínimo de máquina parada.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de material e o terreno da sua obra que a gente confirma se o XD500 atende e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-dumper.jpg</imagem>
+                <meta-title>Mini Dumper: Modelo e Venda | {{empresa}}</meta-title>
+                <meta-desc>Mini dumper compacto para transporte e basculamento de material em obra:
+                        conheça o XD500 da {{empresa}}, com peças genuínas e suporte técnico.</meta-desc>
+                <heading>Mini Dumper: Venda Direta</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> é especialista na venda de máquinas compactas, com destaque para o mini dumper, usado para transporte e basculamento de material em obras com terreno difícil e acesso restrito. O foco é a venda de equipamentos próprios, que dão autonomia e disponibilidade contínua.</p> <p>Diferente da locação, a {{empresa}} atua na venda direta, com peças genuínas, assistência técnica especializada e suporte que acompanha toda a vida útil da máquina.</p> <p>O modelo é o XD500, com 590 kg de capacidade e caçamba de 0,22 m³, dimensionado para o transporte interno da maioria das obras de pequeno e médio porte.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Dumper em {{local}}</h1-local>
+                <subtitle-local>Mini dumper XD500 da {{empresa}} para transporte de material em
+                        obras de {{local}}, com peças genuínas, entrega e suporte técnico na região.</subtitle-local>
+                <meta-title-local>Mini Dumper em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini dumper em {{local}}: conheça o XD500 da {{empresa}} para
+                        transporte e basculamento de material em obra, com peças genuínas e suporte.
+                        Solicite um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura um <strong>mini dumper em {{local}}</strong> precisa transportar material dentro da obra em terreno difícil, sem depender de locação. Na <strong>{{empresa}}</strong>, o XD500 leva carga onde caminhão não entra e o carrinho de mão não dá conta, em obras de {{local}}.</p> <h2>Mini dumper em {{local}}: onde ele é usado</h2> <p>Em {{local}}, o mini dumper transporta terra, brita, concreto e entulho dentro da obra, abastece frentes de trabalho em aclive e circula em vielas e terrenos acidentados. A descarga por basculamento agiliza o ciclo de transporte.</p> <h2>Especificações do XD500</h2> <p>O mini dumper da {{empresa}} é o XD500:</p> <table> <thead> <tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th></tr> </thead> <tbody> <tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td></tr> </tbody> </table> <p>A capacidade de 590 kg e a caçamba de 0,22 m³ atendem o transporte interno da maioria das obras de {{local}}.</p> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante o equipamento disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o material e o terreno da sua obra em {{local}} que a gente confirma se o XD500 atende e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Dumper para {{setor}}</h1-setor>
+                <subtitle-setor>Mini dumper XD500 da {{empresa}} para {{setor}}: transporte e
+                        basculamento de material no setor, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Dumper para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini dumper para {{setor}}: o XD500 da {{empresa}} para transporte
+                        de material no setor, com peças genuínas e suporte técnico. Peça um
+                        orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Operações de <strong>{{setor}}</strong> usam o mini dumper para transportar material dentro da frente de trabalho com agilidade, mesmo em terreno difícil. Na <strong>{{empresa}}</strong>, o XD500 faz esse transporte com descarga por basculamento, onde caminhão não entra.</p> <h2>Mini dumper para {{setor}}: o que ele resolve</h2> <p>No dia a dia de {{setor}}, o mini dumper transporta terra, agregados, concreto e entulho, abastece frentes de trabalho e circula em espaços e terrenos onde equipamentos maiores não passam. A descarga por basculamento reduz o tempo de cada ciclo.</p> <h2>Especificações do XD500</h2> <p>O modelo da {{empresa}} para {{setor}} é o XD500:</p> <table> <thead> <tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th></tr> </thead> <tbody> <tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td></tr> </tbody> </table> <p>A capacidade de 590 kg e a caçamba de 0,22 m³ atendem o transporte interno da maioria das operações.</p> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação e garante disponibilidade. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, para que o equipamento se pague em produtividade no setor.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Dumper para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini dumper XD500 da {{empresa}} para {{aplicacao}}: transporte
+                        de material no serviço, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Dumper para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini dumper para {{aplicacao}}: o XD500 da {{empresa}} para
+                        transporte de material no serviço, com peças genuínas e suporte. Peça um
+                        orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Quem precisa de um <strong>mini dumper para {{aplicacao}}</strong> precisa transportar material no serviço, mesmo em terreno difícil. Na <strong>{{empresa}}</strong>, o XD500 leva carga onde caminhão não entra, com descarga por basculamento, conforme {{aplicacao}} exige.</p> <h2>Mini dumper para {{aplicacao}}: o que considerar</h2> <p>Para {{aplicacao}}, conta a quantidade de material a transportar e o tipo de terreno. O porte compacto e a tração permitem circular onde equipamentos maiores não passam.</p> <h2>Especificações do XD500</h2> <p>O mini dumper da {{empresa}} é o XD500:</p> <table> <thead><tr><th>Modelo</th><th>Capacidade de carga</th><th>Volume da caçamba</th><th>Peso operacional</th></tr></thead> <tbody><tr><td>XD500</td><td>590 kg</td><td>0,22 m³</td><td>423 kg</td></tr></tbody> </table> <p>A capacidade de 590 kg e a caçamba de 0,22 m³ atendem o transporte interno da maioria dos serviços de {{aplicacao}}.</p> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, para que o equipamento se pague em produtividade.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é um mini dumper e para que serve? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É um equipamento compacto usado para transportar e descarregar material dentro da obra, em terrenos irregulares e acessos estreitos, com descarga por basculamento. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual a diferença entre um mini dumper e uma mini carregadeira? ]]>
+</q2>
+                        <a2>
+<![CDATA[ O mini dumper transporta e bascula material de um ponto a outro da obra. A mini carregadeira carrega, eleva e abastece caçambas e caminhões. São funções complementares. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual a capacidade do mini dumper da {{empresa}}? ]]>
+</q3>
+                        <a3>
+<![CDATA[ O XD500 transporta até 590 kg, com caçamba de 0,22 m³ e peso operacional de 423 kg. ]]>
+</a3>
+                        <q4>
+<![CDATA[ O mini dumper trabalha em terreno irregular e em aclive? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Sim. O porte compacto e a tração permitem circular em rampas, vielas e terrenos acidentados, levando carga onde caminhão não entra. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Para que tipo de obra o mini dumper é indicado? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para o transporte interno de terra, brita, concreto e entulho em obras de pequeno e médio porte, paisagismo e propriedades rurais. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Mini dumper: comprar ou alugar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças de reposição? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para reduzir o tempo de máquina parada. ]]>
+</a7>
+                        <q8>
+<![CDATA[ O XD500 atende a minha obra? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Com 590 kg de capacidade e caçamba de 0,22 m³, ele atende o transporte interno da maioria das obras de pequeno e médio porte. A equipe da {{empresa}} ajuda a confirmar pelo seu tipo de material e terreno. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua obra, a {{empresa}} confirma o modelo e apresenta as condições de pagamento. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Rolo Compactador</nome>
+                <slug>mini-rolo-compactador</slug>
+                <produto_base>Mini Rolo Compactador</produto_base>
+                <hidden>false</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Rolo Compactador: Venda e Especificações</h1-title>
+                <subtitle>Conheça o mini rolo compactador XR12 da {{empresa}}, para compactação de
+                        solo, base e asfalto, com peças genuínas e suporte técnico.</subtitle>
+                <descricao>
+<![CDATA[ <p>O mini rolo compactador é usado para compactar solo, base e asfalto, densificando o material por vibração para dar firmeza e durabilidade ao piso ou à via. Na <strong>{{empresa}}</strong>, o modelo é o XR12.</p> <h2>O que um mini rolo compactador faz</h2> <p>Ele compacta camadas de material para evitar recalque e dar resistência. As aplicações mais comuns são:</p> <ul> <li>compactação de solo e sub-base em terraplanagem;</li> <li>preparação de base para pisos, pátios e calçadas;</li> <li>compactação de asfalto em reparos e vias de pequeno porte;</li> <li>reaterro e compactação de valas em obras de saneamento;</li> <li>acabamento de trincheiras e acessos.</li> </ul> <p>O porte compacto permite compactar em espaços estreitos, perto de meios fios e estruturas, onde um rolo grande não opera.</p> <h2>Especificações do XR12</h2> <p>O mini rolo compactador da <strong>{{empresa}}</strong> é o XR12:</p> <table> <thead> <tr><th>Modelo</th><th>Carga estática</th><th>Força centrífuga dianteira</th><th>Frequência de vibração</th></tr> </thead> <tbody> <tr><td>XR12</td><td>69,5/68 N/cm</td><td>30 kN</td><td>65 Hz</td></tr> </tbody> </table> <p>A força centrífuga de 30 kN e a frequência de vibração de 65 Hz dão a energia de compactação necessária para solo e base em obras de pequeno e médio porte.</p> <h2>Comprar ou alugar um mini rolo compactador</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação e garante o equipamento disponível quando a obra exige. A locação ainda faz sentido para uso pontual. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa um mini rolo compactador</h2> <ul> <li>pavimentadoras e empresas de obras viárias;</li> <li>construtoras e empreiteiras;</li> <li>empresas de terraplanagem;</li> <li>empresas de saneamento, no reaterro de valas;</li> <li>prefeituras e serviços de manutenção urbana.</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, mantendo o equipamento disponível com o mínimo de máquina parada.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de material que você compacta e o porte da obra que a gente confirma se o XR12 atende e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-rolo-compactador.jpg</imagem>
+                <meta-title>Mini Rolo Compactador: Modelo e Venda | {{empresa}}</meta-title>
+                <meta-desc>Mini rolo compactador para compactação de solo, base e asfalto: conheça o
+                        XR12 da {{empresa}}, com peças genuínas e suporte técnico.</meta-desc>
+                <heading>Mini Rolo Compactador: Venda Direta</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> é especialista na venda de máquinas compactas, com destaque para o mini rolo compactador, usado para compactação de solo, base e asfalto em obras de pavimentação, terraplanagem e saneamento. O foco é a venda de equipamentos próprios, que dão autonomia e disponibilidade contínua.</p> <p>Diferente da locação, a {{empresa}} atua na venda direta, com peças genuínas, assistência técnica especializada e suporte que acompanha toda a vida útil da máquina.</p> <p>O modelo é o XR12, com força centrífuga de 30 kN e frequência de vibração de 65 Hz, dimensionado para compactação em obras de pequeno e médio porte.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Rolo Compactador em {{local}}</h1-local>
+                <subtitle-local>Mini rolo compactador XR12 da {{empresa}} para compactação em obras
+                        de {{local}}, com peças genuínas, entrega e suporte técnico na região.</subtitle-local>
+                <meta-title-local>Mini Rolo Compactador em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini rolo compactador em {{local}}: conheça o XR12 da {{empresa}}
+                        para compactação de solo, base e asfalto, com peças genuínas e suporte. Peça
+                        um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura um <strong>mini rolo compactador em {{local}}</strong> precisa dar firmeza ao solo, à base ou ao asfalto em obras da região, sem depender de locação. Na <strong>{{empresa}}</strong>, o XR12 compacta com vibração em espaços onde um rolo grande não opera, em obras de {{local}}.</p> <h2>Mini rolo compactador em {{local}}: onde ele é usado</h2> <p>Em {{local}}, o XR12 compacta solo e sub-base em terraplanagem, prepara base para pisos e calçadas, compacta asfalto em reparos e faz o reaterro de valas em obras de saneamento. O porte compacto permite trabalhar perto de meios fios e estruturas.</p> <h2>Especificações do XR12</h2> <p>O mini rolo compactador da {{empresa}} é o XR12:</p> <table> <thead> <tr><th>Modelo</th><th>Carga estática</th><th>Força centrífuga dianteira</th><th>Frequência de vibração</th></tr> </thead> <tbody> <tr><td>XR12</td><td>69,5/68 N/cm</td><td>30 kN</td><td>65 Hz</td></tr> </tbody> </table> <p>A força centrífuga de 30 kN e a frequência de 65 Hz dão a energia de compactação necessária para obras de pequeno e médio porte em {{local}}.</p> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante o equipamento disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o material que você compacta e o porte da obra em {{local}} que a gente confirma se o XR12 atende e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Rolo Compactador para {{setor}}</h1-setor>
+                <subtitle-setor>Mini rolo compactador XR12 da {{empresa}} para {{setor}}:
+                        compactação de solo e base no setor, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Rolo Compactador para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini rolo compactador para {{setor}}: o XR12 da {{empresa}} para
+                        compactação no setor, com peças genuínas e suporte técnico. Solicite um
+                        orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Operações de <strong>{{setor}}</strong> usam o mini rolo compactador para dar firmeza e durabilidade ao solo e à base, com a energia de compactação certa. Na <strong>{{empresa}}</strong>, o XR12 compacta por vibração em espaços onde um rolo grande não opera.</p> <h2>Mini rolo compactador para {{setor}}: o que ele resolve</h2> <p>No dia a dia de {{setor}}, o XR12 compacta solo e sub-base, prepara base para pisos e vias, compacta asfalto em reparos e faz o reaterro de valas. O porte compacto permite trabalhar perto de estruturas e em espaços estreitos.</p> <h2>Especificações do XR12</h2> <p>O modelo da {{empresa}} para {{setor}} é o XR12:</p> <table> <thead> <tr><th>Modelo</th><th>Carga estática</th><th>Força centrífuga dianteira</th><th>Frequência de vibração</th></tr> </thead> <tbody> <tr><td>XR12</td><td>69,5/68 N/cm</td><td>30 kN</td><td>65 Hz</td></tr> </tbody> </table> <p>A força centrífuga de 30 kN e a frequência de 65 Hz atendem a compactação da maioria das obras de pequeno e médio porte.</p> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação e garante disponibilidade. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, para que o equipamento se pague em produtividade no setor.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Rolo Compactador para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini rolo compactador XR12 da {{empresa}} para {{aplicacao}}:
+                        compactação no serviço, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Rolo Compactador para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini rolo compactador para {{aplicacao}}: o XR12 da {{empresa}}
+                        para compactação no serviço, com peças genuínas e suporte. Peça um
+                        orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Quem precisa de um <strong>mini rolo compactador para {{aplicacao}}</strong> busca dar firmeza ao material no serviço. Na <strong>{{empresa}}</strong>, o XR12 compacta por vibração em espaços onde um rolo grande não opera, conforme {{aplicacao}} exige.</p> <h2>Mini rolo compactador para {{aplicacao}}: o que considerar</h2> <p>Para {{aplicacao}}, conta o tipo de material a compactar e o espaço de trabalho. A energia de vibração do XR12 atende solo e base em obras de pequeno e médio porte.</p> <h2>Especificações do XR12</h2> <p>O mini rolo compactador da {{empresa}} é o XR12:</p> <table> <thead><tr><th>Modelo</th><th>Carga estática</th><th>Força centrífuga dianteira</th><th>Frequência de vibração</th></tr></thead> <tbody><tr><td>XR12</td><td>69,5/68 N/cm</td><td>30 kN</td><td>65 Hz</td></tr></tbody> </table> <p>A força centrífuga de 30 kN e a frequência de 65 Hz dão a energia de compactação necessária para {{aplicacao}}.</p> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, para que o equipamento se pague em produtividade.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é um mini rolo compactador e para que serve? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É um equipamento compacto que compacta solo, base e asfalto por vibração, dando firmeza e durabilidade ao piso ou à via, em espaços onde um rolo grande não opera. ]]>
+</a1>
+                        <q2>
+<![CDATA[ O que o XR12 compacta? ]]>
+</q2>
+                        <a2>
+<![CDATA[ Solo e sub-base em terraplanagem, base para pisos e calçadas, asfalto em reparos e o reaterro de valas em obras de saneamento. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Quais as especificações do XR12? ]]>
+</q3>
+                        <a3>
+<![CDATA[ Carga estática de 69,5/68 N/cm, força centrífuga dianteira de 30 kN e frequência de vibração de 65 Hz. ]]>
+</a3>
+                        <q4>
+<![CDATA[ O mini rolo compactador serve para asfalto e para solo? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Sim. A vibração do XR12 atende tanto a compactação de solo e base quanto a de asfalto em reparos e vias de pequeno porte. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Para que tipo de obra o mini rolo é indicado? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para pavimentação, terraplanagem, preparação de base e reaterro de valas em obras de pequeno e médio porte. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Mini rolo compactador: comprar ou alugar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças de reposição? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para reduzir o tempo de máquina parada. ]]>
+</a7>
+                        <q8>
+<![CDATA[ O XR12 atende a minha obra? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Com força centrífuga de 30 kN e frequência de 65 Hz, ele atende a compactação da maioria das obras de pequeno e médio porte. A equipe da {{empresa}} ajuda a confirmar pelo seu tipo de material. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua obra, a {{empresa}} confirma o modelo e apresenta as condições de pagamento. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Escavadeira 1 tonelada</nome>
+                <slug>mini-escavadeira-1-tonelada</slug>
+                <produto_base>Mini Escavadeira</produto_base>
+                <modelo_relacionado>X10 PLUS;X10 PRO</modelo_relacionado>
+                <hidden>true</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Escavadeira 1 tonelada: Modelo e Especificações</h1-title>
+                <subtitle>Mini escavadeira de 1 tonelada da {{empresa}} (modelo X10 PLUS), com 1.650
+                        mm de profundidade, para reforma, paisagismo e valas rasas.</subtitle>
+                <descricao>
+<![CDATA[ <p>A mini escavadeira de 1 tonelada é a opção da <strong>{{empresa}}</strong> para serviços leves e espaços muito apertados. Esse é o modelo X10 PLUS, com 1.650 mm de profundidade de escavação, força na concha de 15,3 kN e o porte compacto que permite trabalhar em espaços apertados e terrenos irregulares.</p> <h2>O que faz uma mini escavadeira de 1 tonelada</h2> <p>Nessa faixa de peso, a máquina é indicada para serviços leves, valas rasas, paisagismo e reforma. As tarefas mais comuns são:</p> <ul> <li>valas rasas para irrigação e drenagem leve;</li> <li>plantio e remoção de árvores e arbustos;</li> <li>pequenas fundações e sapatas;</li> <li>nivelamento de jardins e quintais;</li> <li>remoção de entulho leve;</li> <li>abertura de canteiros;</li> </ul> <p>O ganho é executar esses serviços com precisão e no menor tempo, sem o custo e a logística de um equipamento de grande porte.</p> <h2>Ficha técnica do X10 PLUS</h2> <p>A mini escavadeira de 1 tonelada da <strong>{{empresa}}</strong> é o X10 PLUS:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td></tr></tbody></table> <p>Com 1.650 mm de profundidade e 15,3 kN de força na concha, o X10 PLUS atende reforma, paisagismo e valas rasas com folga.</p> <h2>Comprar ou alugar uma mini escavadeira de 1 tonelada</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação, garante a máquina disponível quando a obra exige e dá controle sobre manutenção e cronograma. A locação ainda faz sentido para uso pontual e de curtíssima duração. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa uma mini escavadeira de 1 tonelada</h2> <p>Esse porte é a escolha de:</p> <ul> <li>paisagistas e empresas de jardinagem;</li> <li>pedreiros e pequenas reformas;</li> <li>condomínios e manutenção predial;</li> <li>produtores rurais em pequenos serviços;</li> <li>prestadores de serviço autônomos;</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 1 tonelada é o porte certo para o seu trabalho. Isso significa menos tempo de máquina parada e manutenção feita com componentes de fábrica.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de obra e o solo da sua operação que a <strong>{{empresa}}</strong> confirma se a mini escavadeira de 1 tonelada atende e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-escavadeira-1-tonelada.jpg</imagem>
+                <meta-title>Mini Escavadeira 1 tonelada | {{empresa}}</meta-title>
+                <meta-desc>Mini escavadeira de 1 tonelada: conheça o X10 PLUS da {{empresa}}, com
+                        1.650 mm de escavação, para reforma, paisagismo e valas rasas. Solicite um
+                        orçamento.</meta-desc>
+                <heading>Mini Escavadeira 1 tonelada</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> vende a mini escavadeira de 1 tonelada (modelo X10 PLUS), com 1.650 mm de profundidade de escavação, para reforma, paisagismo e valas rasas. Venda direta, com peças genuínas e suporte técnico.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Escavadeira 1 tonelada em {{local}}</h1-local>
+                <subtitle-local>Mini escavadeira de 1 tonelada da {{empresa}} (X10 PLUS) para obras
+                        em {{local}}, com peças genuínas, entrega e suporte na região.</subtitle-local>
+                <meta-title-local>Mini Escavadeira 1 tonelada em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini escavadeira de 1 tonelada em {{local}}: o X10 PLUS da
+                        {{empresa}}, com 1.650 mm de escavação, para reforma, paisagismo e valas
+                        rasas. Solicite um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura uma <strong>mini escavadeira de 1 tonelada em {{local}}</strong> precisa do porte certo para serviços leves e espaços muito apertados, sem depender de locação. Na <strong>{{empresa}}</strong>, esse é o modelo X10 PLUS, com 1.650 mm de profundidade, atendendo obras em {{local}} e região.</p> <h2>Mini escavadeira de 1 tonelada em {{local}}: onde ela é usada</h2> <p>Em {{local}}, a faixa de 1 tonelada é indicada para serviços leves, valas rasas, paisagismo e reforma. O porte compacto permite trabalhar em áreas restritas e terrenos irregulares. As tarefas mais comuns são:</p> <ul> <li>valas rasas para irrigação e drenagem leve;</li> <li>plantio e remoção de árvores e arbustos;</li> <li>pequenas fundações e sapatas;</li> <li>nivelamento de jardins e quintais;</li> <li>remoção de entulho leve;</li> <li>abertura de canteiros;</li> </ul> <h2>Ficha técnica do X10 PLUS</h2> <p>A mini escavadeira de 1 tonelada da <strong>{{empresa}}</strong> é o X10 PLUS:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td></tr></tbody></table> <p>Com 1.650 mm de profundidade e 15,3 kN de força, atende reforma, paisagismo e valas rasas em {{local}}.</p> <h2>Quem usa em {{local}}</h2> <p>Em {{local}}, esse porte atende:</p> <ul> <li>paisagistas e empresas de jardinagem;</li> <li>pedreiros e pequenas reformas;</li> <li>condomínios e manutenção predial;</li> <li>produtores rurais em pequenos serviços;</li> <li>prestadores de serviço autônomos;</li> </ul> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua obra em {{local}} que a gente confirma se a mini escavadeira de 1 tonelada atende e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Escavadeira 1 tonelada para {{setor}}</h1-setor>
+                <subtitle-setor>Mini escavadeira de 1 tonelada da {{empresa}} (X10 PLUS) para
+                        {{setor}}, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Escavadeira 1 tonelada para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini escavadeira de 1 tonelada para {{setor}}: o X10 PLUS da
+                        {{empresa}} no porte certo para o setor. Peça um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Para <strong>{{setor}}</strong>, a mini escavadeira de 1 tonelada (modelo X10 PLUS) entrega o porte certo para serviços leves e espaços muito apertados. Na <strong>{{empresa}}</strong>, com 1.650 mm de profundidade e 15,3 kN de força na concha.</p> <h2>Mini escavadeira de 1 tonelada para {{setor}}: o que ela resolve</h2> <p>No dia a dia de {{setor}}, essa faixa de peso atende serviços leves, valas rasas, paisagismo e reforma, mantendo o porte compacto para espaços restritos. As tarefas mais comuns são:</p> <ul> <li>valas rasas para irrigação e drenagem leve;</li> <li>plantio e remoção de árvores e arbustos;</li> <li>pequenas fundações e sapatas;</li> <li>nivelamento de jardins e quintais;</li> <li>remoção de entulho leve;</li> <li>abertura de canteiros;</li> </ul> <h2>Ficha técnica do X10 PLUS</h2> <p>A mini escavadeira de 1 tonelada da <strong>{{empresa}}</strong> é o X10 PLUS:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td></tr></tbody></table> <p>Com 1.650 mm de profundidade e 15,3 kN de força, atende as exigências de {{setor}}.</p> <h2>Quem usa em {{setor}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>paisagistas e empresas de jardinagem;</li> <li>pedreiros e pequenas reformas;</li> <li>condomínios e manutenção predial;</li> <li>produtores rurais em pequenos serviços;</li> <li>prestadores de serviço autônomos;</li> </ul> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação, garante disponibilidade e dá controle sobre manutenção. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 1 tonelada é o porte certo para {{setor}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua operação em {{setor}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Escavadeira 1 tonelada para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini escavadeira de 1 tonelada da {{empresa}} (X10 PLUS) para
+                        {{aplicacao}}, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Escavadeira 1 tonelada para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini escavadeira de 1 tonelada para {{aplicacao}}: o X10 PLUS
+                        da {{empresa}} no porte certo para o serviço. Peça um orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Para <strong>{{aplicacao}}</strong>, a mini escavadeira de 1 tonelada (modelo X10 PLUS) costuma ser o porte certo. Na <strong>{{empresa}}</strong>, com 1.650 mm de profundidade e 15,3 kN de força na concha.</p> <h2>Mini escavadeira de 1 tonelada para {{aplicacao}}: o que considerar</h2> <p>Em {{aplicacao}}, o que define a máquina é a profundidade necessária, a força exigida pelo solo e o espaço de trabalho. Essa faixa atende serviços leves, valas rasas, paisagismo e reforma. Tarefas relacionadas:</p> <ul> <li>valas rasas para irrigação e drenagem leve;</li> <li>plantio e remoção de árvores e arbustos;</li> <li>pequenas fundações e sapatas;</li> <li>nivelamento de jardins e quintais;</li> <li>remoção de entulho leve;</li> <li>abertura de canteiros;</li> </ul> <h2>Ficha técnica do X10 PLUS</h2> <p>A mini escavadeira de 1 tonelada da <strong>{{empresa}}</strong> é o X10 PLUS:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X10 PLUS</td><td>1.650 mm</td><td>3.500 mm</td><td>15,3 kN</td></tr></tbody></table> <p>Com 1.650 mm de profundidade e 15,3 kN de força, atende reforma, paisagismo e valas rasas.</p> <h2>Quem usa para {{aplicacao}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>paisagistas e empresas de jardinagem;</li> <li>pedreiros e pequenas reformas;</li> <li>condomínios e manutenção predial;</li> <li>produtores rurais em pequenos serviços;</li> <li>prestadores de serviço autônomos;</li> </ul> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 1 tonelada é o porte ideal para {{aplicacao}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o seu serviço de {{aplicacao}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é uma mini escavadeira de 1 tonelada? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É a máquina dessa faixa de peso. Na {{empresa}} é o modelo X10 PLUS, com 1.650 mm de profundidade, indicada para reforma, paisagismo e valas rasas. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual modelo é a mini escavadeira de 1 tonelada na {{empresa}}? ]]>
+</q2>
+                        <a2>
+<![CDATA[ É o X10 PLUS. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual a profundidade de escavação da mini escavadeira de 1 tonelada? ]]>
+</q3>
+                        <a3>
+<![CDATA[ São 1.650 mm de profundidade de escavação (modelo X10 PLUS). ]]>
+</a3>
+                        <q4>
+<![CDATA[ Para que serve uma mini escavadeira de 1 tonelada? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Para serviços leves, valas rasas, paisagismo e reforma. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Mini escavadeira de 1 tonelada: comprar ou alugar? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Quais implementos posso usar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Além da concha, a máquina aceita rompedor hidráulico, perfuratriz e garra. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para reduzir o tempo de máquina parada. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Como sei se 1 tonelada é o porte certo para mim? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Depende da profundidade, do tipo de solo e do volume de trabalho. A equipe da {{empresa}} ajuda a confirmar. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua obra, a {{empresa}} confirma o modelo e apresenta as condições. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Escavadeira 2 toneladas</nome>
+                <slug>mini-escavadeira-2-toneladas</slug>
+                <produto_base>Mini Escavadeira</produto_base>
+                <modelo_relacionado>X20 Pro</modelo_relacionado>
+                <hidden>true</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Escavadeira 2 toneladas: Modelo e Especificações</h1-title>
+                <subtitle>Mini escavadeira de 2 toneladas da {{empresa}} (modelo X20 Pro), com 2.400
+                        mm de profundidade, para construção civil de pequeno porte.</subtitle>
+                <descricao>
+<![CDATA[ <p>A mini escavadeira de 2 toneladas é a opção da <strong>{{empresa}}</strong> para obra urbana de pequeno porte. Esse é o modelo X20 Pro, com 2.400 mm de profundidade de escavação, força na concha de 18 kN e o porte compacto que permite trabalhar em espaços apertados e terrenos irregulares.</p> <h2>O que faz uma mini escavadeira de 2 toneladas</h2> <p>Nessa faixa de peso, a máquina é indicada para obra urbana de pequeno porte, valas e redes. As tarefas mais comuns são:</p> <ul> <li>valas para água, esgoto e cabeamento;</li> <li>fundações de pequenas construções;</li> <li>escavação para piscinas;</li> <li>preparo e nivelamento de terreno;</li> <li>remoção de entulho;</li> <li>abertura de acessos;</li> </ul> <p>O ganho é executar esses serviços com precisão e no menor tempo, sem o custo e a logística de um equipamento de grande porte.</p> <h2>Ficha técnica do X20 Pro</h2> <p>A mini escavadeira de 2 toneladas da <strong>{{empresa}}</strong> é o X20 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td></tr></tbody></table> <p>Com 2.400 mm de profundidade e 18 kN de força na concha, o X20 Pro atende construção civil de pequeno porte com folga.</p> <h2>Comprar ou alugar uma mini escavadeira de 2 toneladas</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação, garante a máquina disponível quando a obra exige e dá controle sobre manutenção e cronograma. A locação ainda faz sentido para uso pontual e de curtíssima duração. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa uma mini escavadeira de 2 toneladas</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras e empreiteiras de pequeno porte;</li> <li>empresas de instalação de redes;</li> <li>prestadores de serviço urbano;</li> <li>produtores rurais;</li> <li>prefeituras em manutenção;</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 2 toneladas é o porte certo para o seu trabalho. Isso significa menos tempo de máquina parada e manutenção feita com componentes de fábrica.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de obra e o solo da sua operação que a <strong>{{empresa}}</strong> confirma se a mini escavadeira de 2 toneladas atende e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-escavadeira-2-toneladas.jpg</imagem>
+                <meta-title>Mini Escavadeira 2 toneladas | {{empresa}}</meta-title>
+                <meta-desc>Mini escavadeira de 2 toneladas: conheça o X20 Pro da {{empresa}}, com
+                        2.400 mm de escavação, para construção civil de pequeno porte. Solicite um
+                        orçamento.</meta-desc>
+                <heading>Mini Escavadeira 2 toneladas</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> vende a mini escavadeira de 2 toneladas (modelo X20 Pro), com 2.400 mm de profundidade de escavação, para construção civil de pequeno porte. Venda direta, com peças genuínas e suporte técnico.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Escavadeira 2 toneladas em {{local}}</h1-local>
+                <subtitle-local>Mini escavadeira de 2 toneladas da {{empresa}} (X20 Pro) para obras
+                        em {{local}}, com peças genuínas, entrega e suporte na região.</subtitle-local>
+                <meta-title-local>Mini Escavadeira 2 toneladas em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini escavadeira de 2 toneladas em {{local}}: o X20 Pro da
+                        {{empresa}}, com 2.400 mm de escavação, para construção civil de pequeno
+                        porte. Solicite um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura uma <strong>mini escavadeira de 2 toneladas em {{local}}</strong> precisa do porte certo para obra urbana de pequeno porte, sem depender de locação. Na <strong>{{empresa}}</strong>, esse é o modelo X20 Pro, com 2.400 mm de profundidade, atendendo obras em {{local}} e região.</p> <h2>Mini escavadeira de 2 toneladas em {{local}}: onde ela é usada</h2> <p>Em {{local}}, a faixa de 2 toneladas é indicada para obra urbana de pequeno porte, valas e redes. O porte compacto permite trabalhar em áreas restritas e terrenos irregulares. As tarefas mais comuns são:</p> <ul> <li>valas para água, esgoto e cabeamento;</li> <li>fundações de pequenas construções;</li> <li>escavação para piscinas;</li> <li>preparo e nivelamento de terreno;</li> <li>remoção de entulho;</li> <li>abertura de acessos;</li> </ul> <h2>Ficha técnica do X20 Pro</h2> <p>A mini escavadeira de 2 toneladas da <strong>{{empresa}}</strong> é o X20 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td></tr></tbody></table> <p>Com 2.400 mm de profundidade e 18 kN de força, atende construção civil de pequeno porte em {{local}}.</p> <h2>Quem usa em {{local}}</h2> <p>Em {{local}}, esse porte atende:</p> <ul> <li>construtoras e empreiteiras de pequeno porte;</li> <li>empresas de instalação de redes;</li> <li>prestadores de serviço urbano;</li> <li>produtores rurais;</li> <li>prefeituras em manutenção;</li> </ul> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua obra em {{local}} que a gente confirma se a mini escavadeira de 2 toneladas atende e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Escavadeira 2 toneladas para {{setor}}</h1-setor>
+                <subtitle-setor>Mini escavadeira de 2 toneladas da {{empresa}} (X20 Pro) para
+                        {{setor}}, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Escavadeira 2 toneladas para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini escavadeira de 2 toneladas para {{setor}}: o X20 Pro da
+                        {{empresa}} no porte certo para o setor. Peça um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Para <strong>{{setor}}</strong>, a mini escavadeira de 2 toneladas (modelo X20 Pro) entrega o porte certo para obra urbana de pequeno porte. Na <strong>{{empresa}}</strong>, com 2.400 mm de profundidade e 18 kN de força na concha.</p> <h2>Mini escavadeira de 2 toneladas para {{setor}}: o que ela resolve</h2> <p>No dia a dia de {{setor}}, essa faixa de peso atende obra urbana de pequeno porte, valas e redes, mantendo o porte compacto para espaços restritos. As tarefas mais comuns são:</p> <ul> <li>valas para água, esgoto e cabeamento;</li> <li>fundações de pequenas construções;</li> <li>escavação para piscinas;</li> <li>preparo e nivelamento de terreno;</li> <li>remoção de entulho;</li> <li>abertura de acessos;</li> </ul> <h2>Ficha técnica do X20 Pro</h2> <p>A mini escavadeira de 2 toneladas da <strong>{{empresa}}</strong> é o X20 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td></tr></tbody></table> <p>Com 2.400 mm de profundidade e 18 kN de força, atende as exigências de {{setor}}.</p> <h2>Quem usa em {{setor}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras e empreiteiras de pequeno porte;</li> <li>empresas de instalação de redes;</li> <li>prestadores de serviço urbano;</li> <li>produtores rurais;</li> <li>prefeituras em manutenção;</li> </ul> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação, garante disponibilidade e dá controle sobre manutenção. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 2 toneladas é o porte certo para {{setor}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua operação em {{setor}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Escavadeira 2 toneladas para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini escavadeira de 2 toneladas da {{empresa}} (X20 Pro) para
+                        {{aplicacao}}, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Escavadeira 2 toneladas para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini escavadeira de 2 toneladas para {{aplicacao}}: o X20 Pro
+                        da {{empresa}} no porte certo para o serviço. Peça um orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Para <strong>{{aplicacao}}</strong>, a mini escavadeira de 2 toneladas (modelo X20 Pro) costuma ser o porte certo. Na <strong>{{empresa}}</strong>, com 2.400 mm de profundidade e 18 kN de força na concha.</p> <h2>Mini escavadeira de 2 toneladas para {{aplicacao}}: o que considerar</h2> <p>Em {{aplicacao}}, o que define a máquina é a profundidade necessária, a força exigida pelo solo e o espaço de trabalho. Essa faixa atende obra urbana de pequeno porte, valas e redes. Tarefas relacionadas:</p> <ul> <li>valas para água, esgoto e cabeamento;</li> <li>fundações de pequenas construções;</li> <li>escavação para piscinas;</li> <li>preparo e nivelamento de terreno;</li> <li>remoção de entulho;</li> <li>abertura de acessos;</li> </ul> <h2>Ficha técnica do X20 Pro</h2> <p>A mini escavadeira de 2 toneladas da <strong>{{empresa}}</strong> é o X20 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X20 Pro</td><td>2.400 mm</td><td>3.700 mm</td><td>18 kN</td></tr></tbody></table> <p>Com 2.400 mm de profundidade e 18 kN de força, atende construção civil de pequeno porte.</p> <h2>Quem usa para {{aplicacao}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras e empreiteiras de pequeno porte;</li> <li>empresas de instalação de redes;</li> <li>prestadores de serviço urbano;</li> <li>produtores rurais;</li> <li>prefeituras em manutenção;</li> </ul> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 2 toneladas é o porte ideal para {{aplicacao}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o seu serviço de {{aplicacao}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é uma mini escavadeira de 2 toneladas? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É a máquina dessa faixa de peso. Na {{empresa}} é o modelo X20 Pro, com 2.400 mm de profundidade, indicada para construção civil de pequeno porte. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual modelo é a mini escavadeira de 2 toneladas na {{empresa}}? ]]>
+</q2>
+                        <a2>
+<![CDATA[ É o X20 Pro. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual a profundidade de escavação da mini escavadeira de 2 toneladas? ]]>
+</q3>
+                        <a3>
+<![CDATA[ São 2.400 mm de profundidade de escavação (modelo X20 Pro). ]]>
+</a3>
+                        <q4>
+<![CDATA[ Para que serve uma mini escavadeira de 2 toneladas? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Para obra urbana de pequeno porte, valas e redes. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Mini escavadeira de 2 toneladas: comprar ou alugar? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Quais implementos posso usar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Além da concha, a máquina aceita rompedor hidráulico, perfuratriz e garra. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para reduzir o tempo de máquina parada. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Como sei se 2 toneladas é o porte certo para mim? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Depende da profundidade, do tipo de solo e do volume de trabalho. A equipe da {{empresa}} ajuda a confirmar. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua obra, a {{empresa}} confirma o modelo e apresenta as condições. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Escavadeira 3 toneladas</nome>
+                <slug>mini-escavadeira-3-toneladas</slug>
+                <produto_base>Mini Escavadeira</produto_base>
+                <modelo_relacionado>X30 Pro;X35 Pro</modelo_relacionado>
+                <hidden>true</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Escavadeira 3 toneladas: Modelo e Especificações</h1-title>
+                <subtitle>Mini escavadeira de 3 toneladas da {{empresa}} (modelo X30 Pro), com 2.830
+                        mm de profundidade, para obras médias e redes enterradas.</subtitle>
+                <descricao>
+<![CDATA[ <p>A mini escavadeira de 3 toneladas é a opção da <strong>{{empresa}}</strong> para obras médias e redes enterradas. Esse é o modelo X30 Pro, com 2.830 mm de profundidade de escavação, força na concha de 23,5 kN e o porte compacto que permite trabalhar em espaços apertados e terrenos irregulares.</p> <h2>O que faz uma mini escavadeira de 3 toneladas</h2> <p>Nessa faixa de peso, a máquina é indicada para obras médias, redes enterradas e drenagem. As tarefas mais comuns são:</p> <ul> <li>valas profundas para redes de esgoto e drenagem;</li> <li>fundações de médio porte;</li> <li>escavação em solo mais firme;</li> <li>terraplanagem leve;</li> <li>abertura de valas para galerias;</li> <li>remoção de material;</li> </ul> <p>O ganho é executar esses serviços com precisão e no menor tempo, sem o custo e a logística de um equipamento de grande porte.</p> <h2>Ficha técnica do X30 Pro</h2> <p>A mini escavadeira de 3 toneladas da <strong>{{empresa}}</strong> é o X30 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td></tr></tbody></table> <p>Com 2.830 mm de profundidade e 23,5 kN de força na concha, o X30 Pro atende obras médias e redes enterradas com folga.</p> <h2>Comprar ou alugar uma mini escavadeira de 3 toneladas</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação, garante a máquina disponível quando a obra exige e dá controle sobre manutenção e cronograma. A locação ainda faz sentido para uso pontual e de curtíssima duração. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa uma mini escavadeira de 3 toneladas</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras de médio porte;</li> <li>empresas de saneamento;</li> <li>empreiteiras de infraestrutura urbana;</li> <li>produtores rurais com obras maiores;</li> <li>prefeituras;</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 3 toneladas é o porte certo para o seu trabalho. Isso significa menos tempo de máquina parada e manutenção feita com componentes de fábrica.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de obra e o solo da sua operação que a <strong>{{empresa}}</strong> confirma se a mini escavadeira de 3 toneladas atende e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-escavadeira-3-toneladas.jpg</imagem>
+                <meta-title>Mini Escavadeira 3 toneladas | {{empresa}}</meta-title>
+                <meta-desc>Mini escavadeira de 3 toneladas: conheça o X30 Pro da {{empresa}}, com
+                        2.830 mm de escavação, para obras médias e redes enterradas. Solicite um
+                        orçamento.</meta-desc>
+                <heading>Mini Escavadeira 3 toneladas</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> vende a mini escavadeira de 3 toneladas (modelo X30 Pro), com 2.830 mm de profundidade de escavação, para obras médias e redes enterradas. Venda direta, com peças genuínas e suporte técnico.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Escavadeira 3 toneladas em {{local}}</h1-local>
+                <subtitle-local>Mini escavadeira de 3 toneladas da {{empresa}} (X30 Pro) para obras
+                        em {{local}}, com peças genuínas, entrega e suporte na região.</subtitle-local>
+                <meta-title-local>Mini Escavadeira 3 toneladas em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini escavadeira de 3 toneladas em {{local}}: o X30 Pro da
+                        {{empresa}}, com 2.830 mm de escavação, para obras médias e redes
+                        enterradas. Solicite um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura uma <strong>mini escavadeira de 3 toneladas em {{local}}</strong> precisa do porte certo para obras médias e redes enterradas, sem depender de locação. Na <strong>{{empresa}}</strong>, esse é o modelo X30 Pro, com 2.830 mm de profundidade, atendendo obras em {{local}} e região.</p> <h2>Mini escavadeira de 3 toneladas em {{local}}: onde ela é usada</h2> <p>Em {{local}}, a faixa de 3 toneladas é indicada para obras médias, redes enterradas e drenagem. O porte compacto permite trabalhar em áreas restritas e terrenos irregulares. As tarefas mais comuns são:</p> <ul> <li>valas profundas para redes de esgoto e drenagem;</li> <li>fundações de médio porte;</li> <li>escavação em solo mais firme;</li> <li>terraplanagem leve;</li> <li>abertura de valas para galerias;</li> <li>remoção de material;</li> </ul> <h2>Ficha técnica do X30 Pro</h2> <p>A mini escavadeira de 3 toneladas da <strong>{{empresa}}</strong> é o X30 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td></tr></tbody></table> <p>Com 2.830 mm de profundidade e 23,5 kN de força, atende obras médias e redes enterradas em {{local}}.</p> <h2>Quem usa em {{local}}</h2> <p>Em {{local}}, esse porte atende:</p> <ul> <li>construtoras de médio porte;</li> <li>empresas de saneamento;</li> <li>empreiteiras de infraestrutura urbana;</li> <li>produtores rurais com obras maiores;</li> <li>prefeituras;</li> </ul> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua obra em {{local}} que a gente confirma se a mini escavadeira de 3 toneladas atende e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Escavadeira 3 toneladas para {{setor}}</h1-setor>
+                <subtitle-setor>Mini escavadeira de 3 toneladas da {{empresa}} (X30 Pro) para
+                        {{setor}}, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Escavadeira 3 toneladas para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini escavadeira de 3 toneladas para {{setor}}: o X30 Pro da
+                        {{empresa}} no porte certo para o setor. Peça um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Para <strong>{{setor}}</strong>, a mini escavadeira de 3 toneladas (modelo X30 Pro) entrega o porte certo para obras médias e redes enterradas. Na <strong>{{empresa}}</strong>, com 2.830 mm de profundidade e 23,5 kN de força na concha.</p> <h2>Mini escavadeira de 3 toneladas para {{setor}}: o que ela resolve</h2> <p>No dia a dia de {{setor}}, essa faixa de peso atende obras médias, redes enterradas e drenagem, mantendo o porte compacto para espaços restritos. As tarefas mais comuns são:</p> <ul> <li>valas profundas para redes de esgoto e drenagem;</li> <li>fundações de médio porte;</li> <li>escavação em solo mais firme;</li> <li>terraplanagem leve;</li> <li>abertura de valas para galerias;</li> <li>remoção de material;</li> </ul> <h2>Ficha técnica do X30 Pro</h2> <p>A mini escavadeira de 3 toneladas da <strong>{{empresa}}</strong> é o X30 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td></tr></tbody></table> <p>Com 2.830 mm de profundidade e 23,5 kN de força, atende as exigências de {{setor}}.</p> <h2>Quem usa em {{setor}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras de médio porte;</li> <li>empresas de saneamento;</li> <li>empreiteiras de infraestrutura urbana;</li> <li>produtores rurais com obras maiores;</li> <li>prefeituras;</li> </ul> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação, garante disponibilidade e dá controle sobre manutenção. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 3 toneladas é o porte certo para {{setor}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua operação em {{setor}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Escavadeira 3 toneladas para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini escavadeira de 3 toneladas da {{empresa}} (X30 Pro) para
+                        {{aplicacao}}, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Escavadeira 3 toneladas para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini escavadeira de 3 toneladas para {{aplicacao}}: o X30 Pro
+                        da {{empresa}} no porte certo para o serviço. Peça um orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Para <strong>{{aplicacao}}</strong>, a mini escavadeira de 3 toneladas (modelo X30 Pro) costuma ser o porte certo. Na <strong>{{empresa}}</strong>, com 2.830 mm de profundidade e 23,5 kN de força na concha.</p> <h2>Mini escavadeira de 3 toneladas para {{aplicacao}}: o que considerar</h2> <p>Em {{aplicacao}}, o que define a máquina é a profundidade necessária, a força exigida pelo solo e o espaço de trabalho. Essa faixa atende obras médias, redes enterradas e drenagem. Tarefas relacionadas:</p> <ul> <li>valas profundas para redes de esgoto e drenagem;</li> <li>fundações de médio porte;</li> <li>escavação em solo mais firme;</li> <li>terraplanagem leve;</li> <li>abertura de valas para galerias;</li> <li>remoção de material;</li> </ul> <h2>Ficha técnica do X30 Pro</h2> <p>A mini escavadeira de 3 toneladas da <strong>{{empresa}}</strong> é o X30 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X30 Pro</td><td>2.830 mm</td><td>4.500 mm</td><td>23,5 kN</td></tr></tbody></table> <p>Com 2.830 mm de profundidade e 23,5 kN de força, atende obras médias e redes enterradas.</p> <h2>Quem usa para {{aplicacao}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras de médio porte;</li> <li>empresas de saneamento;</li> <li>empreiteiras de infraestrutura urbana;</li> <li>produtores rurais com obras maiores;</li> <li>prefeituras;</li> </ul> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 3 toneladas é o porte ideal para {{aplicacao}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o seu serviço de {{aplicacao}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é uma mini escavadeira de 3 toneladas? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É a máquina dessa faixa de peso. Na {{empresa}} é o modelo X30 Pro, com 2.830 mm de profundidade, indicada para obras médias e redes enterradas. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual modelo é a mini escavadeira de 3 toneladas na {{empresa}}? ]]>
+</q2>
+                        <a2>
+<![CDATA[ É o X30 Pro. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual a profundidade de escavação da mini escavadeira de 3 toneladas? ]]>
+</q3>
+                        <a3>
+<![CDATA[ São 2.830 mm de profundidade de escavação (modelo X30 Pro). ]]>
+</a3>
+                        <q4>
+<![CDATA[ Para que serve uma mini escavadeira de 3 toneladas? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Para obras médias, redes enterradas e drenagem. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Mini escavadeira de 3 toneladas: comprar ou alugar? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Quais implementos posso usar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Além da concha, a máquina aceita rompedor hidráulico, perfuratriz e garra. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para reduzir o tempo de máquina parada. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Como sei se 3 toneladas é o porte certo para mim? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Depende da profundidade, do tipo de solo e do volume de trabalho. A equipe da {{empresa}} ajuda a confirmar. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua obra, a {{empresa}} confirma o modelo e apresenta as condições. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Escavadeira 3,5 toneladas</nome>
+                <slug>mini-escavadeira-3-5-toneladas</slug>
+                <produto_base>Mini Escavadeira</produto_base>
+                <modelo_relacionado>X35 Pro</modelo_relacionado>
+                <hidden>true</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Escavadeira 3,5 toneladas: Modelo e Especificações</h1-title>
+                <subtitle>Mini escavadeira de 3,5 toneladas da {{empresa}} (modelo X35 Pro), com
+                        3.208 mm de profundidade, para fundações e drenagem profunda.</subtitle>
+                <descricao>
+<![CDATA[ <p>A mini escavadeira de 3,5 toneladas é a opção da <strong>{{empresa}}</strong> para fundações e drenagem profunda. Esse é o modelo X35 Pro, com 3.208 mm de profundidade de escavação, força na concha de 30,4 kN e o porte compacto que permite trabalhar em espaços apertados e terrenos irregulares.</p> <h2>O que faz uma mini escavadeira de 3,5 toneladas</h2> <p>Nessa faixa de peso, a máquina é indicada para fundações, drenagem profunda e escavação em solo mais firme. As tarefas mais comuns são:</p> <ul> <li>fundações profundas e estacas;</li> <li>drenagem e galerias;</li> <li>escavação em solo compacto;</li> <li>abertura de valas para coletores;</li> <li>demolição com rompedor;</li> <li>terraplanagem;</li> </ul> <p>O ganho é executar esses serviços com precisão e no menor tempo, sem o custo e a logística de um equipamento de grande porte.</p> <h2>Ficha técnica do X35 Pro</h2> <p>A mini escavadeira de 3,5 toneladas da <strong>{{empresa}}</strong> é o X35 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td></tr></tbody></table> <p>Com 3.208 mm de profundidade e 30,4 kN de força na concha, o X35 Pro atende fundações e drenagem profunda com folga.</p> <h2>Comprar ou alugar uma mini escavadeira de 3,5 toneladas</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação, garante a máquina disponível quando a obra exige e dá controle sobre manutenção e cronograma. A locação ainda faz sentido para uso pontual e de curtíssima duração. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa uma mini escavadeira de 3,5 toneladas</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras;</li> <li>empresas de fundação e contenção;</li> <li>empreiteiras de saneamento;</li> <li>empresas de terraplanagem;</li> <li>mineração de pequeno porte;</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 3,5 toneladas é o porte certo para o seu trabalho. Isso significa menos tempo de máquina parada e manutenção feita com componentes de fábrica.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de obra e o solo da sua operação que a <strong>{{empresa}}</strong> confirma se a mini escavadeira de 3,5 toneladas atende e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-escavadeira-3-5-toneladas.jpg</imagem>
+                <meta-title>Mini Escavadeira 3,5 toneladas | {{empresa}}</meta-title>
+                <meta-desc>Mini escavadeira de 3,5 toneladas: conheça o X35 Pro da {{empresa}}, com
+                        3.208 mm de escavação, para fundações e drenagem profunda. Solicite um
+                        orçamento.</meta-desc>
+                <heading>Mini Escavadeira 3,5 toneladas</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> vende a mini escavadeira de 3,5 toneladas (modelo X35 Pro), com 3.208 mm de profundidade de escavação, para fundações e drenagem profunda. Venda direta, com peças genuínas e suporte técnico.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Escavadeira 3,5 toneladas em {{local}}</h1-local>
+                <subtitle-local>Mini escavadeira de 3,5 toneladas da {{empresa}} (X35 Pro) para
+                        obras em {{local}}, com peças genuínas, entrega e suporte na região.</subtitle-local>
+                <meta-title-local>Mini Escavadeira 3,5 toneladas em {{local}} {{estado}} |
+                        {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini escavadeira de 3,5 toneladas em {{local}}: o X35 Pro da
+                        {{empresa}}, com 3.208 mm de escavação, para fundações e drenagem profunda.
+                        Solicite um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura uma <strong>mini escavadeira de 3,5 toneladas em {{local}}</strong> precisa do porte certo para fundações e drenagem profunda, sem depender de locação. Na <strong>{{empresa}}</strong>, esse é o modelo X35 Pro, com 3.208 mm de profundidade, atendendo obras em {{local}} e região.</p> <h2>Mini escavadeira de 3,5 toneladas em {{local}}: onde ela é usada</h2> <p>Em {{local}}, a faixa de 3,5 toneladas é indicada para fundações, drenagem profunda e escavação em solo mais firme. O porte compacto permite trabalhar em áreas restritas e terrenos irregulares. As tarefas mais comuns são:</p> <ul> <li>fundações profundas e estacas;</li> <li>drenagem e galerias;</li> <li>escavação em solo compacto;</li> <li>abertura de valas para coletores;</li> <li>demolição com rompedor;</li> <li>terraplanagem;</li> </ul> <h2>Ficha técnica do X35 Pro</h2> <p>A mini escavadeira de 3,5 toneladas da <strong>{{empresa}}</strong> é o X35 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td></tr></tbody></table> <p>Com 3.208 mm de profundidade e 30,4 kN de força, atende fundações e drenagem profunda em {{local}}.</p> <h2>Quem usa em {{local}}</h2> <p>Em {{local}}, esse porte atende:</p> <ul> <li>construtoras;</li> <li>empresas de fundação e contenção;</li> <li>empreiteiras de saneamento;</li> <li>empresas de terraplanagem;</li> <li>mineração de pequeno porte;</li> </ul> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua obra em {{local}} que a gente confirma se a mini escavadeira de 3,5 toneladas atende e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Escavadeira 3,5 toneladas para {{setor}}</h1-setor>
+                <subtitle-setor>Mini escavadeira de 3,5 toneladas da {{empresa}} (X35 Pro) para
+                        {{setor}}, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Escavadeira 3,5 toneladas para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini escavadeira de 3,5 toneladas para {{setor}}: o X35 Pro da
+                        {{empresa}} no porte certo para o setor. Peça um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Para <strong>{{setor}}</strong>, a mini escavadeira de 3,5 toneladas (modelo X35 Pro) entrega o porte certo para fundações e drenagem profunda. Na <strong>{{empresa}}</strong>, com 3.208 mm de profundidade e 30,4 kN de força na concha.</p> <h2>Mini escavadeira de 3,5 toneladas para {{setor}}: o que ela resolve</h2> <p>No dia a dia de {{setor}}, essa faixa de peso atende fundações, drenagem profunda e escavação em solo mais firme, mantendo o porte compacto para espaços restritos. As tarefas mais comuns são:</p> <ul> <li>fundações profundas e estacas;</li> <li>drenagem e galerias;</li> <li>escavação em solo compacto;</li> <li>abertura de valas para coletores;</li> <li>demolição com rompedor;</li> <li>terraplanagem;</li> </ul> <h2>Ficha técnica do X35 Pro</h2> <p>A mini escavadeira de 3,5 toneladas da <strong>{{empresa}}</strong> é o X35 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td></tr></tbody></table> <p>Com 3.208 mm de profundidade e 30,4 kN de força, atende as exigências de {{setor}}.</p> <h2>Quem usa em {{setor}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras;</li> <li>empresas de fundação e contenção;</li> <li>empreiteiras de saneamento;</li> <li>empresas de terraplanagem;</li> <li>mineração de pequeno porte;</li> </ul> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação, garante disponibilidade e dá controle sobre manutenção. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 3,5 toneladas é o porte certo para {{setor}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua operação em {{setor}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Escavadeira 3,5 toneladas para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini escavadeira de 3,5 toneladas da {{empresa}} (X35 Pro) para
+                        {{aplicacao}}, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Escavadeira 3,5 toneladas para {{aplicacao}} |
+                        {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini escavadeira de 3,5 toneladas para {{aplicacao}}: o X35 Pro
+                        da {{empresa}} no porte certo para o serviço. Peça um orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Para <strong>{{aplicacao}}</strong>, a mini escavadeira de 3,5 toneladas (modelo X35 Pro) costuma ser o porte certo. Na <strong>{{empresa}}</strong>, com 3.208 mm de profundidade e 30,4 kN de força na concha.</p> <h2>Mini escavadeira de 3,5 toneladas para {{aplicacao}}: o que considerar</h2> <p>Em {{aplicacao}}, o que define a máquina é a profundidade necessária, a força exigida pelo solo e o espaço de trabalho. Essa faixa atende fundações, drenagem profunda e escavação em solo mais firme. Tarefas relacionadas:</p> <ul> <li>fundações profundas e estacas;</li> <li>drenagem e galerias;</li> <li>escavação em solo compacto;</li> <li>abertura de valas para coletores;</li> <li>demolição com rompedor;</li> <li>terraplanagem;</li> </ul> <h2>Ficha técnica do X35 Pro</h2> <p>A mini escavadeira de 3,5 toneladas da <strong>{{empresa}}</strong> é o X35 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X35 Pro</td><td>3.208 mm</td><td>5.000 mm</td><td>30,4 kN</td></tr></tbody></table> <p>Com 3.208 mm de profundidade e 30,4 kN de força, atende fundações e drenagem profunda.</p> <h2>Quem usa para {{aplicacao}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras;</li> <li>empresas de fundação e contenção;</li> <li>empreiteiras de saneamento;</li> <li>empresas de terraplanagem;</li> <li>mineração de pequeno porte;</li> </ul> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 3,5 toneladas é o porte ideal para {{aplicacao}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o seu serviço de {{aplicacao}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é uma mini escavadeira de 3,5 toneladas? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É a máquina dessa faixa de peso. Na {{empresa}} é o modelo X35 Pro, com 3.208 mm de profundidade, indicada para fundações e drenagem profunda. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual modelo é a mini escavadeira de 3,5 toneladas na {{empresa}}? ]]>
+</q2>
+                        <a2>
+<![CDATA[ É o X35 Pro. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual a profundidade de escavação da mini escavadeira de 3,5 toneladas? ]]>
+</q3>
+                        <a3>
+<![CDATA[ São 3.208 mm de profundidade de escavação (modelo X35 Pro). ]]>
+</a3>
+                        <q4>
+<![CDATA[ Para que serve uma mini escavadeira de 3,5 toneladas? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Para fundações, drenagem profunda e escavação em solo mais firme. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Mini escavadeira de 3,5 toneladas: comprar ou alugar? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Quais implementos posso usar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Além da concha, a máquina aceita rompedor hidráulico, perfuratriz e garra. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para reduzir o tempo de máquina parada. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Como sei se 3,5 toneladas é o porte certo para mim? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Depende da profundidade, do tipo de solo e do volume de trabalho. A equipe da {{empresa}} ajuda a confirmar. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua obra, a {{empresa}} confirma o modelo e apresenta as condições. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Mini Escavadeira 6 toneladas</nome>
+                <slug>mini-escavadeira-6-toneladas</slug>
+                <produto_base>Mini Escavadeira</produto_base>
+                <modelo_relacionado>X65 Pro</modelo_relacionado>
+                <hidden>true</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Mini Escavadeira 6 toneladas: Modelo e Especificações</h1-title>
+                <subtitle>Mini escavadeira de 6 toneladas da {{empresa}} (modelo X65 Pro), com 4.159
+                        mm de profundidade, para infraestrutura e solo pesado.</subtitle>
+                <descricao>
+<![CDATA[ <p>A mini escavadeira de 6 toneladas é a opção da <strong>{{empresa}}</strong> para infraestrutura e solo pesado. Esse é o modelo X65 Pro, com 4.159 mm de profundidade de escavação, força na concha de 48 kN e o porte compacto que permite trabalhar em espaços apertados e terrenos irregulares.</p> <h2>O que faz uma mini escavadeira de 6 toneladas</h2> <p>Nessa faixa de peso, a máquina é indicada para infraestrutura, escavação profunda e solo pesado. As tarefas mais comuns são:</p> <ul> <li>escavação profunda em obras de infraestrutura;</li> <li>fundações de grande porte;</li> <li>abertura de valas para coletores e galerias;</li> <li>demolição pesada com rompedor;</li> <li>movimentação de grande volume de material;</li> <li>trabalho em solo rochoso;</li> </ul> <p>O ganho é executar esses serviços com precisão e no menor tempo, sem o custo e a logística de um equipamento de grande porte.</p> <h2>Ficha técnica do X65 Pro</h2> <p>A mini escavadeira de 6 toneladas da <strong>{{empresa}}</strong> é o X65 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td></tr></tbody></table> <p>Com 4.159 mm de profundidade e 48 kN de força na concha, o X65 Pro atende infraestrutura e solo pesado com folga.</p> <h2>Comprar ou alugar uma mini escavadeira de 6 toneladas</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação, garante a máquina disponível quando a obra exige e dá controle sobre manutenção e cronograma. A locação ainda faz sentido para uso pontual e de curtíssima duração. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem usa uma mini escavadeira de 6 toneladas</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras de infraestrutura;</li> <li>empresas de terraplanagem;</li> <li>mineração;</li> <li>empreiteiras de obras viárias;</li> <li>empresas de saneamento de grande porte;</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 6 toneladas é o porte certo para o seu trabalho. Isso significa menos tempo de máquina parada e manutenção feita com componentes de fábrica.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o tipo de obra e o solo da sua operação que a <strong>{{empresa}}</strong> confirma se a mini escavadeira de 6 toneladas atende e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>mini-escavadeira-6-toneladas.jpg</imagem>
+                <meta-title>Mini Escavadeira 6 toneladas | {{empresa}}</meta-title>
+                <meta-desc>Mini escavadeira de 6 toneladas: conheça o X65 Pro da {{empresa}}, com
+                        4.159 mm de escavação, para infraestrutura e solo pesado. Solicite um
+                        orçamento.</meta-desc>
+                <heading>Mini Escavadeira 6 toneladas</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> vende a mini escavadeira de 6 toneladas (modelo X65 Pro), com 4.159 mm de profundidade de escavação, para infraestrutura e solo pesado. Venda direta, com peças genuínas e suporte técnico.</p> ]]>
+</footer-desc>
+                <h1-local>Mini Escavadeira 6 toneladas em {{local}}</h1-local>
+                <subtitle-local>Mini escavadeira de 6 toneladas da {{empresa}} (X65 Pro) para obras
+                        em {{local}}, com peças genuínas, entrega e suporte na região.</subtitle-local>
+                <meta-title-local>Mini Escavadeira 6 toneladas em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Mini escavadeira de 6 toneladas em {{local}}: o X65 Pro da
+                        {{empresa}}, com 4.159 mm de escavação, para infraestrutura e solo pesado.
+                        Solicite um orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem procura uma <strong>mini escavadeira de 6 toneladas em {{local}}</strong> precisa do porte certo para infraestrutura e solo pesado, sem depender de locação. Na <strong>{{empresa}}</strong>, esse é o modelo X65 Pro, com 4.159 mm de profundidade, atendendo obras em {{local}} e região.</p> <h2>Mini escavadeira de 6 toneladas em {{local}}: onde ela é usada</h2> <p>Em {{local}}, a faixa de 6 toneladas é indicada para infraestrutura, escavação profunda e solo pesado. O porte compacto permite trabalhar em áreas restritas e terrenos irregulares. As tarefas mais comuns são:</p> <ul> <li>escavação profunda em obras de infraestrutura;</li> <li>fundações de grande porte;</li> <li>abertura de valas para coletores e galerias;</li> <li>demolição pesada com rompedor;</li> <li>movimentação de grande volume de material;</li> <li>trabalho em solo rochoso;</li> </ul> <h2>Ficha técnica do X65 Pro</h2> <p>A mini escavadeira de 6 toneladas da <strong>{{empresa}}</strong> é o X65 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td></tr></tbody></table> <p>Com 4.159 mm de profundidade e 48 kN de força, atende infraestrutura e solo pesado em {{local}}.</p> <h2>Quem usa em {{local}}</h2> <p>Em {{local}}, esse porte atende:</p> <ul> <li>construtoras de infraestrutura;</li> <li>empresas de terraplanagem;</li> <li>mineração;</li> <li>empreiteiras de obras viárias;</li> <li>empresas de saneamento de grande porte;</li> </ul> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Comprar ou alugar em {{local}}</h2> <p>Para uso recorrente em {{local}}, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua obra em {{local}} que a gente confirma se a mini escavadeira de 6 toneladas atende e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Mini Escavadeira 6 toneladas para {{setor}}</h1-setor>
+                <subtitle-setor>Mini escavadeira de 6 toneladas da {{empresa}} (X65 Pro) para
+                        {{setor}}, com peças genuínas e suporte técnico.</subtitle-setor>
+                <meta-title-setor>Mini Escavadeira 6 toneladas para {{setor}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Mini escavadeira de 6 toneladas para {{setor}}: o X65 Pro da
+                        {{empresa}} no porte certo para o setor. Peça um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Para <strong>{{setor}}</strong>, a mini escavadeira de 6 toneladas (modelo X65 Pro) entrega o porte certo para infraestrutura e solo pesado. Na <strong>{{empresa}}</strong>, com 4.159 mm de profundidade e 48 kN de força na concha.</p> <h2>Mini escavadeira de 6 toneladas para {{setor}}: o que ela resolve</h2> <p>No dia a dia de {{setor}}, essa faixa de peso atende infraestrutura, escavação profunda e solo pesado, mantendo o porte compacto para espaços restritos. As tarefas mais comuns são:</p> <ul> <li>escavação profunda em obras de infraestrutura;</li> <li>fundações de grande porte;</li> <li>abertura de valas para coletores e galerias;</li> <li>demolição pesada com rompedor;</li> <li>movimentação de grande volume de material;</li> <li>trabalho em solo rochoso;</li> </ul> <h2>Ficha técnica do X65 Pro</h2> <p>A mini escavadeira de 6 toneladas da <strong>{{empresa}}</strong> é o X65 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td></tr></tbody></table> <p>Com 4.159 mm de profundidade e 48 kN de força, atende as exigências de {{setor}}.</p> <h2>Quem usa em {{setor}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras de infraestrutura;</li> <li>empresas de terraplanagem;</li> <li>mineração;</li> <li>empreiteiras de obras viárias;</li> <li>empresas de saneamento de grande porte;</li> </ul> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação, garante disponibilidade e dá controle sobre manutenção. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 6 toneladas é o porte certo para {{setor}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua operação em {{setor}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Mini Escavadeira 6 toneladas para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Mini escavadeira de 6 toneladas da {{empresa}} (X65 Pro) para
+                        {{aplicacao}}, com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Mini Escavadeira 6 toneladas para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Mini escavadeira de 6 toneladas para {{aplicacao}}: o X65 Pro
+                        da {{empresa}} no porte certo para o serviço. Peça um orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Para <strong>{{aplicacao}}</strong>, a mini escavadeira de 6 toneladas (modelo X65 Pro) costuma ser o porte certo. Na <strong>{{empresa}}</strong>, com 4.159 mm de profundidade e 48 kN de força na concha.</p> <h2>Mini escavadeira de 6 toneladas para {{aplicacao}}: o que considerar</h2> <p>Em {{aplicacao}}, o que define a máquina é a profundidade necessária, a força exigida pelo solo e o espaço de trabalho. Essa faixa atende infraestrutura, escavação profunda e solo pesado. Tarefas relacionadas:</p> <ul> <li>escavação profunda em obras de infraestrutura;</li> <li>fundações de grande porte;</li> <li>abertura de valas para coletores e galerias;</li> <li>demolição pesada com rompedor;</li> <li>movimentação de grande volume de material;</li> <li>trabalho em solo rochoso;</li> </ul> <h2>Ficha técnica do X65 Pro</h2> <p>A mini escavadeira de 6 toneladas da <strong>{{empresa}}</strong> é o X65 Pro:</p> <table><thead><tr><th>Modelo</th><th>Profundidade de escavação</th><th>Profundidade de perfuração</th><th>Força na concha</th></tr></thead><tbody><tr><td>X65 Pro</td><td>4.159 mm</td><td>5.800 mm</td><td>48 kN</td></tr></tbody></table> <p>Com 4.159 mm de profundidade e 48 kN de força, atende infraestrutura e solo pesado.</p> <h2>Quem usa para {{aplicacao}}</h2> <p>Esse porte é a escolha de:</p> <ul> <li>construtoras de infraestrutura;</li> <li>empresas de terraplanagem;</li> <li>mineração;</li> <li>empreiteiras de obras viárias;</li> <li>empresas de saneamento de grande porte;</li> </ul> <h2>Comprar ou alugar para {{aplicacao}}</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação e garante a máquina disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>Por que a {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, e ajuda a confirmar se a mini escavadeira de 6 toneladas é o porte ideal para {{aplicacao}}.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o seu serviço de {{aplicacao}} que a gente confirma o porte e monta o orçamento.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ O que é uma mini escavadeira de 6 toneladas? ]]>
+</q1>
+                        <a1>
+<![CDATA[ É a máquina dessa faixa de peso. Na {{empresa}} é o modelo X65 Pro, com 4.159 mm de profundidade, indicada para infraestrutura e solo pesado. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual modelo é a mini escavadeira de 6 toneladas na {{empresa}}? ]]>
+</q2>
+                        <a2>
+<![CDATA[ É o X65 Pro. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual a profundidade de escavação da mini escavadeira de 6 toneladas? ]]>
+</q3>
+                        <a3>
+<![CDATA[ São 4.159 mm de profundidade de escavação (modelo X65 Pro). ]]>
+</a3>
+                        <q4>
+<![CDATA[ Para que serve uma mini escavadeira de 6 toneladas? ]]>
+</q4>
+                        <a4>
+<![CDATA[ Para infraestrutura, escavação profunda e solo pesado. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Mini escavadeira de 6 toneladas: comprar ou alugar? ]]>
+</q5>
+                        <a5>
+<![CDATA[ Para uso recorrente, comprar tende a sair mais barato no médio prazo e garante disponibilidade. Para uso pontual, a locação pode ser suficiente. ]]>
+</a5>
+                        <q6>
+<![CDATA[ Quais implementos posso usar? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Além da concha, a máquina aceita rompedor hidráulico, perfuratriz e garra. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como funcionam o suporte e as peças? ]]>
+</q7>
+                        <a7>
+<![CDATA[ A {{empresa}} oferece peças genuínas e assistência técnica especializada, para reduzir o tempo de máquina parada. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Como sei se 6 toneladas é o porte certo para mim? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Depende da profundidade, do tipo de solo e do volume de trabalho. A equipe da {{empresa}} ajuda a confirmar. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua obra, a {{empresa}} confirma o modelo e apresenta as condições. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim. A {{empresa}} vende para todo o Brasil, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+        <servico>
+                <nome>Máquinas e Equipamentos</nome>
+                <slug>maquinas-e-equipamentos</slug>
+                <produto_base>Máquinas e Equipamentos</produto_base>
+                <hidden>true</hidden>
+                <pub_servico>true</pub_servico>
+                <pub_seo_locais>true</pub_seo_locais>
+                <pub_seo_setores>true</pub_seo_setores>
+                <pub_seo_aplicacoes>true</pub_seo_aplicacoes>
+                <h1-title>Máquinas e Equipamentos Compactos da {{empresa}}</h1-title>
+                <subtitle>A linha compacta da {{empresa}}: mini escavadeira, mini carregadeira, mini
+                        dumper e mini rolo compactador, com peças genuínas e suporte técnico.</subtitle>
+                <descricao>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> trabalha com uma linha completa de máquinas compactas para obra, agro e infraestrutura. Em vez de alugar, você investe em equipamento próprio, com autonomia e disponibilidade contínua. Cada máquina resolve um tipo de trabalho.</p> <h2>As máquinas da {{empresa}}</h2> <ul> <li><strong>Mini escavadeira</strong>: escavar valas, abrir fundações, drenagem e demolição leve. Modelos do X10 PLUS ao X65 Pro, de 1.650 a 4.159 mm de profundidade.</li> <li><strong>Mini carregadeira</strong>: carregar e movimentar terra, brita e areia, abastecer caçambas e caminhões e movimentar paletes. Modelos XD500 e XC750.</li> <li><strong>Mini dumper</strong>: transportar e bascular material em terreno difícil e acesso restrito. Modelo XD500.</li> <li><strong>Mini rolo compactador</strong>: compactar solo, base e asfalto. Modelo XR12.</li> </ul> <h2>Qual máquina escolher</h2> <p>A escolha depende da tarefa principal: se é escavar, a mini escavadeira; se é carregar e movimentar material, a mini carregadeira; se é transportar material em terreno difícil, o mini dumper; se é compactar, o mini rolo compactador. Muitas obras usam mais de uma, e a equipe da {{empresa}} ajuda a montar a combinação certa.</p> <h2>Comprar ou alugar</h2> <p>Para uso recorrente, comprar elimina o custo contínuo da locação e garante o equipamento disponível quando a obra exige. A locação ainda faz sentido para uso pontual. A <strong>{{empresa}}</strong> trabalha com a venda, então vale calcular quantas diárias de aluguel por ano até o equipamento próprio se pagar.</p> <h2>Quem compra com a {{empresa}}</h2> <p>A linha atende:</p> <ul> <li>construtoras e empreiteiras;</li> <li>produtores rurais e empresas agrícolas;</li> <li>empresas de paisagismo, saneamento e terraplanagem;</li> <li>prefeituras e serviços de manutenção;</li> <li>prestadores de serviço que querem parar de depender de locação;</li> </ul> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e assistência técnica especializada, garantindo a continuidade da operação com o mínimo de máquina parada.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua operação que a gente indica a máquina certa, ou a combinação de máquinas, e monta o orçamento. Atendimento por WhatsApp ou pelo formulário.</p> ]]>
+</descricao>
+                <imagem>maquinas-e-equipamentos.jpg</imagem>
+                <meta-title>Máquinas e Equipamentos Compactos | {{empresa}}</meta-title>
+                <meta-desc>Conheça a linha de máquinas compactas da {{empresa}}: mini escavadeira,
+                        carregadeira, dumper e rolo compactador. Veja qual atende seu trabalho.</meta-desc>
+                <heading>Máquinas e Equipamentos</heading>
+                <footer-desc>
+<![CDATA[ <p>A <strong>{{empresa}}</strong> vende máquinas compactas para obra, agro e infraestrutura: mini escavadeira, mini carregadeira, mini dumper e mini rolo compactador. Venda direta, com peças genuínas e suporte técnico.</p> ]]>
+</footer-desc>
+                <h1-local>Máquinas e Equipamentos em {{local}}</h1-local>
+                <subtitle-local>Linha de máquinas compactas da {{empresa}} para obras em {{local}},
+                        com entrega, peças genuínas e suporte na região.</subtitle-local>
+                <meta-title-local>Máquinas e Equipamentos em {{local}} {{estado}} | {{empresa}}</meta-title-local>
+                <meta-desc-local>Máquinas e equipamentos em {{local}}: mini escavadeira,
+                        carregadeira, dumper e rolo da {{empresa}}, com entrega e suporte. Peça um
+                        orçamento.</meta-desc-local>
+                <seo-local-desc>
+<![CDATA[ <p>Quem busca <strong>máquinas e equipamentos em {{local}}</strong> encontra na <strong>{{empresa}}</strong> a linha compacta completa, com entrega e suporte na região. Em vez de alugar, você investe em equipamento próprio.</p> <h2>A linha de máquinas em {{local}}</h2> <ul> <li><strong>Mini escavadeira</strong>: escavar valas, abrir fundações, drenagem e demolição leve. Modelos do X10 PLUS ao X65 Pro, de 1.650 a 4.159 mm de profundidade.</li> <li><strong>Mini carregadeira</strong>: carregar e movimentar terra, brita e areia, abastecer caçambas e caminhões e movimentar paletes. Modelos XD500 e XC750.</li> <li><strong>Mini dumper</strong>: transportar e bascular material em terreno difícil e acesso restrito. Modelo XD500.</li> <li><strong>Mini rolo compactador</strong>: compactar solo, base e asfalto. Modelo XR12.</li> </ul> <h2>Qual máquina escolher em {{local}}</h2> <p>Depende da tarefa principal da sua obra em {{local}}: escavar pede a mini escavadeira; carregar e movimentar, a mini carregadeira; transportar em terreno difícil, o mini dumper; compactar, o mini rolo compactador.</p> <h2>Quem compra em {{local}}</h2> <p>Em {{local}}, a linha atende:</p> <ul> <li>construtoras e empreiteiras;</li> <li>produtores rurais e empresas agrícolas;</li> <li>empresas de paisagismo, saneamento e terraplanagem;</li> <li>prefeituras e serviços de manutenção;</li> <li>prestadores de serviço que querem parar de depender de locação;</li> </ul> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com orientação na escolha do modelo, condições de pagamento, entrega, peças genuínas e suporte técnico.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte a sua operação em {{local}} que a gente indica a máquina certa e monta o orçamento.</p> ]]>
+</seo-local-desc>
+                <h1-setor>Máquinas para {{setor}} em {{local}}</h1-setor>
+                <subtitle-setor>Linha de máquinas compactas da {{empresa}} para {{setor}} em
+                        {{local}}: a combinação certa de equipamentos para a operação na região.</subtitle-setor>
+                <meta-title-setor>Máquinas para {{setor}} em {{local}} {{estado}} | {{empresa}}</meta-title-setor>
+                <meta-desc-setor>Máquinas para {{setor}} em {{local}}: mini escavadeira,
+                        carregadeira, dumper e rolo da {{empresa}}, com entrega e suporte na região.
+                        Peça um orçamento.</meta-desc-setor>
+                <seo-setor-desc>
+<![CDATA[ <p>Empresas de <strong>{{setor}}</strong> em {{local}} costumam precisar de mais de um tipo de máquina. A <strong>{{empresa}}</strong> reúne a linha compacta que atende o setor em {{local}} e região, com venda direta, peças genuínas e suporte técnico.</p> <h2>A linha de máquinas para {{setor}} em {{local}}</h2> <ul> <li><strong>Mini escavadeira</strong>: escavar valas, abrir fundações, drenagem e demolição leve. Modelos do X10 PLUS ao X65 Pro, de 1.650 a 4.159 mm de profundidade.</li> <li><strong>Mini carregadeira</strong>: carregar e movimentar terra, brita e areia, abastecer caçambas e caminhões e movimentar paletes. Modelos XD500 e XC750.</li> <li><strong>Mini dumper</strong>: transportar e bascular material em terreno difícil e acesso restrito. Modelo XD500.</li> <li><strong>Mini rolo compactador</strong>: compactar solo, base e asfalto. Modelo XR12.</li> </ul> <h2>Qual máquina para {{setor}} em {{local}}</h2> <p>Depende das tarefas mais frequentes em {{setor}}: escavação pede a mini escavadeira; carga e movimentação, a mini carregadeira; transporte em terreno difícil, o mini dumper; compactação, o mini rolo compactador. A equipe da {{empresa}} ajuda a montar a combinação certa para a operação em {{local}}.</p> <h2>Comprar ou alugar para {{setor}}</h2> <p>Para operações de {{setor}} com uso recorrente, comprar elimina o custo de locação e garante disponibilidade. Para uso esporádico, a locação ainda pode ser viável.</p> <h2>Atendimento em {{local}} e região</h2> <p>A <strong>{{empresa}}</strong> vende para todo o Brasil e atende {{local}} com entrega, peças genuínas e suporte técnico.</p> <h2>Comprar com a {{empresa}}</h2> <p>Venda direta. Conte a sua operação de {{setor}} em {{local}} que a gente monta o orçamento da linha completa.</p> ]]>
+</seo-setor-desc>
+                <h1-aplicacao>Máquinas para {{aplicacao}}</h1-aplicacao>
+                <subtitle-aplicacao>Linha de máquinas compactas da {{empresa}} para {{aplicacao}},
+                        com peças genuínas e suporte técnico.</subtitle-aplicacao>
+                <meta-title-aplicacao>Máquinas para {{aplicacao}} | {{empresa}}</meta-title-aplicacao>
+                <meta-desc-aplicacao>Máquinas para {{aplicacao}}: veja qual equipamento da
+                        {{empresa}} se encaixa no serviço e peça um orçamento.</meta-desc-aplicacao>
+                <seo-aplicacao-desc>
+<![CDATA[ <p>Para <strong>{{aplicacao}}</strong>, a <strong>{{empresa}}</strong> tem a máquina certa na linha compacta, com venda direta, peças genuínas e suporte técnico.</p> <h2>A linha de máquinas para {{aplicacao}}</h2> <ul> <li><strong>Mini escavadeira</strong>: escavar valas, abrir fundações, drenagem e demolição leve. Modelos do X10 PLUS ao X65 Pro, de 1.650 a 4.159 mm de profundidade.</li> <li><strong>Mini carregadeira</strong>: carregar e movimentar terra, brita e areia, abastecer caçambas e caminhões e movimentar paletes. Modelos XD500 e XC750.</li> <li><strong>Mini dumper</strong>: transportar e bascular material em terreno difícil e acesso restrito. Modelo XD500.</li> <li><strong>Mini rolo compactador</strong>: compactar solo, base e asfalto. Modelo XR12.</li> </ul> <h2>Qual máquina para {{aplicacao}}</h2> <p>Depende do tipo de serviço: escavar pede a mini escavadeira; carregar e movimentar, a mini carregadeira; transportar material, o mini dumper; compactar, o mini rolo compactador. A equipe da {{empresa}} indica o equipamento certo para {{aplicacao}} conforme o tipo e o volume do serviço.</p> <h2>Comprar ou alugar</h2> <p>Para quem faz {{aplicacao}} com frequência, comprar elimina o custo contínuo da locação e garante o equipamento disponível. Para uso pontual, a locação pode ser suficiente.</p> <h2>O diferencial da {{empresa}}</h2> <p>A {{empresa}} foca na venda de máquinas novas, com peças genuínas e suporte técnico, garantindo a continuidade da operação.</p> <h2>Fale com a {{empresa}}</h2> <p>Conte o seu serviço de {{aplicacao}} que a gente indica a máquina certa e monta o orçamento.</p> ]]>
+</seo-aplicacao-desc>
+                <faq>
+                        <q1>
+<![CDATA[ Quais máquinas a {{empresa}} vende? ]]>
+</q1>
+                        <a1>
+<![CDATA[ Mini escavadeira, mini carregadeira, mini dumper e mini rolo compactador, todas compactas. ]]>
+</a1>
+                        <q2>
+<![CDATA[ Qual máquina serve para escavar? ]]>
+</q2>
+                        <a2>
+<![CDATA[ A mini escavadeira, para valas, fundações e movimentação de terra. ]]>
+</a2>
+                        <q3>
+<![CDATA[ Qual máquina serve para carregar e movimentar material? ]]>
+</q3>
+                        <a3>
+<![CDATA[ A mini carregadeira, que também abastece caçambas e caminhões. ]]>
+</a3>
+                        <q4>
+<![CDATA[ Qual máquina serve para transportar material em terreno difícil? ]]>
+</q4>
+                        <a4>
+<![CDATA[ O mini dumper, com descarga por basculamento. ]]>
+</a4>
+                        <q5>
+<![CDATA[ Qual máquina serve para compactar? ]]>
+</q5>
+                        <a5>
+<![CDATA[ O mini rolo compactador, para solo, base e asfalto. ]]>
+</a5>
+                        <q6>
+<![CDATA[ A {{empresa}} aluga as máquinas? ]]>
+</q6>
+                        <a6>
+<![CDATA[ Não, a {{empresa}} foca na venda, com peças genuínas e suporte técnico. ]]>
+</a6>
+                        <q7>
+<![CDATA[ Como escolher a máquina certa para a minha operação? ]]>
+</q7>
+                        <a7>
+<![CDATA[ Depende das tarefas mais frequentes. A equipe da {{empresa}} ajuda a definir a combinação certa. ]]>
+</a7>
+                        <q8>
+<![CDATA[ Posso comprar mais de uma máquina? ]]>
+</q8>
+                        <a8>
+<![CDATA[ Sim. Muitas obras usam mais de um tipo de equipamento, e a {{empresa}} monta o orçamento da combinação. ]]>
+</a8>
+                        <q9>
+<![CDATA[ Como funciona o processo de compra? ]]>
+</q9>
+                        <a9>
+<![CDATA[ Você informa a sua operação, a {{empresa}} indica os equipamentos e apresenta as condições. Depois é só agendar a entrega. ]]>
+</a9>
+                        <q10>
+<![CDATA[ A {{empresa}} entrega em todo o Brasil? ]]>
+</q10>
+                        <a10>
+<![CDATA[ Sim, com entrega, peças genuínas e suporte técnico. ]]>
+</a10>
+                </faq>
+                <referencia>plxbrasil.com.br</referencia>
+        </servico>
+</servicos>

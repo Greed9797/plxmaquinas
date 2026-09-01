@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080b10">
+  <meta name="description" content="Venda de máquinas compactas PLX: mini carregadeiras, mini escavadeiras, mini dumpers e mini rolo compactador.">
+  <title>Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil</title>
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --surface-soft: rgba(255,255,255,.78);
+      --fg: #16181d;
+      --muted: #5b6472;
+      --muted-light: rgba(255,255,255,.72);
+      --border: rgba(15,17,21,.1);
+      --accent: #e01f26;
+      --accent-hot: #fe2724;
+      --accent-deep: #a50d12;
+      --dark: #101318;
+      --dark-deep: #090c10;
+      --container: 1240px;
+      --container-wide: 1360px;
+      --ease: 180ms ease;
+      --ease-slow: 420ms ease;
+      --radius-lg: 28px;
+      --radius-md: 18px;
+      --shadow: 0 18px 50px rgba(15,17,21,.12);
+    }
+
+    *,*::before,*::after { box-sizing:border-box; }
+    html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+    body { margin:0; min-width:320px; overflow-x:hidden; color:var(--fg); background:linear-gradient(180deg,#fbfbfc 0%,#f4f6f8 100%); font-family:Inter,"Segoe UI",Arial,sans-serif; -webkit-font-smoothing:antialiased; }
+    body.modal-open, body.menu-open { overflow:hidden; }
+    img { display:block; max-width:100%; height:auto; }
+    a { color:inherit; text-decoration:none; transition:color var(--ease),opacity var(--ease),transform var(--ease); }
+    button,input,textarea,select { font:inherit; }
+    button { border:0; cursor:pointer; }
+    p,h1,h2,h3,h4,ul { margin:0; padding:0; }
+    ul { list-style:none; }
+    :focus-visible { outline:3px solid #ff656b; outline-offset:3px; }
+    .sr-only { position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important; overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important; }
+    .container { width:min(calc(100% - 32px),var(--container)); margin-inline:auto; }
+    .container-wide { width:min(calc(100% - 32px),var(--container-wide)); margin-inline:auto; }
+    .icon { display:inline-flex; width:18px; height:18px; align-items:center; justify-content:center; flex:0 0 auto; font-style:normal; }
+
+    /* Header */
+    .site-header { position:relative; z-index:20; background:#080b10; }
+    .topbar { min-height:40px; background:#000; color:rgba(255,255,255,.9); border-bottom:1px solid rgba(255,255,255,.07); }
+    .topbar-inner { min-height:40px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .topbar-copy { min-width:0; font-size:12px; line-height:1.2; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .socials { display:flex; gap:8px; flex:0 0 auto; }
+    .social { width:34px; height:34px; border-radius:999px; display:grid; place-items:center; color:#fff; background:rgba(255,255,255,.08); transition:background var(--ease),transform var(--ease); }
+    .social:hover { transform:translateY(-1px); background:rgba(224,31,38,.22); }
+    .social svg { width:17px; height:17px; fill:currentColor; }
+    .header-main { min-height:82px; position:relative; overflow:visible; background:linear-gradient(90deg,rgba(5,7,10,.4),rgba(5,7,10,.14) 50%,rgba(5,7,10,.3)),url("assets/images/plxbrasil.com.br/bg-40d96cd891.png") center 18% / cover no-repeat; border-bottom:1px solid rgba(255,255,255,.1); box-shadow:0 12px 34px rgba(0,0,0,.12); }
+    .header-main-inner { min-height:82px; display:grid; grid-template-columns:auto minmax(280px,620px) auto; align-items:center; justify-content:space-between; gap:22px; }
+    .brand { display:inline-flex; align-items:center; padding:10px 14px; }
+    .brand img { width:133px; height:40px; object-fit:contain; }
+    .search { position:relative; width:100%; }
+    .search-box { position:relative; }
+    .search-input { width:100%; height:50px; padding:0 64px 0 18px; border:1px solid rgba(255,61,69,.5); border-radius:999px; color:#fff; background:rgba(5,7,10,.86); box-shadow:0 14px 30px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.08); outline:none; }
+    .search-input::placeholder { color:rgba(255,255,255,.88); }
+    .search-input:focus { border-color:#ff646a; box-shadow:0 0 0 4px rgba(224,31,38,.18),0 16px 32px rgba(0,0,0,.24); }
+    .search-btn { position:absolute; top:6px; right:6px; width:38px; height:38px; border-radius:50%; color:#fff; background:var(--accent-hot); display:grid; place-items:center; }
+    .search-btn:hover { background:var(--accent-deep); }
+    .search-btn svg { width:17px; height:17px; fill:none; stroke:currentColor; stroke-width:2; }
+    .search-results { display:none; position:absolute; top:58px; left:0; right:0; padding:8px; border:1px solid rgba(255,255,255,.14); border-radius:16px; background:#11151b; box-shadow:0 20px 40px rgba(0,0,0,.3); }
+    .search-results.is-visible { display:grid; gap:4px; }
+    .search-result { min-height:40px; display:flex; align-items:center; padding:8px 12px; border-radius:10px; color:#fff; font-size:13px; text-align:left; }
+    .search-result:hover { background:rgba(224,31,38,.18); }
+    .header-quote { min-height:48px; padding:0 20px; border-radius:999px; color:#fff; background:linear-gradient(135deg,#ff2e36 0%,#d91820 100%); font-weight:800; font-size:13px; white-space:nowrap; box-shadow:0 16px 30px rgba(0,0,0,.2); }
+    .header-quote:hover,.primary:hover { background:var(--accent-deep); transform:translateY(-1px); }
+    .nav-wrap { min-height:44px; display:flex; align-items:center; background:linear-gradient(90deg,#d8171f,#f1262e 50%,#d8171f); }
+    .nav-inner { display:flex; align-items:center; justify-content:center; }
+    .nav-list { display:flex; align-items:center; gap:4px; }
+    .nav-link { min-height:40px; padding:0 13px; display:flex; align-items:center; color:#fff; font-size:12px; font-weight:700; }
+    .nav-link:hover { color:#240306; }
+    .menu-toggle { display:none; width:44px; height:44px; place-items:center; color:#fff; background:transparent; }
+    .menu-toggle svg { width:23px; height:23px; fill:none; stroke:currentColor; stroke-width:2; }
+
+    /* Hero */
+    .hero { min-height:clamp(620px,calc(100vh - 166px),790px); position:relative; display:flex; align-items:center; justify-content:center; overflow:hidden; isolation:isolate; background:#10141a; }
+    .hero::before { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg,rgba(3,5,8,.08),rgba(3,5,8,.38)),radial-gradient(circle at 50% 28%,rgba(0,0,0,.05),rgba(0,0,0,.24)),url("assets/images/plxbrasil.com.br/bg-40d96cd891.png") bottom / cover no-repeat; transform:scale(1.045); }
+    .hero::after { content:""; position:absolute; z-index:-1; left:50%; bottom:-120px; width:min(1080px,96vw); height:270px; transform:translateX(-50%); border-radius:50%; background:rgba(224,31,38,.1); filter:blur(82px); }
+    .hero-content { width:min(100%,920px); padding:74px 0 62px; text-align:center; }
+    .hero-title { max-width:13ch; margin-inline:auto; color:#fff; font-size:clamp(48px,5.2vw,86px); line-height:.98; letter-spacing:-.06em; text-shadow:0 18px 44px rgba(0,0,0,.28); }
+    .hero-title span,.accent { color:var(--accent); }
+    .hero-actions { display:flex; justify-content:center; flex-wrap:wrap; gap:14px; margin-top:50px; }
+    .hero-btn,.primary,.ghost { min-height:52px; padding:0 22px; border-radius:999px; display:inline-flex; align-items:center; justify-content:center; gap:10px; font-size:14px; font-weight:800; transition:background var(--ease),border-color var(--ease),color var(--ease),transform var(--ease),box-shadow var(--ease); }
+    .hero-btn { color:#fff; border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.08); box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 14px 34px rgba(0,0,0,.16); backdrop-filter:blur(14px); }
+    .hero-btn:hover { transform:translateY(-2px); }
+    .hero-btn--whatsapp { color:#25d366; border-color:rgba(37,211,102,.58); }
+    .hero-btn--whatsapp:hover { color:#fff; background:#148a4b; border-color:#25d366; }
+    .hero-btn--quote { color:#ff5d64; border-color:rgba(255,95,103,.65); }
+    .hero-btn--quote:hover { color:#fff; background:var(--accent); border-color:var(--accent); }
+    .hero-subtitle { max-width:820px; margin:38px auto 0; color:rgba(255,255,255,.92); font-size:16px; line-height:1.82; text-shadow:0 6px 18px rgba(0,0,0,.22); }
+    .hero-badges { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-top:22px; }
+    .hero-badge { min-height:38px; padding:0 13px; display:inline-flex; align-items:center; gap:8px; border:1px solid rgba(255,255,255,.13); border-radius:999px; color:rgba(255,255,255,.88); background:rgba(255,255,255,.075); font-size:13px; font-weight:800; backdrop-filter:blur(10px); }
+    .hero-badge svg { width:17px; height:17px; fill:none; stroke:#ff4b52; stroke-width:2; }
+
+    /* Shared bands */
+    .dark-band { position:relative; overflow:hidden; background:radial-gradient(circle at top center,rgba(224,31,38,.14),transparent 26%),linear-gradient(180deg,var(--dark) 0%,var(--dark-deep) 100%); }
+    .dark-band::before,.light-band::before { content:""; position:absolute; pointer-events:none; border-radius:50%; filter:blur(72px); }
+    .dark-band::before { width:320px; height:320px; top:-120px; right:-100px; background:rgba(224,31,38,.14); }
+    .light-band { position:relative; overflow:hidden; background:radial-gradient(circle at top left,rgba(224,31,38,.08),transparent 24%),linear-gradient(180deg,#f8f8f9 0%,#eef1f4 100%); }
+    .light-band::before { width:320px; height:320px; top:-120px; left:-120px; background:rgba(224,31,38,.08); }
+    .section { padding:64px 0; }
+    .section-heading { position:relative; z-index:1; display:grid; gap:14px; justify-items:center; text-align:center; margin-bottom:38px; }
+    .section-heading h2 { color:#fff; font-size:clamp(30px,3.6vw,52px); line-height:1.05; letter-spacing:-.05em; }
+    .section-heading p { max-width:720px; color:rgba(255,255,255,.72); font-size:15px; line-height:1.8; }
+
+    /* Products */
+    .products-section { padding-top:64px; padding-bottom:52px; }
+    .products-stack { position:relative; z-index:1; padding:24px; border:1px solid rgba(255,255,255,.07); border-radius:34px; background:rgba(255,255,255,.035); box-shadow:0 26px 70px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.05); }
+    .service-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
+    .service-item { min-width:0; }
+    .service-card,.model-card { position:relative; overflow:hidden; border:1px solid rgba(255,255,255,.09); background:linear-gradient(180deg,rgba(255,255,255,.09),rgba(255,255,255,.04)); box-shadow:0 24px 60px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.08); transition:transform var(--ease-slow),border-color var(--ease-slow),box-shadow var(--ease-slow); }
+    .service-card { min-height:378px; display:flex; flex-direction:column; border-radius:26px; }
+    .service-card:hover,.service-card.is-active,.model-card:hover { transform:translateY(-5px); border-color:rgba(255,95,103,.34); box-shadow:0 30px 70px rgba(0,0,0,.36),0 0 0 1px rgba(255,95,103,.08) inset; }
+    .service-media { min-height:208px; padding:18px 14px 0; position:relative; display:grid; place-items:center; overflow:hidden; background:radial-gradient(circle at center,rgba(255,255,255,.12),rgba(255,255,255,0) 68%); }
+    .service-media::after,.model-media::after { content:""; position:absolute; left:18px; right:18px; bottom:12px; height:60px; border-radius:50%; background:rgba(224,31,38,.2); filter:blur(26px); pointer-events:none; }
+    .service-media img { width:100%; height:200px; object-fit:contain; position:relative; z-index:1; transition:transform .75s ease; }
+    .service-card:hover .service-media img,.service-card.is-active .service-media img { transform:translateY(-5px) scale(1.04); }
+    .service-body { flex:1; display:flex; flex-direction:column; justify-content:space-between; gap:16px; padding:18px; }
+    .service-title { color:#fff; font-size:18px; line-height:1.1; letter-spacing:-.03em; }
+    .service-actions { display:grid; gap:9px; }
+    .primary { min-height:44px; color:#fff; background:linear-gradient(135deg,#ff2e36 0%,#d91820 100%); box-shadow:0 16px 30px rgba(0,0,0,.2); }
+    .service-link,.model-link { color:#fff; font-size:12px; font-weight:700; display:inline-flex; align-items:center; gap:7px; }
+    .service-link:hover,.model-link:hover { color:#ff676d; transform:translateX(2px); }
+    .bridge { width:fit-content; min-height:36px; margin:10px auto 0; padding:0 14px; display:flex; align-items:center; gap:8px; border:1px solid rgba(255,255,255,.12); border-radius:999px; color:rgba(255,255,255,.82); background:rgba(255,255,255,.08); font-size:12px; font-weight:800; }
+    .bridge:hover,.bridge.is-active { background:rgba(224,31,38,.16); border-color:rgba(255,95,103,.4); color:#ff9296; }
+    .showcase { display:none; padding-top:26px; margin-top:24px; border-top:1px solid rgba(255,255,255,.08); }
+    .showcase.is-ready { display:block; animation:rise .42s ease both; }
+    @keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+    .showcase-context { width:fit-content; max-width:100%; margin:0 auto 26px; padding:7px 12px; display:flex; align-items:center; gap:9px; border:1px solid rgba(255,255,255,.12); border-radius:999px; color:#fff; background:rgba(224,31,38,.16); font-size:12px; font-weight:800; }
+    .showcase-context::before { content:""; width:8px; height:8px; border-radius:50%; background:#ff666d; box-shadow:0 0 0 6px rgba(255,102,109,.12); }
+    .model-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
+    .model-card { min-height:516px; display:flex; flex-direction:column; border-radius:22px; }
+    .model-media { min-height:190px; position:relative; display:grid; place-items:center; padding:16px 14px 0; overflow:hidden; background:radial-gradient(circle at center,rgba(255,255,255,.1),rgba(255,255,255,0) 68%); }
+    .model-media img { width:100%; height:188px; object-fit:contain; position:relative; z-index:1; }
+    .badge { position:absolute; z-index:2; top:12px; left:12px; padding:6px 9px; border-radius:999px; color:#fff; background:var(--accent); font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
+    .model-body { flex:1; display:flex; flex-direction:column; gap:16px; padding:18px; }
+    .model-title { color:#fff; font-size:17px; line-height:1.1; }
+    .specs { display:grid; gap:7px; }
+    .spec { display:grid; gap:3px; padding:8px 10px; border-radius:10px; background:rgba(255,255,255,.055); }
+    .spec-label { color:rgba(255,255,255,.62); font-size:10px; line-height:1.2; }
+    .spec-value { color:#fff; font-size:12px; font-weight:800; line-height:1.2; }
+    .model-actions { margin-top:auto; display:grid; gap:10px; }
+    .model-cta { min-height:42px; border-radius:999px; color:#fff; background:rgba(224,31,38,.19); border:1px solid rgba(255,95,103,.18); font-size:12px; font-weight:800; }
+    .model-cta:hover { background:var(--accent-deep); }
+
+    /* Videos */
+    .videos { padding-top:48px; padding-bottom:68px; }
+    .videos-layout { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(300px,1fr); gap:26px; align-items:stretch; }
+    .player-card,.video-rail { border:1px solid rgba(255,255,255,.08); border-radius:22px; background:rgba(255,255,255,.035); box-shadow:0 18px 44px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.06); }
+    .player-card { padding:16px; display:flex; flex-direction:column; }
+    .player { min-height:420px; position:relative; overflow:hidden; display:grid; place-items:center; border-radius:15px; background:#090c10; }
+    .player::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 58%,rgba(0,0,0,.72)); pointer-events:none; }
+    .player-poster { display:none; width:100%; height:100%; position:absolute; inset:0; object-fit:cover; opacity:.8; }
+    .player.has-poster .player-poster { display:block; }
+    .player-poster-play { display:none; position:relative; z-index:2; width:64px; height:64px; place-items:center; border-radius:50%; color:#fff; background:var(--accent); box-shadow:0 14px 36px rgba(0,0,0,.3); }
+    .player.has-poster .player-poster-play { display:grid; }
+    .player-poster-play::before { content:""; margin-left:4px; border-top:9px solid transparent; border-bottom:9px solid transparent; border-left:13px solid #fff; }
+    .player-placeholder { width:52px; height:52px; border:1px solid rgba(255,255,255,.1); border-radius:50%; opacity:.2; }
+    .player-meta { padding:18px 6px 4px; }
+    .player-title { color:#fff; font-size:17px; line-height:1.25; }
+    .video-rail { padding:16px; }
+    .rail-head { display:flex; align-items:start; justify-content:space-between; gap:14px; margin-bottom:14px; }
+    .rail-label { color:#fff; font-size:15px; font-weight:800; }
+    .rail-copy { color:rgba(255,255,255,.6); font-size:11px; line-height:1.45; }
+    .rail-nav { display:flex; gap:6px; }
+    .rail-nav button { width:32px; height:32px; border:1px solid rgba(255,255,255,.12); border-radius:9px; color:#fff; background:rgba(255,255,255,.06); font-size:18px; }
+    .rail-nav button:hover { background:rgba(224,31,38,.22); }
+    .video-list { max-height:438px; overflow:auto; display:grid; gap:9px; padding-right:4px; scrollbar-color:var(--accent) rgba(255,255,255,.08); }
+    .video-thumb { width:100%; min-height:76px; display:grid; grid-template-columns:96px minmax(0,1fr); gap:10px; align-items:center; padding:6px; border:1px solid transparent; border-radius:12px; color:#fff; background:rgba(255,255,255,.055); text-align:left; }
+    .video-thumb:hover,.video-thumb.is-active { border-color:rgba(255,95,103,.24); background:rgba(224,31,38,.16); }
+    .video-thumb img { width:96px; height:64px; object-fit:cover; border-radius:8px; }
+    .video-thumb-text { font-size:11px; line-height:1.32; font-weight:800; }
+    .video-thumb-play { display:inline-grid; place-items:center; width:22px; height:22px; margin-top:4px; border-radius:50%; color:#fff; background:var(--accent); font-size:10px; }
+
+    /* Light band */
+    .about { padding-top:80px; }
+    .about-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:52px; align-items:center; }
+    .about-image { overflow:hidden; border-radius:24px; box-shadow:0 20px 44px rgba(15,17,21,.12); }
+    .about-image img { width:100%; min-height:420px; object-fit:cover; }
+    .about-copy { display:grid; gap:18px; }
+    .about-title,.faq-title,.reviews-title { color:#0f1115; font-size:clamp(32px,3.6vw,52px); line-height:1.05; letter-spacing:-.05em; }
+    .about-text { display:grid; gap:14px; max-width:62ch; }
+    .about-text p,.faq-subtitle,.reviews-subtitle { color:var(--muted); font-size:15px; line-height:1.86; }
+    .about-actions { padding-top:6px; }
+    .about-actions .primary { min-width:164px; }
+    .faq { padding-top:64px; }
+    .center-heading { display:grid; justify-items:center; gap:14px; text-align:center; margin-bottom:36px; }
+    .center-heading p { max-width:720px; }
+    .faq-list { max-width:980px; margin-inline:auto; display:grid; gap:12px; }
+    .faq-item { overflow:hidden; border:1px solid rgba(15,17,21,.08); border-radius:18px; background:rgba(255,255,255,.78); box-shadow:0 16px 36px rgba(15,17,21,.08),inset 0 1px 0 rgba(255,255,255,.72); }
+    .faq-item.is-open { border-color:rgba(224,31,38,.24); }
+    .faq-question { width:100%; min-height:70px; padding:18px 22px; display:flex; align-items:center; justify-content:space-between; gap:18px; color:#0f1115; background:transparent; text-align:left; font-size:14px; font-weight:800; }
+    .faq-question:hover { color:var(--accent-deep); }
+    .faq-icon { color:var(--accent); font-size:20px; transition:transform var(--ease); }
+    .faq-item.is-open .faq-icon { transform:rotate(180deg); }
+    .faq-answer { display:none; padding:0 22px 20px; border-top:1px solid rgba(15,17,21,.07); }
+    .faq-item.is-open .faq-answer { display:block; }
+    .faq-answer p { margin-top:14px; color:var(--muted); font-size:14px; line-height:1.8; }
+    .faq-footer { margin:24px auto 0; max-width:980px; text-align:center; color:var(--muted); font-size:14px; }
+    .faq-footer a { color:var(--accent); font-weight:800; }
+    .reviews { padding-top:56px; padding-bottom:84px; }
+    .reviews-embed { padding:20px; border:1px solid rgba(15,17,21,.08); border-radius:24px; background:rgba(255,255,255,.78); box-shadow:0 18px 44px rgba(15,17,21,.08),inset 0 1px 0 rgba(255,255,255,.72); }
+    .reviews-summary { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:4px 2px 18px; border-bottom:1px solid rgba(15,17,21,.08); }
+    .reviews-brand { display:flex; align-items:center; gap:12px; color:#4a5260; font-size:13px; font-weight:800; }
+    .google-mark { width:28px; height:28px; display:grid; place-items:center; color:#4285f4; border:1px solid #e1e5eb; border-radius:8px; background:#fff; font-size:17px; font-weight:900; }
+    .rating { display:grid; gap:2px; text-align:right; }
+    .rating strong { color:#0f1115; font-size:16px; }
+    .stars { color:#f5b400; letter-spacing:1px; font-size:13px; }
+    .reviews-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; padding-top:18px; }
+    .review-card { min-height:154px; padding:14px; border:1px solid rgba(15,17,21,.08); border-radius:14px; background:#fff; }
+    .review-name { color:#16181d; font-size:12px; font-weight:800; }
+    .review-copy { margin-top:10px; color:#5b6472; font-size:12px; line-height:1.55; }
+    .review-link { display:inline-flex; margin-top:10px; color:var(--accent); font-size:11px; font-weight:800; }
+
+    /* CTA and footer */
+    .dark-end { position:relative; overflow:hidden; background:radial-gradient(circle at top center,rgba(224,31,38,.14),transparent 26%),linear-gradient(180deg,var(--dark) 0%,var(--dark-deep) 100%); }
+    .cta { padding-top:30px; padding-bottom:30px; }
+    .cta-card { position:relative; overflow:hidden; padding:52px 34px; border:1px solid rgba(255,255,255,.1); border-radius:30px; background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035)); box-shadow:0 24px 60px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.08); }
+    .cta-card::before { content:""; position:absolute; top:-46px; right:-46px; width:240px; height:240px; border-radius:50%; background:rgba(224,31,38,.14); filter:blur(46px); }
+    .cta-content { position:relative; z-index:1; max-width:840px; margin-inline:auto; display:grid; justify-items:center; gap:18px; text-align:center; }
+    .cta-title { max-width:30ch; color:#fff; font-size:clamp(31px,3.6vw,52px); line-height:1.04; letter-spacing:-.05em; }
+    .cta-text { max-width:700px; color:rgba(255,255,255,.74); font-size:15px; line-height:1.85; }
+    .cta-actions { display:flex; justify-content:center; flex-wrap:wrap; gap:14px; padding-top:8px; }
+    .ghost { min-width:200px; color:#fff; background:rgba(13,16,22,.62); border:1px solid rgba(255,255,255,.16); }
+    .ghost:hover { background:#080b10; border-color:rgba(255,255,255,.28); transform:translateY(-1px); }
+    .footer { padding:4px 0 26px; color:rgba(255,255,255,.78); }
+    .ticker { overflow:hidden; border-top:1px solid rgba(255,255,255,.06); border-bottom:1px solid rgba(255,255,255,.06); margin-bottom:20px; }
+    .ticker-track { width:max-content; display:flex; align-items:center; animation:marquee 28s linear infinite; }
+    .ticker-group { display:flex; align-items:center; gap:8px; padding-right:8px; }
+    .ticker-item { width:72px; height:54px; display:grid; place-items:center; border-right:1px solid rgba(255,255,255,.04); }
+    .ticker-item img { width:62px; height:44px; object-fit:contain; }
+    .ticker-logo img { width:64px; height:34px; object-fit:contain; }
+    @keyframes marquee { to { transform:translateX(-50%); } }
+    .footer-grid { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr); gap:24px; }
+    .footer-card { padding:26px 28px; border:1px solid rgba(255,255,255,.08); border-radius:24px; background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.025)); box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 18px 44px rgba(0,0,0,.12); }
+    .footer-intro { display:grid; grid-template-columns:auto minmax(0,1fr); gap:20px; align-items:center; }
+    .footer-logo img { width:142px; height:auto; }
+    .footer-brand-text { max-width:44ch; color:rgba(255,255,255,.72); font-size:14px; line-height:1.8; }
+    .footer-catalog { margin-top:24px; padding-top:22px; border-top:1px solid rgba(255,255,255,.08); }
+    .footer-title { margin-bottom:16px; color:#fff; font-size:15px; font-weight:800; }
+    .footer-catalog-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px 22px; }
+    .catalog-item { display:grid; gap:8px; }
+    .catalog-link { color:#fff; font-size:14px; font-weight:800; }
+    .catalog-link:hover,.contact-list a:hover { color:#ff656b; }
+    .catalog-models { display:grid; gap:5px; }
+    .catalog-models a { color:rgba(255,255,255,.64); font-size:12px; }
+    .contact-list { display:grid; gap:14px; }
+    .contact-list li { display:grid; grid-template-columns:18px minmax(0,1fr); gap:10px; align-items:start; }
+    .contact-icon { color:#fff; font-size:14px; }
+    .contact-list span,.contact-list a { color:rgba(255,255,255,.76); font-size:13px; line-height:1.65; }
+    .footer-divider { height:1px; margin:28px 0; background:linear-gradient(90deg,transparent,rgba(255,255,255,.1) 18%,rgba(255,255,255,.1) 82%,transparent); }
+    .footer-desc { max-width:980px; margin-inline:auto; color:rgba(255,255,255,.68); }
+    .footer-desc p { margin-bottom:11px; color:inherit; font-size:13px; line-height:1.8; }
+    .footer-bottom { display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:wrap; }
+    .copyright { color:rgba(255,255,255,.56); font-size:12px; }
+    .pura { display:inline-flex; align-items:center; opacity:.92; }
+    .pura img { width:98px; height:auto; }
+
+    /* Floating controls and modal */
+    .whatsapp-float { position:fixed; right:22px; bottom:22px; z-index:30; width:52px; height:52px; display:grid; place-items:center; border-radius:50%; color:#fff; background:linear-gradient(135deg,#25d366,#16b955); box-shadow:0 16px 32px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.16); animation:pulse 1.8s ease-in-out infinite; }
+    .whatsapp-float:hover { transform:translateY(-2px) scale(1.04); }
+    .whatsapp-float img { width:28px; height:28px; object-fit:contain; }
+    @keyframes pulse { 50% { transform:scale(1.06); } }
+    .mobile-whatsapp { display:none; }
+    .cookie { position:fixed; left:50%; bottom:16px; z-index:50; width:min(calc(100% - 32px),760px); transform:translateX(-50%); padding:16px 18px; display:flex; align-items:center; justify-content:space-between; gap:18px; border:1px solid rgba(255,255,255,.12); border-radius:16px; color:#fff; background:rgba(15,17,21,.94); box-shadow:0 18px 44px rgba(0,0,0,.38); backdrop-filter:blur(14px); }
+    .cookie[hidden] { display:none; }
+    .cookie-copy { max-width:520px; }
+    .cookie-copy strong { display:block; color:#fff; font-size:12px; }
+    .cookie-copy p { margin-top:6px; color:rgba(255,255,255,.72); font-size:10px; line-height:1.45; }
+    .cookie-actions { display:flex; gap:8px; flex:0 0 auto; }
+    .cookie-actions button { min-height:34px; padding:0 12px; border-radius:999px; color:#fff; font-size:11px; font-weight:800; }
+    .cookie-reject { background:rgba(255,255,255,.08); }
+    .cookie-accept { background:var(--accent); }
+    .cookie-actions button:hover { background:var(--accent-deep); }
+    .modal { position:fixed; inset:0; z-index:100; padding:20px; display:grid; place-items:center; background:rgba(3,5,8,.7); backdrop-filter:blur(8px); }
+    .modal[hidden] { display:none; }
+    .modal-panel { width:min(100%,520px); max-height:min(92vh,760px); overflow:auto; padding:28px; border:1px solid rgba(255,255,255,.12); border-radius:24px; color:#fff; background:#11151b; box-shadow:0 28px 80px rgba(0,0,0,.44); }
+    .modal-head { display:flex; align-items:start; justify-content:space-between; gap:18px; margin-bottom:20px; }
+    .modal-title { color:#fff; font-size:28px; line-height:1.05; letter-spacing:-.04em; }
+    .modal-close { width:36px; height:36px; border:1px solid rgba(255,255,255,.12); border-radius:50%; color:#fff; background:rgba(255,255,255,.06); font-size:22px; }
+    .modal-close:hover { background:var(--accent); }
+    .lead-form { display:grid; gap:13px; }
+    .field { display:grid; gap:6px; }
+    .field label { color:rgba(255,255,255,.76); font-size:12px; font-weight:700; }
+    .field input,.field textarea,.field select { width:100%; min-height:44px; padding:10px 12px; border:1px solid rgba(255,255,255,.14); border-radius:10px; color:#fff; background:#080b10; outline:none; }
+    .field textarea { min-height:96px; resize:vertical; }
+    .field input:focus,.field textarea:focus,.field select:focus { border-color:#ff646a; box-shadow:0 0 0 3px rgba(224,31,38,.18); }
+    .form-note { color:rgba(255,255,255,.56); font-size:11px; line-height:1.5; }
+    .form-success { display:none; padding:16px; border:1px solid rgba(37,211,102,.3); border-radius:12px; color:#d8ffe7; background:rgba(20,138,75,.16); font-size:13px; line-height:1.55; }
+    .form-success.is-visible { display:block; }
+
+    @media (max-width:1100px) {
+      .header-main-inner { grid-template-columns:auto minmax(220px,1fr) auto; }
+      .nav-link { padding-inline:8px; font-size:11px; }
+      .service-grid,.model-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .footer-grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:780px) {
+      .container,.container-wide { width:min(calc(100% - 24px),var(--container)); }
+      .topbar-copy { font-size:10px; }
+      .socials { gap:4px; }
+      .social { width:30px; height:30px; }
+      .header-main-inner { min-height:72px; grid-template-columns:auto auto; }
+      .header-main { min-height:72px; }
+      .header-quote,.search { display:none; }
+      .menu-toggle { display:grid; }
+      .nav-wrap { min-height:0; }
+      .nav-inner { width:100%; justify-content:stretch; }
+      .nav-list { position:fixed; top:112px; left:12px; right:12px; z-index:40; display:none; padding:12px; border:1px solid rgba(255,255,255,.12); border-radius:18px; background:#11151b; box-shadow:0 20px 50px rgba(0,0,0,.36); }
+      .menu-open .nav-list { display:grid; }
+      .nav-link { min-height:44px; padding:0 12px; border-radius:10px; font-size:13px; }
+      .nav-link:hover { color:#fff; background:rgba(224,31,38,.18); }
+      .hero { min-height:640px; }
+      .hero-content { padding:62px 0 78px; }
+      .hero-title { font-size:clamp(42px,11vw,62px); }
+      .hero-subtitle { padding-inline:8px; font-size:14px; }
+      .hero-badges { display:grid; justify-items:center; }
+      .hero-badge { font-size:12px; }
+      .section { padding:48px 0; }
+      .products-stack { padding:14px; border-radius:24px; }
+      .service-card { min-height:330px; }
+      .service-media { min-height:170px; }
+      .service-media img { height:160px; }
+      .model-grid { gap:10px; }
+      .model-card { min-height:430px; border-radius:16px; }
+      .model-media { min-height:140px; padding-inline:8px; }
+      .model-media img { height:138px; }
+      .model-body { gap:11px; padding:12px; }
+      .model-title { font-size:14px; }
+      .spec { padding:7px 8px; }
+      .spec-label { font-size:9px; }
+      .spec-value { font-size:10px; }
+      .model-cta { min-height:38px; font-size:10px; }
+      .model-link,.service-link { font-size:10px; }
+      .videos-layout,.about-grid { grid-template-columns:1fr; gap:22px; }
+      .player { min-height:260px; }
+      .video-list { max-height:330px; }
+      .about { padding-top:56px; }
+      .about-image img { min-height:280px; }
+      .about-title { max-width:100%; text-align:center; }
+      .about-copy { text-align:center; }
+      .about-text { text-align:left; }
+      .about-actions { display:flex; justify-content:center; }
+      .reviews-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .cta-card { padding:34px 18px; border-radius:22px; }
+      .cta-title { max-width:100%; font-size:clamp(29px,8vw,38px); }
+      .footer-intro { grid-template-columns:1fr; gap:14px; }
+      .footer-catalog-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .whatsapp-float { display:none; }
+      .mobile-whatsapp { position:fixed; left:10px; right:10px; bottom:10px; z-index:30; min-height:60px; padding:10px 14px; display:flex; align-items:center; justify-content:center; gap:12px; border:1px solid rgba(255,255,255,.2); border-radius:18px; color:#fff; background:linear-gradient(135deg,#25d366,#16b955); box-shadow:0 18px 34px rgba(0,0,0,.24); font-size:13px; font-weight:800; }
+      .mobile-whatsapp img { width:24px; height:24px; }
+      .cookie { width:calc(100% - 20px); bottom:78px; align-items:flex-start; padding:14px; gap:10px; }
+      .cookie-copy strong { font-size:11px; }
+      .cookie-copy p { font-size:9px; }
+      .cookie-actions { flex-direction:column; }
+      .cookie-actions button { min-height:32px; }
+      .modal-panel { padding:22px; }
+    }
+    @media (max-width:420px) {
+      .service-grid { gap:8px; }
+      .service-card { min-height:278px; border-radius:16px; }
+      .service-media { min-height:118px; padding-top:8px; }
+      .service-media img { height:112px; }
+      .service-body { gap:9px; padding:11px; }
+      .service-title { font-size:12px; }
+      .primary { min-height:36px; padding-inline:10px; font-size:10px; }
+      .bridge { min-height:30px; padding-inline:9px; font-size:9px; }
+      .reviews-summary { align-items:flex-start; flex-direction:column; }
+      .rating { text-align:left; }
+      .review-card { min-height:168px; }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      html { scroll-behavior:auto; }
+      *,*::before,*::after { animation-duration:.01ms!important; transition-duration:.01ms!important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" data-od-id="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <p class="topbar-copy" title="Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil">Mini Escavadeiras, Carregadeiras e Dumpers | PLX Brasil</p>
+        <div class="socials" aria-label="Redes sociais da PLX Brasil">
+          <a class="social" data-od-id="social-instagram" href="https://www.instagram.com/plx_brasil" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2"/></svg></a>
+          <a class="social" data-od-id="social-facebook" href="https://www.facebook.com/profile.php?id=100092296935303&amp;locale=pt_BR" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14.2 8.1V6.7c0-.7.5-.9 1-.9h1.6V3.1c-.8-.1-1.6-.1-2.3-.1-2.5 0-4.2 1.5-4.2 4.2v.9H7.8v3h2.5V21h3.1v-9.9h2.6l.4-3h-3.1Z"/></svg></a>
+          <a class="social" data-od-id="social-youtube" href="https://www.youtube.com/@PLXBRASIL-LTDA" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M21.6 7.2s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.3-1C15.2 3.7 12 3.7 12 3.7s-3.2 0-6.4.2c-.4 0-1.4.1-2.3 1-.7.7-.9 2.3-.9 2.3S2.2 9.1 2.2 11v1.8c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.9.9 2.1.9 2.6 1 1.9.2 6.1.2 6.1.2s3.2 0 6.4-.2c.4 0 1.4-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8V11c0-1.9-.2-3.8-.2-3.8ZM10.1 14.8V8.6l5.7 3.1-5.7 3.1Z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container header-main-inner">
+        <a class="brand" data-od-id="brand-link" href="#top" aria-label="PLX Brasil"><img src="assets/images/plxbrasil.com.br/logo-baa9fe4dc3.jpg" alt="Logo da PLX Brasil"></a>
+        <form class="search" data-od-id="header-search" role="search">
+          <label class="sr-only" for="search-input">Pesquisar máquinas e modelos</label>
+          <div class="search-box">
+            <input class="search-input" id="search-input" type="search" placeholder="Pesquisar máquinas..." autocomplete="off">
+            <button class="search-btn" data-od-id="search-submit" type="submit" aria-label="Pesquisar"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+          </div>
+          <div class="search-results" id="search-results" role="listbox" aria-label="Resultados da pesquisa"></div>
+        </form>
+        <button class="header-quote" data-od-id="header-quote" data-lead-open type="button">Solicitar Orçamento</button>
+        <button class="menu-toggle" data-od-id="mobile-menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      </div>
+    </div>
+    <div class="nav-wrap">
+      <div class="container nav-inner">
+        <nav class="nav-list" data-od-id="primary-navigation" aria-label="Navegação principal">
+          <a class="nav-link" href="#top">Início</a>
+          <a class="nav-link" href="#products-home">Mini Escavadeira</a>
+          <a class="nav-link" href="#products-home">Mini Carregadeira</a>
+          <a class="nav-link" href="#products-home">Mini Dumper</a>
+          <a class="nav-link" href="#products-home">Mini Rolo Compactador</a>
+          <a class="nav-link" href="#videos">Blog</a>
+          <a class="nav-link" href="#about">Empresa</a>
+          <a class="nav-link" href="#contact">Contato</a>
+          <a class="nav-link" href="#support">Suporte</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" data-od-id="hero-section" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <h1 class="hero-title" data-od-id="hero-title">Venda de Máquinas <span>PLX</span></h1>
+        <div class="hero-actions">
+          <a class="hero-btn hero-btn--whatsapp" data-od-id="hero-whatsapp" href="https://wa.me/5548988728340" target="_blank" rel="noopener"><span>◉</span> Falar no WhatsApp</a>
+          <button class="hero-btn hero-btn--quote" data-od-id="hero-quote" data-lead-open type="button"><span>↗</span> Solicitar Orçamento</button>
+        </div>
+        <p class="hero-subtitle">Equipamentos compactos desenvolvidos para entregar força, controle, confiabilidade, facilidade de manutenção e desempenho em diferentes operações.</p>
+        <div class="hero-badges" aria-label="Diferenciais da PLX Brasil">
+          <div class="hero-badge"><svg viewBox="0 0 24 24"><path d="m12 3 7 3v5c0 4.7-3 8.2-7 10-4-1.8-7-5.3-7-10V6l7-3Z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg>Equipamentos de alta performance</div>
+          <div class="hero-badge"><svg viewBox="0 0 24 24"><path d="m14.5 5.5 4-4 4 4-4 4"/><path d="m18.5 1.5-7 7"/><path d="m10.5 10.5-7 7a3 3 0 1 0 4 4l7-7"/><path d="m5 19 2-2"/></svg>Peças e suporte técnico especializado</div>
+          <div class="hero-badge"><svg viewBox="0 0 24 24"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg>Atendimento para todo o Brasil</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="dark-band" id="products-home">
+      <section class="section products-section" data-od-id="products-section" aria-labelledby="products-title">
+        <div class="container-wide">
+          <div class="section-heading">
+            <h2 id="products-title" data-od-id="products-title">Confira nossos produtos</h2>
+            <p>Soluções compactas, robustas e prontas para entregar produtividade, precisão e agilidade em diferentes tipos de operação.</p>
+          </div>
+          <div class="products-stack">
+            <div class="service-grid" id="service-grid" aria-live="polite"></div>
+            <div class="showcase" id="showcase" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section videos" id="videos" data-od-id="videos-section" aria-labelledby="videos-title">
+        <div class="container">
+          <div class="section-heading">
+            <h2 id="videos-title">Veja a <span class="accent">PLX</span> em ação</h2>
+            <p>Conheça detalhes, aplicações e diferenciais dos equipamentos em vídeos selecionados da PLX Brasil.</p>
+          </div>
+          <div class="videos-layout">
+            <article class="player-card" data-od-id="video-player-card">
+              <div class="player" id="player" aria-label="Player de vídeo da PLX Brasil">
+                <img class="player-poster" id="player-poster" src="assets/images/img.youtube.com/hqdefault-a719a79863.jpg" alt="Apresentação institucional">
+                <span class="player-poster-play" aria-hidden="true"></span>
+                <span class="player-placeholder" aria-hidden="true"></span>
+              </div>
+              <div class="player-meta"><h3 class="player-title" id="player-title" data-od-id="video-current-title">PLX Brasil | Apresentação institucional</h3></div>
+            </article>
+            <aside class="video-rail" data-od-id="video-rail">
+              <div class="rail-head">
+                <div><p class="rail-label">Mais vídeos</p><p class="rail-copy">Navegue pelos conteúdos e troque o player principal com um clique.</p></div>
+                <div class="rail-nav"><button data-od-id="video-prev" id="video-prev" type="button" aria-label="Vídeos anteriores">‹</button><button data-od-id="video-next" id="video-next" type="button" aria-label="Próximos vídeos">›</button></div>
+              </div>
+              <div class="video-list" id="video-list"></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="light-band">
+      <section class="section about" id="about" data-od-id="about-section" aria-labelledby="about-title">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-image"><img src="assets/images/plxbrasil.com.br/about-62b72927a4.jpg" alt="Equipe e estrutura da PLX Brasil" loading="lazy"></div>
+            <div class="about-copy">
+              <h2 class="about-title" id="about-title" data-od-id="about-title">Sobre a <span class="accent">PLX</span> Brasil</h2>
+              <div class="about-text">
+                <p>A PLX Brasil trabalha para entregar máquinas compactas e peças genuínas com padrão elevado de qualidade, focando em durabilidade, segurança e desempenho no campo e na obra. Nossa missão é simplificar o trabalho dos clientes com soluções confiáveis, suporte próximo e manutenção descomplicada.</p>
+                <p>Nossa visão é crescer de forma sustentável, investindo continuamente em tecnologia, melhoria de processos e desenvolvimento do time, para ampliar a produtividade e a rentabilidade dos projetos em todo o Brasil.</p>
+              </div>
+              <div class="about-actions"><a class="primary" data-od-id="about-cta" href="#contact">Conheça</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="support" data-od-id="faq-section" aria-labelledby="faq-title">
+        <div class="container">
+          <div class="center-heading"><h2 class="faq-title" id="faq-title" data-od-id="faq-title">Perguntas frequentes</h2><p class="faq-subtitle">Reunimos algumas respostas para facilitar tua decisão e deixar o atendimento ainda mais rápido.</p></div>
+          <div class="faq-list" data-od-id="faq-list">
+            <article class="faq-item is-open" data-faq-item><button class="faq-question" data-od-id="faq-warranty" type="button" aria-expanded="true"><span>As máquinas PLX possuem garantia?</span><span class="faq-icon">⌄</span></button><div class="faq-answer"><p>Sim. Trabalhamos com garantia conforme o modelo e a aplicação. No orçamento, informamos prazos, cobertura e condições de uso para manter a proteção ativa.</p></div></article>
+            <article class="faq-item" data-faq-item><button class="faq-question" data-od-id="faq-delivery" type="button" aria-expanded="false"><span>Vocês entregam para outras cidades/estados?</span><span class="faq-icon">⌄</span></button><div class="faq-answer"><p>Entregamos para diversas regiões do Brasil. O prazo e o frete variam conforme destino e disponibilidade do equipamento. Solicite um orçamento e a gente calcula tudo certinho.</p></div></article>
+            <article class="faq-item" data-faq-item><button class="faq-question" data-od-id="faq-choice" type="button" aria-expanded="false"><span>Como escolher entre mini carregadeira e mini escavadeira?</span><span class="faq-icon">⌄</span></button><div class="faq-answer"><p>Depende do tipo de serviço: movimentação e carga favorecem a mini carregadeira; escavação e valas favorecem a mini escavadeira. Se tu nos disser a aplicação, indicamos o modelo mais adequado.</p></div></article>
+            <article class="faq-item" data-faq-item><button class="faq-question" data-od-id="faq-support" type="button" aria-expanded="false"><span>A PLX oferece peças e assistência técnica?</span><span class="faq-icon">⌄</span></button><div class="faq-answer"><p>Sim. Trabalhamos com peças genuínas e suporte para manutenção. Nosso foco é reduzir paradas e manter o equipamento trabalhando com desempenho e segurança.</p></div></article>
+            <article class="faq-item" data-faq-item><button class="faq-question" data-od-id="faq-budget" type="button" aria-expanded="false"><span>Como funciona o orçamento e o atendimento pelo WhatsApp?</span><span class="faq-icon">⌄</span></button><div class="faq-answer"><p>Tu pode preencher o formulário ou falar direto no WhatsApp. A gente coleta algumas informações, como tipo de uso, local de entrega e modelo desejado, e retorna com valores, condições e prazo.</p></div></article>
+            <article class="faq-item" data-faq-item><button class="faq-question" data-od-id="faq-space" type="button" aria-expanded="false"><span>Posso usar as máquinas PLX em áreas menores ou com acesso reduzido?</span><span class="faq-icon">⌄</span></button><div class="faq-answer"><p>Sim. As máquinas compactas da PLX são pensadas justamente para operações em espaços mais limitados, com boa mobilidade, controle e eficiência. O ideal é analisar o tipo de terreno e a aplicação para indicar o modelo certo.</p></div></article>
+          </div>
+          <p class="faq-footer">Se ficou com alguma dúvida, entre em contato <a href="https://wa.me/5548988728340" target="_blank" rel="noopener">aqui</a>.</p>
+        </div>
+      </section>
+
+      <section class="section reviews" data-od-id="reviews-section" aria-labelledby="reviews-title">
+        <div class="container">
+          <div class="center-heading"><h2 class="reviews-title" id="reviews-title" data-od-id="reviews-title">O que dizem sobre a <span class="accent">PLX Brasil</span></h2><p class="reviews-subtitle">Confira avaliações reais de clientes que já confiaram na PLX Brasil para adquirir equipamentos, peças e suporte.</p></div>
+          <div class="reviews-embed" data-od-id="reviews-widget">
+            <div class="reviews-summary"><div class="reviews-brand"><span class="google-mark">G</span><span>Google Reviews</span></div><div class="rating"><strong>4.8</strong><span class="stars">★★★★★</span></div></div>
+            <div class="reviews-grid">
+              <article class="review-card" data-od-id="review-1"><p class="review-name">Cliente Google</p><div class="stars">★★★★★</div><p class="review-copy">Uma excelente experiência com a PLX na compra da mini escavadeira.</p><a class="review-link" href="https://www.google.com/search?q=PLX+Brasil" target="_blank" rel="noopener">Ler mais</a></article>
+              <article class="review-card" data-od-id="review-2"><p class="review-name">Cliente Google</p><div class="stars">★★★★★</div><p class="review-copy">Atendimento rápido e equipe que ajuda a escolher o modelo certo.</p><a class="review-link" href="https://www.google.com/search?q=PLX+Brasil" target="_blank" rel="noopener">Ler mais</a></article>
+              <article class="review-card" data-od-id="review-3"><p class="review-name">Cliente Google</p><div class="stars">★★★★★</div><p class="review-copy">Máquinas com qualidade, suporte próximo e negociação direta.</p><a class="review-link" href="https://www.google.com/search?q=PLX+Brasil" target="_blank" rel="noopener">Ler mais</a></article>
+              <article class="review-card" data-od-id="review-4"><p class="review-name">Cliente Google</p><div class="stars">★★★★★</div><p class="review-copy">Experiência nota 10 do início ao fim. Recomendo o atendimento.</p><a class="review-link" href="https://www.google.com/search?q=PLX+Brasil" target="_blank" rel="noopener">Ler mais</a></article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="dark-end" id="contact">
+      <section class="section cta" data-od-id="cta-section" aria-labelledby="cta-title">
+        <div class="container">
+          <div class="cta-card"><div class="cta-content"><h2 class="cta-title" id="cta-title" data-od-id="cta-title">Encontre a máquina ideal para sua operação com atendimento rápido e direto</h2><p class="cta-text">Se você busca mini carregadeiras, mini escavadeiras, mini dumpers, peças genuínas e suporte confiável, fala com a equipe da PLX Brasil e receba uma orientação comercial sob medida.</p><div class="cta-actions"><button class="primary" data-od-id="cta-quote" data-lead-open type="button">Solicitar orçamento</button><a class="ghost" data-od-id="cta-whatsapp" href="https://wa.me/5548988728340" target="_blank" rel="noopener">Falar no WhatsApp</a></div></div></div>
+        </div>
+      </section>
+
+      <footer class="footer" data-od-id="site-footer">
+        <div class="ticker" aria-hidden="true"><div class="ticker-track"><div class="ticker-group" id="ticker-group"></div><div class="ticker-group" id="ticker-group-copy"></div></div></div>
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-card">
+              <div class="footer-intro"><a class="footer-logo" href="#top" aria-label="Ir para o início"><img src="assets/images/plxbrasil.com.br/logo_footer-76fd5bfec4.png" alt="PLX Brasil"></a><p class="footer-brand-text">Máquinas compactas, peças genuínas e suporte para manter sua operação com mais produtividade, segurança e confiança.</p></div>
+              <div class="footer-catalog"><h3 class="footer-title">Catálogo</h3><div class="footer-catalog-grid"><div class="catalog-item"><a class="catalog-link" href="#products-home">Mini Escavadeira</a><ul class="catalog-models"><li><a href="#products-home">X65 Pro</a></li><li><a href="#products-home">X35 Pro</a></li><li><a href="#products-home">X30 Pro</a></li><li><a href="#products-home">X20 Pro</a></li><li><a href="#products-home">X15 Pro</a></li><li><a href="#products-home">X10 Pro</a></li><li><a href="#products-home">X10 PLUS</a></li></ul></div><div class="catalog-item"><a class="catalog-link" href="#products-home">Mini Carregadeira</a><ul class="catalog-models"><li><a href="#products-home">XC750</a></li><li><a href="#products-home">XD500</a></li></ul></div><div class="catalog-item"><a class="catalog-link" href="#products-home">Mini Dumper</a><ul class="catalog-models"><li><a href="#products-home">XD500</a></li></ul></div><div class="catalog-item"><a class="catalog-link" href="#products-home">Mini Rolo Compactador</a><ul class="catalog-models"><li><a href="#products-home">XR12</a></li></ul></div></div></div>
+            </div>
+            <aside class="footer-card"><h3 class="footer-title">Contato</h3><ul class="contact-list"><li><span class="contact-icon">⌖</span><span>R. Mário Mendonça, nº 20.<br>São João Margem Direita · Tubarão/SC</span></li><li><span class="contact-icon">✆</span><a href="tel:+5548988728340">(48) 98872-8340</a></li><li><span class="contact-icon">✉</span><a href="mailto:contato@plxbrasil.com.br">Entre em contato por Email</a></li><li><span class="contact-icon">◎</span><a href="https://www.facebook.com/profile.php?id=100092296935303&amp;locale=pt_BR" target="_blank" rel="noopener">Facebook</a></li><li><span class="contact-icon">◎</span><a href="https://www.instagram.com/plx_brasil" target="_blank" rel="noopener">Instagram</a></li><li><span class="contact-icon">▶</span><a href="https://www.youtube.com/@PLXBRASIL-LTDA" target="_blank" rel="noopener">YouTube</a></li></ul></aside>
+          </div>
+          <div class="footer-divider"></div>
+          <div class="footer-desc"><p>A PLX Brasil cresce com foco em soluções eficientes, confiáveis e acessíveis para empresas e profissionais que buscam mais produtividade no campo, na obra e em diferentes aplicações. Nosso compromisso é oferecer equipamentos de qualidade, peças genuínas e suporte para cada etapa da operação.</p><p>Com uma linha voltada para desempenho, durabilidade e praticidade, trabalhamos para entregar soluções que agregam valor aos projetos, seja na construção civil, no campo, na movimentação de materiais ou em outras aplicações profissionais.</p></div>
+          <div class="footer-divider"></div>
+          <div class="footer-bottom"><p class="copyright">© Copyright 2026. Pura Lead Marketing Digital. Todos os Direitos Reservados</p><a class="pura" href="https://www.puralead.com.br/" target="_blank" rel="noopener" aria-label="Pura Lead Marketing Digital"><img src="assets/images/plxbrasil.com.br/logo_pura-62856d198e.png" alt="Pura Lead Marketing Digital"></a></div>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <a class="whatsapp-float" data-od-id="whatsapp-float" href="https://wa.me/5548988728340" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><img src="assets/images/plxbrasil.com.br/whatsapp-1505c199ec.webp" alt=""></a>
+  <a class="mobile-whatsapp" data-od-id="mobile-whatsapp" href="https://wa.me/5548988728340" target="_blank" rel="noopener"><img src="assets/images/plxbrasil.com.br/whatsapp-1505c199ec.webp" alt=""> Falar com a PLX no WhatsApp</a>
+
+  <aside class="cookie" id="cookie" data-od-id="cookie-notice" role="dialog" aria-label="Aviso de cookies">
+    <div class="cookie-copy"><strong>Usamos cookies para melhorar sua experiência</strong><p>Usamos cookies essenciais e tecnologias de análise para entender a navegação e melhorar nosso conteúdo. Veja nossa Política de Cookies e nossa Política de Privacidade.</p></div>
+    <div class="cookie-actions"><button class="cookie-reject" id="cookie-reject" type="button">Recusar</button><button class="cookie-accept" id="cookie-accept" type="button">Aceitar</button></div>
+  </aside>
+
+  <div class="modal" id="lead-modal" data-od-id="lead-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-panel">
+      <div class="modal-head"><h2 class="modal-title" id="modal-title">Solicite um orçamento</h2><button class="modal-close" data-lead-close type="button" aria-label="Fechar">×</button></div>
+      <form class="lead-form" id="lead-form"><div class="field"><label for="lead-name">Nome</label><input id="lead-name" name="nome" required></div><div class="field"><label for="lead-phone">WhatsApp</label><input id="lead-phone" name="telefone" type="tel" required></div><div class="field"><label for="lead-product">Modelo de interesse</label><select id="lead-product" name="produto"><option>Linha PLX Brasil</option><option>Mini Escavadeiras</option><option>Mini Carregadeiras</option><option>Mini Dumper</option><option>Mini Rolo Compactador</option></select></div><div class="field"><label for="lead-message">Como podemos ajudar?</label><textarea id="lead-message" name="mensagem" placeholder="Conte um pouco sobre a sua operação"></textarea></div><p class="form-note">Demonstração local do formulário: nenhum dado é enviado ou armazenado.</p><button class="primary" data-od-id="lead-submit" type="submit">Enviar solicitação</button><div class="form-success" id="form-success" role="status">Solicitação registrada nesta demonstração. A equipe da PLX entraria em contato com você pelo WhatsApp.</div></form>
+    </div>
+  </div>
+
+  <script>
+    const assets = 'assets/images/plxbrasil.com.br/';
+    const models = {
+      'Mini Escavadeiras': [
+        ['X65 Pro','x65pro-c7fdc4cf73.png',['Prof. escavação','4159 mm'],['Prof. máxima de perfuração','5800 mm'],['Força máx. de escavação da concha','48 kN']],
+        ['X35 Pro','x35pro-9fbb13f0df.png',['Prof. escavação','3208 mm'],['Prof. máxima de perfuração','5000 mm'],['Força máx. de escavação da concha','30,4 kN']],
+        ['X30 Pro','x30pro-1612bddf35.png',['Prof. escavação','2830 mm'],['Prof. máxima de perfuração','4500 mm'],['Força máx. de escavação da concha','23,5 kN']],
+        ['X20 Pro','x20pro-0d7a31fdd4.png',['Prof. escavação','2400 mm'],['Prof. máxima de perfuração','3700 mm'],['Força de escavação da concha','18 kN']],
+        ['X15 Pro','x15pro-69ac532027.png',['Profundidade máxima de escavação','1850 mm'],['Força de escavação da caçamba','9 kN'],['Peso Operacional','1480 kg']],
+        ['X10 Pro','x10pro-33418d94b1.png',['Prof. escavação','1650 mm'],['Prof. máxima de perfuração','3500 mm'],['Força máx. de escavação da concha','15,3 kN']],
+        ['X10 PLUS','x10plus-c67e7a9435.png',['Profundidade máxima de escavação','1650 mm'],['Profundidade máxima de perfuração','3500 mm'],['Força máx. de escavação da concha','15,3 kN']]
+      ],
+      'Mini Carregadeiras': [['XC750','xc750-152d634dd4.png',['Capacidade de carga','790 kg'],['Capacidade da Caçamba','0,4 m3'],['Peso Operacional','3000 kg']],['XD500','xd500-9a0e6fb61e.png',['Capacidade de carga máxima','590 kg'],['Volume da caçamba','0,22 m3'],['Peso Operacional','423 kg']]],
+      'Mini Dumper': [['XD500','xd500-9a0e6fb61e.png',['Capacidade de carga máxima','590 kg'],['Volume da caçamba','0,22 m3'],['Peso Operacional','423 kg']]],
+      'Mini Rolo Compactador': [['XR12','xr12-ead11f2a5e.png',['Carga Estática','69,5/68 n/cm'],['Força centrífuga dianteira','30 kN'],['Frequência de vibração','65 Hz']]]
+    };
+    const services = [
+      ['Mini Escavadeiras','x65pro-c7fdc4cf73.png','Precisão para valas, drenagem e fundações com estabilidade e eficiência.'],
+      ['Mini Carregadeiras','xc750-152d634dd4.png','Agilidade em espaços reduzidos, com força e controle para movimentar materiais.'],
+      ['Mini Dumper','xd500-9a0e6fb61e.png','Eficiência e agilidade para suas obras ou projetos de jardinagem.'],
+      ['Mini Rolo Compactador','xr12-ead11f2a5e.png','Compactação consistente para preparar terrenos e pavimentos com produtividade.']
+    ];
+    const videos = [
+      ['LxoVyLavBLs','Apresentação institucional','a719a79863'],['LYiFB-DBpIM','Transformamos cada desafio em uma conquista','19a5aab8fa'],['sjEDwlYuIDQ','Mini escavadeiras: potência compacta e eficiência','f21e4050c2'],['d_taJyvV7VM','Mini escavadeira X65 Pro','3ffc60a888'],['sCa_toovW5c','Mini escavadeira X65','65fa351887'],['0S-kAzlzVL8','Mini escavadeira X35 Pro: detalhes e estrutura','1279509f12'],['rVtgn3qgzCg','Mini escavadeira X35 Pro 3800 kg Giro Zero','ea2b7b8f3d'],['IsYHmmCuUSI','Linha Pro com engate rápido hidráulico','494a86813a'],['Pj-zG8uXqk4','Escavadeira X10: mais rendimento, menos esforço','64727f1f5f'],['3G0iIE2m5Sk','As melhores mini escavadeiras do Brasil estão aqui na PLX!','8fb915f4af'],['eNNBFilJYUY','Toda operação precisa da máquina certa! Escolha sempre a PLX.','4487c6bb02']
+    ];
+
+    const $ = (selector, root = document) => root.querySelector(selector);
+    const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+    const safeStore = (key, value) => { try { localStorage.setItem(key, value); } catch (_) {} };
+    const safeRead = (key) => { try { return localStorage.getItem(key); } catch (_) { return null; } };
+
+    function openLeadModal() {
+      const modal = $('#lead-modal');
+      modal.hidden = false;
+      document.body.classList.add('modal-open');
+      $('#form-success').classList.remove('is-visible');
+      setTimeout(() => $('#lead-name').focus(), 0);
+    }
+    function closeLeadModal() { $('#lead-modal').hidden = true; document.body.classList.remove('modal-open'); }
+    $$('[data-lead-open]').forEach((trigger) => trigger.addEventListener('click', (event) => { if (trigger.tagName === 'A') event.preventDefault(); openLeadModal(); }));
+    $$('[data-lead-close]').forEach((button) => button.addEventListener('click', closeLeadModal));
+    $('#lead-modal').addEventListener('click', (event) => { if (event.target.id === 'lead-modal') closeLeadModal(); });
+    document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && !$('#lead-modal').hidden) closeLeadModal(); });
+    $('#lead-form').addEventListener('submit', (event) => { event.preventDefault(); $('#form-success').classList.add('is-visible'); event.target.reset(); });
+
+    function renderServices() {
+      const grid = $('#service-grid');
+      grid.innerHTML = services.map(([name, image, description], index) => `<div class="service-item"><article class="service-card ${index === 0 ? 'is-active' : ''}" data-service-card="${name}"><div class="service-media"><img src="${assets}${image}" alt="${name}" loading="lazy"></div><div class="service-body"><div><h3 class="service-title">${name}</h3><p class="sr-only">${description}</p></div><div class="service-actions"><button class="primary" data-lead-open type="button">Orçamento</button><a class="service-link" href="#products-home">Conferir página completa <span>↗</span></a></div></div></article><button class="bridge ${index === 0 ? 'is-active' : ''}" data-service-select="${name}" type="button"><span>${index === 0 ? 'Modelos abaixo' : 'Ver modelos'}</span><span>↓</span></button></div>`).join('');
+      $$('[data-lead-open]', grid).forEach((button) => button.addEventListener('click', openLeadModal));
+      $$('[data-service-select]', grid).forEach((button) => button.addEventListener('click', () => selectService(button.dataset.serviceSelect)));
+    }
+    function modelCard(model) {
+      const [name, image, ...specs] = model;
+      return `<article class="model-card" data-od-id="model-${name.toLowerCase().replace(/\s+/g,'-')}"><div class="model-media">${name === 'X15 Pro' ? '<span class="badge">Lançamento</span>' : ''}<img src="${assets}${image}" alt="${name}" loading="lazy"></div><div class="model-body"><h3 class="model-title">${name}</h3><ul class="specs">${specs.map(([label,value]) => `<li class="spec"><span class="spec-label">${label}</span><span class="spec-value">${value}</span></li>`).join('')}</ul><div class="model-actions"><button class="model-cta" data-lead-open type="button">Quero este modelo</button><a class="model-link" href="#contact">Conferir modelo <span>↗</span></a></div></div></article>`;
+    }
+    function selectService(name) {
+      $$('.service-card').forEach((card) => card.classList.toggle('is-active', card.dataset.serviceCard === name));
+      $$('.bridge').forEach((button) => { const active = button.dataset.serviceSelect === name; button.classList.toggle('is-active', active); $('span', button).textContent = active ? 'Modelos abaixo' : 'Ver modelos'; });
+      const showcase = $('#showcase');
+      showcase.innerHTML = `<div class="showcase-context"><span>Modelos de</span><strong>${name}</strong></div><div class="model-grid">${models[name].map(modelCard).join('')}</div>`;
+      showcase.classList.add('is-ready');
+      $$('[data-lead-open]', showcase).forEach((button) => button.addEventListener('click', openLeadModal));
+      safeStore('plx-selected-product', name);
+    }
+    renderServices();
+    selectService(safeRead('plx-selected-product') || 'Mini Escavadeiras');
+
+    function renderVideos() {
+      $('#video-list').innerHTML = videos.map(([id, title, hash], index) => `<button class="video-thumb ${index === Number(safeRead('plx-video-index') || 0) ? 'is-active' : ''}" data-video-index="${index}" type="button"><span><img src="assets/images/img.youtube.com/hqdefault-${hash}.jpg" alt="${title}" loading="lazy"><span class="video-thumb-play">▶</span></span><span class="video-thumb-text">${title}</span></button>`).join('');
+      $$('.video-thumb').forEach((button) => button.addEventListener('click', () => setVideo(Number(button.dataset.videoIndex), true)));
+      setVideo(Number(safeRead('plx-video-index') || 0), false);
+    }
+    function setVideo(index, reveal) {
+      const video = videos[index] || videos[0];
+      $('#player-title').textContent = `PLX Brasil | ${video[1]}`;
+      const poster = $('#player-poster'); poster.src = `assets/images/img.youtube.com/hqdefault-${video[2]}.jpg`; poster.alt = video[1];
+      $('#player').classList.toggle('has-poster', reveal);
+      $$('.video-thumb').forEach((card, cardIndex) => card.classList.toggle('is-active', cardIndex === index));
+      safeStore('plx-video-index', String(index));
+    }
+    $('#video-prev').addEventListener('click', () => $('#video-list').scrollBy({ top:-220, behavior:'smooth' }));
+    $('#video-next').addEventListener('click', () => $('#video-list').scrollBy({ top:220, behavior:'smooth' }));
+    renderVideos();
+
+    $$('[data-faq-item]').forEach((item) => $('.faq-question', item).addEventListener('click', () => { const wasOpen = item.classList.contains('is-open'); $$('[data-faq-item]').forEach((other) => { other.classList.remove('is-open'); $('.faq-question', other).setAttribute('aria-expanded','false'); }); if (!wasOpen) { item.classList.add('is-open'); $('.faq-question', item).setAttribute('aria-expanded','true'); } }));
+
+    const tickerModels = ['x10plus-c67e7a9435.png','x10pro-33418d94b1.png','x20pro-0d7a31fdd4.png','x30pro-1612bddf35.png','x35pro-9fbb13f0df.png','x65pro-c7fdc4cf73.png','xc750-152d634dd4.png','xd500-9a0e6fb61e.png','xr12-ead11f2a5e.png'];
+    function tickerGroup() { return tickerModels.map((image) => `<span class="ticker-item"><img src="${assets}${image}" alt=""></span><span class="ticker-item ticker-logo"><img src="${assets}logo_footer-76fd5bfec4.png" alt=""></span>`).join(''); }
+    $('#ticker-group').innerHTML = tickerGroup(); $('#ticker-group-copy').innerHTML = tickerGroup();
+
+    const menuToggle = $('.menu-toggle');
+    menuToggle.addEventListener('click', () => { const open = document.body.classList.toggle('menu-open'); menuToggle.setAttribute('aria-expanded', String(open)); menuToggle.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu'); });
+    $$('.nav-link').forEach((link) => link.addEventListener('click', () => { document.body.classList.remove('menu-open'); menuToggle.setAttribute('aria-expanded','false'); }));
+
+    const searchInput = $('#search-input'); const searchResults = $('#search-results');
+    const searchable = [...services.map(([name]) => name), ...Object.values(models).flat().map(([name]) => name)];
+    searchInput.addEventListener('input', () => { const query = searchInput.value.trim().toLowerCase(); const matches = searchable.filter((item) => item.toLowerCase().includes(query)).slice(0,6); searchResults.innerHTML = matches.map((item) => `<button class="search-result" type="button">${item}</button>`).join(''); searchResults.classList.toggle('is-visible', Boolean(query && matches.length)); $$('.search-result', searchResults).forEach((button) => button.addEventListener('click', () => { searchInput.value = button.textContent; searchResults.classList.remove('is-visible'); window.scrollTo({ top: $('#products-home').offsetTop - 20, behavior:'smooth' }); })); });
+    $('.search').addEventListener('submit', (event) => { event.preventDefault(); searchResults.classList.remove('is-visible'); window.scrollTo({ top: $('#products-home').offsetTop - 20, behavior:'smooth' }); });
+    document.addEventListener('click', (event) => { if (!event.target.closest('.search')) searchResults.classList.remove('is-visible'); });
+
+    const cookie = $('#cookie');
+    if (safeRead('plx-cookie-consent')) cookie.hidden = true;
+    ['cookie-accept','cookie-reject'].forEach((id) => $('#' + id).addEventListener('click', () => { safeStore('plx-cookie-consent', id.replace('cookie-','')); cookie.hidden = true; }));
+  </script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+/* =========================
+   FUNDO COMPARTILHADO
+========================= */
+.home-dark-end {
+  position: relative;
+  background:
+    radial-gradient(circle at top center, rgba(224, 31, 38, 0.14) 0%, rgba(224, 31, 38, 0) 26%),
+    linear-gradient(180deg, #101318 0%, #090c10 100%);
+  overflow: hidden;
+}
+
+.home-dark-end::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -100px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(224, 31, 38, 0.14);
+  filter: blur(72px);
+  pointer-events: none;
+}
+
+.home-dark-end::after {
+  content: "";
+  position: absolute;
+  bottom: -140px;
+  left: -120px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+  filter: blur(68px);
+  pointer-events: none;
+}
+
+.home-dark-end .cards-cta,
+.home-dark-end .map-cta,
+.home-dark-end .site-footer {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+.home-dark-end .site-footer::before,
+.home-dark-end .site-footer::after {
+  display: none;
+}
+
+.home-dark-end .site-footer {
+  padding-top: 4px;
+}
+
+/* =========================
+   CARDS CTA
+========================= */
+.cards-cta {
+  position: relative;
+  margin-top: 0;
+  padding: 24px 0 24px;
+}
+
+.cards-cta__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.cards-cta__card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  min-height: 100%;
+  padding: 22px 20px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 14px 34px rgba(0, 0, 0, 0.16);
+  text-align: left;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.cards-cta__card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.24);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 18px 38px rgba(0, 0, 0, 0.2);
+}
+
+.cards-cta__icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  border-radius: 18px;
+  border: 1px solid color-mix(in srgb, var(--color-primary) 45%, white 20%);
+  background: rgba(224, 31, 38, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--color-primary);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 10px 24px rgba(0, 0, 0, 0.12);
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.cards-cta__card:hover .cards-cta__icon {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #ffffff;
+  box-shadow:
+    0 16px 30px rgba(224, 31, 38, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+.cards-cta__icon .icon {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+}
+
+.cards-cta__body {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+}
+
+.cards-cta__title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.06rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.cards-cta__text {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.96rem;
+  line-height: 1.6;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 1100px) {
+  .cards-cta__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 780px) {
+  .cards-cta {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .cards-cta__grid {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cards-cta {
+    margin-top: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .cards-cta__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cards-cta__card {
+    padding: 18px 16px;
+    border-radius: 20px;
+    gap: 14px;
+  }
+
+  .cards-cta__icon {
+    flex-basis: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+  }
+
+  .cards-cta__title {
+    font-size: 1rem;
+  }
+
+  .cards-cta__text {
+    font-size: 0.92rem;
+  }
+}

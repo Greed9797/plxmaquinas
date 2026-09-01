@@ -1,0 +1,288 @@
+# Clone Audit
+
+- Project: /Users/vitormiguelgoedertdaluz/Projetos/Open-design/7df986e1-0462-4e5d-8f1a-9a4605bcc594
+- Scanned files: 51
+- Findings: 405
+
+## 保真度硬伤（字体 / 图片 / 颜色）
+- 未发现
+
+## 追踪脚本 / 统计像素
+- .od-skills/web-clone-82602e711f/SKILL.md:155 · Google Tag Manager · `googletagmanager`
+
+## 原站品牌残留
+- assets/css/plxbrasil.com.br/header-7827359789.css:33 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:34 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:35 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:43 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:43 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:47 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:47 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:54 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:64 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:65 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:72 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:80 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:135 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:166 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:187 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:202 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:205 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:213 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:219 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:226 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:234 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:235 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:236 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:240 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:245 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:264 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:268 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:276 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:295 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:300 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:315 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:322 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:329 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:333 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:340 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:347 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:353 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:361 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:367 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:385 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:418 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:419 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:420 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:424 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:430 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:443 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:445 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:458 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:463 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:468 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:475 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:479 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:480 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:485 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:503 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:517 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:518 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:519 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:519 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:525 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:540 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:541 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:541 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:548 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:549 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:549 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:550 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:556 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:561 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:568 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:590 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:599 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:599 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:607 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:607 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:608 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:608 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:615 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:615 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:616 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:616 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:622 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:623 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:630 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:635 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:642 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:648 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:655 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:659 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:670 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:671 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:672 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:676 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:676 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:677 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:681 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:687 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:687 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:692 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:704 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:709 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:717 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:721 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:725 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:731 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:732 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:733 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:736 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:742 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:746 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:750 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:758 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:772 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:783 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:787 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:792 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:798 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:803 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:807 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:811 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:815 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:827 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:831 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:853 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:857 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:863 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:876 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:876 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:880 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:887 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:906 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:914 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:921 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:933 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:940 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:940 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:947 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:947 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:951 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:951 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:957 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:957 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:962 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:969 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:980 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:986 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:999 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1000 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1000 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1005 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1006 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1006 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1017 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1018 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1018 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1022 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1026 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1035 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1039 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1044 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1063 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1063 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1068 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1073 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1077 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1081 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1086 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1093 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1094 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1095 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1098 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1102 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1107 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1112 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1119 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1124 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1130 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1136 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1140 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1146 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1146 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1151 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1151 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1156 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1161 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1165 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1173 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1177 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1181 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/header-7827359789.css:1186 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:2 · brand residue: PLX · `PLX`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:5 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:16 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:53 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:73 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:88 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:93 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:100 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:110 · brand residue: PLX · `plx`
+- assets/css/plxbrasil.com.br/hero-7b1eb89eb8.css:111 · brand residue: PLX · `plx`
+- 还有 140 条未展开
+
+## 日文残留
+- 未发现
+
+## TODO / 占位内容
+- .od-skills/web-clone-82602e711f/SKILL.md:265 · TODO / placeholder content · `TODO`
+- .od-skills/web-clone-82602e711f/SKILL.md:280 · TODO / placeholder content · `TODO`
+- .od-skills/web-clone-82602e711f/references/deliverables.md:137 · TODO / placeholder content · `TODO`
+- .od-skills/web-clone-82602e711f/references/design-dna.md:41 · TODO / placeholder content · `TODO`
+- index.html:443 · TODO / placeholder content · `todo`
+- index.html:498 · TODO / placeholder content · `todo`
+- index.html:557 · TODO / placeholder content · `Todo`
+
+## 外部依赖 / 外链风险
+- .od-skills/web-clone-82602e711f/SKILL.md:64 · external URL · `https://raw.githubusercontent.com/`
+- .od-skills/web-clone-82602e711f/SKILL.md:171 · external URL · `http://127.0.0.1:`
+- .od-skills/web-clone-82602e711f/SKILL.md:176 · external URL · `http://127.0.0.1:`
+- .od-skills/web-clone-82602e711f/SKILL.md:183 · external URL · `http://127.0.0.1:`
+- .od-skills/web-clone-82602e711f/references/design-dna.md:7 · external URL · `https://github.com/zanwei/design-dna`
+- .od-skills/web-clone-82602e711f/references/effect-extraction.md:6 · external URL · `https://github.com/lixiaolin94/skills`
+- .od-skills/web-clone-82602e711f/references/marbles-case.md:3 · external URL · `https://chiuhans111.github.io/marbles/`
+- .od-skills/web-clone-82602e711f/references/static-mirror.md:38 · external URL · `https://use.typekit.net/`
+- .od-skills/web-clone-82602e711f/references/static-mirror.md:49 · external URL · `https://use.typekit.net/`
+- .od-skills/web-clone-82602e711f/references/static-mirror.md:51 · external URL · `https://use\.typekit\.net/`
+- assets/fonts/fonts.css:1 · external URL · `https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap`
+- assets/fonts/fonts.css:8 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:17 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:26 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:35 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:44 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:53 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:71 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:80 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:89 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:98 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:107 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:116 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:134 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:143 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:152 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:161 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:170 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:179 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:197 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:206 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:215 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:224 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:233 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:242 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:260 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:269 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:278 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:287 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:296 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2`
+- assets/fonts/fonts.css:305 · external URL · `https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2`
+- index.html:393 · external URL · `https://www.instagram.com/plx_brasil`
+- index.html:394 · external URL · `https://www.facebook.com/profile.php?id=100092296935303&amp;locale=pt_BR`
+- index.html:395 · external URL · `https://www.youtube.com/@PLXBRASIL-LTDA`
+- index.html:436 · external URL · `https://wa.me/5548988728340`
+- index.html:517 · external URL · `https://wa.me/5548988728340`
+- index.html:527 · external URL · `https://www.google.com/search?q=PLX+Brasil`
+- index.html:528 · external URL · `https://www.google.com/search?q=PLX+Brasil`
+- index.html:529 · external URL · `https://www.google.com/search?q=PLX+Brasil`
+- index.html:530 · external URL · `https://www.google.com/search?q=PLX+Brasil`
+- index.html:540 · external URL · `https://wa.me/5548988728340`
+- index.html:552 · external URL · `https://www.facebook.com/profile.php?id=100092296935303&amp;locale=pt_BR`
+- index.html:552 · external URL · `https://www.instagram.com/plx_brasil`
+- index.html:552 · external URL · `https://www.youtube.com/@PLXBRASIL-LTDA`
+- index.html:557 · external URL · `https://www.puralead.com.br/`
+- index.html:563 · external URL · `https://wa.me/5548988728340`
+- index.html:564 · external URL · `https://wa.me/5548988728340`
+
+## 结论
+- 需要处理上面的残留项后再声明可部署。

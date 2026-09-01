@@ -1,0 +1,26 @@
+{
+  "original": {
+    "width": 1440,
+    "height": 7275
+  },
+  "clone": {
+    "width": 1440,
+    "height": 6978
+  },
+  "comparedCanvas": {
+    "width": 1440,
+    "height": 7275
+  },
+  "threshold": 0.08,
+  "changedPixels": 1997882,
+  "totalPixels": 10476000,
+  "diffPixelRatio": 0.19071038564337534,
+  "meanAbsDiff": 0.09368566106462137,
+  "rmse": 0.21157910672841967,
+  "visualScore": 2,
+  "files": {
+    "original": "/Users/vitormiguelgoedertdaluz/Projetos/Open-design/7df986e1-0462-4e5d-8f1a-9a4605bcc594/RECON/screenshots/original-1440.png",
+    "clone": "/Users/vitormiguelgoedertdaluz/Projetos/Open-design/7df986e1-0462-4e5d-8f1a-9a4605bcc594/RECON/screenshots/clone-1440.png",
+    "diff": "/Users/vitormiguelgoedertdaluz/Projetos/Open-design/7df986e1-0462-4e5d-8f1a-9a4605bcc594/RECON/screenshots/visual-diff-1440.png"
+  }
+}

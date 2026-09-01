@@ -1,0 +1,2238 @@
+{
+  "label": "original",
+  "url": "https://plxbrasil.com.br/",
+  "capturedAt": "2026-08-26T11:36:19.570Z",
+  "requestCount": 96,
+  "responseCount": 96,
+  "fixtureCount": 5,
+  "requests": [
+    {
+      "url": "https://plxbrasil.com.br/",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/base.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/header.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/hero.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/products.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/videos.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/about.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/faq.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/reviews.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cta.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/footer.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/whatsapp_bar.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/whatsapp_float.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/footer_slide.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/hero_intern.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cards_cta.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/map_cta.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/principles.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/differentials.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/customers.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/latest_posts.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cards_list.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/blog_body.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cards_service.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/service_showcase.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/faq_service.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/model_showcase.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/modal_form.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/model_banner.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/support.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/legal_content.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cookie_consent.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/404.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/parts_catalog.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/main.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/modal_form.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/header.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/videos.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/faq.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/whatsapp_bar.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/footer_slide.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/products.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/customers.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/latest_posts.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/cards_service.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/service_showcase.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/faq_service.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/model_showcase.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/lead_sender.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/cookie_consent.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/parts_catalog.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-B0J3WHFNTB",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://elfsightcdn.com/platform.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/logo.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/bg.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/src/assets/css/components/header.css",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://plxbrasil.com.br",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://fonts.googleapis.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/about.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/whatsapp.webp",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest/dist/umd/lucide.min.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744172732",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "referer": "https://plxbrasil.com.br/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x65pro.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/xc750.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/xd500.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/xr12.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x35pro.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x30pro.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x20pro.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x10pro.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x10plus.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x15pro.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/LxoVyLavBLs/hqdefault.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/LYiFB-DBpIM/hqdefault.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/sjEDwlYuIDQ/hqdefault.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/d_taJyvV7VM/hqdefault.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/sCa_toovW5c/hqdefault.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/0S-kAzlzVL8/hqdefault.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/rVtgn3qgzCg/hqdefault.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://unpkg.com/lucide@1.34.0/dist/umd/lucide.min.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "referer": "https://plxbrasil.com.br/"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744172625&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=3317253.1787744173&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787744173&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=665",
+      "method": "POST",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-B0J3WHFNTB&cid=3317253.1787744173&gtm=45je68o1v9182060572za200zd9182060572&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422",
+      "method": "POST",
+      "resourceType": "ping",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.google.com.br/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-B0J3WHFNTB&cid=3317253.1787744173&gtm=45je68o1v9182060572za200zd9182060572&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&z=1153472702",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://plxbrasil.com.br/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/player/b7457b7c/www-player.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/ss/k=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywGu3h6Ls91zsaCPcwDQORPOkwMt2A/m=root,base",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://www.youtube-nocookie.com",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGTTj3-cTgD-pjEZcKhpleKhdcFmg/m=root,base",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/player/b7457b7c/player_embed.vflset/pt_BR/base.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/ck=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFHyaab2mCtlM29mRoTuGXwnGFOFg/m=r78Drb",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.google.com/js/th/EgJTq7KLa9NePuBz01-GqhACQc4wbmPdiB8wKoCvESA.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://i.ytimg.com/vi/LxoVyLavBLs/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAa0qOh1eh4jETP97cx-iaZm9882Q",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/generate_204?vsfrFA",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "method": "POST",
+      "resourceType": "xhr",
+      "headers": {
+        "x-goog-api-key": "AIzaSyDyT5W0Jh49F30Pqqtyfdf7pDLFKLJoAnw",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.youtube-nocookie.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json+protobuf",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": "[\"O43z0dpjhgX20SCx4KAo\",\"$C5Q5lPBRAAbzMGIo0zDee3x5qEV-mlynAEABEArZ1HDgiOEOrFalrX4FreBIhqOtq82Oz5bz9VSwZGXewMkCENTwsBbDUoaVGIzV2QTY8qAmZCVzQBDhVFS5ngAAACbOAAAAA_QBB-IAVOr8EX-XyR_w5Eo3I0dP8PQu8RsruTYRASYlI6ppU-1KisVQFPj8ri-iRRo4AH3HzOEmQ_NuFRSV-KUfM6I_b_E8GHKde9Lya4gphUFv7-MlG0scagUF795MeXtX2nZYZYC8LFuJhRaQPIRlB2D9gtdt8orKU6V7bB4wgwlulF_4L7_oQbhAX0ABnI1z4EB3U9S_fFufYR-j4p-VcKsH9hzWujmGj3BG7UkhYD8NRFz2vgiof_opWnPbLIj1e2q7FTT9Gm_bFM6zcBFJ7SztAlyWVGliumtkFDGJs4Oc5C0ImQYtG3Y87nYpoefWVszynSE6sfC3yDwE5mCi24HaRQ-KA0-MFcZoe0oJe5L3QKhBTOW2ZIj4pRvX5IsdC-FE1PYSTkZ8dIYirRH_n2lpKIsniVVVdNqmEOXji5XMyqWUKm3GWF7ITnMvktS9Lv4iJ7XYJTsoQDksPxXsjqNWVZf-OhI6d6rSp0EycFxxJY7ht_x8cDN2UXSKR-sP4z2RebuPgxFiPFQsW0Kb5SZPk-PjVHcirKok8l2RyCBMxx_smzFJqBJDWbBjq6ys7Ci56uF4rJv_zPL9xUxTorWwMMK0_jLvKJI83fq_eNfDViflaODtE25PqLnXLOHNyiWA1YVfRDc1eSPyhEOw2rlfHG7dTX9PMnj25Xs6rETJRgmEi2M40SvQYWKlELvrFKh1k0LKhSK0NQpUyZqUosNE2GV86tqGIAvhUi1e-PCB8Kp1hgOZnf8OqGeGGrZDO8qBHrX2kyxiLVgOcJtIQ_xiCEBL4ghxQ20Q04NNaV7k9FiY_MV2tBIhsMXPKVPF18wssIHCbQH2b2C1Sbf3R7HRSVOrpYqIQiEYWt72dFSX6YCCFJfykdm2z8X_psRuengBNgHhq3Z52bexfbvyvnnl_coz6fujd8QmoZvu63RouvTz0MGph3Vgh_npyv3dCsr7R_cB9YMK36iorO5sAzTqLj1Txq-1tFYlHjd0CX5sFPwPW6puPCaVcDRIRfoM5bBB3CsFWkC-Kepzy7vzwej7PpKnxzPzTQNjOVyHlB4SgrCLg2zcs3w6AY_dXk4e_MOcY9lobZNPx14VaHFr6xlByrIvwN9TCJbe0KONtU7xBcIS1lgxOHc5AGjfQkfXoT9BdecbBHeqm1whnspHWl8hAAsE48B27rnUeZmvmhsndUFfE49a-TebNz_6M9-CypcUSM-KuiyQprTacsvEc_UMrc2HzFPXmHqtl0j4f1j5In9zBKi1zDjwF7Y-AVfDJYKtmA0Xl9iwqkbxJjFmKwIBljCm-PGdP68zv7C8ioJYRO8skgCajo6U-CV17aR1ikkjol5A6jj_7ae_bn71H1LanEZHi_RzD8ple_yAMmO4XW6-0yUeuKvO1hktpneEIFUfsonDXEKTgmdB0dCjt2G-gCzghZLgQXMFdXD0OAJrnvjwIN_ZOKmkLHKBWpjFhlr_6nR1rcZGIx06xfDaPKRYnMda4ExQ0AFLpifzDPLI8WpdHgJYVt3mSpjLSr6aPj0BRjR6RlvM_9C55HIOS0weN6dWqfQg1XFoGF0k4p_8GIEvAXyuEBmJMoZVvm5ugeKSYpXnhSbdeYOF_tt48nNyjOu6XkfJ9Zc4Tb-3s8GCier4YNK8wl_5ZaJfs8vTPSeLAxzvyhSEvkdhlRgr-ArZZNNwZpToKwhhoSa6nq3LEUb7_NHjeYA2R5ENbns7XSWITtX0bM7bl5f8PCzOC4sK_xYog_B1Fhzeb3y0hpBYL_O6b7ALS-DTyynk3k4XshCvC3wTGuAG0OOhT8Bbex9_ljidmGAeIQy_325Y3XkD578-JY49Fjjg3UIhZYYFZn0pryALc1gsSwizLhomjW6KZdQOH2QqKfz0hWKp6dc1QYLn0n69ctUMcWHuBH2xs44M6rpqenG_utI0hZ7POcF3ODAROz2MmP70C1kJ0UvGJVG5Iv1qmT7ZJzokm1annlY8mZsyE7qiP_KDURznxchkTLwVLzRqa3gcL2anrsEZZuO8bijUsk7Y2tKxaupo4LqWE0iOShXVW7rY1rUDsBMJKy7sCWtTpJBm6WXkp-k9gfua32yu9NwrbObr_NQa2hPRBFocSZZXmPWROUtatPFRWrjp5VHquP0\"]"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "method": "POST",
+      "resourceType": "xhr",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-youtube-client-name": "56",
+        "x-youtube-ad-signals": "dt=1787744173510&flash=0&frm=2&u_tz=-180&u_his=2&u_h=900&u_w=1440&u_ah=900&u_aw=1440&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C1440%2C0%2C1440%2C900%2C626%2C352&vis=1&wgl=true&ca_type=image",
+        "x-youtube-client-version": "2.20260824.01.00",
+        "content-type": "application/json",
+        "x-youtube-page-label": "youtube.embeds.web_20260824_01_RC00",
+        "x-youtube-page-cl": "969653866",
+        "x-youtube-utc-offset": "-180",
+        "referer": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+        "x-youtube-device": "cbr=HeadlessChrome&cbrand=apple&cbrver=151.0.7922.34&ceng=WebKit&cengver=537.36&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP",
+        "x-goog-visitor-id": "CgtMTlllRzJxUW9yOCitn7vUBjIKCgJCUhIEGgAgPWLfAgrcAjIxLllUPVVYYzlSVngzNWR2RzFPZU9Lek05VUIxeG55bE1zUjA5LXRVeVUwM3VEWUFwbGZCRXZwZFZFLWQwWW1JME5vbEhCdF9rU1ZlalQyTDd0RlF1YUhUYXlWek5LOThPZklvdjNfa2ltWE1YS2JfbGV6ZDJjT2RjRUdkRjVLWnpBV0RBdzBHdVBOd3FBMUtRY1B4eVd2OXhmTlNDQzBMV3EtdW9RMF9RaGE4ODJrdVZJRWJ2Zk9kSFJrVHZvS1l6ejRoZUg2QndiUWE1OVF6aUF3V1lyUVBnLW1PZmhmcWI3ZU5PX1gydEVmNW5ocEdQX3Q5SXpVTmh0MVBMV29rRnlEV1Z6bnZCNjl0OWRRYlZROWFINmRwb3c0cHV5UjZkX1RZNDd5Z2cwU1Q0TlF3UTcyWndtelJxQWxjLTFwRVUzUjVLeXVkeTNnQVBqNG5PRThka25RQkFIZw%3D%3D",
+        "x-goog-request-time": "1787744176038",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "x-youtube-time-zone": "America/Sao_Paulo"
+      },
+      "postData": "{\"context\":{\"client\":{\"hl\":\"pt\",\"gl\":\"BR\",\"clientName\":56,\"clientVersion\":\"2.20260824.01.00\",\"configInfo\":{\"appInstallData\":\"CK2fu9QGEKSp0RwQn6_SHBCan9IcEPDe0RwQsIbPHBDxnLAFEJa10hwQi_fPHBC-hNEcEPb30RwQ-qrSHBAAELf4gBMQzN-uBRCG4YATEMuT0hwQmY2xBRCtkdIcEImwzhwQ263SHBDFtdIcEMGP0BwQ3rzOHBDa984cEIiQ0RwQx_yAExD8ss4cEIeszhwQyvuAExCXq9IcEOfr0RwQvbauBRC229EcEOn40RwQvZmwBRCd0LAFEJ2GuCIQgc3OHBDRpdIcEJ_PgBMQvYqwBRC8pNAcEMn2gBMQjuTRHBC45M4cEK6JuCIQ4LfRHBCZqdIcENGIuCIQk_LRHBCu1s8cEParsAUQ8bTQHBDbh7giEJrz0RwQ6bXSHBD16dEcEKem0RwQ683QHCp4Q0FNU1ZoVlYtWnEtRE1lVUVwVUNuQTc1RlowRjRSYU0wQV9OQVlvRDNBYXpBQXlLQnFnR0Jwc0JtcmZwQ3pLZ3JBUURrSzRELXlhMjVBYmtoUmVzdXdQWjFRWGRMTXBzc3FrR0JRSUNqX1VHeE9jRUJlZE9CUjBIMAA%3D\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36\",\"connectionType\":\"CONN_CELLULAR_4G\",\"browserName\":\"HeadlessChrome\",\"deviceMake\":\"apple\",\"browserVersion\":\"151.0.7922.34\",\"osName\":\"Macintosh\",\"osVersion\":\"10_15_7\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":626,\"windowHeightPoints\":352},\"thirdParty\":{\"embedUrl\":\"https://plxbrasil.com.br/\"}},\"events\":[{\"eventTimeMs\":1787744173474,\"latencyActionTicked\":{\"tickName\":\"mm_is\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173475,\"latencyActionTicked\":{\"tickName\":\"mm_ie\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173477,\"latencyActionTicked\":{\"tickName\":\"ep_init_cus\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173477,\"latencyActionTicked\":{\"tickName\":\"ep_init_eps\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173477,\"latencyActionTicked\":{\"tickName\":\"ep_init_epe\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173477,\"latencyActionTicked\":{\"tickName\":\"ep_init_cue\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173514,\"latencyActionTicked\":{\"tickName\":\"pe\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173514,\"latencyActionTicked\":{\"tickName\":\"ep_init_wes\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173331,\"latencyActionTicked\":{\"tickName\":\"srt\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172865,\"latencyActionBaselined\":{\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172997,\"latencyActionTicked\":{\"tickName\":\"nreqs\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173331,\"latencyActionTicked\":{\"tickName\":\"nress\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173387,\"latencyActionTicked\":{\"tickName\":\"nrese\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172867,\"latencyActionTicked\":{\"tickName\":\"ndnss\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172869,\"latencyActionTicked\":{\"tickName\":\"ndnse\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172869,\"latencyActionTicked\":{\"tickName\":\"ntcps\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172996,\"latencyActionTicked\":{\"tickName\":\"ntcpe\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172891,\"latencyActionTicked\":{\"tickName\":\"nstcps\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744172996,\"latencyActionTicked\":{\"tickName\":\"ntcpe\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173335,\"latencyActionTicked\":{\"tickName\":\"wffs\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173371,\"latencyActionTicked\":{\"tickName\":\"wffe\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173375,\"latencyActionTicked\":{\"tickName\":\"rsf_pj\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173498,\"latencyActionTicked\":{\"tickName\":\"rse_pj\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173334,\"latencyActionTicked\":{\"tickName\":\"rsf_pc\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173398,\"latencyActionTicked\":{\"tickName\":\"rse_pc\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173375,\"latencyActionTicked\":{\"tickName\":\"rsf_ecj\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173467,\"latencyActionTicked\":{\"tickName\":\"rse_ecj\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173334,\"latencyActionTicked\":{\"tickName\":\"rsf_ecc\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173374,\"latencyActionTicked\":{\"tickName\":\"rse_ecc\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173515,\"latencyActionInfo\":{\"isNavigation\":true,\"actionType\":\"LATENCY_ACTION_VIDEO_PREVIEW\",\"httpProtocol\":\"h2\",\"transportProtocol\":\"tcp\",\"isVisible\":true,\"loadType\":\"cold\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173473,\"latencyActionTicked\":{\"tickName\":\"rses_dpj\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173518,\"latencyActionTicked\":{\"tickName\":\"ep_init_wee\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173519,\"latencyActionInfo\":{\"serverTimeMs\":260,\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1787744173532,\"screenCreated\":{\"csn\":\"7Yu9wTrMMzZnoR1y\",\"pageVe\":{\"veType\":16623,\"youtubeData\":{\"servletData\":{\"serializedServletEventId\":\"rc-OauUY9LT1xg_SrOXoCw\"}}}},\"context\":{\"lastActivityMs\":\"9\"}},{\"eventTimeMs\":1787744173533,\"latencyActionInfo\":{\"clientScreenNonce\":\"7Yu9wTrMMzZnoR1y\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"10\"}},{\"eventTimeMs\":1787744173533,\"screenCreated\":{\"csn\":\"tNXtCymUb4gbQAnh\",\"pageVe\":{\"veType\":32594},\"implicitGesture\":{\"parentCsn\":\"7Yu9wTrMMzZnoR1y\",\"gesturedVe\":{\"veType\":16623},\"gestureType\":\"INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED\"}},\"context\":{\"lastActivityMs\":\"10\"}},{\"eventTimeMs\":1787744173533,\"visualElementHidden\":{\"csn\":\"7Yu9wTrMMzZnoR1y\",\"ve\":{\"veType\":16623},\"eventType\":16},\"context\":{\"lastActivityMs\":\"10\"}},{\"eventTimeMs\":1787744173533,\"latencyActionInfo\":{\"clientScreenNonce\":\"tNXtCymUb4gbQAnh\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"10\"}},{\"eventTimeMs\":1787744173533,\"visualElementAttached\":{\"csn\":\"tNXtCymUb4gbQAnh\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"trackingParams\":\"CAAQru4BIhMIlaGNg5q-lgMVfR_QBR0acil6ygEEOACbwQ==\"}]},\"context\":{\"lastActivityMs\":\"10\"}},{\"eventTimeMs\":1787744173536,\"latencyActionTicked\":{\"tickName\":\"qoes\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"13\"}},{\"eventTimeMs\":1787744173536,\"latencyActionTicked\":{\"tickName\":\"fs\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"13\"}},{\"eventTimeMs\":1787744173542,\"latencyActionInfo\":{\"clientPlaybackNonce\":\"BkH3CR3njZ35sT6Q\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"19\"}},{\"eventTimeMs\":1787744173542,\"latencyActionTicked\":{\"tickName\":\"ep_init_pr\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"19\"}},{\"eventTimeMs\":1787744173543,\"latencyActionTicked\":{\"tickName\":\"pot_ist\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"20\"}},{\"eventTimeMs\":1787744173599,\"latencyActionTicked\":{\"tickName\":\"ep_init_ijs\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"76\"}},{\"eventTimeMs\":1787744173599,\"latencyActionTicked\":{\"tickName\":\"ep_init_ije\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"76\"}},{\"eventTimeMs\":1787744173599,\"latencyActionTicked\":{\"tickName\":\"ep_init_rs\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"76\"}},{\"eventTimeMs\":1787744173601,\"latencyActionTicked\":{\"tickName\":\"ep_init_re\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"78\"}},{\"eventTimeMs\":1787744173606,\"visualElementAttached\":{\"csn\":\"tNXtCymUb4gbQAnh\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"83\"}},{\"eventTimeMs\":1787744173606,\"visualElementShown\":{\"csn\":\"tNXtCymUb4gbQAnh\",\"ve\":{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"83\"}},{\"eventTimeMs\":1787744173618,\"latencyActionTicked\":{\"tickName\":\"ftr\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"95\"}},{\"eventTimeMs\":1787744173750,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW8KBgoEYUdJZhICCAEiEQoDCgF0CgYKBGFHSWYSAggBIhEKAwoBaAoGCgRhR0lmEgIIBQ==\"},\"context\":{\"lastActivityMs\":\"227\"}},{\"eventTimeMs\":1787744173751,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAWgKBgoEYUdJZhIJEQAAAABgZiFAIhgKAwoBaAoGCgRhR0lmEgkRAAAAAAAA4D8iGAoDCgFoCgYKBGFHSWYSCREAAAAAADMPQCIYCgMKAWgKBgoEYUdJZhIJEQAAAAAAAAxAIhgKAwoBaAoGCgRhR0lmEgkRAAAAAAAAJUAiGAoDCgF0CgYKBGFHSWYSCREAAAAAAEBEQA==\"},\"context\":{\"lastActivityMs\":\"228\"}},{\"eventTimeMs\":1787744174038,\"latencyActionTicked\":{\"tickName\":\"pot_if\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"515\"}},{\"eventTimeMs\":1787744174038,\"latencyActionTicked\":{\"tickName\":\"pot_cms\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"515\"}},{\"eventTimeMs\":1787744174038,\"latencyActionTicked\":{\"tickName\":\"pot_cmf\",\"clientActionNonce\":\"rZ8qF3DZSwJLzkvJ\"},\"context\":{\"lastActivityMs\":\"515\"}},{\"eventTimeMs\":1787744174751,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChYvY2xpZW50X3N0cmVhbXovYmcvZnJzEhAKDgoIYm90Z3VhcmQSAjUzGgJtayITCgYKBGFHSWYSCREAAAAAANihQA==\"},\"context\":{\"lastActivityMs\":\"1229\"}},{\"eventTimeMs\":1787744174752,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW4KBgoEYUdJZhICCAEiEQoDCgFtCgYKBGFHSWYSAggB\"},\"context\":{\"lastActivityMs\":\"1229\"}},{\"eventTimeMs\":1787744174752,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAW4KBgoEYUdJZhIJEQAAAAAAAAxAIhgKAwoBaQoGCgRhR0lmEgkRAACgmZmZyT8iGAoDCgFvCgYKBGFHSWYSCREANDMzM9t+QCIYCgMKAWMKBgoEYUdJZhIJEQAAAAAAAAAAIhgKAwoBQwoGCgRhR0lmEgkRAACgmZmZyT8iGAoDCgF4CgYKBGFHSWYSCREAAAAAAAAAACIYCgMKAW0KBgoEYUdJZhIJEQAAoJmZmck/\"},\"context\":{\"lastActivityMs\":\"1229\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"rc-OauUY9LT1xg_SrOXoCw\",\"clientCounter\":\"9538\"}}"
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://plxbrasil.com.br/",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "document",
+      "contentType": "text/html",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/base.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/header.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/hero.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/products.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/about.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/videos.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/faq.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/footer.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/whatsapp_float.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/footer_slide.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/hero_intern.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cards_cta.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/map_cta.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cards_service.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/blog_body.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/model_showcase.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/parts_catalog.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/logo.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cta.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/principles.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/differentials.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/reviews.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/whatsapp_bar.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/customers.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/modal_form.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cookie_consent.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/faq_service.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/support.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/404.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/cards_list.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/service_showcase.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/latest_posts.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/model_banner.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/css/components/legal_content.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/main.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/modal_form.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/header.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/videos.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/faq.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/bg.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/whatsapp_bar.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/products.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/footer_slide.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/latest_posts.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/customers.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/cards_service.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/faq_service.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/parts_catalog.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/lead_sender.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/service_showcase.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/cookie_consent.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/js/modules/model_showcase.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://elfsightcdn.com/platform.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/about.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/whatsapp.webp",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "font",
+      "contentType": "font/woff2",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/servicos.xml",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "text/xml",
+      "fixture": "fixtures/src-data-servicos.xml-11da797d1f.txt",
+      "error": "",
+      "bytes": 153113
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/modelos.xml",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "text/xml",
+      "fixture": "fixtures/src-data-modelos.xml-1fd25b1251.txt",
+      "error": "",
+      "bytes": 60110
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/data/videos.xml?v=1787744172732",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "text/xml",
+      "fixture": "fixtures/src-data-videos.xml-f14cd26497.txt",
+      "error": "",
+      "bytes": 2881
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest/dist/umd/lucide.min.js",
+      "status": 302,
+      "ok": false,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/plain;charset=UTF-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x65pro.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/xd500.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x35pro.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/xr12.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/xc750.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x20pro.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x10pro.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x10plus.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x30pro.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://plxbrasil.com.br/src/assets/images/x15pro.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-B0J3WHFNTB",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=UTF-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://unpkg.com/lucide@1.34.0/dist/umd/lucide.min.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/0S-kAzlzVL8/hqdefault.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/sCa_toovW5c/hqdefault.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/d_taJyvV7VM/hqdefault.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/sjEDwlYuIDQ/hqdefault.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/LYiFB-DBpIM/hqdefault.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/LxoVyLavBLs/hqdefault.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://img.youtube.com/vi/rVtgn3qgzCg/hqdefault.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B0J3WHFNTB&gtm=45je68o1v9182060572za200zd9182060572&_p=1787744172625&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=3317253.1787744173&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787744173&sct=1&seg=0&dl=https%3A%2F%2Fplxbrasil.com.br%2F&dt=Mini%20Escavadeiras%2C%20Carregadeiras%20e%20Dumpers%20%7C%20PLX%20Brasil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=665",
+      "status": 204,
+      "ok": true,
+      "method": "POST",
+      "resourceType": "fetch",
+      "contentType": "text/plain",
+      "fixture": "",
+      "error": "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://www.google.com.br/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-B0J3WHFNTB&cid=3317253.1787744173&gtm=45je68o1v9182060572za200zd9182060572&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&z=1153472702",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/gif",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-B0J3WHFNTB&cid=3317253.1787744173&gtm=45je68o1v9182060572za200zd9182060572&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422",
+      "status": 204,
+      "ok": true,
+      "method": "POST",
+      "resourceType": "ping",
+      "contentType": "text/plain",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/LxoVyLavBLs?rel=0&modestbranding=1&playsinline=1&autoplay=0",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "document",
+      "contentType": "text/html; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "font",
+      "contentType": "font/woff2",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/player/b7457b7c/www-player.css",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/ss/k=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywGu3h6Ls91zsaCPcwDQORPOkwMt2A/m=root,base",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css; charset=UTF-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGTTj3-cTgD-pjEZcKhpleKhdcFmg/m=root,base",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript; charset=UTF-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/player/b7457b7c/player_embed.vflset/pt_BR/base.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/ck=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFHyaab2mCtlM29mRoTuGXwnGFOFg/m=r78Drb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript; charset=UTF-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.google.com/js/th/EgJTq7KLa9NePuBz01-GqhACQc4wbmPdiB8wKoCvESA.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "text/javascript",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://i.ytimg.com/vi/LxoVyLavBLs/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAa0qOh1eh4jETP97cx-iaZm9882Q",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/generate_204?vsfrFA",
+      "status": 204,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "status": 200,
+      "ok": true,
+      "method": "POST",
+      "resourceType": "xhr",
+      "contentType": "application/json+protobuf; charset=UTF-8",
+      "fixture": "fixtures/rpc-google.internal.waa.v1.Waa-GenerateIT-6eeccd3798.json",
+      "error": "",
+      "bytes": 102
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "status": 200,
+      "ok": true,
+      "method": "POST",
+      "resourceType": "xhr",
+      "contentType": "application/json; charset=UTF-8",
+      "fixture": "fixtures/youtubei-v1-log_event-4b73582779.json",
+      "error": "",
+      "bytes": 28
+    }
+  ]
+}

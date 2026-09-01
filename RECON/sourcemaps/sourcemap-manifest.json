@@ -1,0 +1,128 @@
+{
+  "source": "RECON/original-recon.json",
+  "url": "https://plxbrasil.com.br/",
+  "allExternal": false,
+  "scriptCount": 17,
+  "mapCount": 0,
+  "results": [
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/main.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/main.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/modal_form.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/modal_form.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/header.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/header.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/videos.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/videos.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/faq.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/faq.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/whatsapp_bar.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/whatsapp_bar.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/footer_slide.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/footer_slide.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/products.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/products.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/customers.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/customers.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/latest_posts.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/latest_posts.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/cards_service.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/cards_service.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/service_showcase.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/service_showcase.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/faq_service.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/faq_service.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/model_showcase.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/model_showcase.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/lead_sender.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/lead_sender.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/cookie_consent.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/cookie_consent.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    },
+    {
+      "scriptUrl": "https://plxbrasil.com.br/src/assets/js/modules/parts_catalog.js",
+      "status": "error",
+      "mapUrl": "https://plxbrasil.com.br/src/assets/js/modules/parts_catalog.js.map",
+      "mapFile": "",
+      "error": "403 Forbidden"
+    }
+  ]
+}
