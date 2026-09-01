@@ -326,25 +326,39 @@ function legalDialog() {
   </dialog>`;
 }
 
+function metricHtml(spec) {
+  if (!spec) return "";
+  const { n, u } = splitValue(spec.value);
+  return `<div class="metric"><span class="metric__label">${esc(spec.name)}</span><span class="metric__value">${esc(n)}${u ? `<em>${esc(u)}</em>` : ""}</span></div>`;
+}
+
 function modelCard(model) {
   return `<article class="model-card" data-model-card data-range="${rangeOf(model)}">
-    <div class="model-card__media">
+    <a class="model-card__media" href="${model.href}">
       ${model.badge ? `<span class="badge" style="position:absolute;left:12px;top:12px">${esc(model.badge)}</span>` : ""}
-      <img src="${model.image}" alt="${esc(model.product)} ${esc(model.name)}" width="320" height="180">
-    </div>
+      <img src="${model.image}" alt="${esc(model.product)} ${esc(model.name)}" width="480" height="360">
+    </a>
     <div class="model-card__body">
       <span class="card__kicker">${esc(model.product)}</span>
       <h3><a href="${model.href}">${esc(model.name)}</a></h3>
-      <div class="spec-list">
-        ${model.keySpecs.map(specHtml).join("")}
-      </div>
+      <div class="metrics">${model.keySpecs.map(metricHtml).join("")}</div>
       <p class="price">${priceLabel(model)}${model.pricePublished ? " <small>consulte condições</small>" : ""}</p>
-      <div class="btn-row">
-        <a class="btn btn--primary" href="${model.href}">Ficha técnica</a>
-        <button class="btn btn--ghost" type="button" data-quote-open data-model="${esc(model.product)} ${esc(model.name)}">Orçamento</button>
-      </div>
+      <a class="btn btn--primary" href="${model.href}">Ver ficha</a>
     </div>
   </article>`;
+}
+
+function carousel(inner, label = "Deslize a linha") {
+  return `<div class="carousel" data-carousel>
+    <div class="carousel__bar">
+      <span class="carousel__count">${esc(label)}</span>
+      <div class="carousel__controls">
+        <button type="button" class="carousel__btn" data-carousel-prev aria-label="Anterior">←</button>
+        <button type="button" class="carousel__btn" data-carousel-next aria-label="Próximo">→</button>
+      </div>
+    </div>
+    <div class="carousel__track" data-carousel-track>${inner}</div>
+  </div>`;
 }
 
 function compareTable(models, currentSlug) {
@@ -421,14 +435,11 @@ function videoBlock() {
 function homePage() {
   const cats = catalog.categories
     .map(
-      (c) => `<article class="card">
-        <div class="card__body">
-          <span class="card__kicker">${esc(c.range)}</span>
-          <h3><a href="/${c.slug}/">${esc(c.name)}</a></h3>
-          <p>${esc(c.blurb)}</p>
-          <a href="/${c.slug}/">Ver linha →</a>
-        </div>
-      </article>`
+      (c) => `<a class="family-link" href="/${c.slug}/">
+        <span class="card__kicker">${esc(c.range)}</span>
+        <strong>${esc(c.name)}</strong>
+        <p>${esc(c.blurb)}</p>
+      </a>`
     )
     .join("");
 
@@ -446,8 +457,8 @@ function homePage() {
       <p class="lede">4.159 mm de profundidade no X65 Pro. Motor Yanmar. 48 kN na concha. Sem cadastro para ver o valor.</p>
       <div class="btn-row">
         <a class="btn btn--primary" href="/mini-escavadeira/">Ver a linha</a>
-        <a class="btn btn--invert" href="${WA}" target="_blank" rel="noopener">Falar no WhatsApp</a>
-        <button class="btn btn--invert" type="button" data-quote-open>Pedir orçamento</button>
+        <a class="btn btn--invert" href="${WA}" target="_blank" rel="noopener">WhatsApp</a>
+        <button class="btn btn--invert" type="button" data-quote-open>Orçamento</button>
       </div>
       <div class="plate">
         <div class="spec"><span class="spec__label">Linha</span><span class="spec__value">1–6<em>t</em></span></div>
@@ -461,15 +472,15 @@ function homePage() {
       <div class="section__head">
         <p class="eyebrow">Linha</p>
         <h2>Quatro famílias. Ficha comparável. Preço público na escavadeira.</h2>
-        <p class="lede">O catálogo está no HTML — crawler e conexão ruim vêem os cards, não “Carregando produtos…”.</p>
+        <p class="lede">O catálogo está no HTML — crawler e conexão ruim vêem os cards, não a tela de carregamento.</p>
       </div>
-      <div class="card-grid" style="margin-bottom:28px">${cats}</div>
+      <nav class="family-row" aria-label="Famílias">${cats}</nav>
       <div class="section__head">
         <p class="eyebrow">Mini escavadeira</p>
         <h2>X10 ao X65. Mesma lógica de linha, sete pesos.</h2>
       </div>
-      <div class="card-grid">${excavators().map(modelCard).join("")}</div>
-      <p style="margin-top:20px"><a href="/comparar/">Comparar profundidade, peso, motor, força e preço →</a></p>
+      ${carousel(excavators().map(modelCard).join(""), "X10 PLUS → X65 Pro")}
+      <p style="margin-top:28px"><a href="/comparar/">Comparar profundidade, peso, motor, força e preço →</a></p>
     </div>
   </section>
   ${videoBlock()}
@@ -562,7 +573,7 @@ function categoryPage(cat) {
   <section class="section">
     <div class="wrap">
       ${filters}
-      <div class="card-grid">${models.map(modelCard).join("")}</div>
+      ${carousel(models.map(modelCard).join(""), `${models.length} modelos na linha`)}
     </div>
   </section>
   ${isExc ? `<section class="section" id="comparar"><div class="wrap"><div class="section__head"><p class="eyebrow">Comparador</p><h2>Sete modelos, um eixo de decisão.</h2></div>${compareTable(models)}</div></section>` : ""}

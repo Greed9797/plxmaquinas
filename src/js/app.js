@@ -221,6 +221,39 @@ function initVideo() {
   });
 }
 
+function initCarousel() {
+  qsa("[data-carousel]").forEach((root) => {
+    const track = qs("[data-carousel-track]", root);
+    const prev = qs("[data-carousel-prev]", root);
+    const next = qs("[data-carousel-next]", root);
+    if (!track) return;
+
+    const step = () => {
+      const card = qs(".model-card", track);
+      if (!card) return Math.round(track.clientWidth * 0.8);
+      const style = getComputedStyle(track);
+      const gap = parseFloat(style.columnGap || style.gap) || 28;
+      return card.getBoundingClientRect().width + gap;
+    };
+
+    const sync = () => {
+      const max = track.scrollWidth - track.clientWidth - 4;
+      if (prev) prev.disabled = track.scrollLeft <= 4;
+      if (next) next.disabled = track.scrollLeft >= max;
+    };
+
+    prev?.addEventListener("click", () => {
+      track.scrollBy({ left: -step(), behavior: "smooth" });
+    });
+    next?.addEventListener("click", () => {
+      track.scrollBy({ left: step(), behavior: "smooth" });
+    });
+    track.addEventListener("scroll", sync, { passive: true });
+    window.addEventListener("resize", sync);
+    sync();
+  });
+}
+
 function initFilters() {
   const buttons = qsa("[data-filter]");
   const cards = qsa("[data-model-card]");
@@ -232,6 +265,8 @@ function initFilters() {
       cards.forEach((card) => {
         card.hidden = key !== "all" && card.dataset.range !== key;
       });
+      const track = btn.closest("section")?.querySelector("[data-carousel-track]");
+      track?.scrollTo({ left: 0, behavior: "smooth" });
     });
   });
 }
@@ -245,3 +280,4 @@ initStickyBar();
 initFinance();
 initVideo();
 initFilters();
+initCarousel();

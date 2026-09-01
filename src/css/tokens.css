@@ -79,7 +79,7 @@
   --transition-base: 150ms linear;
   --transition-slow: 200ms linear;
 
-  --container: 1240px;
-  --container-wide: 1360px;
-  --header-height: 86px;
+  --container: 1180px;
+  --container-wide: 1280px;
+  --header-height: 72px;
 }
