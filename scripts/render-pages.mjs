@@ -138,7 +138,7 @@ function layout({ title, description, path, nav, body, schema, extraDialogs = ""
   <meta name="description" content="${esc(description)}">
   <link rel="canonical" href="${esc(path)}">
   <link rel="icon" href="/images/brand/logo-mark.jpg">
-  <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="stylesheet" href="/css/app.css">
   ${schema ? `<script type="application/ld+json">${schema}</script>` : ""}
 </head>
 <body class="${bodyClass}">

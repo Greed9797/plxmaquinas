@@ -7,9 +7,10 @@
   "scripts": {
     "data": "node scripts/parse-catalog.mjs",
     "render": "node scripts/render-pages.mjs",
-    "predev": "npm run data && npm run render",
+    "css": "node scripts/bundle-css.mjs",
+    "predev": "npm run data && npm run css && npm run render",
     "dev": "vite --host 127.0.0.1 --port 43147",
-    "prebuild": "npm run data && npm run render",
+    "prebuild": "npm run data && npm run css && npm run render",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 43147"
   },

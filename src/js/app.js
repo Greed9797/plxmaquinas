@@ -101,17 +101,21 @@ function initQuote(catalog) {
   qs("[data-quote-close]", modal)?.addEventListener("click", () => closeDialog(modal));
   modal.addEventListener("close", () => document.body.classList.remove("is-locked"));
 
-  qs("[data-next]", modal)?.addEventListener("click", () => {
-    if (step === 1 && !form.aplicacao.value) {
-      form.aplicacao[0]?.focus();
-      return;
-    }
-    if (step === 2 && !form.prazo.value) return;
-    show(step + 1);
+  qsa("[data-next]", modal).forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (step === 1 && !form.aplicacao.value) {
+        form.aplicacao[0]?.focus();
+        return;
+      }
+      if (step === 2 && !form.prazo.value) return;
+      show(step + 1);
+    });
   });
 
-  qs("[data-back]", modal)?.addEventListener("click", () => {
-    if (step > 1) show(step - 1);
+  qsa("[data-back]", modal).forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (step > 1) show(step - 1);
+    });
   });
 
   form?.addEventListener("submit", (e) => {
