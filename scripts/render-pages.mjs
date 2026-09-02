@@ -1,8 +1,9 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const PUBLIC = join(root, "public");
 const catalog = JSON.parse(readFileSync(join(root, "src/data/catalog.json"), "utf8"));
 
 const WA = `https://wa.me/${catalog.whatsapp}`;
@@ -343,9 +344,35 @@ function metricHtml(spec) {
   return `<div class="metric"><span class="metric__label">${esc(shortLabel(spec.name))}</span><span class="metric__value">${esc(n)}${u ? `<em>${esc(u)}</em>` : ""}</span></div>`;
 }
 
+// Hero: <div.hero__media data-hero-motion> com vídeo de drone só quando o arquivo existe
+// em public/images/hero/drone.{webm,mp4}. Sem arquivo, motion.js faz ken-burns no still.
+function heroMedia(pictureHtml) {
+  const webm = existsSync(join(PUBLIC, "images/hero/drone.webm"));
+  const mp4 = existsSync(join(PUBLIC, "images/hero/drone.mp4"));
+  const video = webm || mp4
+    ? `<video class="hero__drone" hidden muted loop playsinline preload="none" poster="/images/hero/yard-1280.webp"${webm ? ' data-webm="/images/hero/drone.webm"' : ""}${mp4 ? ' data-mp4="/images/hero/drone.mp4"' : ""}></video>`
+    : "";
+  return `<div class="hero__media" data-hero-motion>
+      ${video}${pictureHtml}
+    </div>`;
+}
+
+// Sprite de operação por modelo ou por família: public/images/sprites/{slug|categorySlug}.webp
+// (+ .json opcional { "frames": n }). Sem arquivo, o card fica no PNG e o hover é um lift de 3px.
+function spriteAttrs(model) {
+  for (const name of [model.slug, model.categorySlug]) {
+    const rel = `images/sprites/${name}.webp`;
+    if (!existsSync(join(PUBLIC, rel))) continue;
+    const meta = join(PUBLIC, `images/sprites/${name}.json`);
+    const frames = existsSync(meta) ? JSON.parse(readFileSync(meta, "utf8")).frames : 8;
+    return ` data-sprite="/${rel}" data-frames="${frames}"`;
+  }
+  return "";
+}
+
 function modelCard(model) {
   return `<article class="model-card" data-model-card data-range="${rangeOf(model)}">
-    <a class="model-card__media" href="${model.href}">
+    <a class="model-card__media" href="${model.href}"${spriteAttrs(model)}>
       ${model.badge ? `<span class="badge">${esc(model.badge)}</span>` : ""}
       <img src="${model.image}" alt="${esc(model.product)} ${esc(model.name)}" width="480" height="360">
     </a>
@@ -455,11 +482,11 @@ function homePage() {
 
   const body = `
   <section class="hero">
-    <picture class="hero__media">
+    ${heroMedia(`<picture>
       <source media="(max-width: 720px)" srcset="/images/hero/yard-768.webp">
       <source media="(max-width: 1280px)" srcset="/images/hero/yard-1280.webp">
       <img src="/images/hero/yard-1920.webp" alt="Pátio PLX Brasil em Tubarão" width="1920" height="1080" fetchpriority="high">
-    </picture>
+    </picture>`)}
     <div class="hero-scrim"></div>
     <div class="wrap hero__content">
       <p class="eyebrow" style="color:#D8DCE1">PLX Brasil · Tubarão/SC</p>
@@ -569,10 +596,10 @@ function categoryPage(cat) {
 
   const body = `
   <section class="hero hero--page">
-    <picture class="hero__media">
+    ${heroMedia(`<picture>
       <source media="(max-width: 720px)" srcset="/images/hero/yard-768.webp">
       <img src="/images/hero/yard-1280.webp" alt="" width="1280" height="720">
-    </picture>
+    </picture>`)}
     <div class="hero-scrim"></div>
     <div class="wrap hero__content">
       <p class="eyebrow" style="color:#D8DCE1">${esc(cat.range)}</p>

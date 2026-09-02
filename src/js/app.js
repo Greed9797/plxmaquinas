@@ -1,4 +1,5 @@
 import catalog from "../data/catalog.json";
+import { initHeroMotion, initProductSprites, initReducedMotion } from "./motion.js";
 
 function qs(sel, root = document) {
   return root.querySelector(sel);
@@ -281,3 +282,6 @@ initFinance();
 initVideo();
 initFilters();
 initCarousel();
+initReducedMotion();
+initHeroMotion();
+initProductSprites();

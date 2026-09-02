@@ -4,7 +4,7 @@ Documento para continuar em **outro chat**. Copie o bloco **Prompt para o próxi
 
 Dono: **Vitor**, software engineer. Tom: trabalhar direto no código. Idioma do produto: **pt-BR**.
 
-Último commit desta sessão: `e4c1503` — *Quiet the product chrome: text links, one photo, wider cards*. Branch: `main`. Não abrir PR a menos que Vitor peça.
+Último commit desta sessão: ver `git log -1` — *Motion wave: GSAP hero drift + product sprites hook*. Branch: `cursor/industrial-rebrand-ed8a` (main continua o clone estático `e8f028b`). Clone no Mac: `~/dev/plx-brasil-rebrand`. Não abrir PR a menos que Vitor peça.
 
 ---
 
@@ -29,7 +29,7 @@ Sede: Tubarão/SC. WhatsApp: `5548988728340` · `(48) 98872-8340`. E-mail: `cont
 - PDP: H1 = nome do modelo; **uma** foto de catálogo — **não** fingir galeria de 8 ângulos com o mesmo PNG.
 - Foto real de obra ainda **não existe**. Não inventar ensaio. Legenda honesta.
 
-### Próxima onda (ainda não implementada) — GSAP
+### Onda GSAP — implementada (02/09/2026), sprites e drone ainda sem asset
 
 Vitor disse “Gflow / flowkta”. **Neste repo isso é GSAP** (`gsap` + `ScrollTrigger`), no Vite MPA atual. **Não** migrar para Webflow, Framer ou Flowkit. Não segundo design system.
 
@@ -149,12 +149,23 @@ Arquivos-chave da última passada:
 
 - `scripts/render-pages.mjs` — nav, `shortLabel`, cards, hero copy, gallery-one, siblings
 - `src/css/app.css` — `.text-link`, `.gallery-one`, `.pdp-siblings`, cards 328px, filtros/tabela/finance sem caixa, vídeos sem tile
-- `src/js/app.js` — comportamento atual, **sem GSAP ainda**
-- `package.json` — só `vite` em devDependencies
+- `src/js/app.js` — importa `./motion.js` (últimas 3 chamadas)
+- `src/js/motion.js` — `initHeroMotion` (ken-burns/parallax/vídeo), `initProductSprites` (filmstrip por xPercent + steps, lazy no hover, fallback lift 3px), `initReducedMotion`
+- `package.json` — `vite` + `gsap` 3.15
 
 ---
 
-## 8. Plano técnico da onda GSAP (o que implementar no próximo chat)
+## 8. Onda GSAP — o que está no código (e o que falta de asset)
+
+**Estado:** código pronto e verificado com Playwright (desktop 1440, mobile 390 touch, `reducedMotion: reduce`, PDP). O que falta é **asset**, não código:
+
+- **Drone:** o gerador só emite `<video class="hero__drone">` se existir `public/images/hero/drone.webm` ou `drone.mp4`. Sem arquivo, `motion.js` faz ken-burns (scale 1→1.08, 28s, yoyo) + parallax de 10px no scroll, pausado fora da viewport. Copy e scrim ficam parados. Mobile ≤720px nunca baixa o vídeo.
+- **Sprites:** o gerador só emite `data-sprite="/images/sprites/{slug|categorySlug}.webp" data-frames="n"` se o arquivo existir (JSON irmão `{ "frames": n }` opcional; padrão 8). Filmstrip horizontal, frame 0 = o PNG do card. Sem arquivo, hover = lift de 3px no PNG. Touch e reduced-motion: estático, nada baixa. Se `.webp` falhar, tenta `.png` com o mesmo nome.
+- Testado com um sprite sintético (removido antes do commit): 0 requests antes do hover, 1 depois; frames avançam em steps; `pointerleave` volta ao frame 0 e opacidade 0; `will-change` limpo. Uma timeline por card.
+
+Para produzir os assets: seção 8.5. Dropar o arquivo na pasta e `npm run render` — nenhuma edição de código.
+
+Plano original (mantido como referência):
 
 ### 8.1 Dependência
 
@@ -257,6 +268,8 @@ Até os sprites existirem, o código deve degradar para o PNG atual. Não usar p
 ---
 
 ## 10. Histórico recente (não desfazer)
+
+0. (02/09) — onda GSAP: `src/js/motion.js`, hooks de vídeo/sprite no gerador condicionados a arquivo existir, CSS só transform/opacity. Um `linear-gradient` no bundle, zero `filter`.
 
 1. `87b8910` — rebrand industrial (tokens, páginas, funil, schema).
 2. `8899d1e` — CSS via `/css/app.css`, header ink, funil.

@@ -608,12 +608,24 @@ h3 {
 }
 
 .hero__media,
-.hero__media img {
+.hero__media img,
+.hero__media video {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Movimento (motion.js): só transform/opacity. Vídeo entra por cima do still, opacidade 0 até tocar. */
+[data-hero-motion] img,
+[data-hero-motion] video {
+  transform-origin: 50% 50%;
+}
+
+.hero__drone {
+  z-index: 1;
+  opacity: 0;
 }
 
 .hero-scrim {
@@ -854,6 +866,33 @@ h3 {
   object-position: center 62%;
   position: relative;
   z-index: 1;
+}
+
+/* Filmstrip de operação: nasce no hover (motion.js), cobre a área do PNG, frame 0 = PNG. */
+.model-card__sprite {
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  top: 28px;
+  bottom: 12px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.model-card__sprite img {
+  display: block;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  object-position: left center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .model-card__sprite {
+    display: none;
+  }
 }
 
 .card__body,
