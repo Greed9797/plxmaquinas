@@ -48,3 +48,7 @@ HTML estático gerado a partir do XML de produção, CSS próprio (`src/css/toke
 ## Governança
 
 As oito regras inegociáveis estão em [`GOVERNANCE.md`](GOVERNANCE.md).
+
+## Continuar em outro chat
+
+Contexto completo do rebrand, do que já entrou no ar e da próxima onda (GSAP: drone na hero + sprites de operação no hover) está em [`HANDOFF.md`](HANDOFF.md). Copie o bloco **Prompt para o próximo agente** no final desse arquivo.
