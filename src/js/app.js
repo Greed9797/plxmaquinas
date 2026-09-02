@@ -70,6 +70,20 @@ function initSearch(catalog) {
   });
 }
 
+// POST do lead só quando o build definiu <meta name="plx-lead-endpoint">; falha em silêncio,
+// o WhatsApp continua sendo o caminho principal.
+function postLead(data) {
+  const endpoint = document.querySelector('meta[name="plx-lead-endpoint"]')?.content;
+  if (!endpoint) return;
+  const payload = { ...data, origem: "site", pagina: location.pathname, enviado_em: new Date().toISOString() };
+  fetch(endpoint, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+    keepalive: true,
+  }).catch(() => {});
+}
+
 function initQuote(catalog) {
   const modal = qs("#quote-modal");
   if (!modal) return;
@@ -132,6 +146,7 @@ function initQuote(catalog) {
       .filter(Boolean)
       .join(" ");
     const wa = `https://wa.me/${catalog.whatsapp}?text=${encodeURIComponent(text)}`;
+    postLead(data);
     const success = qs("[data-step='success']", modal);
     const link = qs("[data-quote-wa]", modal);
     if (link) link.href = wa;

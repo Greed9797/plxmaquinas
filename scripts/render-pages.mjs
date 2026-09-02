@@ -7,6 +7,9 @@ const PUBLIC = join(root, "public");
 const catalog = JSON.parse(readFileSync(join(root, "src/data/catalog.json"), "utf8"));
 
 const WA = `https://wa.me/${catalog.whatsapp}`;
+// Orçamento: por padrão só monta o texto e abre o WhatsApp. Com LEAD_ENDPOINT no ambiente de build
+// (ex.: LEAD_ENDPOINT=https://... npm run build) o funil também faz POST JSON do lead nesse endpoint.
+const LEAD_ENDPOINT = (process.env.LEAD_ENDPOINT || "").trim();
 const NAV = [
   ["Escavadeira", "/mini-escavadeira/"],
   ["Carregadeira", "/mini-carregadeira/"],
@@ -139,6 +142,7 @@ function layout({ title, description, path, nav, body, schema, extraDialogs = ""
   <link rel="canonical" href="${esc(path)}">
   <link rel="icon" href="/images/brand/logo-mark.jpg">
   <link rel="stylesheet" href="/css/app.css">
+  ${LEAD_ENDPOINT ? `<meta name="plx-lead-endpoint" content="${esc(LEAD_ENDPOINT)}">` : ""}
   ${schema ? `<script type="application/ld+json">${schema}</script>` : ""}
 </head>
 <body class="${bodyClass}">
