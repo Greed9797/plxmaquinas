@@ -349,16 +349,19 @@ function metricHtml(spec) {
   return `<div class="metric"><span class="metric__label">${esc(shortLabel(spec.name))}</span><span class="metric__value">${esc(n)}${u ? `<em>${esc(u)}</em>` : ""}</span></div>`;
 }
 
-// Hero: <div.hero__media data-hero-motion> com vídeo de drone só quando o arquivo existe
-// em public/images/hero/drone.{webm,mp4}. Sem arquivo, motion.js faz ken-burns no still.
-const DRONE_WEBM = existsSync(join(PUBLIC, "images/hero/drone.webm"));
-const DRONE_MP4 = existsSync(join(PUBLIC, "images/hero/drone.mp4"));
-const DRONE_POSTER = "/images/hero/drone-poster-1280.webp";
+// Hero: <div.hero__media data-hero-motion> com vídeo de drone só quando o arquivo existe.
+// Prefere public/images/hero/drone-ai.{webm,mp4} (loop gerado por IA a partir do frame aéreo real,
+// flowkta/omni-flash) e cai para drone.{webm,mp4} (footage real). Sem arquivo, ken-burns no still.
+const DRONE_BASE = ["drone-ai", "drone"].find((b) => existsSync(join(PUBLIC, `images/hero/${b}.webm`)) || existsSync(join(PUBLIC, `images/hero/${b}.mp4`))) || "drone";
+const DRONE_WEBM = existsSync(join(PUBLIC, `images/hero/${DRONE_BASE}.webm`));
+const DRONE_MP4 = existsSync(join(PUBLIC, `images/hero/${DRONE_BASE}.mp4`));
+const DRONE_POSTER = `/images/hero/${DRONE_BASE}-poster-1280.webp`;
 const HAS_DRONE = (DRONE_WEBM || DRONE_MP4) && existsSync(join(PUBLIC, DRONE_POSTER.slice(1)));
+const DRONE_ALT = DRONE_BASE === "drone-ai" ? "Mini escavadeira PLX em operação, vista aérea (animação a partir de imagem real)" : "Mini escavadeira PLX em operação";
 
 function heroMedia(pictureHtml, { video = false } = {}) {
   const drone = video && HAS_DRONE
-    ? `<video class="hero__drone" hidden muted loop playsinline preload="none" poster="${DRONE_POSTER}"${DRONE_WEBM ? ' data-webm="/images/hero/drone.webm"' : ""}${DRONE_MP4 ? ' data-mp4="/images/hero/drone.mp4"' : ""}></video>`
+    ? `<video class="hero__drone" hidden muted loop playsinline preload="none" poster="${DRONE_POSTER}"${DRONE_WEBM ? ` data-webm="/images/hero/${DRONE_BASE}.webm"` : ""}${DRONE_MP4 ? ` data-mp4="/images/hero/${DRONE_BASE}.mp4"` : ""}></video>`
     : "";
   return `<div class="hero__media" data-hero-motion>
       ${drone}${pictureHtml}
@@ -493,7 +496,7 @@ function homePage() {
     ${heroMedia(HAS_DRONE
       ? `<picture>
       <source media="(max-width: 720px)" srcset="/images/hero/yard-768.webp">
-      <img src="${DRONE_POSTER}" alt="Mini escavadeira PLX em operação" width="1280" height="720" fetchpriority="high">
+      <img src="${DRONE_POSTER}" alt="${DRONE_ALT}" width="1280" height="720" fetchpriority="high">
     </picture>`
       : `<picture>
       <source media="(max-width: 720px)" srcset="/images/hero/yard-768.webp">
