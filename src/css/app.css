@@ -164,13 +164,13 @@ h3 {
 
 .section--invert {
   background: var(--plx-ink-900);
-  color: #e8eaec;
+  color: var(--color-text-invert-soft);
 }
 
 .section--invert h1,
 .section--invert h2,
 .section--invert h3 {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .section--invert .eyebrow,
@@ -226,14 +226,14 @@ h3 {
 
 .btn--primary {
   background: var(--plx-red-600);
-  color: #ffffff;
+  color: var(--color-text-invert);
   border-color: var(--plx-red-600);
 }
 
 .btn--primary:hover {
   background: var(--plx-red-700);
   border-color: var(--plx-red-700);
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .btn--ghost {
@@ -249,24 +249,24 @@ h3 {
 
 .btn--invert {
   background: transparent;
-  color: #ffffff;
-  border-color: #ffffff;
+  color: var(--color-text-invert);
+  border-color: var(--color-text-invert);
 }
 
 .btn--invert:hover {
-  background: #ffffff;
+  background: var(--color-text-invert);
   color: var(--plx-ink-900);
 }
 
 .btn--whatsapp {
   background: var(--plx-whatsapp);
-  color: #ffffff;
+  color: var(--color-text-invert);
   border-color: var(--plx-whatsapp);
 }
 
 .btn--whatsapp:hover {
   background: var(--plx-whatsapp-hover);
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .btn-row {
@@ -280,7 +280,7 @@ h3 {
 ----------------------------------------------------------------------------- */
 .topbar {
   background: var(--plx-ink-900);
-  color: #d8dce1;
+  color: var(--color-text-invert-faint);
   font-size: 0.75rem;
   letter-spacing: 0.02em;
 }
@@ -299,7 +299,7 @@ h3 {
 }
 
 .topbar a:hover {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .topbar__links {
@@ -353,7 +353,7 @@ h3 {
   align-items: center;
   min-height: 36px;
   padding: 0 12px;
-  color: #ffffff;
+  color: var(--color-text-invert);
   text-decoration: none;
   font-family: var(--font-narrow);
   font-size: 0.8125rem;
@@ -365,7 +365,7 @@ h3 {
 
 .nav a:hover,
 .nav a[aria-current="page"] {
-  color: #ffffff;
+  color: var(--color-text-invert);
   border-bottom-color: var(--plx-red-500);
 }
 
@@ -386,13 +386,13 @@ h3 {
   border: 1px solid var(--plx-line-dark);
   border-radius: var(--radius-sm);
   background: var(--plx-ink-800);
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .search input:focus {
-  outline: 2px solid #ffffff;
+  outline: 2px solid var(--color-text-invert);
   outline-offset: 0;
-  border-color: #ffffff;
+  border-color: var(--color-text-invert);
 }
 
 .search input::placeholder {
@@ -434,7 +434,7 @@ h3 {
   width: 42px;
   height: 42px;
   border: 1px solid var(--plx-line-dark);
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .menu-toggle span,
@@ -471,7 +471,7 @@ h3 {
   min-height: min(72vh, 640px);
   display: grid;
   align-items: end;
-  color: #ffffff;
+  color: var(--color-text-invert);
   background: var(--plx-ink-900);
   overflow: hidden;
 }
@@ -514,13 +514,13 @@ h3 {
 }
 
 .hero h1 {
-  color: #ffffff;
+  color: var(--color-text-invert);
   max-width: 14ch;
   line-height: 0.98;
 }
 
 .hero .lede {
-  color: #e8eaec;
+  color: var(--color-text-invert-soft);
   max-width: 42ch;
 }
 
@@ -562,7 +562,7 @@ h3 {
 }
 
 .hero .plate .spec__value {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 /* -----------------------------------------------------------------------------
@@ -939,7 +939,7 @@ h3 {
 }
 
 .section--invert .spec__value {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .section--invert .spec__label,
@@ -1099,7 +1099,7 @@ table a:hover {
 }
 
 .section--invert .video-lite {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .video-rail {
@@ -1192,7 +1192,7 @@ table a:hover {
   z-index: 35;
   display: none;
   background: var(--plx-ink-900);
-  color: #ffffff;
+  color: var(--color-text-invert);
   border-top: 1px solid var(--plx-line-dark);
 }
 
@@ -1214,7 +1214,7 @@ table a:hover {
 }
 
 .pdp-bar a {
-  color: #d8dce1;
+  color: var(--color-text-invert-faint);
   text-decoration: none;
   font-family: var(--font-narrow);
   font-size: 0.75rem;
@@ -1223,7 +1223,7 @@ table a:hover {
 }
 
 .pdp-bar a:hover {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .tabs {
@@ -1644,13 +1644,13 @@ dialog.modal::backdrop {
 ----------------------------------------------------------------------------- */
 .site-footer {
   background: var(--plx-ink-900);
-  color: #d8dce1;
+  color: var(--color-text-invert-faint);
   padding: 48px 0 24px;
 }
 
 .site-footer h2,
 .site-footer h3 {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .footer-grid {
@@ -1660,12 +1660,12 @@ dialog.modal::backdrop {
 }
 
 .site-footer a {
-  color: #d8dce1;
+  color: var(--color-text-invert-faint);
   text-decoration: none;
 }
 
 .site-footer a:hover {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 .site-footer ul {
@@ -1697,7 +1697,7 @@ dialog.modal::backdrop {
   display: grid;
   place-items: center;
   background: var(--plx-whatsapp);
-  color: #ffffff;
+  color: var(--color-text-invert);
   border-radius: var(--radius-sm);
   text-decoration: none;
 }
@@ -1876,7 +1876,7 @@ body.has-pdp-bar .wa-float {
     justify-content: center;
     gap: 8px;
     background: var(--plx-whatsapp);
-    color: #ffffff;
+    color: var(--color-text-invert);
     text-decoration: none;
     font-family: var(--font-heading);
     font-size: 0.8125rem;

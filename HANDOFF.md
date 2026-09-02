@@ -27,9 +27,9 @@ Sede: Tubarão/SC. WhatsApp: `5548988728340` · `(48) 98872-8340`. E-mail: `cont
 - Carrossel da linha (não grade de quatro cards iguais).
 - Cards sem chrome: PNG no paper, métricas, preço, link texto **Ver ficha** (sem botão primário no card).
 - PDP: H1 = nome do modelo; **uma** foto de catálogo — **não** fingir galeria de 8 ângulos com o mesmo PNG.
-- Foto real de obra ainda **não existe**. Não inventar ensaio. Legenda honesta.
+- Foto real de obra só existe onde há frame rotulado do canal da PLX (X35 Pro, X10 PLUS, X65 Pro, X20 Pro). Nos outros, recorte de catálogo. Não inventar ensaio. Legenda honesta.
 
-### Onda GSAP — implementada (02/09/2026), sprites e drone ainda sem asset
+### Onda GSAP — implementada (02/09/2026); drone real na home e sprite real no X35 Pro
 
 Vitor disse “Gflow / flowkta”. **Neste repo isso é GSAP** (`gsap` + `ScrollTrigger`), no Vite MPA atual. **Não** migrar para Webflow, Framer ou Flowkit. Não segundo design system.
 
@@ -155,9 +155,9 @@ Arquivos-chave da última passada:
 
 ---
 
-## 8. Onda GSAP — o que está no código (e o que falta de asset)
+## 8. Onda GSAP — o que está no código e quais assets já existem
 
-**Estado:** código pronto e verificado com Playwright (desktop 1440, mobile 390 touch, `reducedMotion: reduce`, PDP). O que falta é **asset**, não código:
+**Estado:** código pronto e verificado com Playwright (desktop 1440, mobile 390 touch, `reducedMotion: reduce`, PDP). Assets reais no repo: `public/images/hero/drone.{webm,mp4}` + poster (loop aéreo do vídeo `d_taJyvV7VM`), `public/images/sprites/mini-escavadeira-x35-pro.webp` (8 frames) e fotos de obra em `public/images/obra/` para 4 modelos. Os hooks abaixo continuam condicionados a arquivo existir, então novo asset = dropar na pasta + `npm run render`:
 
 - **Drone:** o gerador só emite `<video class="hero__drone">` se existir `public/images/hero/drone.webm` ou `drone.mp4`. Sem arquivo, `motion.js` faz ken-burns (scale 1→1.08, 28s, yoyo) + parallax de 10px no scroll, pausado fora da viewport. Copy e scrim ficam parados. Mobile ≤720px nunca baixa o vídeo.
 - **Sprites:** o gerador só emite `data-sprite="/images/sprites/{slug|categorySlug}.webp" data-frames="n"` se o arquivo existir (JSON irmão `{ "frames": n }` opcional; padrão 8). Filmstrip horizontal, frame 0 = o PNG do card. Sem arquivo, hover = lift de 3px no PNG. Touch e reduced-motion: estático, nada baixa. Se `.webp` falhar, tenta `.png` com o mesmo nome.
@@ -254,7 +254,8 @@ Até os sprites existirem, o código deve degradar para o PNG atual. Não usar p
 - Uma timeline ativa por card.
 - Verificar home + `/mini-escavadeira/` + uma PDP + mobile 390px.
 - Confirmar **um** `linear-gradient` no CSS depois das edições.
-- Dev server: `0.0.0.0:43147`. Emitir preview se o ambiente for Cloud Agent.
+- Dev server: `0.0.0.0:43147` no Cloud Agent. No Mac do Vitor a 43147 costuma estar com o Cursor; verificação em `npx vite --host 127.0.0.1 --port 43148`.
+- Verificação sem MCP: Playwright por Node usando o Chrome do sistema (`executablePath` de `/Applications/Google Chrome.app`), resultado escrito em JSON (o hook de shell engole stdout do `node`). Lead: interceptar o host do Lambda por predicado de hostname, nunca deixar o POST sair.
 
 ---
 
@@ -272,7 +273,7 @@ Vídeos brutos **não** estão no repo (baixados com `yt-dlp` no scratchpad da s
 
 ## 10. Histórico recente (não desfazer)
 
-0. (02/09) — onda GSAP: `src/js/motion.js`, hooks de vídeo/sprite no gerador condicionados a arquivo existir, CSS só transform/opacity. Um `linear-gradient` no bundle, zero `filter`.
+0. (02/09) — onda GSAP e assets reais, nesta ordem: `b4b5d44` motion.js + hooks condicionados a arquivo; `cbaa3b9` pausa/retoma por IntersectionObserver; `c23c4ec` drone real + sprite X35 Pro; `9bc613b` fotos reais X35/X10 PLUS/X65 + POST do lead gateado; `7ff2c84` fotos X20 Pro; `79f6bf9` POST no Lambda de produção por padrão; `8b6a576` mapa dos 39 Shorts. Um `linear-gradient` no bundle, zero `filter`, PNG/WebP todos ≤300 KB.
 
 1. `87b8910` — rebrand industrial (tokens, páginas, funil, schema).
 2. `8899d1e` — CSS via `/css/app.css`, header ink, funil.
@@ -294,14 +295,15 @@ Continue o rebrand da PLX Brasil neste repo Vite MPA (não Next, não Tailwind, 
 
 Leia HANDOFF.md e GOVERNANCE.md primeiro.
 
-Estado: site industrial estático, HTML gerado por scripts/render-pages.mjs, CSS em src/css → public/css/app.css. JS em src/js/app.js. Porta 43147 bind 0.0.0.0. Último commit e4c1503.
+Estado: site industrial estático, HTML gerado por scripts/render-pages.mjs, CSS em src/css → public/css/app.css. JS em src/js/app.js + src/js/motion.js (GSAP). Onda GSAP entregue com drone real na home, sprite real no X35 Pro e fotos reais de obra em 4 PDPs. Orçamento posta no Lambda de produção (contrato do lead_sender.js) e abre WhatsApp. Branch cursor/industrial-rebrand-ed8a, ver git log -1.
 
-NÃO desfazer o chrome quieto (sem tiles brancos, sem botão no card, uma foto no PDP, nav curta).
+NÃO desfazer o chrome quieto (sem tiles brancos, sem botão no card, uma foto no PDP, nav curta). NÃO inventar foto nem sprite de máquina sem rótulo legível no frame.
 
-Próxima onda — GSAP (gsap + ScrollTrigger), não Flowkit/Webflow:
-1) Hero: drone view atrás do copy. Sem footage ainda → ken-burns/parallax leve no still yard-*.webp; deixar hook para video muted loop com poster. Um só gradiente (scrim).
-2) Produtos: hover mostra o que a máquina faz via sprite WebP 8–12 frames (steps), lazy, 40–80KB, degrada para PNG. Mobile sem loop eterno. prefers-reduced-motion = estático.
-3) Só transform/opacity. Zero blur, zero glass, zero iOS bounce.
+Próxima onda — fechar os assets que faltam (HANDOFF §9):
+1) Baixar os Shorts do canal listados em §9 (X15 PRO, X10 PRO, dumper XD500) com yt-dlp player_client=android_vr quando o bloqueio "sign in to confirm" do IP cair; conferir o rótulo da máquina em zoom antes de atribuir.
+2) Foto: frame vertical → crop 16:9 1080×608 (padrão de x20photos.sh), hqdn3d, cwebp ≤260 KB, JSON em public/images/obra/{slug}.json com legenda honesta ("Frame de vídeo da PLX").
+3) Sprite: 8 frames de um crop 4:3 do vertical, 320×240, cwebp q24, ≤120 KB, public/images/sprites/{slug}.webp + .json {frames}.
+4) XC750, X30 Pro e XR12 só com ensaio fotográfico: não fabricar.
 
-Edite o gerador, não o HTML solto. npm run css && npm run render. Commite e suba. Verifique home, categoria, PDP, mobile.
+Edite o gerador, não o HTML solto. npm run css && npm run render. Commite (comando bare, sem &&: o classificador barra encadeado) e suba pelo remote github. Verifique home, categoria, PDP, mobile com Playwright.
 ```

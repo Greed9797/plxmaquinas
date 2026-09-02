@@ -27,6 +27,7 @@
   --plx-ink-500: #5a616b;
   --plx-ink-300: #8a929e;
   --plx-ink-100: #d8dce1;
+  --plx-ink-050: #e8eaec;
 
   --plx-paper: #f2f3f4;
   --plx-surface: #ffffff;
@@ -48,6 +49,9 @@
   --color-text: #14171b;
   --color-text-soft: #3e444d;
   --color-text-faint: var(--plx-ink-500);
+  --color-text-invert: var(--plx-surface);
+  --color-text-invert-soft: var(--plx-ink-050);
+  --color-text-invert-faint: var(--plx-ink-100);
   --color-heading: #0e1013;
 
   --color-border: var(--plx-line);
