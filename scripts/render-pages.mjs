@@ -7,11 +7,10 @@ const catalog = JSON.parse(readFileSync(join(root, "src/data/catalog.json"), "ut
 
 const WA = `https://wa.me/${catalog.whatsapp}`;
 const NAV = [
-  ["Início", "/"],
-  ["Mini escavadeira", "/mini-escavadeira/"],
-  ["Mini carregadeira", "/mini-carregadeira/"],
-  ["Mini dumper", "/mini-dumper/"],
-  ["Rolo compactador", "/mini-rolo-compactador/"],
+  ["Escavadeira", "/mini-escavadeira/"],
+  ["Carregadeira", "/mini-carregadeira/"],
+  ["Dumper", "/mini-dumper/"],
+  ["Rolo", "/mini-rolo-compactador/"],
   ["Empresa", "/sobre/"],
   ["Suporte", "/suporte/"],
   ["Contato", "/contato/"],
@@ -326,24 +325,35 @@ function legalDialog() {
   </dialog>`;
 }
 
+function shortLabel(name) {
+  const n = String(name).toLowerCase();
+  if (n.includes("escava") || n.includes("profund")) return "Prof.";
+  if (n.includes("peso")) return "Peso";
+  if (n.includes("marca") || n.includes("motor")) return "Motor";
+  if (n.includes("carga")) return "Carga";
+  if (n.includes("caçamba") || n.includes("cacamba") || n.includes("volume")) return "Caçamba";
+  if (n.includes("rolo") || n.includes("largura")) return "Rolo";
+  if (n.includes("força") || n.includes("forca")) return "Força";
+  return name;
+}
+
 function metricHtml(spec) {
   if (!spec) return "";
   const { n, u } = splitValue(spec.value);
-  return `<div class="metric"><span class="metric__label">${esc(spec.name)}</span><span class="metric__value">${esc(n)}${u ? `<em>${esc(u)}</em>` : ""}</span></div>`;
+  return `<div class="metric"><span class="metric__label">${esc(shortLabel(spec.name))}</span><span class="metric__value">${esc(n)}${u ? `<em>${esc(u)}</em>` : ""}</span></div>`;
 }
 
 function modelCard(model) {
   return `<article class="model-card" data-model-card data-range="${rangeOf(model)}">
     <a class="model-card__media" href="${model.href}">
-      ${model.badge ? `<span class="badge" style="position:absolute;left:12px;top:12px">${esc(model.badge)}</span>` : ""}
+      ${model.badge ? `<span class="badge">${esc(model.badge)}</span>` : ""}
       <img src="${model.image}" alt="${esc(model.product)} ${esc(model.name)}" width="480" height="360">
     </a>
     <div class="model-card__body">
-      <span class="card__kicker">${esc(model.product)}</span>
       <h3><a href="${model.href}">${esc(model.name)}</a></h3>
-      <div class="metrics">${model.keySpecs.map(metricHtml).join("")}</div>
-      <p class="price">${priceLabel(model)}${model.pricePublished ? " <small>consulte condições</small>" : ""}</p>
-      <a class="btn btn--primary" href="${model.href}">Ver ficha</a>
+      <div class="metrics">${model.keySpecs.slice(0, 3).map(metricHtml).join("")}</div>
+      <p class="price">${priceLabel(model)}</p>
+      <a class="text-link" href="${model.href}">Ver ficha</a>
     </div>
   </article>`;
 }
@@ -417,10 +427,10 @@ function videoBlock() {
         </button>
         <div class="video-rail">
           ${rest
-            .slice(0, 5)
+            .slice(0, 3)
             .map(
               ([id, title, thumb]) =>
-                `<button class="video-lite" type="button" data-yt="${id}" data-title="${esc(title)}" style="aspect-ratio:16/7">
+                `<button class="video-lite" type="button" data-yt="${id}" data-title="${esc(title)}">
                   <img src="/images/video/${thumb}.webp" alt="">
                   <span>▶ ${esc(title)}</span>
                 </button>`
@@ -453,8 +463,8 @@ function homePage() {
     <div class="hero-scrim"></div>
     <div class="wrap hero__content">
       <p class="eyebrow" style="color:#D8DCE1">PLX Brasil · Tubarão/SC</p>
-      <h1>Mini escavadeira de 1 a 6 toneladas. Preço na tela. Entrega para todo o Brasil.</h1>
-      <p class="lede">4.159 mm de profundidade no X65 Pro. Motor Yanmar. 48 kN na concha. Sem cadastro para ver o valor.</p>
+      <h1>De 1 a 6 toneladas. Preço na tela.</h1>
+      <p class="lede">Mini escavadeira com ficha aberta e entrega para todo o Brasil. 4.159 mm no X65 Pro. Motor Yanmar. 48 kN na concha.</p>
       <div class="btn-row">
         <a class="btn btn--primary" href="/mini-escavadeira/">Ver a linha</a>
         <a class="btn btn--invert" href="${WA}" target="_blank" rel="noopener">WhatsApp</a>
@@ -471,8 +481,8 @@ function homePage() {
     <div class="wrap">
       <div class="section__head">
         <p class="eyebrow">Linha</p>
-        <h2>Quatro famílias. Ficha comparável. Preço público na escavadeira.</h2>
-        <p class="lede">O catálogo está no HTML — crawler e conexão ruim vêem os cards, não a tela de carregamento.</p>
+        <h2>Sete pesos. Uma linha. Preço em cada ficha.</h2>
+        <p class="lede">Da X10 PLUS à X65 Pro — compare profundidade, motor e força sem abrir sete abas.</p>
       </div>
       <nav class="family-row" aria-label="Famílias">${cats}</nav>
       <div class="section__head">
@@ -654,14 +664,6 @@ function pdpPage(model) {
       : {}),
   });
 
-  const galleryCaptions = [
-    "Vista geral — recorte de catálogo sobre fundo chapado",
-    "Substituir: máquina em obra",
-    "Substituir: cabine e comandos",
-    "Substituir: material rodante",
-    "Substituir: escala humana",
-  ];
-
   const body = `
   <section class="section" data-pdp-hero>
     <div class="wrap pdp-hero">
@@ -670,7 +672,7 @@ function pdpPage(model) {
       </div>
       <div class="pdp-hero__copy">
         <p class="pdp-kicker">${esc(model.product)}</p>
-        <h1>${esc(model.product)} ${esc(model.name)}</h1>
+        <h1>${esc(model.name)}</h1>
         <p class="lede">${esc(model.description)}</p>
         <div class="pdp-price">
           <span class="price">${priceLabel(model)}</span>
@@ -680,12 +682,12 @@ function pdpPage(model) {
               : ""
           }
         </div>
-        <div class="metrics">${model.keySpecs.map(metricHtml).join("")}</div>
+        <div class="metrics">${model.keySpecs.slice(0, 3).map(metricHtml).join("")}</div>
         <div class="btn-row">
           <button class="btn btn--primary" type="button" data-quote-open data-model="${esc(model.product)} ${esc(model.name)}">Falar com vendedor</button>
           <a class="btn btn--whatsapp" href="${WA}?text=${encodeURIComponent(`Olá, quero a ${model.product} ${model.name}.`)}" target="_blank" rel="noopener">WhatsApp</a>
         </div>
-        <p>${prev ? `<a href="${prev.href}">← ${esc(prev.name)}</a>` : ""} ${next ? `<a href="${next.href}" style="margin-left:12px">${esc(next.name)} →</a>` : ""}</p>
+        <p class="pdp-siblings">${prev ? `<a href="${prev.href}">← ${esc(prev.name)}</a>` : ""} ${next ? `<a href="${next.href}">${esc(next.name)} →</a>` : ""}</p>
       </div>
     </div>
   </section>
@@ -693,29 +695,24 @@ function pdpPage(model) {
     <div class="wrap pdp-bar__inner">
       <strong>${esc(model.name)} · ${priceLabel(model, { suffix: false })}</strong>
       <nav>
-        <a href="#ficha">Ficha técnica</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#financiamento">Financiamento</a>
+        <a href="#ficha">Ficha</a>
+        <a href="#galeria">Foto</a>
+        ${model.pricePublished ? `<a href="#financiamento">Parcela</a>` : ""}
         <a href="#faq">FAQ</a>
       </nav>
       <button class="btn btn--primary" type="button" data-quote-open data-model="${esc(model.product)} ${esc(model.name)}">Falar com vendedor</button>
     </div>
   </div>
   <section class="section section--surface" id="galeria">
-    <div class="wrap">
+    <div class="wrap gallery-block">
       <div class="section__head">
-        <p class="eyebrow">Galeria</p>
-        <h2>O recorte de catálogo não é a máquina em obra.</h2>
-        <p class="lede note-photo">Enquanto o ensaio fotográfico não existir (obra, cabine, painel, motor, esteira, transporte, implemento, escala humana), o recorte fica sobre fundo chapado — sem glow, sem vidro, sem fingir profundidade.</p>
+        <p class="eyebrow">Foto</p>
+        <h2>Recorte de catálogo, fundo chapado.</h2>
+        <p class="lede">Ensaio em obra, cabine e esteira ainda entra na produção. Até lá, um recorte — sem fingir galeria de oito ângulos.</p>
       </div>
-      <div class="gallery">
-        ${galleryCaptions
-          .map(
-            (cap, i) =>
-              `<figure><img src="${model.image}" alt=""><figcaption>${i + 1}. ${esc(cap)}</figcaption></figure>`
-          )
-          .join("")}
-      </div>
+      <figure class="gallery-one">
+        <img src="${model.image}" alt="${esc(model.product)} ${esc(model.name)}">
+      </figure>
     </div>
   </section>
   <section class="section" id="ficha">
