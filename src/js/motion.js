@@ -139,6 +139,8 @@ export function initProductSprites() {
       tween
         .set(strip.img, { xPercent: 0 })
         .to(strip.box, { opacity: 1, duration: 0.1, ease: "none" }, 0)
+        // o PNG some junto: o frame de IA não casa pixel a pixel com o recorte e a sobreposição dobra a imagem
+        .to(still, { opacity: 0, duration: 0.1, ease: "none" }, 0)
         .to(strip.img, {
           xPercent: (-100 * (frames - 1)) / frames,
           duration: frames * FRAME_S,
@@ -155,7 +157,7 @@ export function initProductSprites() {
         gsap.to(strip.box, { opacity: 0, duration: 0.15, ease: "none", onComplete: () => (strip.box.style.willChange = "") });
         gsap.set(strip.img, { xPercent: 0 });
       }
-      gsap.to(still, { y: 0, duration: 0.12, ease: "none", onComplete: () => (still.style.willChange = "") });
+      gsap.to(still, { y: 0, opacity: 1, duration: 0.12, ease: "none", onComplete: () => (still.style.willChange = "") });
     };
 
     let hovering = false;

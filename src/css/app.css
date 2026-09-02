@@ -737,7 +737,7 @@ h3 {
   z-index: 1;
 }
 
-/* Filmstrip de operação: nasce no hover (motion.js), cobre a área do PNG, frame 0 = PNG. */
+/* Filmstrip de operação: nasce no hover (motion.js), cobre a área do PNG e o PNG some junto (crossfade). */
 .model-card__sprite {
   position: absolute;
   left: 6%;
