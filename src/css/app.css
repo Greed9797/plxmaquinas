@@ -1352,6 +1352,44 @@ table a:hover {
   z-index: 1;
 }
 
+/* Fotos reais (frames de vídeo): sem raio, sem sombra, legenda mono curta. */
+.photo-real {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.photo-real figure {
+  margin: 0;
+}
+
+.photo-real img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--plx-ink-900);
+}
+
+.photo-real figcaption {
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: var(--color-text-faint);
+}
+
+@media (min-width: 721px) {
+  .photo-real--2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo-real--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .pdp-siblings {
   display: flex;
   flex-wrap: wrap;

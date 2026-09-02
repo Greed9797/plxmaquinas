@@ -674,6 +674,27 @@ function specGroups(model) {
   return `<div class="tabs">${tabs}</div>${panels}`;
 }
 
+// Fotos reais por modelo: public/images/obra/{slug}.json = [{ "file", "caption" }], arquivos na mesma pasta.
+// Sem JSON, o PDP fica só com o recorte de catálogo (nada de galeria fingida).
+function realPhotos(model) {
+  const meta = join(PUBLIC, `images/obra/${model.slug}.json`);
+  if (!existsSync(meta)) return [];
+  return JSON.parse(readFileSync(meta, "utf8")).filter((ph) => existsSync(join(PUBLIC, `images/obra/${ph.file}`)));
+}
+
+function realPhotoBlock(model) {
+  const photos = realPhotos(model);
+  if (!photos.length) return "";
+  return `<div class="photo-real photo-real--${Math.min(photos.length, 3)}">${photos
+    .map(
+      (ph) => `<figure>
+        <img src="/images/obra/${ph.file}" alt="${esc(model.product)} ${esc(model.name)} — ${esc(ph.caption)}" width="1600" height="900" loading="lazy">
+        <figcaption>${esc(ph.caption)}</figcaption>
+      </figure>`
+    )
+    .join("")}</div>`;
+}
+
 function pdpPage(model) {
   const family = modelsOf(model.product).sort((a, b) => a.price - b.price);
   const idx = family.findIndex((m) => m.slug === model.slug);
@@ -684,7 +705,7 @@ function pdpPage(model) {
     "@type": "Product",
     name: `${model.product} ${model.name}`,
     brand: { "@type": "Brand", name: "PLX Brasil" },
-    image: model.image,
+    image: [model.image, ...realPhotos(model).map((ph) => `/images/obra/${ph.file}`)],
     description: model.metaDesc,
     ...(model.pricePublished
       ? {
@@ -742,9 +763,15 @@ function pdpPage(model) {
     <div class="wrap gallery-block">
       <div class="section__head">
         <p class="eyebrow">Foto</p>
-        <h2>Recorte de catálogo, fundo chapado.</h2>
-        <p class="lede">Ensaio em obra, cabine e esteira ainda entra na produção. Até lá, um recorte — sem fingir galeria de oito ângulos.</p>
+        ${
+          realPhotos(model).length
+            ? `<h2>Em obra, sem retoque.</h2>
+        <p class="lede">Frames das filmagens da própria PLX, na resolução do vídeo. Ensaio dedicado (cabine, esteira, estoque) ainda entra na produção. Abaixo, o recorte de catálogo.</p>`
+            : `<h2>Recorte de catálogo, fundo chapado.</h2>
+        <p class="lede">Ensaio em obra, cabine e esteira ainda entra na produção. Até lá, um recorte — sem fingir galeria de oito ângulos.</p>`
+        }
       </div>
+      ${realPhotoBlock(model)}
       <figure class="gallery-one">
         <img src="${model.image}" alt="${esc(model.product)} ${esc(model.name)}">
       </figure>
