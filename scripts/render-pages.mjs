@@ -346,14 +346,17 @@ function metricHtml(spec) {
 
 // Hero: <div.hero__media data-hero-motion> com vídeo de drone só quando o arquivo existe
 // em public/images/hero/drone.{webm,mp4}. Sem arquivo, motion.js faz ken-burns no still.
-function heroMedia(pictureHtml) {
-  const webm = existsSync(join(PUBLIC, "images/hero/drone.webm"));
-  const mp4 = existsSync(join(PUBLIC, "images/hero/drone.mp4"));
-  const video = webm || mp4
-    ? `<video class="hero__drone" hidden muted loop playsinline preload="none" poster="/images/hero/yard-1280.webp"${webm ? ' data-webm="/images/hero/drone.webm"' : ""}${mp4 ? ' data-mp4="/images/hero/drone.mp4"' : ""}></video>`
+const DRONE_WEBM = existsSync(join(PUBLIC, "images/hero/drone.webm"));
+const DRONE_MP4 = existsSync(join(PUBLIC, "images/hero/drone.mp4"));
+const DRONE_POSTER = "/images/hero/drone-poster-1280.webp";
+const HAS_DRONE = (DRONE_WEBM || DRONE_MP4) && existsSync(join(PUBLIC, DRONE_POSTER.slice(1)));
+
+function heroMedia(pictureHtml, { video = false } = {}) {
+  const drone = video && HAS_DRONE
+    ? `<video class="hero__drone" hidden muted loop playsinline preload="none" poster="${DRONE_POSTER}"${DRONE_WEBM ? ' data-webm="/images/hero/drone.webm"' : ""}${DRONE_MP4 ? ' data-mp4="/images/hero/drone.mp4"' : ""}></video>`
     : "";
   return `<div class="hero__media" data-hero-motion>
-      ${video}${pictureHtml}
+      ${drone}${pictureHtml}
     </div>`;
 }
 
@@ -482,11 +485,16 @@ function homePage() {
 
   const body = `
   <section class="hero">
-    ${heroMedia(`<picture>
+    ${heroMedia(HAS_DRONE
+      ? `<picture>
+      <source media="(max-width: 720px)" srcset="/images/hero/yard-768.webp">
+      <img src="${DRONE_POSTER}" alt="Mini escavadeira PLX em operação" width="1280" height="720" fetchpriority="high">
+    </picture>`
+      : `<picture>
       <source media="(max-width: 720px)" srcset="/images/hero/yard-768.webp">
       <source media="(max-width: 1280px)" srcset="/images/hero/yard-1280.webp">
       <img src="/images/hero/yard-1920.webp" alt="Pátio PLX Brasil em Tubarão" width="1920" height="1080" fetchpriority="high">
-    </picture>`)}
+    </picture>`, { video: true })}
     <div class="hero-scrim"></div>
     <div class="wrap hero__content">
       <p class="eyebrow" style="color:#D8DCE1">PLX Brasil · Tubarão/SC</p>

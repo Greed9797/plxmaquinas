@@ -9,6 +9,7 @@ const HOVER = "(hover: hover) and (pointer: fine)";
 const PARALLAX_PX = 10; // teto 8–12px, industrial
 const KEN_BURNS_S = 28;
 const FALLBACK_LIFT_PX = -3;
+const FRAME_S = 0.075; // 8 frames = 0,6s
 
 function reducedMotion() {
   return window.matchMedia(REDUCE).matches;
@@ -140,7 +141,7 @@ export function initProductSprites() {
         .to(strip.box, { opacity: 1, duration: 0.1, ease: "none" }, 0)
         .to(strip.img, {
           xPercent: (-100 * (frames - 1)) / frames,
-          duration: 0.6,
+          duration: frames * FRAME_S,
           ease: `steps(${frames - 1})`,
           repeat: -1,
           repeatDelay: 0.4,

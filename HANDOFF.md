@@ -260,11 +260,13 @@ Até os sprites existirem, o código deve degradar para o PNG atual. Não usar p
 
 ## 9. Lacunas conhecidas (não “bugs”)
 
-- Ensaio fotográfico real (obra, cabine, esteira, estoque) — auditoria item 1, ainda aberto.
-- Footage de drone — não está no repo.
-- Sprites de operação — não estão no repo.
-- POST do orçamento para Lambda de produção — fora deste recorte.
+- Ensaio fotográfico real (obra, cabine, esteira, estoque) — auditoria item 1, **ainda aberto**. Precisa de fotógrafo; não dá pra fechar por código.
+- Footage de drone — **fechado (02/09)**: `public/images/hero/drone.{webm,mp4}` + `drone-poster-1280.webp`. Fonte: vídeo do canal PLX `d_taJyvV7VM` (título "X65 Pro"; a máquina na aérea não é identificável, por isso o alt é genérico), duas tomadas aéreas reais de um pomar em SC (t=0,05–1,70 s e 11,70–13,35 s), em 0,5x (fonte 60 fps → 30, sem interpolação), marca d'água recortada, crossfade e seam de loop (5,5 s). 960×540, webm 1,22 MB / mp4 0,86 MB / poster 132 KB. **Não é o pátio de Tubarão** — é obra real; por isso o still desktop da home virou o frame do drone (`drone-poster-1280`) e o mobile continua `yard-768`. Só a home carrega o vídeo; categorias seguem com ken-burns no still do pátio.
+- Sprites de operação — **fechado só para o X35 Pro (02/09)**: `public/images/sprites/mini-escavadeira-x35-pro.webp` (+ `.json`), 8 frames 320×240 do vídeo `d_taJyvV7VM` (t=4,25–7,2 s: lança sobe do fosso e gira pro caminhão), fundo real de obra mantido, 118 KB (teto 120; o alvo de 40–80 KB é para recorte em fundo chapado, footage real não cabe). **Cuidado com o título do vídeo**: diz "X65 Pro", mas o rótulo da máquina nessa tomada é `X 35 PRO` (conferido em zoom no frame) — por isso o sprite é por slug, não por família: colocar máquina de outro porte no card do X10 seria mentir. Os outros 10 cards ficam no fallback (lift 3 px). Carregadeira, dumper e rolo **não têm footage** em nenhum dos 8 vídeos do canal. O X10 (`eNNBFilJYUY`) só tem close de concha no barro, ilegível a 300 px.
+- POST do orçamento para Lambda de produção — fora deste recorte (sem URL do Lambda no repo).
 - Carregadeira/dumper/rolo sem preço público — correto.
+
+Vídeos brutos **não** estão no repo (baixados com `yt-dlp` no scratchpad da sessão). Para refazer: `ffmpeg -ss <t> -t 1.65 -i src.mp4 -vf "crop=1560:878:40:0,scale=1280:720,setpts=2*PTS,fps=30"` por tomada, `xfade` entre elas, `xfade` da cauda com a cabeça (0,6 s) e `trim=0.6` para o seam; VP9 crf 44 / H.264 crf 31 em 960×540 com `hqdn3d=3:2:4:3`.
 
 ---
 
