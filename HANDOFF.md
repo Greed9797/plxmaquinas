@@ -1,0 +1,291 @@
+# Handoff — PLX Brasil (rebrand industrial)
+
+Documento para continuar em **outro chat**. Copie o bloco **Prompt para o próximo agente** no final.
+
+Dono: **Vitor**, software engineer. Tom: trabalhar direto no código. Idioma do produto: **pt-BR**.
+
+Último commit desta sessão: `e4c1503` — *Quiet the product chrome: text links, one photo, wider cards*. Branch: `main`. Não abrir PR a menos que Vitor peça.
+
+---
+
+## 1. O que este projeto é
+
+Rebrand do site **plxbrasil.com.br** a partir da auditoria de **01/09/2026**. Não é clone pixel-perfect do site antigo (aquele visual “AI / template / iOS”). É **transparência técnica**: máquina compacta com preço na tela, ficha na mesa e gente do outro lado do telefone.
+
+Antagonista de mercado: o “consulte-nos” do importado. A PLX **publica** preço (escavadeiras) e ficha.
+
+Sede: Tubarão/SC. WhatsApp: `5548988728340` · `(48) 98872-8340`. E-mail: `contato@plxbrasil.com.br`. Endereço: R. Mário Mendonça, 20, São João Margem Direita, CEP 88702-802.
+
+---
+
+## 2. O que Vitor quer (produto + visual + próxima onda)
+
+### Já pedido e em grande parte entregue
+
+- Home, categoria, PDP, empresa, suporte, contato, comparador, funil de orçamento.
+- Estética **industrial**, não iOS: menos caixa, mais ar, tipografia maior, alinhamento mobile.
+- Carrossel da linha (não grade de quatro cards iguais).
+- Cards sem chrome: PNG no paper, métricas, preço, link texto **Ver ficha** (sem botão primário no card).
+- PDP: H1 = nome do modelo; **uma** foto de catálogo — **não** fingir galeria de 8 ângulos com o mesmo PNG.
+- Foto real de obra ainda **não existe**. Não inventar ensaio. Legenda honesta.
+
+### Próxima onda (ainda não implementada) — GSAP
+
+Vitor disse “Gflow / flowkta”. **Neste repo isso é GSAP** (`gsap` + `ScrollTrigger`), no Vite MPA atual. **Não** migrar para Webflow, Framer ou Flowkit. Não segundo design system.
+
+Objetivo da onda:
+
+1. **Drone view atrás da hero** — o pátio se move (vídeo aéreo curto ou ken-burns/parallax no still atual) enquanto o copy fica parado e legível.
+2. **Hover nos produtos** — ao passar o mouse, a máquina **mostra o que faz** (concha, caçamba, tombamento, vibração do rolo), não um scale 1.05 de e-commerce.
+3. **Animação em frames (sprites)** — filmstrip WebP de 8–12 frames, `steps()`, peso baixo. Sem MP4 por card, sem Lottie pesado, sem blur/glow.
+4. **Customização industrial** — movimento útil, curto, cortado. Preferência: transform/opacity. Zero `backdrop-filter`, zero `filter: blur`.
+
+---
+
+## 3. Stack e como o site nasce
+
+Não é Next, não é Tailwind, não é shadcn. É **Vite 7 MPA** + HTML gerado + CSS próprio.
+
+| Peça | Caminho |
+|---|---|
+| Catálogo XML (fonte) | `src/data/modelos.xml` |
+| JSON gerado | `src/data/catalog.json` (`npm run data` → `scripts/parse-catalog.mjs`) |
+| Tokens | `src/css/tokens.css` — **único** lugar de hex |
+| Layout CSS | `src/css/app.css` |
+| Fontes | `src/css/fonts.css` + `public/fonts/` (Archivo, Archivo Narrow, IBM Plex Sans, IBM Plex Mono) |
+| Bundle CSS | `npm run css` → `scripts/bundle-css.mjs` → **`public/css/app.css`** |
+| HTML | `npm run render` → `scripts/render-pages.mjs` (escreve `index.html` e pastas na raiz) |
+| JS | `src/js/app.js` (hidratação: nav, busca, orçamento, legal, tabs, sticky PDP, finance, vídeo lite, filtros, carrossel) |
+| Vite | `vite.config.js` — `host: "0.0.0.0"`, **porta `43147`**, `strictPort`, `allowedHosts: true` |
+
+**Armadilha já sofrida:** as páginas devem linkar `/css/app.css` (arquivo estático). Se linkar `/src/css/app.css`, o Vite trata como JS e o site **sai sem estilo**. Preview Desktop recusou conexão quando o server bindava só `127.0.0.1` — precisa `0.0.0.0`.
+
+Scripts: `predev` / `prebuild` = data + css + render.
+
+```bash
+npm install
+npm run dev          # http://127.0.0.1:43147/  (bind 0.0.0.0)
+npm run data && npm run css && npm run render
+```
+
+Após mudar `render-pages.mjs` ou CSS: **sempre** bundle + render antes de julgar o browser.
+
+---
+
+## 4. Governança visual (inegociável)
+
+Arquivo: `GOVERNANCE.md`.
+
+1. Nenhum hex fora de `tokens.css`.
+2. **Um** gradiente no site: scrim da hero (preto → transparente). Condições: legibilidade, imperceptível como “gradient look”, um matiz.
+3. Zero `backdrop-filter`. Zero `filter: blur` decorativo. GSAP **não** pode reintroduzir isso.
+4. Raio ≤ 4px. Tabela/faixa/contêiner: 0. Botão/input: 2px.
+5. Máximo **duas** `.section--invert` por página (vídeo + CTA final).
+6. PNG ≤ 300 KB. Hero WebP responsivo (já: ~128–258 KB).
+7. Foto de produto = foto real. PNG recortado **só** em listagem, fundo chapado. Não fingir galeria.
+8. Contraste 4,5:1. Botão preenchido = `--plx-red-600` `#C21F1C` + branco.
+
+Marca: logo `#E52C28`. Interativo `#C21F1C`. Proporção **70% paper / 25% ink / 5% red**.
+
+Header é **ink-900** porque o logo é branco + quadrado vermelho em fundo preto (`public/images/brand/logo.png`).
+
+Vitor já rejeitou: visual iOS, cards muito quadrados, textos apertados, tiles brancos atrás da máquina, família em 4 caixas, galeria falsa, padding demais no WhatsApp (~140px). Passadas seguintes **afrouxaram** caixa e chrome — não voltar atrás.
+
+---
+
+## 5. O que já está no ar (páginas e features)
+
+| Rota | Função |
+|---|---|
+| `/` | Hero, famílias em texto, carrossel X10→X65, vídeos lite, empresa, FAQ, reviews |
+| `/mini-escavadeira/` | Filtro por peso (tabs texto), carrossel, comparador, editorial, FAQ |
+| `/mini-carregadeira/`, `/mini-dumper/`, `/mini-rolo-compactador/` | Categoria (preço sob consulta) |
+| `/mini-escavadeira-x10-plus/` … `x65-pro/` | PDP |
+| `/mini-carregadeira-xc750/`, `xd500/`, `/mini-dumper-xd500/`, `/mini-rolo-compactador-xr12/` | PDP |
+| `/comparar/` | Tabela da linha |
+| `/sobre/` | Stats reais, não missão/visão/valores 01/02/03 |
+| `/suporte/` | Chamado, SLA 24h úteis, peça em Tubarão |
+| `/contato/` | Endereço, mapa, orçamento |
+| `/404.html` | 404 |
+
+Features: modal de condições legais (`*`), barra sticky de PDP, comparador, simulador CDC referencial, funil 3 passos (aplicação → prazo → contato) + WhatsApp, `schema.org/Product`+`Offer`, busca de modelo, YouTube só após clique.
+
+Nav curta: Escavadeira, Carregadeira, Dumper, Rolo, Empresa, Suporte, Contato. Logo = home.
+
+Hero home: **“De 1 a 6 toneladas. Preço na tela.”**
+
+Cards: sem kicker, badge mono absoluto, métricas com label curto (Prof. / Peso / Motor), `a.text-link` “Ver ficha”, imagem ~88% + linha de chão `::after`.
+
+PDP: `.gallery-one` uma figura; `.pdp-siblings` prev/next.
+
+---
+
+## 6. Catálogo
+
+11 modelos. Preço **público só em mini escavadeira**. Demais: **Sob consulta**.
+
+| Modelo | Preço publicado |
+|---|---|
+| X10 PLUS | sim (faixa a partir de ~R$ 44.900 no XML) |
+| X10 Pro, X15 Pro, X20 Pro, X30 Pro, X35 Pro, X65 Pro | sim (X65 Pro R$ 304.900) |
+| XC750, XD500 (carregadeira), XD500 (dumper), XR12 | não |
+
+Imagens atuais: `public/images/models/*.webp` (recortes). Hero: `public/images/hero/yard-{768,1280,1920}.webp` + `shopfloor.webp`. Thumbs de vídeo: `public/images/video/thumb-01…`. **Não há footage de drone no repo.**
+
+Vídeos YouTube já mapeados em `VIDEOS` dentro de `scripts/render-pages.mjs` (fonte possível para extrair frames).
+
+---
+
+## 7. Arquitetura de código que o próximo chat deve respeitar
+
+- **Não editar HTML gerado na raiz à mão.** Edite `scripts/render-pages.mjs` e rode `npm run render`.
+- CSS: edite `src/css/*`, depois `npm run css`.
+- JS novo: módulos em `src/js/` importados por `app.js` (já é `type="module"`).
+- Não adicionar auth, DB, CMS, segundo component library.
+- Lead **não** posta no Lambda de produção neste recorte — monta texto e abre WhatsApp.
+- Carrossel é scroll-snap nativo (`data-carousel`). GSAP não deve lutar contra `scrollLeft` no hover (animar o PNG **dentro** do card, não o track).
+
+Arquivos-chave da última passada:
+
+- `scripts/render-pages.mjs` — nav, `shortLabel`, cards, hero copy, gallery-one, siblings
+- `src/css/app.css` — `.text-link`, `.gallery-one`, `.pdp-siblings`, cards 328px, filtros/tabela/finance sem caixa, vídeos sem tile
+- `src/js/app.js` — comportamento atual, **sem GSAP ainda**
+- `package.json` — só `vite` em devDependencies
+
+---
+
+## 8. Plano técnico da onda GSAP (o que implementar no próximo chat)
+
+### 8.1 Dependência
+
+```bash
+npm install gsap
+```
+
+Usar `gsap` + `ScrollTrigger`. Respeitar `prefers-reduced-motion` com `gsap.matchMedia()` / `gsap.matchMedia("(prefers-reduced-motion: reduce)", …)`: hero vira still; sprites ficam no frame 0.
+
+Só **transform** e **opacity**. Sem `filter`, sem `box-shadow` animado, sem scale elástico.
+
+### 8.2 Hero — drone view
+
+**Agora (sem arquivo de drone):** Ken Burns lento no `<picture class="hero__media">` — `gsap.to(img, { scale: 1.08, xPercent: -2, yPercent: 2, duration: 28, ease: "none", repeat: -1, yoyo: true })`. Copy e plate **não** se mexem. Scrim permanece (único gradiente). Pause quando a hero sai da viewport (`ScrollTrigger` + `video.pause` no futuro).
+
+**Quando existir footage:** `public/images/hero/drone.webm` + `drone.mp4` (H.264), muted, loop, `playsinline`, `preload="none"` no mobile, `poster` = `yard-1280.webp`. Desktop autoplay; mobile ≤720px **não** baixa o vídeo (custo). Alvo: ≤ ~1,5 MB o corte. Não full-bleed 4K.
+
+Estrutura sugerida:
+
+```html
+<div class="hero__media" data-hero-motion>
+  <video class="hero__drone" hidden until src exists>…</video>
+  <picture>…stills atuais…</picture>
+</div>
+<div class="hero-scrim"></div>
+```
+
+Parallax máximo ~8–12px no eixo Y no scroll — industrial, não Apple.
+
+### 8.3 Produtos — hover + sprite de “o que a máquina faz”
+
+Não animar o recorte PNG com bounce. Trocar/overlay um **filmstrip**:
+
+| Família | Loop de frames (ideia) |
+|---|---|
+| Mini escavadeira | 8–12 frames: lança desce, concha fecha, sobe |
+| Carregadeira | caçamba levanta / bascula |
+| Dumper | caçamba tomba |
+| Rolo | passagem curta / tambor |
+
+Especificação de asset (gerar na produção; no código já deixar o hook):
+
+- 1 WebP por **família** (não 11 arquivos iguais se o recorte for genérico), ou 1 por modelo se o PNG for distinto.
+- Largura frame ~480–640 CSS px; 8–12 colunas horizontais **ou** `sprite.webp` + JSON `{ frames, fps }`.
+- Peso alvo **40–80 KB** por sprite. Teto 120 KB.
+- Animar com `background-position` + `ease: "steps(n-1)"` **ou** `gsap.to(..., { duration: 0.6, ease: "steps(8)" })` no hover / `pointerenter`.
+- `pointerleave`: voltar ao frame 0 (0,15s), `kill()` tweens.
+- **Lazy:** `IntersectionObserver` ou hover pré-carrega `new Image()`. Home não baixa 11 sprites no load.
+- Mobile: sem hover. Opção A — não anima. Opção B — play **uma vez** quando o card entra 60% na viewport, depois para. Preferir A até ter sprites reais; não autoplay 7 loops no carrossel.
+
+Hook no HTML do card (em `modelCard()`):
+
+```html
+<a class="model-card__media" href="…" data-sprite="/images/sprites/{slug}.webp" data-frames="8">
+```
+
+CSS: o sprite é `position:absolute; inset; opacity:0` até hover; o PNG estático continua o default (honestidade do recorte).
+
+**Sem sprites ainda:** hover mínimo aceitável = `y: -3` no `img` (120ms, none/power1), linha de chão inalterada. Sem sombra, sem tile branco.
+
+### 8.4 Onde viver o JS
+
+Criar `src/js/motion.js`:
+
+- `initHeroMotion()`
+- `initProductSprites()`
+- `initReducedMotion()`
+
+Importar no fim de `app.js`. Não misturar com o carrossel `scrollBy`.
+
+### 8.5 Extração de frames (quando for produzir assets)
+
+Fonte: MP4/YouTube já listados (`eNNBFilJYUY`, `3G0iIE2m5Sk`, …). Cortar 0,6–1,0s do gesto, 8–12 frames, fundo removido **ou** manter obra se for foto real. Script sugerido (ffmpeg), **não** commitar vídeo bruto:
+
+```bash
+ffmpeg -ss 00:00:04 -t 1 -i take.mp4 -vf "fps=10,scale=640:-1" frame-%02d.png
+# montar filmstrip horizontal → webp
+```
+
+Até os sprites existirem, o código deve degradar para o PNG atual. Não usar placeholder Lorem / máquina fake.
+
+### 8.6 Performance e QA
+
+- `will-change` só durante o tween, remover no `onComplete`.
+- Uma timeline ativa por card.
+- Verificar home + `/mini-escavadeira/` + uma PDP + mobile 390px.
+- Confirmar **um** `linear-gradient` no CSS depois das edições.
+- Dev server: `0.0.0.0:43147`. Emitir preview se o ambiente for Cloud Agent.
+
+---
+
+## 9. Lacunas conhecidas (não “bugs”)
+
+- Ensaio fotográfico real (obra, cabine, esteira, estoque) — auditoria item 1, ainda aberto.
+- Footage de drone — não está no repo.
+- Sprites de operação — não estão no repo.
+- POST do orçamento para Lambda de produção — fora deste recorte.
+- Carregadeira/dumper/rolo sem preço público — correto.
+
+---
+
+## 10. Histórico recente (não desfazer)
+
+1. `87b8910` — rebrand industrial (tokens, páginas, funil, schema).
+2. `8899d1e` — CSS via `/css/app.css`, header ink, funil.
+3. `dedcf49` — Vite em `0.0.0.0`.
+4. `9ba08a5` — carrossel, type, ar, mobile.
+5. `9a3a0fa` — strip de chrome dos cards.
+6. `e4c1503` — Ver ficha texto, uma foto no PDP, cards 328px, filtros/finance/tabela quietos, nav curta, H1 novo.
+
+Feedback de Vitor no meio: gostou **menos iOS**; pediu menos caixa, carrossel, mais mínimo, textos menos apertados, alinhamento mobile.
+
+---
+
+## 11. Prompt para o próximo agente
+
+Cole isto no chat novo:
+
+```
+Continue o rebrand da PLX Brasil neste repo Vite MPA (não Next, não Tailwind, não Webflow).
+
+Leia HANDOFF.md e GOVERNANCE.md primeiro.
+
+Estado: site industrial estático, HTML gerado por scripts/render-pages.mjs, CSS em src/css → public/css/app.css. JS em src/js/app.js. Porta 43147 bind 0.0.0.0. Último commit e4c1503.
+
+NÃO desfazer o chrome quieto (sem tiles brancos, sem botão no card, uma foto no PDP, nav curta).
+
+Próxima onda — GSAP (gsap + ScrollTrigger), não Flowkit/Webflow:
+1) Hero: drone view atrás do copy. Sem footage ainda → ken-burns/parallax leve no still yard-*.webp; deixar hook para video muted loop com poster. Um só gradiente (scrim).
+2) Produtos: hover mostra o que a máquina faz via sprite WebP 8–12 frames (steps), lazy, 40–80KB, degrada para PNG. Mobile sem loop eterno. prefers-reduced-motion = estático.
+3) Só transform/opacity. Zero blur, zero glass, zero iOS bounce.
+
+Edite o gerador, não o HTML solto. npm run css && npm run render. Commite e suba. Verifique home, categoria, PDP, mobile.
+```
