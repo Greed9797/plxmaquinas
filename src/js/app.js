@@ -70,15 +70,48 @@ function initSearch(catalog) {
   });
 }
 
-// POST do lead só quando o build definiu <meta name="plx-lead-endpoint">; falha em silêncio,
-// o WhatsApp continua sendo o caminho principal.
+// POST do lead pro mesmo Lambda do site em produção (URL vem do build em <meta name="plx-lead-endpoint">).
+// Contrato de campos = lead_sender.js do plxbrasil.com.br; o CORS do Lambda só aceita origem plxbrasil.com.br.
+// Falha em silêncio: o WhatsApp continua sendo o caminho principal.
+const LEAD_UTM_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"];
+
+function brPhone(value) {
+  let d = String(value || "").replace(/\D/g, "");
+  if (d.startsWith("00")) d = d.slice(2);
+  if (d.length >= 10 && d.length <= 11) d = `55${d}`;
+  return d ? `+${d}` : "";
+}
+
 function postLead(data) {
   const endpoint = document.querySelector('meta[name="plx-lead-endpoint"]')?.content;
   if (!endpoint) return;
-  const payload = { ...data, origem: "site", pagina: location.pathname, enviado_em: new Date().toISOString() };
+  const q = new URLSearchParams(location.search);
+  const utm = Object.fromEntries(LEAD_UTM_KEYS.filter((k) => q.has(k)).map((k) => [k, q.get(k)]));
+  const payload = {
+    name: data.nome || "",
+    email: data.email || "",
+    phone: brPhone(data.telefone),
+    raw_phone: data.telefone || "",
+    interest_type: String(data.interesse || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(),
+    lead_source: "modal",
+    lead_form_place: "modal",
+    lead_subject: "Solicitar Orçamento",
+    lead_product: data.modelo || "",
+    lead_page: location.pathname,
+    lead_flow: "orcamento",
+    message: `Aplicação: ${data.aplicacao || "-"}. Prazo: ${data.prazo || "-"}. Cidade: ${data.cidade || "-"}.`,
+    pageUrl: location.href,
+    siteHost: location.host,
+    pageTitle: document.title,
+    referrer: document.referrer || "",
+    utm,
+    ts: new Date().toISOString(),
+    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || "",
+    userAgent: navigator.userAgent || "",
+  };
   fetch(endpoint, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "content-type": "application/json" },
     body: JSON.stringify(payload),
     keepalive: true,
   }).catch(() => {});

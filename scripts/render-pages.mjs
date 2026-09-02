@@ -7,9 +7,10 @@ const PUBLIC = join(root, "public");
 const catalog = JSON.parse(readFileSync(join(root, "src/data/catalog.json"), "utf8"));
 
 const WA = `https://wa.me/${catalog.whatsapp}`;
-// Orçamento: por padrão só monta o texto e abre o WhatsApp. Com LEAD_ENDPOINT no ambiente de build
-// (ex.: LEAD_ENDPOINT=https://... npm run build) o funil também faz POST JSON do lead nesse endpoint.
-const LEAD_ENDPOINT = (process.env.LEAD_ENDPOINT || "").trim();
+// Orçamento: monta o texto, abre o WhatsApp e faz POST JSON do lead no mesmo Lambda do
+// plxbrasil.com.br em produção (URL pública, está no lead_sender.js do site atual).
+// LEAD_ENDPOINT="" desliga o POST; LEAD_ENDPOINT=https://... troca o destino.
+const LEAD_ENDPOINT = (process.env.LEAD_ENDPOINT ?? "https://7faqt4tlbwnzlgn7mqqmrt7y3y0ofnvq.lambda-url.us-east-1.on.aws/").trim();
 const NAV = [
   ["Escavadeira", "/mini-escavadeira/"],
   ["Carregadeira", "/mini-carregadeira/"],
