@@ -161,6 +161,7 @@ Arquivos-chave da última passada:
 
 - **Drone:** o gerador só emite `<video class="hero__drone">` se existir `public/images/hero/drone.webm` ou `drone.mp4`. Sem arquivo, `motion.js` faz ken-burns (scale 1→1.08, 28s, yoyo) + parallax de 10px no scroll, pausado fora da viewport. Copy e scrim ficam parados. Mobile ≤720px nunca baixa o vídeo.
 - **Sprites:** o gerador só emite `data-sprite="/images/sprites/{slug|categorySlug}.webp" data-frames="n"` se o arquivo existir (JSON irmão `{ "frames": n }` opcional; padrão 8). Filmstrip horizontal, frame 0 = o PNG do card. Sem arquivo, hover = lift de 3px no PNG. Touch e reduced-motion: estático, nada baixa. Se `.webp` falhar, tenta `.png` com o mesmo nome.
+- Ramo de vídeo testado com um `drone.webm` sintético (ffmpeg testsrc, removido antes do commit): desktop 1 request e toca com opacidade 1 sobre o still; mobile 390 e reduced-motion zero requests, `<video hidden>` sem `<source>`; 404 na fonte deixa o still visível. Pausa/retoma fora e dentro da viewport via IntersectionObserver (o trigger `top top` do parallax não serve: em scroll 0 a hero está abaixo do header e ele considera "antes do início").
 - Testado com um sprite sintético (removido antes do commit): 0 requests antes do hover, 1 depois; frames avançam em steps; `pointerleave` volta ao frame 0 e opacidade 0; `will-change` limpo. Uma timeline por card.
 
 Para produzir os assets: seção 8.5. Dropar o arquivo na pasta e `npm run render` — nenhuma edição de código.

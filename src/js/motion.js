@@ -60,23 +60,28 @@ export function initHeroMotion() {
         });
       }
 
-      // parallax curto no scroll; pausa tudo quando a hero sai da viewport
+      // pausa tudo quando a hero sai da viewport (IO, não o trigger do parallax:
+      // "top top" só fica ativo com a hero encostada no topo, e em scroll 0 ela está abaixo do header)
+      const io = new IntersectionObserver(([e]) => {
+        if (e.isIntersecting) {
+          drift?.play();
+          if (layer === video) video.play().catch(() => {});
+        } else {
+          drift?.pause();
+          if (layer === video) video.pause();
+        }
+      });
+      io.observe(hero);
+
+      // parallax curto no scroll
       gsap.to(layer, {
         y: PARALLAX_PX,
         ease: "none",
-        scrollTrigger: {
-          trigger: hero,
-          start: "top top",
-          end: "bottom top",
-          scrub: true,
-          onToggle: (self) => {
-            drift?.paused(!self.isActive);
-            if (layer === video) self.isActive ? video.play().catch(() => {}) : video.pause();
-          },
-        },
+        scrollTrigger: { trigger: hero, start: "top top", end: "bottom top", scrub: true },
       });
 
       return () => {
+        io.disconnect();
         still.style.willChange = "";
         if (video) video.pause();
       };
