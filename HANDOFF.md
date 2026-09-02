@@ -4,7 +4,7 @@ Documento para continuar em **outro chat**. Copie o bloco **Prompt para o próxi
 
 Dono: **Vitor**, software engineer. Tom: trabalhar direto no código. Idioma do produto: **pt-BR**.
 
-Último commit desta sessão: ver `git log -1` — *Fotos reais do X20 Pro + cobertura do canal fechada*. Branch: `cursor/industrial-rebrand-ed8a` (main continua o clone estático `e8f028b`). Clone no Mac: `~/dev/plx-brasil-rebrand`. Não abrir PR a menos que Vitor peça.
+Último commit desta sessão: ver `git log -1` — *Orçamento posta no Lambda de produção (contrato do lead_sender.js)* — antes dele: fotos reais do X20 Pro + cobertura do canal 15/15. Branch: `cursor/industrial-rebrand-ed8a` (main continua o clone estático `e8f028b`). Clone no Mac: `~/dev/plx-brasil-rebrand`. Não abrir PR a menos que Vitor peça.
 
 ---
 
