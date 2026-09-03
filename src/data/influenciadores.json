@@ -1,0 +1,9 @@
+{
+  "_como_usar": "Enquanto as duas listas estiverem vazias a seção não é renderizada — a home fica exatamente como está hoje. Preencha, rode 'npm run render' e a seção aparece. Nada de nome fictício aqui: o que estiver neste arquivo vai ao ar como patrocínio real da PLX.",
+  "_formato_patrocinio": "{ nome, categoria, url (opcional), logo: arquivo em public/images/patrocinio/ (SVG ou WebP com fundo transparente, altura 80px) }",
+  "_formato_influenciador": "{ nome, handle (com @), rede: 'instagram' | 'tiktok' | 'youtube', url, foto: arquivo em public/images/influenciadores/ (WebP quadrado 480x480, ≤120 KB), video: id do YouTube OU arquivo .mp4 na mesma pasta (opcional), legenda: uma linha sobre o que ele faz com a máquina }",
+  "titulo": "Quem opera, aprova.",
+  "lede": "Patrocínios oficiais e criadores que usam máquina PLX no dia a dia.",
+  "patrocinios": [],
+  "influenciadores": []
+}

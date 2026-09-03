@@ -1,0 +1,6 @@
+{
+  "_fonte": "Vídeos do próprio canal da PLX, mapeados por modelo só quando o rótulo da máquina foi conferido no frame (ver HANDOFF §9). Não mapear por título: o vídeo d_taJyvV7VM se chama 'X65 Pro' e a máquina que carrega o caminhão nele é uma X35 Pro. Para ligar um modelo novo, acrescente o slug com { id, titulo, thumb } — thumb é um arquivo de public/images/video/.",
+  "mini-escavadeira-x10-plus": { "id": "eNNBFilJYUY", "titulo": "X10 PLUS em operação", "thumb": "thumb-01" },
+  "mini-escavadeira-x35-pro": { "id": "rVtgn3qgzCg", "titulo": "X35 Pro: 3800 kg e giro zero", "thumb": "thumb-05" },
+  "mini-escavadeira-x65-pro": { "id": "d_taJyvV7VM", "titulo": "X65 Pro em obra", "thumb": "thumb-08" }
+}

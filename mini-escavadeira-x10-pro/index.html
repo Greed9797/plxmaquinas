@@ -56,6 +56,7 @@
           <button class="legal-btn" type="button" data-legal-open>consulte condições ⓘ</button>
         </div>
         <div class="metrics"><div class="metric"><span class="metric__label">Prof.</span><span class="metric__value">1650<em>mm</em></span></div><div class="metric"><span class="metric__label">Peso</span><span class="metric__value">1010<em>kg</em></span></div><div class="metric"><span class="metric__label">Motor</span><span class="metric__value">EATON</span></div></div>
+        <ul class="applies"><li>Jardinagem</li><li>Pequenas obras</li><li>Manutenção</li><li>Valas rasas</li><li>Difícil acesso</li></ul>
         <div class="btn-row">
           <button class="btn btn--primary" type="button" data-quote-open data-model="Mini Escavadeira X10 Pro">Falar com vendedor</button>
           <a class="btn btn--whatsapp" href="https://wa.me/5548988728340?text=Ol%C3%A1%2C%20quero%20a%20Mini%20Escavadeira%20X10%20Pro." target="_blank" rel="noopener">WhatsApp</a>
@@ -69,13 +70,15 @@
       <strong>X10 Pro · R$ 86.900</strong>
       <nav>
         <a href="#ficha">Ficha</a>
-        <a href="#galeria">Foto</a>
+        
+        <a href="#linha">Linha</a>
         <a href="#financiamento">Parcela</a>
-        <a href="#faq">FAQ</a>
+        <a href="#pos-venda">Pós-venda</a>
       </nav>
       <button class="btn btn--primary" type="button" data-quote-open data-model="Mini Escavadeira X10 Pro">Falar com vendedor</button>
     </div>
   </div>
+  
   <section class="section section--surface" id="galeria">
     <div class="wrap gallery-block">
       <div class="section__head">
@@ -99,32 +102,34 @@
       <ul class="prose" style="margin-top:24px;padding-left:1.1em"><li>Joystick lateral</li><li>Contrapeso</li><li>Mangueiras por dentro do braço</li><li>Cilindro principal protegido pela lança</li><li>Fácil acesso ao motor</li><li>Banco ergonômico</li><li>Bomba elétrica</li><li>Motor conceituado</li><li>Lança angulável para acesso a espaços difíceis</li></ul>
     </div>
   </section>
-  <section class="section section--surface" id="financiamento">
-    <div class="wrap" style="max-width:760px">
+  <section class="section section--surface" id="linha">
+    <div class="wrap">
       <div class="section__head">
-        <p class="eyebrow">Financiamento</p>
-        <h2>De R$ 86.900 para parcela referencial.</h2>
+        <p class="eyebrow">Linha</p>
+        <h2>O modelo acima e o modelo abaixo.</h2>
+        <p class="lede">Trocar de modelo dentro da linha muda uma medida antes de mudar o preço. É essa medida.</p>
       </div>
-      <form class="finance" data-finance data-price="86900">
-        <div class="finance__grid">
-          <label>Entrada (%)<input name="entrada" type="number" min="0" max="80" value="20"></label>
-          <label>Prazo (meses)
-            <select name="prazo">
-              <option value="24">24</option>
-              <option value="36">36</option>
-              <option value="48" selected>48</option>
-              <option value="60">60</option>
-            </select>
-          </label>
-          <label>Taxa % a.m.<input name="taxa" type="number" step="0.01" min="0" value="1.79"></label>
-        </div>
-        <p>Parcela referencial</p>
-        <p class="finance__result" data-finance-result>—</p>
-        <p class="finance__note">Simulação CDC/Finame referencial. Não é proposta de crédito. Sujeito a análise. Taxa ilustrativa — o banco define a condição.</p>
-      </form>
+      <div class="ladder">
+    <p class="ladder__key">Prof. escavação</p>
+    <div class="ladder__row">
+      <a class="ladder__step" href="/mini-escavadeira-x10-plus/">
+      <span class="ladder__rel">abaixo</span>
+      <strong>X10 PLUS</strong>
+      <span class="ladder__value">—</span>
+    </a>
+      <a class="ladder__step is-current" href="/mini-escavadeira-x10-pro/">
+      <span class="ladder__rel">este modelo</span>
+      <strong>X10 Pro</strong>
+      <span class="ladder__value">1650<em>mm</em></span>
+    </a>
+      <a class="ladder__step" href="/mini-escavadeira-x15-pro/">
+      <span class="ladder__rel">acima</span>
+      <strong>X15 Pro</strong>
+      <span class="ladder__value">—</span>
+    </a>
     </div>
-  </section>
-  <section class="section" id="comparar"><div class="wrap"><div class="section__head"><p class="eyebrow">Linha</p><h2>O modelo acima e o modelo abaixo.</h2></div><div class="table-wrap">
+  </div>
+      <div class="table-wrap">
     <table>
       <thead>
         <tr>
@@ -187,7 +192,47 @@
         <td class="num">R$ 304.900</td>
       </tr></tbody>
     </table>
-  </div></div></section>
+  </div>
+    </div>
+  </section>
+  <section class="section" id="financiamento">
+    <div class="wrap" style="max-width:760px">
+      <div class="section__head">
+        <p class="eyebrow">Financiamento</p>
+        <h2>De R$ 86.900 para parcela referencial.</h2>
+      </div>
+      <form class="finance" data-finance data-price="86900">
+        <div class="finance__grid">
+          <label>Entrada (%)<input name="entrada" type="number" min="0" max="80" value="20"></label>
+          <label>Prazo (meses)
+            <select name="prazo">
+              <option value="24">24</option>
+              <option value="36">36</option>
+              <option value="48" selected>48</option>
+              <option value="60">60</option>
+            </select>
+          </label>
+          <label>Taxa % a.m.<input name="taxa" type="number" step="0.01" min="0" value="1.79"></label>
+        </div>
+        <p>Parcela referencial</p>
+        <p class="finance__result" data-finance-result>—</p>
+        <p class="finance__note">Simulação CDC/Finame referencial. Não é proposta de crédito. Sujeito a análise. Taxa ilustrativa — o banco define a condição.</p>
+      </form>
+    </div>
+  </section>
+  <section class="section section--surface" id="pos-venda">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Pós-venda</p>
+        <h2>O que sustenta a máquina depois da nota fiscal.</h2>
+        <p class="lede">É aqui que a compra de importado costuma dar errado. Estes são os quatro compromissos, sem asterisco.</p>
+      </div>
+      <dl class="aftersales">
+        <div><dt>Garantia de 6 meses</dt><dd>Condições completas no contrato de venda.</dd></div><div><dt>Peça em estoque em Tubarão/SC</dt><dd>Reposição sai do nosso estoque, não de um contêiner a caminho.</dd></div><div><dt>Técnico responde em até 24h úteis</dt><dd>SLA publicado na página de suporte.</dd></div><div><dt>Entrega para todo o Brasil</dt><dd>A máquina sai de Santa Catarina; frete cotado por destino.</dd></div>
+      </dl>
+      <p class="aftersales__more"><a href="/suporte/">Como abrir chamado, SLA e manuais</a></p>
+    </div>
+  </section>
   <section class="section" id="faq">
     <div class="wrap">
       <div class="section__head">

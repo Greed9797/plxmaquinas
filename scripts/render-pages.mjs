@@ -6,6 +6,15 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC = join(root, "public");
 const catalog = JSON.parse(readFileSync(join(root, "src/data/catalog.json"), "utf8"));
 
+// Dados opcionais: se o arquivo não existir ou vier vazio, a seção correspondente não é emitida.
+function readJson(rel, fallback = {}) {
+  const file = join(root, rel);
+  return existsSync(file) ? JSON.parse(readFileSync(file, "utf8")) : fallback;
+}
+const APLICACOES = readJson("src/data/aplicacoes.json");
+const MODEL_VIDEOS = readJson("src/data/model-videos.json");
+const PATROCINIO = readJson("src/data/influenciadores.json");
+
 const WA = `https://wa.me/${catalog.whatsapp}`;
 // Orçamento: monta o texto, abre o WhatsApp e faz POST JSON do lead no mesmo Lambda do
 // plxbrasil.com.br em produção (URL pública, está no lead_sender.js do site atual).
@@ -574,7 +583,8 @@ function homePage() {
         <article class="review"><div class="stars">★★★★☆</div><p>X10 PLUS no sítio. Capota escamoteável e joystick lateral resolvem o dia. Queria mais foto de cabine no site.</p><strong>Propriedade rural · RS</strong></article>
       </div>
     </div>
-  </section>`;
+  </section>
+  ${sponsorsSection()}`;
 
   return layout({
     title: "Mini escavadeira de 1 a 6 t. Preço na tela | PLX Brasil",
@@ -703,6 +713,158 @@ function realPhotoBlock(model) {
     .join("")}</div>`;
 }
 
+// Aplicações do modelo: vêm de src/data/aplicacoes.json, que foi extraído da descrição de catálogo
+// do próprio fabricante. Sem entrada para o slug, o bloco some — nada é inferido em tempo de render.
+function applicationsBlock(model) {
+  const list = APLICACOES[model.slug];
+  if (!Array.isArray(list) || !list.length) return "";
+  return `<ul class="applies">${list.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>`;
+}
+
+// Vídeo do modelo: fachada com o thumb local. O iframe do YouTube só entra depois do clique
+// (data-yt em app.js), então a página não carrega player de terceiro no first paint.
+function modelVideoBlock(model) {
+  const v = MODEL_VIDEOS[model.slug];
+  if (!v || !v.id || !existsSync(join(PUBLIC, `images/video/${v.thumb}.webp`))) return "";
+  return `<section class="section" id="video">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Vídeo</p>
+        <h2>A máquina trabalhando.</h2>
+        <p class="lede">Gravação do canal da PLX. O player do YouTube só carrega depois do clique.</p>
+      </div>
+      <button class="yt" type="button" data-yt="${esc(v.id)}" data-title="${esc(v.titulo)}">
+        <img src="/images/video/${v.thumb}.webp" alt="" width="1280" height="720" loading="lazy">
+        <span class="yt__play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+        <span class="yt__label">${esc(v.titulo)}</span>
+      </button>
+    </div>
+  </section>`;
+}
+
+// Posição na linha: a mesma medida do modelo, do vizinho de baixo e do de cima. É o dado que
+// decide a compra dentro da família, e sai inteiro das specs — sem adjetivo.
+function linePosition(model, family) {
+  const idx = family.findIndex((m) => m.slug === model.slug);
+  const prev = family[idx - 1];
+  const next = family[idx + 1];
+  if (!prev && !next) return "";
+  const key = (model.keySpecs[0] || model.specs[0] || {}).name;
+  if (!key) return "";
+  const card = (m, rel) => {
+    const { n, u } = splitValue(specVal(m, key.toLowerCase()));
+    return `<a class="ladder__step${m.slug === model.slug ? " is-current" : ""}" href="${m.href}">
+      <span class="ladder__rel">${esc(rel)}</span>
+      <strong>${esc(m.name)}</strong>
+      <span class="ladder__value">${esc(n)}${u ? `<em>${esc(u)}</em>` : ""}</span>
+    </a>`;
+  };
+  return `<div class="ladder">
+    <p class="ladder__key">${esc(key)}</p>
+    <div class="ladder__row">
+      ${prev ? card(prev, "abaixo") : ""}
+      ${card(model, "este modelo")}
+      ${next ? card(next, "acima") : ""}
+    </div>
+  </div>`;
+}
+
+// Comparativo de qualquer família: as colunas são as specs que TODOS os modelos da família têm,
+// então carregadeira e dumper deixam de cair na tabela de escavadeira com célula vazia.
+function compareFamily(models, currentSlug) {
+  if (models.length < 2) return "";
+  const shared = models[0].specs
+    .map((s) => s.name)
+    .filter((name) => models.every((m) => m.specs.some((s) => s.name === name)));
+  const cols = [...new Set([...models[0].keySpecs.map((s) => s.name).filter((n) => shared.includes(n)), ...shared])].slice(0, 4);
+  const head = cols.map((c) => `<th>${esc(shortLabel(c))}</th>`).join("");
+  const rows = models
+    .map((m) => {
+      const cells = cols.map((c) => `<td class="num">${esc(specVal(m, c.toLowerCase()))}</td>`).join("");
+      return `<tr${m.slug === currentSlug ? ' class="is-current"' : ""}>
+        <td><a href="${m.href}">${esc(m.name)}</a></td>
+        ${cells}
+        <td class="num">${esc(priceLabel(m, { suffix: false }))}</td>
+      </tr>`;
+    })
+    .join("");
+  return `<div class="table-wrap"><table><thead><tr><th>Modelo</th>${head}<th>Preço</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+// Pós-venda: só fato já publicado no site (peça em Tubarão, SLA de 24h úteis, entrega nacional).
+// A garantia de 6 meses foi definida pelo Vitor em 03/09/2026 e ainda vai ser validada em contrato.
+const AFTER_SALES = [
+  ["Garantia de 6 meses", "Condições completas no contrato de venda."],
+  ["Peça em estoque em Tubarão/SC", "Reposição sai do nosso estoque, não de um contêiner a caminho."],
+  ["Técnico responde em até 24h úteis", "SLA publicado na página de suporte."],
+  ["Entrega para todo o Brasil", "A máquina sai de Santa Catarina; frete cotado por destino."],
+];
+
+function afterSalesBlock() {
+  return `<section class="section section--surface" id="pos-venda">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Pós-venda</p>
+        <h2>O que sustenta a máquina depois da nota fiscal.</h2>
+        <p class="lede">É aqui que a compra de importado costuma dar errado. Estes são os quatro compromissos, sem asterisco.</p>
+      </div>
+      <dl class="aftersales">
+        ${AFTER_SALES.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join("")}
+      </dl>
+      <p class="aftersales__more"><a href="/suporte/">Como abrir chamado, SLA e manuais</a></p>
+    </div>
+  </section>`;
+}
+
+// Patrocínios e criadores: src/data/influenciadores.json. Listas vazias = seção não sai.
+function sponsorsSection() {
+  const patros = Array.isArray(PATROCINIO.patrocinios) ? PATROCINIO.patrocinios : [];
+  const people = Array.isArray(PATROCINIO.influenciadores) ? PATROCINIO.influenciadores : [];
+  const withLogo = patros.filter((p) => p.logo && existsSync(join(PUBLIC, `images/patrocinio/${p.logo}`)));
+  const withPhoto = people.filter((p) => p.foto && existsSync(join(PUBLIC, `images/influenciadores/${p.foto}`)));
+  if (!withLogo.length && !withPhoto.length) return "";
+
+  const logos = withLogo.length
+    ? `<ul class="sponsors">${withLogo
+        .map((p) => {
+          const img = `<img src="/images/patrocinio/${esc(p.logo)}" alt="${esc(p.nome)}" height="40" loading="lazy">`;
+          return `<li>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${img}</a>` : img}${p.categoria ? `<span>${esc(p.categoria)}</span>` : ""}</li>`;
+        })
+        .join("")}</ul>`
+    : "";
+
+  const cards = withPhoto
+    .map((p) => {
+      const media = p.video
+        ? `<button class="person__media yt" type="button" data-yt="${esc(p.video)}" data-title="${esc(p.nome)}">
+            <img src="/images/influenciadores/${esc(p.foto)}" alt="${esc(p.nome)}" width="480" height="480" loading="lazy">
+            <span class="yt__play" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+          </button>`
+        : `<div class="person__media"><img src="/images/influenciadores/${esc(p.foto)}" alt="${esc(p.nome)}" width="480" height="480" loading="lazy"></div>`;
+      return `<article class="person">
+        ${media}
+        <div class="person__body">
+          <strong>${esc(p.nome)}</strong>
+          ${p.handle ? `<a class="person__handle" href="${esc(p.url || "#")}"${p.url ? ' target="_blank" rel="noopener"' : ""}>${esc(p.handle)}</a>` : ""}
+          ${p.legenda ? `<p>${esc(p.legenda)}</p>` : ""}
+        </div>
+      </article>`;
+    })
+    .join("");
+
+  return `<section class="section" id="patrocinio">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Patrocínio oficial</p>
+        <h2>${esc(PATROCINIO.titulo || "Quem opera, aprova.")}</h2>
+        <p class="lede">${esc(PATROCINIO.lede || "Patrocínios oficiais e criadores que usam máquina PLX no dia a dia.")}</p>
+      </div>
+      ${logos}
+      ${cards ? carousel(cards, "Criadores patrocinados") : ""}
+    </div>
+  </section>`;
+}
+
 function pdpPage(model) {
   const family = modelsOf(model.product).sort((a, b) => a.price - b.price);
   const idx = family.findIndex((m) => m.slug === model.slug);
@@ -747,6 +909,7 @@ function pdpPage(model) {
           }
         </div>
         <div class="metrics">${model.keySpecs.slice(0, 3).map(metricHtml).join("")}</div>
+        ${applicationsBlock(model)}
         <div class="btn-row">
           <button class="btn btn--primary" type="button" data-quote-open data-model="${esc(model.product)} ${esc(model.name)}">Falar com vendedor</button>
           <a class="btn btn--whatsapp" href="${WA}?text=${encodeURIComponent(`Olá, quero a ${model.product} ${model.name}.`)}" target="_blank" rel="noopener">WhatsApp</a>
@@ -760,13 +923,15 @@ function pdpPage(model) {
       <strong>${esc(model.name)} · ${priceLabel(model, { suffix: false })}</strong>
       <nav>
         <a href="#ficha">Ficha</a>
-        <a href="#galeria">Foto</a>
+        ${MODEL_VIDEOS[model.slug] ? `<a href="#video">Vídeo</a>` : ""}
+        <a href="#linha">Linha</a>
         ${model.pricePublished ? `<a href="#financiamento">Parcela</a>` : ""}
-        <a href="#faq">FAQ</a>
+        <a href="#pos-venda">Pós-venda</a>
       </nav>
       <button class="btn btn--primary" type="button" data-quote-open data-model="${esc(model.product)} ${esc(model.name)}">Falar com vendedor</button>
     </div>
   </div>
+  ${modelVideoBlock(model)}
   <section class="section section--surface" id="galeria">
     <div class="wrap gallery-block">
       <div class="section__head">
@@ -800,8 +965,23 @@ function pdpPage(model) {
     </div>
   </section>
   ${
+    family.length > 1
+      ? `<section class="section section--surface" id="linha">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Linha</p>
+        <h2>O modelo acima e o modelo abaixo.</h2>
+        <p class="lede">Trocar de modelo dentro da linha muda uma medida antes de mudar o preço. É essa medida.</p>
+      </div>
+      ${linePosition(model, family)}
+      ${model.product === "Mini Escavadeira" ? compareTable(family, model.slug) : compareFamily(family, model.slug)}
+    </div>
+  </section>`
+      : ""
+  }
+  ${
     model.pricePublished
-      ? `<section class="section section--surface" id="financiamento">
+      ? `<section class="section" id="financiamento">
     <div class="wrap" style="max-width:760px">
       <div class="section__head">
         <p class="eyebrow">Financiamento</p>
@@ -828,11 +1008,7 @@ function pdpPage(model) {
   </section>`
       : ""
   }
-  ${
-    model.product === "Mini Escavadeira"
-      ? `<section class="section" id="comparar"><div class="wrap"><div class="section__head"><p class="eyebrow">Linha</p><h2>O modelo acima e o modelo abaixo.</h2></div>${compareTable(family, model.slug)}</div></section>`
-      : ""
-  }
+  ${afterSalesBlock()}
   <section class="section" id="faq">
     <div class="wrap">
       <div class="section__head">

@@ -264,7 +264,7 @@ function initVideo() {
       const id = btn.getAttribute("data-yt");
       const wrap = document.createElement("div");
       wrap.className = "video-lite";
-      wrap.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" title="${btn.getAttribute("data-title") || "Vídeo PLX Brasil"}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:100%;border:0"></iframe>`;
+      wrap.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" title="${btn.getAttribute("data-title") || "Vídeo PLX Brasil"}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0;display:block"></iframe>`;
       btn.replaceWith(wrap);
     });
   });

@@ -29,6 +29,54 @@ Sede: Tubarão/SC. WhatsApp: `5548988728340` · `(48) 98872-8340`. E-mail: `cont
 - PDP: H1 = nome do modelo; **uma** foto de catálogo — **não** fingir galeria de 8 ângulos com o mesmo PNG.
 - Foto real de obra só existe onde há frame rotulado do canal da PLX (X35 Pro, X10 PLUS, X65 Pro, X20 Pro). Nos outros, recorte de catálogo. Não inventar ensaio. Legenda honesta.
 
+### Onda PDP + patrocínio — implementada (03/09/2026)
+
+Vitor: "a página de produto é a coisa mais importante do nosso site" e pediu análise da Cat.
+Estrutura da PDP da Cat 301.7 CR conferida no navegador (hero com preço e disponibilidade →
+Overview → Benefits quantificados → Features At A Glance → tabelas por sistema → comparativo →
+Tools/dealer/calculadora/oferta/locação → downloads → media gallery → implementos compatíveis).
+O que a PLX tinha dado real para responder virou seção; o que não tinha (implemento, manual PDF,
+ficha de sustentabilidade) **não foi inventado**.
+
+Ordem atual da PDP: herói → vídeo → galeria → ficha → **linha** → financiamento → **pós-venda** →
+FAQ → faixa CTA. Alternância de superfície conferida, um `linear-gradient` na página, um
+`.section--invert` (a faixa do layout).
+
+- **Aplicações no herói** (`.applies`): chips vindos de `src/data/aplicacoes.json`, extraídos da
+  descrição de catálogo de cada modelo. Quatro deles (XC750, X65 Pro, X30 Pro, X15 Pro) foram
+  corrigidos à mão porque o trecho automático pegava adjetivo ("Moderna", "Eficiente") em vez de
+  aplicação. Sem entrada para o slug, o bloco não sai.
+- **Vídeo do modelo** (`#video`): `src/data/model-videos.json` mapeia slug → `{ id, titulo, thumb }`.
+  Só três modelos estão mapeados (X10 PLUS, X35 Pro, X65 Pro) porque só neles o rótulo foi conferido
+  no frame. **Não mapear por título**: `d_taJyvV7VM` se chama "X65 Pro" e a máquina que carrega o
+  caminhão nele é uma X35 Pro.
+- **Linha** (`#linha`): a escada `.ladder` mostra a mesma medida no modelo de baixo, neste e no de
+  cima — é o dado que decide a compra dentro da família. Abaixo, o comparativo: escavadeira segue na
+  `compareTable` (colunas fixas), as outras famílias usam `compareFamily`, que escolhe as colunas
+  entre as specs que **todos** os modelos da família têm. Antes disso, carregadeira/dumper/rolo não
+  tinham comparativo nenhum.
+- **Pós-venda** (`#pos-venda`): quatro compromissos. Três já estavam publicados em `/suporte`
+  (peça em Tubarão/SC, resposta em 24h úteis, entrega nacional). **A garantia de 6 meses foi
+  definida pelo Vitor em 03/09/2026 com "não sei exato deixa 6 meses depois validamos" — falta
+  validar em contrato antes de tratar como definitiva.**
+- **Patrocínio e influenciadores** (`sponsorsSection`, home, depois da prova social):
+  `src/data/influenciadores.json` com `patrocinios[]` e `influenciadores[]`. **As duas listas estão
+  vazias e a seção não é renderizada** — a home continua idêntica. O arquivo carrega o formato de
+  cada item. Logos vão em `public/images/patrocinio/`, fotos em `public/images/influenciadores/`
+  (WebP quadrado 480×480, ≤120 KB); o item só entra se o arquivo de imagem existir. Criador com
+  `video` ganha fachada de play e reusa o mesmo `data-yt`.
+- **Fachada de vídeo, defeito antigo corrigido**: o handler `initVideo` trocava o botão por um
+  `div.video-lite` com `<iframe style="height:100%">` dentro de um pai de altura automática. Medido:
+  o player da **home** abria 691×909 (retrato) e o da PDP 1180×150. Agora o `aspect-ratio: 16/9` vai
+  no próprio iframe. Vale para as duas páginas.
+- Sprite do PDP e dos cards: carrega **só no hover** (`initProductSprites` cobre
+  `.model-card__media` e `.pdp-hero__visual[data-sprite]`). Zero request no load, um no hover;
+  mobile e reduced-motion ficam no PNG.
+
+**Não fazer**: seção de implementos, download de manual, selo de garantia estendida ou depoimento de
+influenciador sem o Vitor entregar o conteúdo. A regra de não inventar asset vale aqui igual.
+
+
 ### Onda GSAP — implementada (02/09/2026); hero e sprites animados por IA (flowkta), sprite real só no X35 Pro
 
 Vitor disse “Gflow / flowkta”. **Neste repo isso é GSAP** (`gsap` + `ScrollTrigger`), no Vite MPA atual. **Não** migrar para Webflow, Framer ou Flowkit. Não segundo design system.

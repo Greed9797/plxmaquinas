@@ -1,0 +1,14 @@
+{
+  "_fonte": "Extraído da própria descrição de catálogo de cada modelo (copy do fabricante em src/data/modelos.xml). Nada inventado. Para mudar o texto de um chip, edite aqui — o gerador lê este arquivo e não deriva mais nada da descrição.",
+  "mini-carregadeira-xc750": ["Obras", "Pátios", "Propriedades rurais", "Manutenção urbana", "Espaços reduzidos"],
+  "mini-carregadeira-xd500": ["Apoio em obras", "Jardinagem", "Propriedades rurais"],
+  "mini-dumper-xd500": ["Transporte de terra", "Areia", "Entulho", "Insumos agrícolas", "Acesso limitado"],
+  "mini-escavadeira-x10-plus": ["Pequenas obras", "Manutenção", "Paisagismo", "Propriedades rurais", "Acesso restrito"],
+  "mini-escavadeira-x10-pro": ["Jardinagem", "Pequenas obras", "Manutenção", "Valas rasas", "Difícil acesso"],
+  "mini-escavadeira-x15-pro": ["Obras", "Propriedades rurais", "Manutenção", "Paisagismo", "Espaços reduzidos"],
+  "mini-escavadeira-x20-pro": ["Obras urbanas", "Reformas", "Jardinagem", "Manutenção de redes", "Propriedades rurais"],
+  "mini-escavadeira-x30-pro": ["Escavação em obras", "Manutenção", "Drenagem", "Serviços de apoio"],
+  "mini-escavadeira-x35-pro": ["Valas", "Fundações", "Drenagem", "Paisagismo", "Serviços urbanos"],
+  "mini-escavadeira-x65-pro": ["Obras", "Infraestrutura", "Drenagem", "Terraplanagem"],
+  "mini-rolo-compactador-xr12": ["Compactação em obras", "Reparos", "Pavimentação leve", "Preparação de base"]
+}

@@ -1857,6 +1857,308 @@ body.has-pdp-bar .wa-float {
 /* -----------------------------------------------------------------------------
    RESPONSIVE
 ----------------------------------------------------------------------------- */
+/* Aplicações: onde a máquina trabalha. Texto do próprio catálogo, em linha, sem virar card. */
+.applies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  list-style: none;
+  margin: 14px 0 4px;
+  padding: 0;
+}
+
+.applies li {
+  font-family: var(--font-narrow);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+  border: 1px solid var(--plx-line);
+  border-radius: var(--radius-sm);
+  padding: 5px 10px;
+  line-height: 1.1;
+}
+
+/* Fachada de vídeo: o iframe do YouTube só nasce no clique (app.js). */
+.yt {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--plx-line);
+  border-radius: 0;
+  background: var(--plx-ink-900);
+  cursor: pointer;
+  overflow: hidden;
+  color: var(--color-text-invert);
+}
+
+.yt img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.92;
+  transition: opacity 160ms linear;
+}
+
+.yt:hover img,
+.yt:focus-visible img {
+  opacity: 1;
+}
+
+.yt__play {
+  position: absolute;
+  inset: auto auto 50% 50%;
+  transform: translate(-50%, 50%);
+  display: grid;
+  place-items: center;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: var(--plx-red-600);
+  color: var(--color-text-invert);
+  box-shadow: var(--shadow-lg);
+  transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.yt:hover .yt__play {
+  transform: translate(-50%, 50%) scale(1.06);
+}
+
+.yt__label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px 20px 14px;
+  text-align: left;
+  font-family: var(--font-narrow);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: linear-gradient(to top, rgba(14, 16, 19, 0.78), transparent);
+}
+
+.yt__frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--plx-line);
+  display: block;
+}
+
+/* Escada da linha: a mesma medida no modelo de baixo, neste e no de cima. */
+.ladder {
+  border-top: 1px solid var(--color-heading);
+  padding-top: 14px;
+  margin-bottom: 40px;
+}
+
+.ladder__key {
+  font-family: var(--font-narrow);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--plx-ink-500);
+  margin-bottom: 14px;
+}
+
+.ladder__row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--plx-line);
+  border: 1px solid var(--plx-line);
+}
+
+.ladder__step {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+  padding: 18px 18px 20px;
+  background: var(--color-bg);
+  text-decoration: none;
+  color: inherit;
+  transition: background 140ms linear;
+}
+
+.ladder__step:hover {
+  background: var(--color-surface);
+}
+
+.ladder__step.is-current {
+  background: var(--color-surface);
+  box-shadow: inset 3px 0 0 var(--plx-red-600);
+}
+
+.ladder__rel {
+  font-family: var(--font-narrow);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--plx-ink-500);
+}
+
+.ladder__step strong {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+.ladder__step.is-current strong {
+  color: var(--plx-red-600);
+}
+
+.ladder__value {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: var(--color-heading);
+  line-height: 1;
+}
+
+.ladder__value em {
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--plx-ink-500);
+  margin-left: 3px;
+}
+
+/* Pós-venda: quatro compromissos, hairline, sem cartão. */
+.aftersales {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  margin: 0;
+  border-top: 1px solid var(--plx-line);
+}
+
+.aftersales > div {
+  padding: 22px 28px 24px 0;
+  border-bottom: 1px solid var(--plx-line);
+}
+
+.aftersales dt {
+  font-family: var(--font-heading);
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-heading);
+  margin-bottom: 6px;
+}
+
+.aftersales dd {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+  max-width: 42ch;
+}
+
+.aftersales__more {
+  margin-top: 22px;
+  font-family: var(--font-narrow);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Patrocínio: faixa de logos + criadores no mesmo carrossel dos modelos. */
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px 44px;
+  list-style: none;
+  margin: 0 0 44px;
+  padding: 24px 0;
+  border-top: 1px solid var(--plx-line);
+  border-bottom: 1px solid var(--plx-line);
+}
+
+.sponsors li {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+
+.sponsors img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.sponsors span {
+  font-family: var(--font-narrow);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--plx-ink-500);
+}
+
+.person {
+  flex: 0 0 min(72vw, 260px);
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.person__media {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  border: 1px solid var(--plx-line);
+  border-radius: 0;
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.person__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.person__media .yt__play {
+  width: 48px;
+  height: 48px;
+}
+
+.person__body {
+  display: grid;
+  gap: 4px;
+  padding-top: 14px;
+}
+
+.person__body strong {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.person__handle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--plx-ink-500);
+  text-decoration: none;
+}
+
+.person__handle:hover {
+  color: var(--plx-red-600);
+}
+
+.person__body p {
+  font-size: 0.86rem;
+  color: var(--color-text-soft);
+  margin: 2px 0 0;
+}
+
+
 @media (max-width: 1080px) {
   .card-grid,
   .reviews,
@@ -1911,6 +2213,27 @@ body.has-pdp-bar .wa-float {
 }
 
 @media (max-width: 720px) {
+  .aftersales {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .aftersales > div {
+    padding-right: 0;
+  }
+
+  .ladder__row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .yt__play {
+    width: 54px;
+    height: 54px;
+  }
+
+  .sponsors {
+    gap: 18px 28px;
+  }
+
   body {
     font-size: 16px;
     padding-bottom: 72px;
