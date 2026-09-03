@@ -141,6 +141,11 @@ function initQuote(catalog) {
       const model = btn.getAttribute("data-model") || "";
       const modelInput = qs("[name=modelo]", form);
       if (modelInput) modelInput.value = model;
+      const interest = btn.getAttribute("data-interest");
+      if (interest) {
+        const radio = qsa("[name=interesse]", form).find((r) => r.value === interest);
+        if (radio) radio.checked = true;
+      }
       show(1);
       openDialog(modal);
     });
@@ -332,4 +337,34 @@ initFilters();
 initCarousel();
 initReducedMotion();
 initHeroMotion();
+// Ficha: segunda coluna com o irmão de linha, e impressão da ficha inteira (todas as abas).
+function initSpecSheet() {
+  const printBtn = qs("[data-print-spec]");
+  if (printBtn) printBtn.addEventListener("click", () => window.print());
+
+  const sel = qs("[data-spec-compare]");
+  const blob = qs("[data-family-specs]");
+  if (!sel || !blob) return;
+  const data = JSON.parse(blob.textContent);
+  const apply = () => {
+    const map = data[sel.value] || null;
+    const label = map ? sel.options[sel.selectedIndex].text : "";
+    qsa("[data-compare-head]").forEach((th) => {
+      th.hidden = !map;
+      th.textContent = label;
+    });
+    qsa("[data-compare-cell]").forEach((td) => {
+      td.hidden = !map;
+      if (!map) return;
+      const value = map[td.dataset.compareCell];
+      td.textContent = value || "—";
+      const mine = td.previousElementSibling.textContent.trim();
+      td.classList.toggle("is-diff", Boolean(value) && value.trim() !== mine);
+    });
+  };
+  sel.addEventListener("change", apply);
+  apply();
+}
+
+initSpecSheet();
 initProductSprites();

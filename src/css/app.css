@@ -2024,6 +2024,155 @@ body.has-pdp-bar .wa-float {
 }
 
 
+/* Ficha: seletor de comparação + imprimir, na mesma régua das abas. */
+.spec-compare {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin-bottom: 18px;
+}
+
+.spec-compare__pick {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-narrow);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--plx-ink-500);
+}
+
+.spec-compare__pick select {
+  font-family: var(--font-base);
+  font-size: 0.85rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 7px 10px;
+}
+
+.spec-compare__print {
+  font-family: var(--font-narrow);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--plx-red-600);
+  border-radius: 0;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.spec-compare__print:hover {
+  color: var(--plx-red-600);
+}
+
+td[data-compare-cell] {
+  color: var(--plx-ink-500);
+}
+
+td[data-compare-cell].is-diff {
+  color: var(--color-heading);
+  font-weight: 600;
+  box-shadow: inset 2px 0 0 var(--plx-red-600);
+  padding-left: 10px;
+}
+
+.tab-panel__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Ficha impressa: é o equivalente honesto ao "download da brochura" dos fabricantes grandes.
+   Sai o cabeçalho, a navegação, o vídeo e os CTAs; entram todas as abas da ficha de uma vez. */
+@media print {
+  @page {
+    margin: 14mm;
+  }
+
+  .topbar,
+  .site-header,
+  .site-footer,
+  .pdp-bar,
+  .wa-float,
+  .section--invert,
+  .btn-row,
+  .pdp-siblings,
+  .spec-compare,
+  .tabs,
+  .carousel__bar,
+  #video,
+  #financiamento,
+  #faq,
+  #pos-venda .aftersales__more,
+  .legal-btn,
+  dialog {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .section {
+    padding: 0 0 14mm;
+    break-inside: avoid;
+  }
+
+  .wrap {
+    max-width: none;
+    padding: 0;
+  }
+
+  .tab-panel {
+    display: block !important;
+    break-inside: avoid;
+    margin-bottom: 10mm;
+  }
+
+  .tab-panel__title {
+    position: static;
+    width: auto;
+    height: auto;
+    clip-path: none;
+    font-family: var(--font-narrow);
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  table {
+    font-size: 0.78rem;
+  }
+
+  tr {
+    break-inside: avoid;
+  }
+
+  .pdp-hero {
+    break-after: avoid;
+  }
+
+  a[href]::after {
+    content: "";
+  }
+}
+
+
 @media (max-width: 1080px) {
   .card-grid,
   .reviews,

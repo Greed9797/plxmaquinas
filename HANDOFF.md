@@ -73,6 +73,29 @@ FAQ → faixa CTA. Alternância de superfície conferida, um `linear-gradient` n
   `.model-card__media` e `.pdp-hero__visual[data-sprite]`). Zero request no load, um no hover;
   mobile e reduced-motion ficam no PNG.
 
+**Segunda passada (03/09), depois de ler Takeuchi TB225 e voltar na Cat:**
+
+- **Comparador dentro da ficha** (padrão "Add a Model" da Takeuchi): um `select` escolhe o irmão de
+  linha e a tabela ganha uma terceira coluna com a ficha dele. Os dados saem de um blob JSON da
+  família embutido na página (`[data-family-specs]`), então não há requisição nem duplicação de
+  conteúdo. Célula diferente da nossa recebe `.is-diff`. Sem irmão de linha, o `select` não sai.
+- **Ficha impressa** (`data-print-spec` + `@media print`): é o equivalente honesto ao "download da
+  brochura" que Cat e Takeuchi têm e a PLX não tem arquivo para ter. Imprimir abre **todas as abas
+  de uma vez**, com o título de cada grupo, sem cabeçalho, navegação, vídeo, FAQ nem CTA.
+  `.tab-panel__title` fica escondido na tela e visível no papel.
+- **"Quero alugar"** no herói: `data-interest="Locação"` já marca o rádio do formulário, que sempre
+  teve `Compra | Locação`. Antes, quem queria locação abria o mesmo fluxo de compra.
+- **Defeito de dado corrigido, e era grave**: `specVal` procurava a primeira spec que casasse
+  *qualquer* needle, então "Motor de giro" (marca do motor de giro, ex. `EDDIE`) vencia
+  "Marca (modelo)" (`KUBOTA (D1703)`). O herói, os cards de listagem e a coluna Motor do comparativo
+  mostravam **EDDIE, LKC, LONKIN como se fossem o motor da máquina**. Agora a busca respeita a ordem
+  das needles e existe `engineSpec()`/`heroMetrics()` para a terceira métrica. `Motor de giro`
+  continua aparecendo na ficha, onde é a informação certa.
+- **Desenho cotado ficou de fora por falta de dado**, não por decisão de design: só XC750 (4 medidas)
+  e XR12 (1) têm specs de dimensão. As sete escavadeiras têm **zero**. Cat e Takeuchi têm um grupo
+  MACHINE DIMENSIONS inteiro com desenho. Para ter isso, o Vitor precisa das cotas (comprimento,
+  largura, altura, vão livre, raio de giro) de cada modelo.
+
 **Não fazer**: seção de implementos, download de manual, selo de garantia estendida ou depoimento de
 influenciador sem o Vitor entregar o conteúdo. A regra de não inventar asset vale aqui igual.
 

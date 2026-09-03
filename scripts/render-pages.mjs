@@ -100,10 +100,28 @@ function priceLabel(model, { suffix = true } = {}) {
 }
 
 function specVal(model, ...needles) {
-  const hit = model.specs.find((s) =>
-    needles.some((n) => s.name.toLowerCase().includes(n.toLowerCase()))
-  );
-  return hit ? hit.value : "—";
+  for (const n of needles) {
+    const hit = model.specs.find((s) => s.name.toLowerCase().includes(n.toLowerCase()));
+    if (hit) return hit.value;
+  }
+  return "—";
+}
+
+// Motor do herói e dos cards: o catálogo traz "Motor de giro" (marca do motor de giro, ex. EDDIE)
+// dentro dos keySpecs. Mostrar isso como "Motor" faz o comprador ler EDDIE onde o motor é KUBOTA.
+// Aqui a terceira métrica vira a marca real do motor sempre que ela existir na ficha.
+const ENGINE_NEEDLES = ["marca (modelo)", "motor/marca", "modelo/marca do motor", "motor (marca)"];
+function engineSpec(model) {
+  for (const n of ENGINE_NEEDLES) {
+    const hit = model.specs.find((s) => s.name.toLowerCase().includes(n));
+    if (hit) return { name: "Motor", value: hit.value, category: "motor" };
+  }
+  return null;
+}
+
+function heroMetrics(model) {
+  const engine = engineSpec(model);
+  return model.keySpecs.slice(0, 3).map((s) => (/motor de giro/i.test(s.name) && engine ? engine : s));
 }
 
 function splitValue(value) {
@@ -398,7 +416,7 @@ function modelCard(model) {
     </a>
     <div class="model-card__body">
       <h3><a href="${model.href}">${esc(model.name)}</a></h3>
-      <div class="metrics">${model.keySpecs.slice(0, 3).map(metricHtml).join("")}</div>
+      <div class="metrics">${heroMetrics(model).map(metricHtml).join("")}</div>
       <p class="price">${priceLabel(model)}</p>
       <a class="text-link" href="${model.href}">Ver ficha</a>
     </div>
@@ -426,7 +444,7 @@ function compareTable(models, currentSlug) {
         <td><a href="${m.href}">${esc(m.name)}</a></td>
         <td class="num">${esc(specVal(m, "prof. escavação", "profundidade máxima de escavação"))}</td>
         <td class="num">${esc(specVal(m, "peso operacional"))}</td>
-        <td>${esc(specVal(m, "marca (modelo)", "motor/marca", "motor"))}</td>
+        <td>${esc(specVal(m, ...ENGINE_NEEDLES, "motor"))}</td>
         <td class="num">${esc(specVal(m, "força máx. de escavação da concha", "força de escavação da concha", "força de escavação da caçamba"))}</td>
         <td class="num">${esc(priceLabel(m, { suffix: false }))}</td>
       </tr>`;
@@ -652,7 +670,7 @@ function categoryPage(cat) {
   });
 }
 
-function specGroups(model) {
+function specGroups(model, family = []) {
   const labels = {
     escavacao: "Escavação",
     capacidades: "Capacidades",
@@ -683,13 +701,41 @@ function specGroups(model) {
       const rows = groups[k]
         .map(
           (s) =>
-            `<tr><td>${esc(s.name)}</td><td class="num">${esc(s.value)}</td></tr>`
+            `<tr><td>${esc(s.name)}</td><td class="num">${esc(s.value)}</td><td class="num" data-compare-cell="${esc(s.name)}" hidden>—</td></tr>`
         )
         .join("");
-      return `<div class="tab-panel${i === 0 ? " is-active" : ""}" data-tab-panel="${k}"><div class="table-wrap"><table><tbody>${rows}</tbody></table></div></div>`;
+      return `<div class="tab-panel${i === 0 ? " is-active" : ""}" data-tab-panel="${k}">
+        <h3 class="tab-panel__title">${esc(labels[k] || k)}</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Especificação</th><th class="num">${esc(model.name)}</th><th class="num" data-compare-head hidden></th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>
+      </div>`;
     })
     .join("");
-  return `<div class="tabs">${tabs}</div>${panels}`;
+  // Comparador na própria ficha (padrão "Add a Model" da Takeuchi): a segunda coluna nasce da
+  // ficha real do irmão de linha, embutida como JSON na página. Sem irmão, só sobra o imprimir.
+  const rivals = family.filter((m) => m.slug !== model.slug);
+  const blob = rivals.length
+    ? `<script type="application/json" data-family-specs>${JSON.stringify(
+        Object.fromEntries(
+          rivals.map((m) => [m.slug, Object.fromEntries(m.specs.map((sp) => [sp.name, sp.value]))])
+        )
+      ).replace(/</g, "\\u003c")}</script>`
+    : "";
+  const picker = rivals.length
+    ? `<label class="spec-compare__pick" for="spec-compare">Comparar com
+        <select id="spec-compare" data-spec-compare>
+          <option value="">nenhum modelo</option>
+          ${rivals.map((m) => `<option value="${m.slug}">${esc(m.name)}</option>`).join("")}
+        </select>
+      </label>`
+    : "";
+  return `<div class="spec-compare">
+    ${picker}
+    <button class="spec-compare__print" type="button" data-print-spec>Imprimir ficha</button>
+  </div>
+  <div class="tabs">${tabs}</div>${panels}${blob}`;
 }
 
 // Fotos reais por modelo: public/images/obra/{slug}.json = [{ "file", "caption" }], arquivos na mesma pasta.
@@ -908,11 +954,12 @@ function pdpPage(model) {
               : ""
           }
         </div>
-        <div class="metrics">${model.keySpecs.slice(0, 3).map(metricHtml).join("")}</div>
+        <div class="metrics">${heroMetrics(model).map(metricHtml).join("")}</div>
         ${applicationsBlock(model)}
         <div class="btn-row">
           <button class="btn btn--primary" type="button" data-quote-open data-model="${esc(model.product)} ${esc(model.name)}">Falar com vendedor</button>
           <a class="btn btn--whatsapp" href="${WA}?text=${encodeURIComponent(`Olá, quero a ${model.product} ${model.name}.`)}" target="_blank" rel="noopener">WhatsApp</a>
+          <button class="btn btn--ghost" type="button" data-quote-open data-interest="Locação" data-model="${esc(model.product)} ${esc(model.name)}">Quero alugar</button>
         </div>
         <p class="pdp-siblings">${prev ? `<a href="${prev.href}">← ${esc(prev.name)}</a>` : ""} ${next ? `<a href="${next.href}">${esc(next.name)} →</a>` : ""}</p>
       </div>
@@ -956,7 +1003,7 @@ function pdpPage(model) {
         <p class="eyebrow">Ficha técnica</p>
         <h2>O dado é o ornamento.</h2>
       </div>
-      ${specGroups(model)}
+      ${specGroups(model, family)}
       ${
         model.highlights.length
           ? `<ul class="prose" style="margin-top:24px;padding-left:1.1em">${model.highlights.map((h) => `<li>${esc(h)}</li>`).join("")}</ul>`

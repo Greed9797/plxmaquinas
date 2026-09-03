@@ -60,6 +60,7 @@
         <div class="btn-row">
           <button class="btn btn--primary" type="button" data-quote-open data-model="Mini Escavadeira X15 Pro">Falar com vendedor</button>
           <a class="btn btn--whatsapp" href="https://wa.me/5548988728340?text=Ol%C3%A1%2C%20quero%20a%20Mini%20Escavadeira%20X15%20Pro." target="_blank" rel="noopener">WhatsApp</a>
+          <button class="btn btn--ghost" type="button" data-quote-open data-interest="Locação" data-model="Mini Escavadeira X15 Pro">Quero alugar</button>
         </div>
         <p class="pdp-siblings"><a href="/mini-escavadeira-x10-pro/">← X10 Pro</a> <a href="/mini-escavadeira-x20-pro/">X20 Pro →</a></p>
       </div>
@@ -98,7 +99,52 @@
         <p class="eyebrow">Ficha técnica</p>
         <h2>O dado é o ornamento.</h2>
       </div>
-      <div class="tabs"><button type="button" data-tab="escavacao" aria-selected="true">Escavação</button><button type="button" data-tab="operacao" aria-selected="false">Operação</button><button type="button" data-tab="capacidades" aria-selected="false">Capacidades</button><button type="button" data-tab="implementos" aria-selected="false">Implementos</button><button type="button" data-tab="hidraulico" aria-selected="false">Hidráulico</button><button type="button" data-tab="motor" aria-selected="false">Motor</button></div><div class="tab-panel is-active" data-tab-panel="escavacao"><div class="table-wrap"><table><tbody><tr><td>Profundidade máxima de escavação</td><td class="num">1850 mm</td></tr><tr><td>Força de escavação da caçamba</td><td class="num">9 kN</td></tr><tr><td>Força de escavação do braço</td><td class="num">5,5 kN</td></tr><tr><td>Altura máxima de escavação</td><td class="num">2670 mm</td></tr><tr><td>Altura máxima de descarga</td><td class="num">1750 mm</td></tr><tr><td>Profundidade máxima vertical</td><td class="num">1610 mm</td></tr></tbody></table></div></div><div class="tab-panel" data-tab-panel="operacao"><div class="table-wrap"><table><tbody><tr><td>Peso Operacional</td><td class="num">1480 kg</td></tr><tr><td>Capacidade de rampa</td><td class="num">30°</td></tr><tr><td>Tipo de cabine</td><td class="num">Aberta (ROPS)</td></tr><tr><td>Esteira expansível</td><td class="num">990-1250 mm</td></tr><tr><td>Raio de giro</td><td class="num">Zero</td></tr><tr><td>Velocidade de giro</td><td class="num">11-13 rpm</td></tr><tr><td>Elevação máxima da lâmina</td><td class="num">236 mm</td></tr><tr><td>Profundidade máxima da lâmina</td><td class="num">229 mm</td></tr></tbody></table></div></div><div class="tab-panel" data-tab-panel="capacidades"><div class="table-wrap"><table><tbody><tr><td>Capacidade da caçamba</td><td class="num">0,020 m3</td></tr></tbody></table></div></div><div class="tab-panel" data-tab-panel="implementos"><div class="table-wrap"><table><tbody><tr><td>Lança articulada</td><td class="num">Sim</td></tr><tr><td>Engate rápido hidráulico</td><td class="num">Sim</td></tr><tr><td>Engate rápido</td><td class="num">Troca de implemento em 4 passos</td></tr></tbody></table></div></div><div class="tab-panel" data-tab-panel="hidraulico"><div class="table-wrap"><table><tbody><tr><td>Tipo hidráulico</td><td class="num">Dupla de engrenagem</td></tr><tr><td>Pressão do sistema hidráulico</td><td class="num">20 MPa</td></tr><tr><td>Capacidade do tanque hidráulico</td><td class="num">14,5 L</td></tr></tbody></table></div></div><div class="tab-panel" data-tab-panel="motor"><div class="table-wrap"><table><tbody><tr><td>Motor/Marca</td><td class="num">Kubota D722</td></tr><tr><td>Potência nominal</td><td class="num">10,2 kW / 2500 rpm</td></tr><tr><td>Capacidade do tanque de combustível</td><td class="num">14,5 L</td></tr><tr><td>Capacidade de óleo do motor</td><td class="num">3,2 L</td></tr></tbody></table></div></div>
+      <div class="spec-compare">
+    <label class="spec-compare__pick" for="spec-compare">Comparar com
+        <select id="spec-compare" data-spec-compare>
+          <option value="">nenhum modelo</option>
+          <option value="mini-escavadeira-x10-plus">X10 PLUS</option><option value="mini-escavadeira-x10-pro">X10 Pro</option><option value="mini-escavadeira-x20-pro">X20 Pro</option><option value="mini-escavadeira-x30-pro">X30 Pro</option><option value="mini-escavadeira-x35-pro">X35 Pro</option><option value="mini-escavadeira-x65-pro">X65 Pro</option>
+        </select>
+      </label>
+    <button class="spec-compare__print" type="button" data-print-spec>Imprimir ficha</button>
+  </div>
+  <div class="tabs"><button type="button" data-tab="escavacao" aria-selected="true">Escavação</button><button type="button" data-tab="operacao" aria-selected="false">Operação</button><button type="button" data-tab="capacidades" aria-selected="false">Capacidades</button><button type="button" data-tab="implementos" aria-selected="false">Implementos</button><button type="button" data-tab="hidraulico" aria-selected="false">Hidráulico</button><button type="button" data-tab="motor" aria-selected="false">Motor</button></div><div class="tab-panel is-active" data-tab-panel="escavacao">
+        <h3 class="tab-panel__title">Escavação</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Especificação</th><th class="num">X15 Pro</th><th class="num" data-compare-head hidden></th></tr></thead>
+          <tbody><tr><td>Profundidade máxima de escavação</td><td class="num">1850 mm</td><td class="num" data-compare-cell="Profundidade máxima de escavação" hidden>—</td></tr><tr><td>Força de escavação da caçamba</td><td class="num">9 kN</td><td class="num" data-compare-cell="Força de escavação da caçamba" hidden>—</td></tr><tr><td>Força de escavação do braço</td><td class="num">5,5 kN</td><td class="num" data-compare-cell="Força de escavação do braço" hidden>—</td></tr><tr><td>Altura máxima de escavação</td><td class="num">2670 mm</td><td class="num" data-compare-cell="Altura máxima de escavação" hidden>—</td></tr><tr><td>Altura máxima de descarga</td><td class="num">1750 mm</td><td class="num" data-compare-cell="Altura máxima de descarga" hidden>—</td></tr><tr><td>Profundidade máxima vertical</td><td class="num">1610 mm</td><td class="num" data-compare-cell="Profundidade máxima vertical" hidden>—</td></tr></tbody>
+        </table></div>
+      </div><div class="tab-panel" data-tab-panel="operacao">
+        <h3 class="tab-panel__title">Operação</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Especificação</th><th class="num">X15 Pro</th><th class="num" data-compare-head hidden></th></tr></thead>
+          <tbody><tr><td>Peso Operacional</td><td class="num">1480 kg</td><td class="num" data-compare-cell="Peso Operacional" hidden>—</td></tr><tr><td>Capacidade de rampa</td><td class="num">30°</td><td class="num" data-compare-cell="Capacidade de rampa" hidden>—</td></tr><tr><td>Tipo de cabine</td><td class="num">Aberta (ROPS)</td><td class="num" data-compare-cell="Tipo de cabine" hidden>—</td></tr><tr><td>Esteira expansível</td><td class="num">990-1250 mm</td><td class="num" data-compare-cell="Esteira expansível" hidden>—</td></tr><tr><td>Raio de giro</td><td class="num">Zero</td><td class="num" data-compare-cell="Raio de giro" hidden>—</td></tr><tr><td>Velocidade de giro</td><td class="num">11-13 rpm</td><td class="num" data-compare-cell="Velocidade de giro" hidden>—</td></tr><tr><td>Elevação máxima da lâmina</td><td class="num">236 mm</td><td class="num" data-compare-cell="Elevação máxima da lâmina" hidden>—</td></tr><tr><td>Profundidade máxima da lâmina</td><td class="num">229 mm</td><td class="num" data-compare-cell="Profundidade máxima da lâmina" hidden>—</td></tr></tbody>
+        </table></div>
+      </div><div class="tab-panel" data-tab-panel="capacidades">
+        <h3 class="tab-panel__title">Capacidades</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Especificação</th><th class="num">X15 Pro</th><th class="num" data-compare-head hidden></th></tr></thead>
+          <tbody><tr><td>Capacidade da caçamba</td><td class="num">0,020 m3</td><td class="num" data-compare-cell="Capacidade da caçamba" hidden>—</td></tr></tbody>
+        </table></div>
+      </div><div class="tab-panel" data-tab-panel="implementos">
+        <h3 class="tab-panel__title">Implementos</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Especificação</th><th class="num">X15 Pro</th><th class="num" data-compare-head hidden></th></tr></thead>
+          <tbody><tr><td>Lança articulada</td><td class="num">Sim</td><td class="num" data-compare-cell="Lança articulada" hidden>—</td></tr><tr><td>Engate rápido hidráulico</td><td class="num">Sim</td><td class="num" data-compare-cell="Engate rápido hidráulico" hidden>—</td></tr><tr><td>Engate rápido</td><td class="num">Troca de implemento em 4 passos</td><td class="num" data-compare-cell="Engate rápido" hidden>—</td></tr></tbody>
+        </table></div>
+      </div><div class="tab-panel" data-tab-panel="hidraulico">
+        <h3 class="tab-panel__title">Hidráulico</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Especificação</th><th class="num">X15 Pro</th><th class="num" data-compare-head hidden></th></tr></thead>
+          <tbody><tr><td>Tipo hidráulico</td><td class="num">Dupla de engrenagem</td><td class="num" data-compare-cell="Tipo hidráulico" hidden>—</td></tr><tr><td>Pressão do sistema hidráulico</td><td class="num">20 MPa</td><td class="num" data-compare-cell="Pressão do sistema hidráulico" hidden>—</td></tr><tr><td>Capacidade do tanque hidráulico</td><td class="num">14,5 L</td><td class="num" data-compare-cell="Capacidade do tanque hidráulico" hidden>—</td></tr></tbody>
+        </table></div>
+      </div><div class="tab-panel" data-tab-panel="motor">
+        <h3 class="tab-panel__title">Motor</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Especificação</th><th class="num">X15 Pro</th><th class="num" data-compare-head hidden></th></tr></thead>
+          <tbody><tr><td>Motor/Marca</td><td class="num">Kubota D722</td><td class="num" data-compare-cell="Motor/Marca" hidden>—</td></tr><tr><td>Potência nominal</td><td class="num">10,2 kW / 2500 rpm</td><td class="num" data-compare-cell="Potência nominal" hidden>—</td></tr><tr><td>Capacidade do tanque de combustível</td><td class="num">14,5 L</td><td class="num" data-compare-cell="Capacidade do tanque de combustível" hidden>—</td></tr><tr><td>Capacidade de óleo do motor</td><td class="num">3,2 L</td><td class="num" data-compare-cell="Capacidade de óleo do motor" hidden>—</td></tr></tbody>
+        </table></div>
+      </div><script type="application/json" data-family-specs>{"mini-escavadeira-x10-plus":{"Profundidade máxima de escavação":"1650 mm","Profundidade máxima de perfuração":"3500 mm","Força máx. de escavação da concha":"15,3 kN","Força máx. de escavação do braço":"7,5 kN","Caçamba":"0,020 m3","Largura da caçamba":"375 mm","Peso Operacional":"1000 Kg","Tipo de esteira STD (opcional)":"Borracha","Velocidade de deslocamento (H/L)":"1,3 km/h","Inclinação máx. de subida":"30%","Motor de giro":"Eaton","Velocidade de rotação":"11 r/min","Tipo hidráulico":"Engrenagem","Vazão máxima":"19,5 L/min","Potência":"11,53 HP","Motor/Marca":"KOOP 192F","Número de cilindros":"1","Combustível":"Diesel","Refrigeração":"Ar","Capacidade de combustível":"5,5 L","Capacidade de óleo lubrificante":"1,67 L","Capacidade de óleo hidráulico":"16 L"},"mini-escavadeira-x10-pro":{"Prof. escavação":"1650 mm","Prof. máxima de perfuração":"3500 mm","Força máx. de escavação da concha":"15,3 kN","Força máx. de escavação do braço":"7,5 kN","Caçamba":"0,020 m3","Largura da caçamba":"375 mm","Peso Operacional":"1010 kg","Tipo de esteira STD (opcional)":"Borracha","Velocidade de deslocamento (H/L)":"1,3 km/h","Inclinação máx. de subida":"30%","Motor de giro":"EATON","Velocidade de rotação":"11 r/min","Tipo hidráulico":"Engrenagem","Vazão máxima":"19,5 L/min","Potência":"11,53 HP","Marca (modelo)":"KOOP (192F)","Número de cilindros":"1","Combustível":"Diesel","Refrigeração":"Ar","Capacidade de combustível":"11 L","Capacidade de óleo lubrificante":"1,67 L","Capacidade de óleo hidráulico":"16 L"},"mini-escavadeira-x20-pro":{"Prof. escavação":"2400 mm","Prof. máxima de perfuração":"3700 mm","Força de escavação da concha":"18 kN","Força de escavação do braço":"11 kN","Caçamba":"0,070 m3","Largura da caçamba":"425 mm","Peso Operacional":"1950 kg","Velocidade de deslocamento (Alta/Baixa)":"3,2 - 2,8 km/h","Tipo de esteira STD":"Borracha ou aço (muda o preço)","Motor de giro":"Eaton","Velocidade de rotação":"Até 9 r/min","Tipo hidráulico":"Bomba dupla de alta eficiência","Componentes hidráulicos":"Eaton","Potência":"24,8 HP","Marca (modelo)":"Kubota D1105","Número de cilindros":"3","Tipo de combustível":"Diesel","Tipo de arrefecimento":"Refrigeração à água","Capacidade de combustível":"17 L","Compatível com diversos implementos":"Rompedor hidráulico, perfurador, garra, caçamba trapezoidal","Capacidade de óleo lubrificante":"5 L","Capacidade de óleo hidráulico":"18 L"},"mini-escavadeira-x30-pro":{"Prof. escavação":"2830 mm","Prof. máxima de perfuração":"4500 mm","Força máx. de escavação da concha":"23,5 kN","Força máx. de escavação do braço":"14 kN","Caçamba":"0,100 m3","Largura da caçamba":"485 mm","Peso Operacional":"2770 kg","Tipo de esteira STD":"Aço com sapatas de borracha","Velocidade de deslocamento":"3,4/3,0 km/h","Inclinação máxima de subida":"35%","Motor de giro":"LKC","Velocidade de rotação":"1-10 r/min","Tipo hidráulico":"Bomba de pistão axial","Vazão máxima":"62 L/min","Potência":"24,8 HP","Marca (modelo)":"Kubota D1105","Número de cilindros":"3","Combustível":"Diesel","Refrigeração":"Água","Capacidade de combustível":"23 L"},"mini-escavadeira-x35-pro":{"Prof. escavação":"3208 mm","Prof. máxima de perfuração":"5000 mm","Força máx. de escavação da concha":"30,4 kN","Força máx. de escavação do braço":"18,2 kN","Caçamba":"0,120 m3","Largura da caçamba":"565 mm","Peso Operacional":"3800 kg","Tipo de esteira STD (opcional)":"Aço (borracha)","Velocidade de deslocamento (H/L)":"4,4/2,4 km/h","Inclinação máxima de subida":"35%","Motor de giro":"EDDIE","Velocidade de rotação":"0-11 r/min","Tipo hidráulico":"Bomba de pistão axial","Vazão máxima":"88 L/min","Potência":"24,8 HP","Marca (modelo)":"KUBOTA (D1703)","Número de cilindros":"3","Combustível":"Diesel","Refrigeração":"Água","Capacidade de combustível":"42 L","Capacidade de óleo lubrificante":"7 L","Capacidade de óleo hidráulico":"48,5 L"},"mini-escavadeira-x65-pro":{"Prof. escavação":"4159 mm","Prof. máxima de perfuração":"5800 mm","Força máx. de escavação da concha":"48 kN","Força máx. de escavação do braço":"35 kN","Caçamba":"0,210 m3","Largura da caçamba":"725 mm","Peso Operacional":"5950 kg","Tipo de esteira STD (opcional)":"Aço (borracha)","Velocidade de deslocamento (H/L)":"4,3/2,4 km/h","Inclinação máxima de subida":"35%","Motor de giro":"LONKIN","Velocidade de rotação":"11 r/min","Tipo hidráulico":"Bomba de pistão axial","Vazão máxima":"132 L/min","Potência":"48,5 HP","Marca (modelo)":"YANMAR (4TNV94L)","Número de cilindros":"4","Combustível":"Diesel","Refrigeração":"Água","Capacidade de combustível":"115 L","Capacidade de óleo lubrificante":"10,2 L","Capacidade de óleo hidráulico":"88 L"}}</script>
       <ul class="prose" style="margin-top:24px;padding-left:1.1em"><li>Lançamento PLX</li><li>Motor Kubota D722</li><li>Giro zero</li><li>Lança articulada</li><li>Engate rápido hidráulico</li><li>Controle de velocidade</li><li>Painel digital</li><li>Esteira retrátil de 990 a 1250 mm</li><li>Motores de tração com sistema Final Drive</li></ul>
     </div>
   </section>
@@ -145,14 +191,14 @@
         <td><a href="/mini-escavadeira-x10-plus/">X10 PLUS</a></td>
         <td class="num">1650 mm</td>
         <td class="num">1000 Kg</td>
-        <td>Eaton</td>
+        <td>KOOP 192F</td>
         <td class="num">15,3 kN</td>
         <td class="num">R$ 44.900</td>
       </tr><tr>
         <td><a href="/mini-escavadeira-x10-pro/">X10 Pro</a></td>
         <td class="num">1650 mm</td>
         <td class="num">1010 kg</td>
-        <td>EATON</td>
+        <td>KOOP (192F)</td>
         <td class="num">15,3 kN</td>
         <td class="num">R$ 86.900</td>
       </tr><tr class="is-current">
@@ -166,28 +212,28 @@
         <td><a href="/mini-escavadeira-x20-pro/">X20 Pro</a></td>
         <td class="num">2400 mm</td>
         <td class="num">1950 kg</td>
-        <td>Eaton</td>
+        <td>Kubota D1105</td>
         <td class="num">18 kN</td>
         <td class="num">R$ 149.000</td>
       </tr><tr>
         <td><a href="/mini-escavadeira-x30-pro/">X30 Pro</a></td>
         <td class="num">2830 mm</td>
         <td class="num">2770 kg</td>
-        <td>LKC</td>
+        <td>Kubota D1105</td>
         <td class="num">23,5 kN</td>
         <td class="num">R$ 189.900</td>
       </tr><tr>
         <td><a href="/mini-escavadeira-x35-pro/">X35 Pro</a></td>
         <td class="num">3208 mm</td>
         <td class="num">3800 kg</td>
-        <td>EDDIE</td>
+        <td>KUBOTA (D1703)</td>
         <td class="num">30,4 kN</td>
         <td class="num">R$ 224.900</td>
       </tr><tr>
         <td><a href="/mini-escavadeira-x65-pro/">X65 Pro</a></td>
         <td class="num">4159 mm</td>
         <td class="num">5950 kg</td>
-        <td>LONKIN</td>
+        <td>YANMAR (4TNV94L)</td>
         <td class="num">48 kN</td>
         <td class="num">R$ 304.900</td>
       </tr></tbody>
