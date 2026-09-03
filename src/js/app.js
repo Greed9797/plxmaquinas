@@ -1,5 +1,5 @@
 import catalog from "../data/catalog.json";
-import { initHeroMotion, initProductSprites, initReducedMotion } from "./motion.js";
+import { initHeroMotion, initProductSprites, initPdpSprite, initReducedMotion } from "./motion.js";
 
 function qs(sel, root = document) {
   return root.querySelector(sel);
@@ -333,3 +333,4 @@ initCarousel();
 initReducedMotion();
 initHeroMotion();
 initProductSprites();
+initPdpSprite();

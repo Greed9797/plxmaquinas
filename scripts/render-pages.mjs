@@ -731,7 +731,7 @@ function pdpPage(model) {
   const body = `
   <section class="section" data-pdp-hero>
     <div class="wrap pdp-hero">
-      <div class="pdp-hero__visual">
+      <div class="pdp-hero__visual"${spriteAttrs(model)}>
         <img src="${model.image}" alt="${esc(model.product)} ${esc(model.name)}" width="640" height="420">
       </div>
       <div class="pdp-hero__copy">

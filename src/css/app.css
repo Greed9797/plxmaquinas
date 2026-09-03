@@ -1140,7 +1140,11 @@ table a:hover {
   pointer-events: none;
 }
 
-.pdp-hero__visual img {
+.pdp-hero__visual .model-card__sprite {
+  inset: 12px 8px 12px 0;
+}
+
+.pdp-hero__visual > img {
   width: 88%;
   height: 86%;
   max-height: none;
@@ -1815,6 +1819,10 @@ body.has-pdp-bar .wa-float {
     min-height: 280px;
     aspect-ratio: 4 / 3;
     padding: 16px;
+  }
+
+  .pdp-hero__visual .model-card__sprite {
+    inset: 16px;
   }
 
   .pdp-bar__inner {

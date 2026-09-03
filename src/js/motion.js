@@ -178,10 +178,43 @@ export function initProductSprites() {
   });
 }
 
+// PDP: o sprite toca sozinho (desktop e mobile), em loop, só enquanto a visual está na viewport.
+export function initPdpSprite() {
+  const media = document.querySelector(".pdp-hero__visual[data-sprite]");
+  if (!media || reducedMotion()) return;
+  const still = media.querySelector("img");
+  const frames = Math.max(2, parseInt(media.dataset.frames || "8", 10));
+  let tween = null;
+  loadStrip(media.dataset.sprite)
+    .then((img) => {
+      const box = document.createElement("span");
+      box.className = "model-card__sprite";
+      img.alt = "";
+      img.style.width = `${frames * 100}%`;
+      box.append(img);
+      media.append(box);
+      tween = gsap.timeline({ paused: true });
+      tween
+        .to(box, { opacity: 1, duration: 0.2, ease: "none" }, 0)
+        .to(still, { opacity: 0, duration: 0.2, ease: "none" }, 0)
+        .to(img, {
+          xPercent: (-100 * (frames - 1)) / frames,
+          duration: frames * FRAME_S * 2, // metade da cadência do card: é a peça principal da página
+          ease: `steps(${frames - 1})`,
+          repeat: -1,
+          repeatDelay: 0.6,
+        }, 0.2);
+      new IntersectionObserver(([e]) => (e.isIntersecting ? tween.play() : tween.pause()), { threshold: 0.2 }).observe(media);
+    })
+    .catch(() => {}); // sem sprite (404): fica o PNG
+}
+
 export function initReducedMotion() {
   // Troca de preferência em runtime: hero via gsap.matchMedia já reverte;
   // sprites só nascem no hover, então basta não montar novos.
   window.matchMedia(REDUCE).addEventListener("change", (e) => {
-    if (e.matches) gsap.globalTimeline.getChildren().forEach((t) => t.kill());
+    if (!e.matches) return;
+    gsap.globalTimeline.getChildren().forEach((t) => t.kill());
+    gsap.set(".pdp-hero__visual > img", { opacity: 1 }); // o PDP já tinha o PNG apagado sob o sprite; CSS esconde o sprite
   });
 }
